@@ -14,7 +14,11 @@ tag = true
 tag-name = "v{{version}}"
 tag-message = "v{{version}}"
 pre-release-commit-message = "chore(release): v{{version}}"
-pre-release-hook = ["git", "cliff", "--config", "cliff.toml", "--tag", "v{{version}}", "--output", "CHANGELOG.md"]
+# cargo-release runs hooks on dry runs too (with DRY_RUN=true), so skip there.
+pre-release-hook = [
+  "sh", "-c",
+  "[ \"$DRY_RUN\" = true ] || git cliff --config cliff.toml --tag \"v$NEW_VERSION\" --output CHANGELOG.md",
+]
 pre-release-replacements = [
   { file = "src/lib.rs", search = "docs\\.rs/n2words/[0-9]+\\.[0-9]+\\.[0-9]+", replace = "docs.rs/n2words/{{version}}", exactly = 1 },
 ]
