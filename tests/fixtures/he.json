@@ -1,0 +1,664 @@
+{
+  "code": "he",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "אפס נקודה אפס אחת"
+    },
+    {
+      "input": 1.007,
+      "expected": "אחת נקודה אפס אפס שבע"
+    },
+    {
+      "input": 1.7,
+      "expected": "אחת נקודה שבע"
+    },
+    {
+      "input": 17.42,
+      "expected": "שבע עשרה נקודה ארבע שתים"
+    },
+    {
+      "input": 27.312,
+      "expected": "עשרים ושבע נקודה שלש אחת שתים"
+    },
+    {
+      "input": 53.486,
+      "expected": "חמישים ושלש נקודה ארבע שמונה שש"
+    },
+    {
+      "input": 300.42,
+      "expected": "שלש מאות נקודה ארבע שתים"
+    },
+    {
+      "input": 4196.42,
+      "expected": "ארבעת אלפים מאה תשעים ושש נקודה ארבע שתים"
+    },
+    {
+      "input": -17.42,
+      "expected": "מינוס שבע עשרה נקודה ארבע שתים"
+    },
+    {
+      "input": -1,
+      "expected": "מינוס אחת"
+    },
+    {
+      "input": -20,
+      "expected": "מינוס עשרים"
+    },
+    {
+      "input": 0,
+      "expected": "אפס"
+    },
+    {
+      "input": 1,
+      "expected": "אחת"
+    },
+    {
+      "input": 2,
+      "expected": "שתים"
+    },
+    {
+      "input": 3,
+      "expected": "שלש"
+    },
+    {
+      "input": 11,
+      "expected": "אחת עשרה"
+    },
+    {
+      "input": 12,
+      "expected": "שתים עשרה"
+    },
+    {
+      "input": 16,
+      "expected": "שש עשרה"
+    },
+    {
+      "input": 19,
+      "expected": "תשע עשרה"
+    },
+    {
+      "input": 20,
+      "expected": "עשרים"
+    },
+    {
+      "input": 21,
+      "expected": "עשרים ואחת"
+    },
+    {
+      "input": 26,
+      "expected": "עשרים ושש"
+    },
+    {
+      "input": 28,
+      "expected": "עשרים ושמונה"
+    },
+    {
+      "input": 30,
+      "expected": "שלשים"
+    },
+    {
+      "input": 31,
+      "expected": "שלשים ואחת"
+    },
+    {
+      "input": 40,
+      "expected": "ארבעים"
+    },
+    {
+      "input": 44,
+      "expected": "ארבעים וארבע"
+    },
+    {
+      "input": 50,
+      "expected": "חמישים"
+    },
+    {
+      "input": 55,
+      "expected": "חמישים וחמש"
+    },
+    {
+      "input": 60,
+      "expected": "ששים"
+    },
+    {
+      "input": 67,
+      "expected": "ששים ושבע"
+    },
+    {
+      "input": 70,
+      "expected": "שבעים"
+    },
+    {
+      "input": 79,
+      "expected": "שבעים ותשע"
+    },
+    {
+      "input": 89,
+      "expected": "שמונים ותשע"
+    },
+    {
+      "input": 95,
+      "expected": "תשעים וחמש"
+    },
+    {
+      "input": 100,
+      "expected": "מאה"
+    },
+    {
+      "input": 101,
+      "expected": "מאה ואחת"
+    },
+    {
+      "input": 199,
+      "expected": "מאה תשעים ותשע"
+    },
+    {
+      "input": 203,
+      "expected": "מאתיים ושלש"
+    },
+    {
+      "input": 287,
+      "expected": "מאתיים שמונים ושבע"
+    },
+    {
+      "input": 356,
+      "expected": "שלש מאות חמישים ושש"
+    },
+    {
+      "input": 400,
+      "expected": "ארבע מאות"
+    },
+    {
+      "input": 434,
+      "expected": "ארבע מאות שלשים וארבע"
+    },
+    {
+      "input": 578,
+      "expected": "חמש מאות שבעים ושמונה"
+    },
+    {
+      "input": 689,
+      "expected": "שש מאות שמונים ותשע"
+    },
+    {
+      "input": 729,
+      "expected": "שבע מאות עשרים ותשע"
+    },
+    {
+      "input": 894,
+      "expected": "שמונה מאות תשעים וארבע"
+    },
+    {
+      "input": 999,
+      "expected": "תשע מאות תשעים ותשע"
+    },
+    {
+      "input": 1000,
+      "expected": "אלף"
+    },
+    {
+      "input": 1001,
+      "expected": "אלף ואחת"
+    },
+    {
+      "input": 1097,
+      "expected": "אלף תשעים ושבע"
+    },
+    {
+      "input": 1104,
+      "expected": "אלף מאה וארבע"
+    },
+    {
+      "input": 1243,
+      "expected": "אלף מאתיים ארבעים ושלש"
+    },
+    {
+      "input": 2385,
+      "expected": "אלפיים שלש מאות שמונים וחמש"
+    },
+    {
+      "input": 3766,
+      "expected": "שלשת אלפים שבע מאות ששים ושש"
+    },
+    {
+      "input": 4196,
+      "expected": "ארבעת אלפים מאה תשעים ושש"
+    },
+    {
+      "input": 5846,
+      "expected": "חמשת אלפים שמונה מאות ארבעים ושש"
+    },
+    {
+      "input": 6459,
+      "expected": "ששת אלפים ארבע מאות חמישים ותשע"
+    },
+    {
+      "input": 7232,
+      "expected": "שבעת אלפים מאתיים שלשים ושתים"
+    },
+    {
+      "input": 8569,
+      "expected": "שמונת אלפים חמש מאות ששים ותשע"
+    },
+    {
+      "input": 9539,
+      "expected": "תשעת אלפים חמש מאות שלשים ותשע"
+    },
+    {
+      "input": 10000,
+      "expected": "עשר אלף"
+    },
+    {
+      "input": 10001,
+      "expected": "עשר אלף ואחת"
+    },
+    {
+      "input": 11000,
+      "expected": "אחת עשרה אלף"
+    },
+    {
+      "input": 19999,
+      "expected": "תשע עשרה אלף תשע מאות תשעים ותשע"
+    },
+    {
+      "input": 20000,
+      "expected": "עשרים אלף"
+    },
+    {
+      "input": 21000,
+      "expected": "עשרים ואחת אלף"
+    },
+    {
+      "input": 25463,
+      "expected": "עשרים וחמש אלף ארבע מאות ששים ושלש"
+    },
+    {
+      "input": 50000,
+      "expected": "חמישים אלף"
+    },
+    {
+      "input": 99999,
+      "expected": "תשעים ותשע אלף תשע מאות תשעים ותשע"
+    },
+    {
+      "input": 100000,
+      "expected": "מאה אלף"
+    },
+    {
+      "input": 123456,
+      "expected": "מאה ועשרים ושלש אלף ארבע מאות חמישים ושש"
+    },
+    {
+      "input": 500000,
+      "expected": "חמש מאות אלף"
+    },
+    {
+      "input": 999999,
+      "expected": "תשע מאות ותשעים ותשע אלף תשע מאות תשעים ותשע"
+    },
+    {
+      "input": 1000000,
+      "expected": "מיליון"
+    },
+    {
+      "input": 1000001,
+      "expected": "מיליון ואחת"
+    },
+    {
+      "input": 1234567,
+      "expected": "מיליון מאתיים ושלשים וארבע אלף חמש מאות ששים ושבע"
+    },
+    {
+      "input": 2000000,
+      "expected": "שתים מיליונים"
+    },
+    {
+      "input": 5000000,
+      "expected": "חמש מיליונים"
+    },
+    {
+      "input": 10000000,
+      "expected": "עשר מיליונים"
+    },
+    {
+      "input": 100000000,
+      "expected": "מאה מיליונים"
+    },
+    {
+      "input": 1000000000,
+      "expected": "מיליארד"
+    },
+    {
+      "input": 1000000001,
+      "expected": "מיליארד ואחת"
+    },
+    {
+      "input": 2000000000,
+      "expected": "שתים מיליארדים"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "טריליון"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000"
+      },
+      "expected": "קוודרליון"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "קווינטיליון"
+    },
+    {
+      "input": 21,
+      "expected": "עשרים +אחת",
+      "options": {
+        "and_word": "+"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "ארבעים +שתים",
+      "options": {
+        "and_word": "+"
+      }
+    },
+    {
+      "input": 123,
+      "expected": "מאה עשרים +שלש",
+      "options": {
+        "and_word": "+"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "אלף +אחת",
+      "options": {
+        "and_word": "+"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "ראשון"
+    },
+    {
+      "input": 2,
+      "expected": "שני"
+    },
+    {
+      "input": 3,
+      "expected": "שלישי"
+    },
+    {
+      "input": 4,
+      "expected": "רביעי"
+    },
+    {
+      "input": 5,
+      "expected": "חמישי"
+    },
+    {
+      "input": 6,
+      "expected": "שישי"
+    },
+    {
+      "input": 7,
+      "expected": "שביעי"
+    },
+    {
+      "input": 8,
+      "expected": "שמיני"
+    },
+    {
+      "input": 9,
+      "expected": "תשיעי"
+    },
+    {
+      "input": 10,
+      "expected": "עשירי"
+    },
+    {
+      "input": 11,
+      "expected": "אחד עשר"
+    },
+    {
+      "input": 12,
+      "expected": "שנים עשר"
+    },
+    {
+      "input": 13,
+      "expected": "שלשה עשר"
+    },
+    {
+      "input": 19,
+      "expected": "תשעה עשר"
+    },
+    {
+      "input": 20,
+      "expected": "עשרים וראשון"
+    },
+    {
+      "input": 21,
+      "expected": "עשרים וראשון"
+    },
+    {
+      "input": 30,
+      "expected": "שלשים וראשון"
+    },
+    {
+      "input": 42,
+      "expected": "ארבעים ושני"
+    },
+    {
+      "input": 99,
+      "expected": "תשעים ותשיעי"
+    },
+    {
+      "input": 100,
+      "expected": "מאה"
+    },
+    {
+      "input": 101,
+      "expected": "מאה ראשון"
+    },
+    {
+      "input": 200,
+      "expected": "מאתיים"
+    },
+    {
+      "input": 121,
+      "expected": "מאה עשרים וראשון"
+    },
+    {
+      "input": 1000,
+      "expected": "אלף"
+    },
+    {
+      "input": 1001,
+      "expected": "אלף ראשון"
+    },
+    {
+      "input": 2000,
+      "expected": "אלפיים"
+    },
+    {
+      "input": 1000000,
+      "expected": "מיליון"
+    },
+    {
+      "input": 2000000,
+      "expected": "שתים מיליונים"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "אפס שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "שקל אחד",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "שניים שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "חמשה שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "עשר שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "עשרים ואחד שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "ארבעים ושניים שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "מאה שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "אלף שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "אגורה אחת",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "שתים אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "חמש אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "עשרים וחמש אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "חמישים אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "תשעים ותשע אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "שקל אחד אגורה אחת",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "שקל אחד חמישים אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "שניים שקלים שתים אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "ארבעים ושניים שקלים חמישים אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "מאה שקלים תשעים ותשע אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "מינוס שקל אחד",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "מינוס ארבעים ושניים שקלים חמישים אגורות",
+      "options": {
+        "currency": "ILS"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "חמשה שקלים",
+      "options": {
+        "currency": "ILS"
+      }
+    }
+  ]
+}

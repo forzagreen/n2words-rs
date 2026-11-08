@@ -1,0 +1,513 @@
+{
+  "code": "ha",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "sifiri"
+    },
+    {
+      "input": 1,
+      "expected": "ɗaya"
+    },
+    {
+      "input": 2,
+      "expected": "biyu"
+    },
+    {
+      "input": 3,
+      "expected": "uku"
+    },
+    {
+      "input": 4,
+      "expected": "huɗu"
+    },
+    {
+      "input": 5,
+      "expected": "biyar"
+    },
+    {
+      "input": 6,
+      "expected": "shida"
+    },
+    {
+      "input": 7,
+      "expected": "bakwai"
+    },
+    {
+      "input": 8,
+      "expected": "takwas"
+    },
+    {
+      "input": 9,
+      "expected": "tara"
+    },
+    {
+      "input": 10,
+      "expected": "goma"
+    },
+    {
+      "input": 11,
+      "expected": "sha ɗaya"
+    },
+    {
+      "input": 12,
+      "expected": "sha biyu"
+    },
+    {
+      "input": 13,
+      "expected": "sha uku"
+    },
+    {
+      "input": 14,
+      "expected": "sha huɗu"
+    },
+    {
+      "input": 15,
+      "expected": "sha biyar"
+    },
+    {
+      "input": 16,
+      "expected": "sha shida"
+    },
+    {
+      "input": 17,
+      "expected": "sha bakwai"
+    },
+    {
+      "input": 18,
+      "expected": "sha takwas"
+    },
+    {
+      "input": 19,
+      "expected": "sha tara"
+    },
+    {
+      "input": 20,
+      "expected": "ashirin"
+    },
+    {
+      "input": 30,
+      "expected": "talatin"
+    },
+    {
+      "input": 40,
+      "expected": "arba'in"
+    },
+    {
+      "input": 50,
+      "expected": "hamsin"
+    },
+    {
+      "input": 60,
+      "expected": "sittin"
+    },
+    {
+      "input": 70,
+      "expected": "saba'in"
+    },
+    {
+      "input": 80,
+      "expected": "tamanin"
+    },
+    {
+      "input": 90,
+      "expected": "tis'in"
+    },
+    {
+      "input": 21,
+      "expected": "ashirin da ɗaya"
+    },
+    {
+      "input": 25,
+      "expected": "ashirin da biyar"
+    },
+    {
+      "input": 32,
+      "expected": "talatin da biyu"
+    },
+    {
+      "input": 44,
+      "expected": "arba'in da huɗu"
+    },
+    {
+      "input": 57,
+      "expected": "hamsin da bakwai"
+    },
+    {
+      "input": 63,
+      "expected": "sittin da uku"
+    },
+    {
+      "input": 78,
+      "expected": "saba'in da takwas"
+    },
+    {
+      "input": 86,
+      "expected": "tamanin da shida"
+    },
+    {
+      "input": 99,
+      "expected": "tis'in da tara"
+    },
+    {
+      "input": 100,
+      "expected": "ɗari"
+    },
+    {
+      "input": 101,
+      "expected": "ɗari da ɗaya"
+    },
+    {
+      "input": 110,
+      "expected": "ɗari goma"
+    },
+    {
+      "input": 111,
+      "expected": "ɗari sha ɗaya"
+    },
+    {
+      "input": 120,
+      "expected": "ɗari ashirin"
+    },
+    {
+      "input": 121,
+      "expected": "ɗari ashirin da ɗaya"
+    },
+    {
+      "input": 200,
+      "expected": "biyu ɗari"
+    },
+    {
+      "input": 300,
+      "expected": "uku ɗari"
+    },
+    {
+      "input": 500,
+      "expected": "biyar ɗari"
+    },
+    {
+      "input": 999,
+      "expected": "tara ɗari tis'in da tara"
+    },
+    {
+      "input": 1000,
+      "expected": "dubu"
+    },
+    {
+      "input": 1001,
+      "expected": "dubu da ɗaya"
+    },
+    {
+      "input": 1010,
+      "expected": "dubu goma"
+    },
+    {
+      "input": 1100,
+      "expected": "dubu ɗari"
+    },
+    {
+      "input": 2000,
+      "expected": "biyu dubu"
+    },
+    {
+      "input": 5000,
+      "expected": "biyar dubu"
+    },
+    {
+      "input": 10000,
+      "expected": "goma dubu"
+    },
+    {
+      "input": 12345,
+      "expected": "sha biyu dubu uku ɗari arba'in da biyar"
+    },
+    {
+      "input": 100000,
+      "expected": "ɗari dubu"
+    },
+    {
+      "input": 1000000,
+      "expected": "ɗaya miliyan"
+    },
+    {
+      "input": 2000000,
+      "expected": "biyu miliyan"
+    },
+    {
+      "input": 1234567,
+      "expected": "ɗaya miliyan biyu ɗari talatin da huɗu dubu biyar ɗari sittin da bakwai"
+    },
+    {
+      "input": 1000000000,
+      "expected": "ɗaya biliyan"
+    },
+    {
+      "input": 2000000000,
+      "expected": "biyu biliyan"
+    },
+    {
+      "input": -1,
+      "expected": "babu ɗaya"
+    },
+    {
+      "input": -5,
+      "expected": "babu biyar"
+    },
+    {
+      "input": -42,
+      "expected": "babu arba'in da biyu"
+    },
+    {
+      "input": -100,
+      "expected": "babu ɗari"
+    },
+    {
+      "input": "3.14",
+      "expected": "uku digo ɗaya huɗu"
+    },
+    {
+      "input": "0.5",
+      "expected": "sifiri digo biyar"
+    },
+    {
+      "input": "10.25",
+      "expected": "goma digo biyu biyar"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "na farko"
+    },
+    {
+      "input": 2,
+      "expected": "na biyu"
+    },
+    {
+      "input": 3,
+      "expected": "na uku"
+    },
+    {
+      "input": 4,
+      "expected": "na huɗu"
+    },
+    {
+      "input": 5,
+      "expected": "na biyar"
+    },
+    {
+      "input": 6,
+      "expected": "na shida"
+    },
+    {
+      "input": 7,
+      "expected": "na bakwai"
+    },
+    {
+      "input": 8,
+      "expected": "na takwas"
+    },
+    {
+      "input": 9,
+      "expected": "na tara"
+    },
+    {
+      "input": 10,
+      "expected": "na goma"
+    },
+    {
+      "input": 11,
+      "expected": "na sha ɗaya"
+    },
+    {
+      "input": 12,
+      "expected": "na sha biyu"
+    },
+    {
+      "input": 19,
+      "expected": "na sha tara"
+    },
+    {
+      "input": 20,
+      "expected": "na ashirin"
+    },
+    {
+      "input": 21,
+      "expected": "na ashirin da ɗaya"
+    },
+    {
+      "input": 30,
+      "expected": "na talatin"
+    },
+    {
+      "input": 42,
+      "expected": "na arba'in da biyu"
+    },
+    {
+      "input": 99,
+      "expected": "na tis'in da tara"
+    },
+    {
+      "input": 100,
+      "expected": "na ɗari"
+    },
+    {
+      "input": 101,
+      "expected": "na ɗari da ɗaya"
+    },
+    {
+      "input": 200,
+      "expected": "na biyu ɗari"
+    },
+    {
+      "input": 1000,
+      "expected": "na dubu"
+    },
+    {
+      "input": 1001,
+      "expected": "na dubu da ɗaya"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "sifiri naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "ɗaya naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "biyu naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "biyar naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "goma naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "ashirin da ɗaya naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "arba'in da biyu naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "ɗari naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "dubu naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "ɗaya kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "ashirin da biyar kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "hamsin kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "tis'in da tara kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "ɗaya naira da ɗaya kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "ɗaya naira da hamsin kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "arba'in da biyu naira da hamsin kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "ɗari naira da tis'in da tara kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "babu ɗaya naira",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "babu arba'in da biyu naira da hamsin kobo",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "biyar naira",
+      "options": {
+        "currency": "NGN"
+      }
+    }
+  ]
+}

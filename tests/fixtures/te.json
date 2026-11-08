@@ -1,0 +1,452 @@
+{
+  "code": "te",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "సున్నా"
+    },
+    {
+      "input": 1,
+      "expected": "ఒకటి"
+    },
+    {
+      "input": 2,
+      "expected": "రెండు"
+    },
+    {
+      "input": 3,
+      "expected": "మూడు"
+    },
+    {
+      "input": 5.5,
+      "expected": "ఐదు పాయింట్ ఐదు"
+    },
+    {
+      "input": "0.01",
+      "expected": "సున్నా పాయింట్ సున్నా ఒకటి"
+    },
+    {
+      "input": "0.005",
+      "expected": "సున్నా పాయింట్ సున్నా సున్నా ఐదు"
+    },
+    {
+      "input": 3.14,
+      "expected": "మూడు పాయింట్ ఒకటి నాలుగు"
+    },
+    {
+      "input": -5,
+      "expected": "మైనస్ ఐదు"
+    },
+    {
+      "input": 10,
+      "expected": "పది"
+    },
+    {
+      "input": 11,
+      "expected": "పదకొండు"
+    },
+    {
+      "input": 15,
+      "expected": "పదిహేను"
+    },
+    {
+      "input": 19,
+      "expected": "పంతొమ్మిది"
+    },
+    {
+      "input": 20,
+      "expected": "ఇరవై"
+    },
+    {
+      "input": 21,
+      "expected": "ఇరవై ఒక్కటి"
+    },
+    {
+      "input": 25,
+      "expected": "ఇరవై ఐదు"
+    },
+    {
+      "input": 29,
+      "expected": "ఇరవై తొమ్మిది"
+    },
+    {
+      "input": 30,
+      "expected": "ముప్పై"
+    },
+    {
+      "input": 33,
+      "expected": "ముప్పై మూడు"
+    },
+    {
+      "input": 40,
+      "expected": "నలభై"
+    },
+    {
+      "input": 45,
+      "expected": "నలభై ఐదు"
+    },
+    {
+      "input": 50,
+      "expected": "యాభై"
+    },
+    {
+      "input": 58,
+      "expected": "యాభై ఎనిమిది"
+    },
+    {
+      "input": 60,
+      "expected": "అరవై"
+    },
+    {
+      "input": 68,
+      "expected": "అరవై ఎనిమిది"
+    },
+    {
+      "input": 70,
+      "expected": "డెబ్బై"
+    },
+    {
+      "input": 79,
+      "expected": "డెబ్బై తొమ్మిది"
+    },
+    {
+      "input": 80,
+      "expected": "ఎనభై"
+    },
+    {
+      "input": 90,
+      "expected": "తొంభై"
+    },
+    {
+      "input": 99,
+      "expected": "తొంభై తొమ్మిది"
+    },
+    {
+      "input": 100,
+      "expected": "వంద"
+    },
+    {
+      "input": 101,
+      "expected": "వంద ఒకటి"
+    },
+    {
+      "input": 110,
+      "expected": "వంద పది"
+    },
+    {
+      "input": 125,
+      "expected": "వంద ఇరవై ఐదు"
+    },
+    {
+      "input": 200,
+      "expected": "రెండు వందలు"
+    },
+    {
+      "input": 215,
+      "expected": "రెండు వందలు పదిహేను"
+    },
+    {
+      "input": 999,
+      "expected": "తొమ్మిది వందలు తొంభై తొమ్మిది"
+    },
+    {
+      "input": 1000,
+      "expected": "ఒక వెయ్యి"
+    },
+    {
+      "input": 1001,
+      "expected": "ఒక వెయ్యి ఒకటి"
+    },
+    {
+      "input": 1010,
+      "expected": "ఒక వెయ్యి పది"
+    },
+    {
+      "input": 1100,
+      "expected": "ఒక వెయ్యి వంద"
+    },
+    {
+      "input": 1234,
+      "expected": "ఒక వెయ్యి రెండు వందలు ముప్పై నాలుగు"
+    },
+    {
+      "input": 10000,
+      "expected": "పది వెయ్యి"
+    },
+    {
+      "input": 50000,
+      "expected": "యాభై వెయ్యి"
+    },
+    {
+      "input": 99999,
+      "expected": "తొంభై తొమ్మిది వెయ్యి తొమ్మిది వందలు తొంభై తొమ్మిది"
+    },
+    {
+      "input": 100000,
+      "expected": "ఒక లక్ష"
+    },
+    {
+      "input": 123456,
+      "expected": "ఒక లక్ష ఇరవై మూడు వెయ్యి నాలుగు వందలు యాభై ఆరు"
+    },
+    {
+      "input": 999999,
+      "expected": "తొమ్మిది లక్ష తొంభై తొమ్మిది వెయ్యి తొమ్మిది వందలు తొంభై తొమ్మిది"
+    },
+    {
+      "input": 1000000,
+      "expected": "పది లక్ష"
+    },
+    {
+      "input": 10000000,
+      "expected": "ఒక కోటి"
+    },
+    {
+      "input": 123456789,
+      "expected": "పన్నెండు కోటి ముప్పై నాలుగు లక్ష యాభై ఆరు వెయ్యి ఏడు వందలు ఎనభై తొమ్మిది"
+    },
+    {
+      "input": {
+        "bigint": "1000000000"
+      },
+      "expected": "ఒక అరబ్"
+    },
+    {
+      "input": {
+        "bigint": "100000000000"
+      },
+      "expected": "ఒక ఖరబ్"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "పది ఖరబ్"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "మొదటి"
+    },
+    {
+      "input": 2,
+      "expected": "రెండవ"
+    },
+    {
+      "input": 3,
+      "expected": "మూడవ"
+    },
+    {
+      "input": 4,
+      "expected": "నాలుగవ"
+    },
+    {
+      "input": 5,
+      "expected": "ఐదవ"
+    },
+    {
+      "input": 6,
+      "expected": "ఆరవ"
+    },
+    {
+      "input": 7,
+      "expected": "ఏడువ"
+    },
+    {
+      "input": 8,
+      "expected": "ఎనిమిదివ"
+    },
+    {
+      "input": 9,
+      "expected": "తొమ్మిదివ"
+    },
+    {
+      "input": 10,
+      "expected": "పదివ"
+    },
+    {
+      "input": 11,
+      "expected": "పదకొండువ"
+    },
+    {
+      "input": 20,
+      "expected": "ఇరవైవ"
+    },
+    {
+      "input": 21,
+      "expected": "ఇరవై ఒక్కటివ"
+    },
+    {
+      "input": 42,
+      "expected": "నలభై రెండువ"
+    },
+    {
+      "input": 99,
+      "expected": "తొంభై తొమ్మిదివ"
+    },
+    {
+      "input": 100,
+      "expected": "వందవ"
+    },
+    {
+      "input": 101,
+      "expected": "వంద ఒకటివ"
+    },
+    {
+      "input": 200,
+      "expected": "రెండు వందలువ"
+    },
+    {
+      "input": 1000,
+      "expected": "ఒక వెయ్యివ"
+    },
+    {
+      "input": 1001,
+      "expected": "ఒక వెయ్యి ఒకటివ"
+    },
+    {
+      "input": 100000,
+      "expected": "ఒక లక్షవ"
+    },
+    {
+      "input": 10000000,
+      "expected": "ఒక కోటివ"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "సున్నా రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "ఒకటి రూపాయి",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "రెండు రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "పది రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "ఇరవై ఒక్కటి రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "వంద రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ఒక వెయ్యి రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 100000,
+      "expected": "ఒక లక్ష రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "ఒకటి పైసా",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "రెండు పైసలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "యాభై పైసలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "తొంభై తొమ్మిది పైసలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "ఒకటి రూపాయి ఒకటి పైసా",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "నలభై రెండు రూపాయలు యాభై పైసలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 1000.99,
+      "expected": "ఒక వెయ్యి రూపాయలు తొంభై తొమ్మిది పైసలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "మైనస్ ఒకటి రూపాయి",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "మైనస్ నలభై రెండు రూపాయలు యాభై పైసలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "ఐదు రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "ఐదు రూపాయలు",
+      "options": {
+        "currency": "INR"
+      }
+    }
+  ]
+}

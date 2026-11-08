@@ -1,0 +1,24 @@
+# Build output
+/target/
+# Cargo lock is committed for the binary; nothing else to ignore from cargo
+
+# Coverage
+/lcov.info
+/coverage/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+
+# AI assistants
+.claude/
+.cursor/
+
+# Local environment
+.env
+.env.*
+!.env.example

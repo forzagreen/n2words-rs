@@ -1,0 +1,465 @@
+{
+  "code": "vi-VN",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "không phẩy không một"
+    },
+    {
+      "input": 0.007,
+      "expected": "không phẩy không không bảy"
+    },
+    {
+      "input": 5.5,
+      "expected": "năm phẩy năm"
+    },
+    {
+      "input": 17.42,
+      "expected": "mười bảy phẩy bốn mươi hai"
+    },
+    {
+      "input": 27.312,
+      "expected": "hai mươi bảy phẩy ba trăm mười hai"
+    },
+    {
+      "input": 53.486,
+      "expected": "năm mươi ba phẩy bốn trăm tám mươi sáu"
+    },
+    {
+      "input": 300.42,
+      "expected": "ba trăm phẩy bốn mươi hai"
+    },
+    {
+      "input": 4196.42,
+      "expected": "bốn nghìn một trăm chín mươi sáu phẩy bốn mươi hai"
+    },
+    {
+      "input": -17.42,
+      "expected": "âm mười bảy phẩy bốn mươi hai"
+    },
+    {
+      "input": -1,
+      "expected": "âm một"
+    },
+    {
+      "input": -20,
+      "expected": "âm hai mươi"
+    },
+    {
+      "input": 0,
+      "expected": "không"
+    },
+    {
+      "input": 1,
+      "expected": "một"
+    },
+    {
+      "input": 2,
+      "expected": "hai"
+    },
+    {
+      "input": 3,
+      "expected": "ba"
+    },
+    {
+      "input": 11,
+      "expected": "mười một"
+    },
+    {
+      "input": 12,
+      "expected": "mười hai"
+    },
+    {
+      "input": 16,
+      "expected": "mười sáu"
+    },
+    {
+      "input": 19,
+      "expected": "mười chín"
+    },
+    {
+      "input": 20,
+      "expected": "hai mươi"
+    },
+    {
+      "input": 21,
+      "expected": "hai mươi mốt"
+    },
+    {
+      "input": 26,
+      "expected": "hai mươi sáu"
+    },
+    {
+      "input": 28,
+      "expected": "hai mươi tám"
+    },
+    {
+      "input": 30,
+      "expected": "ba mươi"
+    },
+    {
+      "input": 31,
+      "expected": "ba mươi mốt"
+    },
+    {
+      "input": 40,
+      "expected": "bốn mươi"
+    },
+    {
+      "input": 44,
+      "expected": "bốn mươi bốn"
+    },
+    {
+      "input": 50,
+      "expected": "năm mươi"
+    },
+    {
+      "input": 55,
+      "expected": "năm mươi lăm"
+    },
+    {
+      "input": 60,
+      "expected": "sáu mươi"
+    },
+    {
+      "input": 67,
+      "expected": "sáu mươi bảy"
+    },
+    {
+      "input": 70,
+      "expected": "bảy mươi"
+    },
+    {
+      "input": 79,
+      "expected": "bảy mươi chín"
+    },
+    {
+      "input": 89,
+      "expected": "tám mươi chín"
+    },
+    {
+      "input": 95,
+      "expected": "chín mươi lăm"
+    },
+    {
+      "input": 100,
+      "expected": "một trăm"
+    },
+    {
+      "input": 101,
+      "expected": "một trăm lẻ một"
+    },
+    {
+      "input": 199,
+      "expected": "một trăm chín mươi chín"
+    },
+    {
+      "input": 203,
+      "expected": "hai trăm lẻ ba"
+    },
+    {
+      "input": 287,
+      "expected": "hai trăm tám mươi bảy"
+    },
+    {
+      "input": 312,
+      "expected": "ba trăm mười hai"
+    },
+    {
+      "input": 356,
+      "expected": "ba trăm năm mươi sáu"
+    },
+    {
+      "input": 400,
+      "expected": "bốn trăm"
+    },
+    {
+      "input": 434,
+      "expected": "bốn trăm ba mươi bốn"
+    },
+    {
+      "input": 578,
+      "expected": "năm trăm bảy mươi tám"
+    },
+    {
+      "input": 689,
+      "expected": "sáu trăm tám mươi chín"
+    },
+    {
+      "input": 729,
+      "expected": "bảy trăm hai mươi chín"
+    },
+    {
+      "input": 894,
+      "expected": "tám trăm chín mươi bốn"
+    },
+    {
+      "input": 999,
+      "expected": "chín trăm chín mươi chín"
+    },
+    {
+      "input": 1000,
+      "expected": "một nghìn"
+    },
+    {
+      "input": 1001,
+      "expected": "một nghìn lẻ một"
+    },
+    {
+      "input": 1097,
+      "expected": "một nghìn lẻ chín mươi bảy"
+    },
+    {
+      "input": 1104,
+      "expected": "một nghìn một trăm lẻ bốn"
+    },
+    {
+      "input": 1243,
+      "expected": "một nghìn hai trăm bốn mươi ba"
+    },
+    {
+      "input": 2385,
+      "expected": "hai nghìn ba trăm tám mươi lăm"
+    },
+    {
+      "input": 3766,
+      "expected": "ba nghìn bảy trăm sáu mươi sáu"
+    },
+    {
+      "input": 4196,
+      "expected": "bốn nghìn một trăm chín mươi sáu"
+    },
+    {
+      "input": 5846,
+      "expected": "năm nghìn tám trăm bốn mươi sáu"
+    },
+    {
+      "input": 6459,
+      "expected": "sáu nghìn bốn trăm năm mươi chín"
+    },
+    {
+      "input": 7232,
+      "expected": "bảy nghìn hai trăm ba mươi hai"
+    },
+    {
+      "input": 8569,
+      "expected": "tám nghìn năm trăm sáu mươi chín"
+    },
+    {
+      "input": 9539,
+      "expected": "chín nghìn năm trăm ba mươi chín"
+    },
+    {
+      "input": 1000000,
+      "expected": "một triệu"
+    },
+    {
+      "input": 1000001,
+      "expected": "một triệu lẻ một"
+    },
+    {
+      "input": 4000000,
+      "expected": "bốn triệu"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "mười nghìn tỷ"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "một trăm nghìn tỷ"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000"
+      },
+      "expected": "một triệu tỷ"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "một tỷ tỷ"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "thứ nhất"
+    },
+    {
+      "input": 2,
+      "expected": "thứ hai"
+    },
+    {
+      "input": 3,
+      "expected": "thứ ba"
+    },
+    {
+      "input": 4,
+      "expected": "thứ bốn"
+    },
+    {
+      "input": 5,
+      "expected": "thứ năm"
+    },
+    {
+      "input": 6,
+      "expected": "thứ sáu"
+    },
+    {
+      "input": 7,
+      "expected": "thứ bảy"
+    },
+    {
+      "input": 8,
+      "expected": "thứ tám"
+    },
+    {
+      "input": 9,
+      "expected": "thứ chín"
+    },
+    {
+      "input": 10,
+      "expected": "thứ mười"
+    },
+    {
+      "input": 11,
+      "expected": "thứ mười một"
+    },
+    {
+      "input": 12,
+      "expected": "thứ mười hai"
+    },
+    {
+      "input": 15,
+      "expected": "thứ mười lăm"
+    },
+    {
+      "input": 19,
+      "expected": "thứ mười chín"
+    },
+    {
+      "input": 20,
+      "expected": "thứ hai mươi"
+    },
+    {
+      "input": 21,
+      "expected": "thứ hai mươi mốt"
+    },
+    {
+      "input": 25,
+      "expected": "thứ hai mươi lăm"
+    },
+    {
+      "input": 30,
+      "expected": "thứ ba mươi"
+    },
+    {
+      "input": 42,
+      "expected": "thứ bốn mươi hai"
+    },
+    {
+      "input": 55,
+      "expected": "thứ năm mươi lăm"
+    },
+    {
+      "input": 99,
+      "expected": "thứ chín mươi chín"
+    },
+    {
+      "input": 100,
+      "expected": "thứ một trăm"
+    },
+    {
+      "input": 101,
+      "expected": "thứ một trăm lẻ một"
+    },
+    {
+      "input": 200,
+      "expected": "thứ hai trăm"
+    },
+    {
+      "input": 1000,
+      "expected": "thứ một nghìn"
+    },
+    {
+      "input": 1001,
+      "expected": "thứ một nghìn lẻ một"
+    },
+    {
+      "input": 1000000,
+      "expected": "thứ một triệu"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "không đồng"
+    },
+    {
+      "input": 1,
+      "expected": "một đồng"
+    },
+    {
+      "input": 2,
+      "expected": "hai đồng"
+    },
+    {
+      "input": 5,
+      "expected": "năm đồng"
+    },
+    {
+      "input": 10,
+      "expected": "mười đồng"
+    },
+    {
+      "input": 21,
+      "expected": "hai mươi mốt đồng"
+    },
+    {
+      "input": 55,
+      "expected": "năm mươi lăm đồng"
+    },
+    {
+      "input": 100,
+      "expected": "một trăm đồng"
+    },
+    {
+      "input": 101,
+      "expected": "một trăm lẻ một đồng"
+    },
+    {
+      "input": 1000,
+      "expected": "một nghìn đồng"
+    },
+    {
+      "input": 1001,
+      "expected": "một nghìn lẻ một đồng"
+    },
+    {
+      "input": 10000,
+      "expected": "mười nghìn đồng"
+    },
+    {
+      "input": 100000,
+      "expected": "một trăm nghìn đồng"
+    },
+    {
+      "input": 1000000,
+      "expected": "một triệu đồng"
+    },
+    {
+      "input": -1,
+      "expected": "âm một đồng"
+    },
+    {
+      "input": -1000,
+      "expected": "âm một nghìn đồng"
+    },
+    {
+      "input": "5.00",
+      "expected": "năm đồng"
+    }
+  ]
+}

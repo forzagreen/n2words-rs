@@ -1,0 +1,702 @@
+{
+  "code": "cs",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "nula celá nula jedna"
+    },
+    {
+      "input": 1.007,
+      "expected": "jedna celá nula nula sedm"
+    },
+    {
+      "input": 1.7,
+      "expected": "jedna celá sedm"
+    },
+    {
+      "input": 17.42,
+      "expected": "sedmnáct celých čtyřicet dva"
+    },
+    {
+      "input": 27.312,
+      "expected": "dvacet sedm celých tři sta dvanáct"
+    },
+    {
+      "input": 53.486,
+      "expected": "padesát tři celých čtyři sta osmdesát šest"
+    },
+    {
+      "input": 300.42,
+      "expected": "tři sta celých čtyřicet dva"
+    },
+    {
+      "input": 4196.42,
+      "expected": "čtyři tisíce sto devadesát šest celých čtyřicet dva"
+    },
+    {
+      "input": -1.42,
+      "expected": "mínus jedna celá čtyřicet dva"
+    },
+    {
+      "input": 0.5,
+      "expected": "nula celá pět"
+    },
+    {
+      "input": 4.7,
+      "expected": "čtyři celé sedm"
+    },
+    {
+      "input": 5.6,
+      "expected": "pět celých šest"
+    },
+    {
+      "input": -22.9,
+      "expected": "mínus dvacet dva celých devět"
+    },
+    {
+      "input": -17.42,
+      "expected": "mínus sedmnáct celých čtyřicet dva"
+    },
+    {
+      "input": -1,
+      "expected": "mínus jedna"
+    },
+    {
+      "input": -20,
+      "expected": "mínus dvacet"
+    },
+    {
+      "input": 0,
+      "expected": "nula"
+    },
+    {
+      "input": 1,
+      "expected": "jedna"
+    },
+    {
+      "input": 2,
+      "expected": "dva"
+    },
+    {
+      "input": 3,
+      "expected": "tři"
+    },
+    {
+      "input": 11,
+      "expected": "jedenáct"
+    },
+    {
+      "input": 12,
+      "expected": "dvanáct"
+    },
+    {
+      "input": 16,
+      "expected": "šestnáct"
+    },
+    {
+      "input": 19,
+      "expected": "devatenáct"
+    },
+    {
+      "input": 20,
+      "expected": "dvacet"
+    },
+    {
+      "input": 21,
+      "expected": "dvacet jedna"
+    },
+    {
+      "input": 26,
+      "expected": "dvacet šest"
+    },
+    {
+      "input": 28,
+      "expected": "dvacet osm"
+    },
+    {
+      "input": 30,
+      "expected": "třicet"
+    },
+    {
+      "input": 31,
+      "expected": "třicet jedna"
+    },
+    {
+      "input": 40,
+      "expected": "čtyřicet"
+    },
+    {
+      "input": 44,
+      "expected": "čtyřicet čtyři"
+    },
+    {
+      "input": 50,
+      "expected": "padesát"
+    },
+    {
+      "input": 55,
+      "expected": "padesát pět"
+    },
+    {
+      "input": 60,
+      "expected": "šedesát"
+    },
+    {
+      "input": 67,
+      "expected": "šedesát sedm"
+    },
+    {
+      "input": 70,
+      "expected": "sedmdesát"
+    },
+    {
+      "input": 79,
+      "expected": "sedmdesát devět"
+    },
+    {
+      "input": 89,
+      "expected": "osmdesát devět"
+    },
+    {
+      "input": 95,
+      "expected": "devadesát pět"
+    },
+    {
+      "input": 100,
+      "expected": "sto"
+    },
+    {
+      "input": 101,
+      "expected": "sto jedna"
+    },
+    {
+      "input": 199,
+      "expected": "sto devadesát devět"
+    },
+    {
+      "input": 203,
+      "expected": "dvě stě tři"
+    },
+    {
+      "input": 287,
+      "expected": "dvě stě osmdesát sedm"
+    },
+    {
+      "input": 356,
+      "expected": "tři sta padesát šest"
+    },
+    {
+      "input": 400,
+      "expected": "čtyři sta"
+    },
+    {
+      "input": 434,
+      "expected": "čtyři sta třicet čtyři"
+    },
+    {
+      "input": 578,
+      "expected": "pět set sedmdesát osm"
+    },
+    {
+      "input": 689,
+      "expected": "šest set osmdesát devět"
+    },
+    {
+      "input": 729,
+      "expected": "sedm set dvacet devět"
+    },
+    {
+      "input": 894,
+      "expected": "osm set devadesát čtyři"
+    },
+    {
+      "input": 999,
+      "expected": "devět set devadesát devět"
+    },
+    {
+      "input": 1000,
+      "expected": "tisíc"
+    },
+    {
+      "input": 1001,
+      "expected": "tisíc jedna"
+    },
+    {
+      "input": 1097,
+      "expected": "tisíc devadesát sedm"
+    },
+    {
+      "input": 1104,
+      "expected": "tisíc sto čtyři"
+    },
+    {
+      "input": 1243,
+      "expected": "tisíc dvě stě čtyřicet tři"
+    },
+    {
+      "input": 2385,
+      "expected": "dva tisíce tři sta osmdesát pět"
+    },
+    {
+      "input": 3766,
+      "expected": "tři tisíce sedm set šedesát šest"
+    },
+    {
+      "input": 4196,
+      "expected": "čtyři tisíce sto devadesát šest"
+    },
+    {
+      "input": 5846,
+      "expected": "pět tisíc osm set čtyřicet šest"
+    },
+    {
+      "input": 6459,
+      "expected": "šest tisíc čtyři sta padesát devět"
+    },
+    {
+      "input": 7232,
+      "expected": "sedm tisíc dvě stě třicet dva"
+    },
+    {
+      "input": 8569,
+      "expected": "osm tisíc pět set šedesát devět"
+    },
+    {
+      "input": 9539,
+      "expected": "devět tisíc pět set třicet devět"
+    },
+    {
+      "input": 1000000,
+      "expected": "milion"
+    },
+    {
+      "input": 1000001,
+      "expected": "milion jedna"
+    },
+    {
+      "input": 4000000,
+      "expected": "čtyři miliony"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "deset bilionů"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "sto bilionů"
+    },
+    {
+      "input": 2000000,
+      "expected": "dva miliony"
+    },
+    {
+      "input": 5000000,
+      "expected": "pět milionů"
+    },
+    {
+      "input": 1000000000,
+      "expected": "miliarda"
+    },
+    {
+      "input": 2000000000,
+      "expected": "dva miliardy"
+    },
+    {
+      "input": 5000000000,
+      "expected": "pět miliard"
+    },
+    {
+      "input": 1000000000000,
+      "expected": "bilion"
+    },
+    {
+      "input": 2000000000000,
+      "expected": "dva biliony"
+    },
+    {
+      "input": 5000000000000,
+      "expected": "pět bilionů"
+    },
+    {
+      "input": 1000000000000000,
+      "expected": "biliarda"
+    },
+    {
+      "input": 2000000000000000,
+      "expected": "dva biliardy"
+    },
+    {
+      "input": 5000000000000000,
+      "expected": "pět biliard"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "trilion"
+    },
+    {
+      "input": {
+        "bigint": "2000000000000000000"
+      },
+      "expected": "dva triliony"
+    },
+    {
+      "input": {
+        "bigint": "5000000000000000000"
+      },
+      "expected": "pět trilionů"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000"
+      },
+      "expected": "triliarda"
+    },
+    {
+      "input": {
+        "bigint": "2000000000000000000000"
+      },
+      "expected": "dva triliardy"
+    },
+    {
+      "input": {
+        "bigint": "5000000000000000000000"
+      },
+      "expected": "pět triliard"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000"
+      },
+      "expected": "kvadrilion"
+    },
+    {
+      "input": {
+        "bigint": "2000000000000000000000000"
+      },
+      "expected": "dva kvadriliony"
+    },
+    {
+      "input": {
+        "bigint": "5000000000000000000000000"
+      },
+      "expected": "pět kvadrilionů"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "první"
+    },
+    {
+      "input": 2,
+      "expected": "druhý"
+    },
+    {
+      "input": 3,
+      "expected": "třetí"
+    },
+    {
+      "input": 4,
+      "expected": "čtvrtý"
+    },
+    {
+      "input": 5,
+      "expected": "pátý"
+    },
+    {
+      "input": 6,
+      "expected": "šestý"
+    },
+    {
+      "input": 7,
+      "expected": "sedmý"
+    },
+    {
+      "input": 8,
+      "expected": "osmý"
+    },
+    {
+      "input": 9,
+      "expected": "devátý"
+    },
+    {
+      "input": 10,
+      "expected": "desátý"
+    },
+    {
+      "input": 11,
+      "expected": "jedenáctý"
+    },
+    {
+      "input": 12,
+      "expected": "dvanáctý"
+    },
+    {
+      "input": 13,
+      "expected": "třináctý"
+    },
+    {
+      "input": 14,
+      "expected": "čtrnáctý"
+    },
+    {
+      "input": 15,
+      "expected": "patnáctý"
+    },
+    {
+      "input": 19,
+      "expected": "devatenáctý"
+    },
+    {
+      "input": 20,
+      "expected": "dvacátý"
+    },
+    {
+      "input": 21,
+      "expected": "dvacet první"
+    },
+    {
+      "input": 30,
+      "expected": "třicátý"
+    },
+    {
+      "input": 42,
+      "expected": "čtyřicet druhý"
+    },
+    {
+      "input": 99,
+      "expected": "devadesát devátý"
+    },
+    {
+      "input": 100,
+      "expected": "stý"
+    },
+    {
+      "input": 101,
+      "expected": "sto první"
+    },
+    {
+      "input": 200,
+      "expected": "dvoustý"
+    },
+    {
+      "input": 300,
+      "expected": "třístý"
+    },
+    {
+      "input": 500,
+      "expected": "pětistý"
+    },
+    {
+      "input": 121,
+      "expected": "sto dvacet první"
+    },
+    {
+      "input": 1000,
+      "expected": "tisící"
+    },
+    {
+      "input": 1001,
+      "expected": "tisíc první"
+    },
+    {
+      "input": 2000,
+      "expected": "dva tisící"
+    },
+    {
+      "input": 5000,
+      "expected": "pět tisící"
+    },
+    {
+      "input": 10000,
+      "expected": "deset tisící"
+    },
+    {
+      "input": 1000000,
+      "expected": "miliontý"
+    },
+    {
+      "input": 2000000,
+      "expected": "dva miliontý"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nula korun",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "jedna koruna",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "dva koruny",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 3,
+      "expected": "tři koruny",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 4,
+      "expected": "čtyři koruny",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "pět korun",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "deset korun",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "dvacet jedna korun",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "čtyřicet dva koruny",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "sto korun",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "tisíc korun",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "jedna haléř",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "dva haléře",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "pět haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "dvacet pět haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "padesát haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "devadesát devět haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "jedna koruna jedna haléř",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "jedna koruna padesát haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "dva koruny dva haléře",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "čtyřicet dva koruny padesát haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "sto korun devadesát devět haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "mínus jedna koruna",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "mínus čtyřicet dva koruny padesát haléřů",
+      "options": {
+        "currency": "CZK"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "pět korun",
+      "options": {
+        "currency": "CZK"
+      }
+    }
+  ]
+}

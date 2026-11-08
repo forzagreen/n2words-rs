@@ -1,0 +1,15 @@
+//! Gujarati (India) (`gu-IN`).
+//!
+//! **Not yet ported** — this is a placeholder so the registry compiles.
+
+use crate::language::{Kind, Language};
+
+/// Registry entry for `gu-IN`.
+pub static LANGUAGE: Language = Language {
+    code: "gu-IN",
+    name: "Gujarati (India)",
+    kind: Kind::Full,
+    cardinal: None,
+    ordinal: None,
+    currency: None,
+};

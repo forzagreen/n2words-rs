@@ -1,0 +1,405 @@
+{
+  "code": "mr-IN",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "शून्य"
+    },
+    {
+      "input": 1,
+      "expected": "एक"
+    },
+    {
+      "input": 2,
+      "expected": "दोन"
+    },
+    {
+      "input": 3,
+      "expected": "तीन"
+    },
+    {
+      "input": 4,
+      "expected": "चार"
+    },
+    {
+      "input": 5,
+      "expected": "पाच"
+    },
+    {
+      "input": 6,
+      "expected": "सहा"
+    },
+    {
+      "input": 7,
+      "expected": "सात"
+    },
+    {
+      "input": 8,
+      "expected": "आठ"
+    },
+    {
+      "input": 9,
+      "expected": "नऊ"
+    },
+    {
+      "input": 10,
+      "expected": "दहा"
+    },
+    {
+      "input": 11,
+      "expected": "अकरा"
+    },
+    {
+      "input": 12,
+      "expected": "बारा"
+    },
+    {
+      "input": 13,
+      "expected": "तेरा"
+    },
+    {
+      "input": 14,
+      "expected": "चौदा"
+    },
+    {
+      "input": 15,
+      "expected": "पंधरा"
+    },
+    {
+      "input": 16,
+      "expected": "सोळा"
+    },
+    {
+      "input": 17,
+      "expected": "सतरा"
+    },
+    {
+      "input": 18,
+      "expected": "अठरा"
+    },
+    {
+      "input": 19,
+      "expected": "एकोणीस"
+    },
+    {
+      "input": 20,
+      "expected": "वीस"
+    },
+    {
+      "input": 21,
+      "expected": "एकवीस"
+    },
+    {
+      "input": 25,
+      "expected": "पंचवीस"
+    },
+    {
+      "input": 30,
+      "expected": "तीस"
+    },
+    {
+      "input": 42,
+      "expected": "बेचाळीस"
+    },
+    {
+      "input": 50,
+      "expected": "पन्नास"
+    },
+    {
+      "input": 60,
+      "expected": "साठ"
+    },
+    {
+      "input": 70,
+      "expected": "सत्तर"
+    },
+    {
+      "input": 80,
+      "expected": "ऐंशी"
+    },
+    {
+      "input": 90,
+      "expected": "नव्वद"
+    },
+    {
+      "input": 99,
+      "expected": "नव्याण्णव"
+    },
+    {
+      "input": 100,
+      "expected": "एक शंभर"
+    },
+    {
+      "input": 101,
+      "expected": "एक शंभर एक"
+    },
+    {
+      "input": 200,
+      "expected": "दोन शंभर"
+    },
+    {
+      "input": 500,
+      "expected": "पाच शंभर"
+    },
+    {
+      "input": 999,
+      "expected": "नऊ शंभर नव्याण्णव"
+    },
+    {
+      "input": 1000,
+      "expected": "एक हजार"
+    },
+    {
+      "input": 1001,
+      "expected": "एक हजार एक"
+    },
+    {
+      "input": 2000,
+      "expected": "दोन हजार"
+    },
+    {
+      "input": 5000,
+      "expected": "पाच हजार"
+    },
+    {
+      "input": 10000,
+      "expected": "दहा हजार"
+    },
+    {
+      "input": 50000,
+      "expected": "पन्नास हजार"
+    },
+    {
+      "input": 99999,
+      "expected": "नव्याण्णव हजार नऊ शंभर नव्याण्णव"
+    },
+    {
+      "input": 100000,
+      "expected": "एक लाख"
+    },
+    {
+      "input": 200000,
+      "expected": "दोन लाख"
+    },
+    {
+      "input": 500000,
+      "expected": "पाच लाख"
+    },
+    {
+      "input": 1000000,
+      "expected": "दहा लाख"
+    },
+    {
+      "input": 5000000,
+      "expected": "पन्नास लाख"
+    },
+    {
+      "input": 9999999,
+      "expected": "नव्याण्णव लाख नव्याण्णव हजार नऊ शंभर नव्याण्णव"
+    },
+    {
+      "input": 10000000,
+      "expected": "एक कोटी"
+    },
+    {
+      "input": 50000000,
+      "expected": "पाच कोटी"
+    },
+    {
+      "input": 100000000,
+      "expected": "दहा कोटी"
+    },
+    {
+      "input": -1,
+      "expected": "उणे एक"
+    },
+    {
+      "input": -42,
+      "expected": "उणे बेचाळीस"
+    },
+    {
+      "input": -1000,
+      "expected": "उणे एक हजार"
+    },
+    {
+      "input": "3.14",
+      "expected": "तीन दशांश एक चार"
+    },
+    {
+      "input": "0.5",
+      "expected": "शून्य दशांश पाच"
+    },
+    {
+      "input": "100.05",
+      "expected": "एक शंभर दशांश शून्य पाच"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "पहिला"
+    },
+    {
+      "input": 2,
+      "expected": "दुसरा"
+    },
+    {
+      "input": 3,
+      "expected": "तिसरा"
+    },
+    {
+      "input": 4,
+      "expected": "चौथा"
+    },
+    {
+      "input": 5,
+      "expected": "पाचवा"
+    },
+    {
+      "input": 6,
+      "expected": "सहावा"
+    },
+    {
+      "input": 7,
+      "expected": "सातवा"
+    },
+    {
+      "input": 8,
+      "expected": "आठवा"
+    },
+    {
+      "input": 9,
+      "expected": "नऊवा"
+    },
+    {
+      "input": 10,
+      "expected": "दहावा"
+    },
+    {
+      "input": 11,
+      "expected": "अकरावा"
+    },
+    {
+      "input": 20,
+      "expected": "वीसवा"
+    },
+    {
+      "input": 21,
+      "expected": "एकवीसवा"
+    },
+    {
+      "input": 42,
+      "expected": "बेचाळीसवा"
+    },
+    {
+      "input": 99,
+      "expected": "नव्याण्णववा"
+    },
+    {
+      "input": 100,
+      "expected": "एक शंभरवा"
+    },
+    {
+      "input": 101,
+      "expected": "एक शंभर एकवा"
+    },
+    {
+      "input": 200,
+      "expected": "दोन शंभरवा"
+    },
+    {
+      "input": 1000,
+      "expected": "एक हजारवा"
+    },
+    {
+      "input": 1001,
+      "expected": "एक हजार एकवा"
+    },
+    {
+      "input": 100000,
+      "expected": "एक लाखवा"
+    },
+    {
+      "input": 10000000,
+      "expected": "एक कोटीवा"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "शून्य रुपये"
+    },
+    {
+      "input": 1,
+      "expected": "एक रुपया"
+    },
+    {
+      "input": 2,
+      "expected": "दोन रुपये"
+    },
+    {
+      "input": 10,
+      "expected": "दहा रुपये"
+    },
+    {
+      "input": 21,
+      "expected": "एकवीस रुपये"
+    },
+    {
+      "input": 100,
+      "expected": "एक शंभर रुपये"
+    },
+    {
+      "input": 1000,
+      "expected": "एक हजार रुपये"
+    },
+    {
+      "input": 100000,
+      "expected": "एक लाख रुपये"
+    },
+    {
+      "input": 0.01,
+      "expected": "एक पैसा"
+    },
+    {
+      "input": 0.02,
+      "expected": "दोन पैसे"
+    },
+    {
+      "input": 0.5,
+      "expected": "पन्नास पैसे"
+    },
+    {
+      "input": 0.99,
+      "expected": "नव्याण्णव पैसे"
+    },
+    {
+      "input": 1.01,
+      "expected": "एक रुपया एक पैसा"
+    },
+    {
+      "input": 42.5,
+      "expected": "बेचाळीस रुपये पन्नास पैसे"
+    },
+    {
+      "input": 1000.99,
+      "expected": "एक हजार रुपये नव्याण्णव पैसे"
+    },
+    {
+      "input": -1,
+      "expected": "उणे एक रुपया"
+    },
+    {
+      "input": -42.5,
+      "expected": "उणे बेचाळीस रुपये पन्नास पैसे"
+    },
+    {
+      "input": 5,
+      "expected": "पाच रुपये"
+    },
+    {
+      "input": "5.00",
+      "expected": "पाच रुपये"
+    }
+  ]
+}

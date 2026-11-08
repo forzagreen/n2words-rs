@@ -1,0 +1,632 @@
+{
+  "code": "lv",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "nulle komats nulle viens"
+    },
+    {
+      "input": 1.007,
+      "expected": "viens komats nulle nulle septiņi"
+    },
+    {
+      "input": 1.7,
+      "expected": "viens komats septiņi"
+    },
+    {
+      "input": 17.42,
+      "expected": "septiņpadsmit komats četrdesmit divi"
+    },
+    {
+      "input": 27.312,
+      "expected": "divdesmit septiņi komats trīs simti divpadsmit"
+    },
+    {
+      "input": 53.486,
+      "expected": "piecdesmit trīs komats četri simti astoņdesmit seši"
+    },
+    {
+      "input": 300.42,
+      "expected": "trīs simti komats četrdesmit divi"
+    },
+    {
+      "input": 4196.42,
+      "expected": "četri tūkstoši simts deviņdesmit seši komats četrdesmit divi"
+    },
+    {
+      "input": -17.42,
+      "expected": "mīnus septiņpadsmit komats četrdesmit divi"
+    },
+    {
+      "input": -1,
+      "expected": "mīnus viens"
+    },
+    {
+      "input": -20,
+      "expected": "mīnus divdesmit"
+    },
+    {
+      "input": 0,
+      "expected": "nulle"
+    },
+    {
+      "input": 1,
+      "expected": "viens"
+    },
+    {
+      "input": 2,
+      "expected": "divi"
+    },
+    {
+      "input": 3,
+      "expected": "trīs"
+    },
+    {
+      "input": 11,
+      "expected": "vienpadsmit"
+    },
+    {
+      "input": 12,
+      "expected": "divpadsmit"
+    },
+    {
+      "input": 16,
+      "expected": "sešpadsmit"
+    },
+    {
+      "input": 19,
+      "expected": "deviņpadsmit"
+    },
+    {
+      "input": 20,
+      "expected": "divdesmit"
+    },
+    {
+      "input": 21,
+      "expected": "divdesmit viens"
+    },
+    {
+      "input": 26,
+      "expected": "divdesmit seši"
+    },
+    {
+      "input": 28,
+      "expected": "divdesmit astoņi"
+    },
+    {
+      "input": 30,
+      "expected": "trīsdesmit"
+    },
+    {
+      "input": 31,
+      "expected": "trīsdesmit viens"
+    },
+    {
+      "input": 40,
+      "expected": "četrdesmit"
+    },
+    {
+      "input": 44,
+      "expected": "četrdesmit četri"
+    },
+    {
+      "input": 50,
+      "expected": "piecdesmit"
+    },
+    {
+      "input": 55,
+      "expected": "piecdesmit pieci"
+    },
+    {
+      "input": 60,
+      "expected": "sešdesmit"
+    },
+    {
+      "input": 67,
+      "expected": "sešdesmit septiņi"
+    },
+    {
+      "input": 70,
+      "expected": "septiņdesmit"
+    },
+    {
+      "input": 79,
+      "expected": "septiņdesmit deviņi"
+    },
+    {
+      "input": 89,
+      "expected": "astoņdesmit deviņi"
+    },
+    {
+      "input": 95,
+      "expected": "deviņdesmit pieci"
+    },
+    {
+      "input": 100,
+      "expected": "simts"
+    },
+    {
+      "input": 101,
+      "expected": "simtu viens"
+    },
+    {
+      "input": 199,
+      "expected": "simts deviņdesmit deviņi"
+    },
+    {
+      "input": 203,
+      "expected": "divi simti trīs"
+    },
+    {
+      "input": 287,
+      "expected": "divi simti astoņdesmit septiņi"
+    },
+    {
+      "input": 356,
+      "expected": "trīs simti piecdesmit seši"
+    },
+    {
+      "input": 400,
+      "expected": "četri simti"
+    },
+    {
+      "input": 434,
+      "expected": "četri simti trīsdesmit četri"
+    },
+    {
+      "input": 578,
+      "expected": "pieci simti septiņdesmit astoņi"
+    },
+    {
+      "input": 689,
+      "expected": "seši simti astoņdesmit deviņi"
+    },
+    {
+      "input": 729,
+      "expected": "septiņi simti divdesmit deviņi"
+    },
+    {
+      "input": 894,
+      "expected": "astoņi simti deviņdesmit četri"
+    },
+    {
+      "input": 999,
+      "expected": "deviņi simti deviņdesmit deviņi"
+    },
+    {
+      "input": 1000,
+      "expected": "tūkstotis"
+    },
+    {
+      "input": 1001,
+      "expected": "tūkstotis viens"
+    },
+    {
+      "input": 1097,
+      "expected": "tūkstotis deviņdesmit septiņi"
+    },
+    {
+      "input": 1104,
+      "expected": "tūkstotis simtu četri"
+    },
+    {
+      "input": 1243,
+      "expected": "tūkstotis divi simti četrdesmit trīs"
+    },
+    {
+      "input": 2385,
+      "expected": "divi tūkstoši trīs simti astoņdesmit pieci"
+    },
+    {
+      "input": 3766,
+      "expected": "trīs tūkstoši septiņi simti sešdesmit seši"
+    },
+    {
+      "input": 4196,
+      "expected": "četri tūkstoši simts deviņdesmit seši"
+    },
+    {
+      "input": 5846,
+      "expected": "pieci tūkstoši astoņi simti četrdesmit seši"
+    },
+    {
+      "input": 6459,
+      "expected": "seši tūkstoši četri simti piecdesmit deviņi"
+    },
+    {
+      "input": 7232,
+      "expected": "septiņi tūkstoši divi simti trīsdesmit divi"
+    },
+    {
+      "input": 8569,
+      "expected": "astoņi tūkstoši pieci simti sešdesmit deviņi"
+    },
+    {
+      "input": 9539,
+      "expected": "deviņi tūkstoši pieci simti trīsdesmit deviņi"
+    },
+    {
+      "input": 1000000,
+      "expected": "miljons"
+    },
+    {
+      "input": 1000001,
+      "expected": "miljons viens"
+    },
+    {
+      "input": 4000000,
+      "expected": "četri miljoni"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "desmit triljoni"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "simts triljoni"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "kvintiljons"
+    },
+    {
+      "input": 1,
+      "expected": "viena",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "divas",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 4,
+      "expected": "četras",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "piecas",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "divdesmit viena",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "divdesmit divas",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 101,
+      "expected": "simtu viena",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "simtu divas",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "tūkstotis viens",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1002,
+      "expected": "tūkstotis divi",
+      "options": {
+        "gender": "feminine"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "pirmais"
+    },
+    {
+      "input": 2,
+      "expected": "otrais"
+    },
+    {
+      "input": 3,
+      "expected": "trešais"
+    },
+    {
+      "input": 4,
+      "expected": "ceturtais"
+    },
+    {
+      "input": 5,
+      "expected": "piektais"
+    },
+    {
+      "input": 6,
+      "expected": "sestais"
+    },
+    {
+      "input": 7,
+      "expected": "septītais"
+    },
+    {
+      "input": 8,
+      "expected": "astotais"
+    },
+    {
+      "input": 9,
+      "expected": "devītais"
+    },
+    {
+      "input": 10,
+      "expected": "desmitais"
+    },
+    {
+      "input": 11,
+      "expected": "vienpadsmitais"
+    },
+    {
+      "input": 12,
+      "expected": "divpadsmitais"
+    },
+    {
+      "input": 13,
+      "expected": "trīspadsmitais"
+    },
+    {
+      "input": 19,
+      "expected": "deviņpadsmitais"
+    },
+    {
+      "input": 20,
+      "expected": "divdesmitais"
+    },
+    {
+      "input": 21,
+      "expected": "divdesmit pirmais"
+    },
+    {
+      "input": 30,
+      "expected": "trīsdesmitais"
+    },
+    {
+      "input": 42,
+      "expected": "četrdesmit otrais"
+    },
+    {
+      "input": 99,
+      "expected": "deviņdesmit devītais"
+    },
+    {
+      "input": 100,
+      "expected": "simtais"
+    },
+    {
+      "input": 101,
+      "expected": "simts pirmais"
+    },
+    {
+      "input": 200,
+      "expected": "divsimtais"
+    },
+    {
+      "input": 1000,
+      "expected": "tūkstošais"
+    },
+    {
+      "input": 1001,
+      "expected": "tūkstotis pirmais"
+    },
+    {
+      "input": 2000,
+      "expected": "divi tūkstoši tūkstošais"
+    },
+    {
+      "input": 1000000,
+      "expected": "miljonais"
+    },
+    {
+      "input": 2000000,
+      "expected": "divi miljoni miljonais"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nulle eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "viens eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "divi eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "pieci eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "desmit eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "divdesmit viens eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "četrdesmit divi eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "simts eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "tūkstotis eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "viens cents",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "divi centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "pieci centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.1,
+      "expected": "desmit centu",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.11,
+      "expected": "vienpadsmit centu",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "divdesmit pieci centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "piecdesmit centu",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "deviņdesmit deviņi centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "viens eiro viens cents",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "viens eiro piecdesmit centu",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "divi eiro divi centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "četrdesmit divi eiro piecdesmit centu",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "simts eiro deviņdesmit deviņi centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "mīnus viens eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "mīnus četrdesmit divi eiro piecdesmit centu",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "pieci eiro",
+      "options": {
+        "currency": "EUR"
+      }
+    }
+  ]
+}

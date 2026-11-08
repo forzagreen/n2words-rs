@@ -1,0 +1,1930 @@
+{
+  "code": "ar-SA",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "صفر فاصلة صفر واحد"
+    },
+    {
+      "input": 1.7,
+      "expected": "واحد فاصلة سبعة"
+    },
+    {
+      "input": 1.007,
+      "expected": "واحد فاصلة صفر صفر سبعة"
+    },
+    {
+      "input": 17.42,
+      "expected": "سبعة عشر فاصلة اثنان وأربعون"
+    },
+    {
+      "input": 27.312,
+      "expected": "سبعة وعشرون فاصلة ثلاثمئة واثنا عشر"
+    },
+    {
+      "input": 53.486,
+      "expected": "ثلاثة وخمسون فاصلة أربعمئة وستة وثمانون"
+    },
+    {
+      "input": 300.42,
+      "expected": "ثلاثمئة فاصلة اثنان وأربعون"
+    },
+    {
+      "input": 4196.42,
+      "expected": "أربعة آلاف ومئة وستة وتسعون فاصلة اثنان وأربعون"
+    },
+    {
+      "input": 2.2,
+      "expected": "اثنتان فاصلة اثنتان",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2.2,
+      "expected": "اثنين فاصلة اثنين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": -17.42,
+      "expected": "ناقص سبعة عشر فاصلة اثنان وأربعون"
+    },
+    {
+      "input": -1,
+      "expected": "ناقص واحد"
+    },
+    {
+      "input": -20,
+      "expected": "ناقص عشرون"
+    },
+    {
+      "input": -20,
+      "expected": "سالب عشرون",
+      "options": {
+        "negative_word": "سالب"
+      }
+    },
+    {
+      "input": 0,
+      "expected": "صفر"
+    },
+    {
+      "input": 1,
+      "expected": "واحد"
+    },
+    {
+      "input": 1,
+      "expected": "واحدة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "اثنان"
+    },
+    {
+      "input": 2,
+      "expected": "اثنتان",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 3,
+      "expected": "ثلاثة"
+    },
+    {
+      "input": 3,
+      "expected": "ثلاث",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 8,
+      "expected": "ثمانية"
+    },
+    {
+      "input": 8,
+      "expected": "ثمان",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "عشرة"
+    },
+    {
+      "input": 10,
+      "expected": "عشر",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 11,
+      "expected": "أحد عشر"
+    },
+    {
+      "input": 11,
+      "expected": "إحدى عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 12,
+      "expected": "اثنا عشر"
+    },
+    {
+      "input": 12,
+      "expected": "اثنتا عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 13,
+      "expected": "ثلاثة عشر"
+    },
+    {
+      "input": 13,
+      "expected": "ثلاث عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 16,
+      "expected": "ستة عشر"
+    },
+    {
+      "input": 18,
+      "expected": "ثمانية عشر"
+    },
+    {
+      "input": 18,
+      "expected": "ثماني عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 19,
+      "expected": "تسعة عشر"
+    },
+    {
+      "input": 19,
+      "expected": "تسع عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 20,
+      "expected": "عشرون"
+    },
+    {
+      "input": 20,
+      "expected": "عشرون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "واحد وعشرون"
+    },
+    {
+      "input": 21,
+      "expected": "إحدى وعشرون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "اثنان وعشرون"
+    },
+    {
+      "input": 22,
+      "expected": "اثنتان وعشرون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 23,
+      "expected": "ثلاثة وعشرون"
+    },
+    {
+      "input": 23,
+      "expected": "ثلاث وعشرون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 26,
+      "expected": "ستة وعشرون"
+    },
+    {
+      "input": 28,
+      "expected": "ثمانية وعشرون"
+    },
+    {
+      "input": 28,
+      "expected": "ثمان وعشرون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 30,
+      "expected": "ثلاثون"
+    },
+    {
+      "input": 31,
+      "expected": "واحد وثلاثون"
+    },
+    {
+      "input": 40,
+      "expected": "أربعون"
+    },
+    {
+      "input": 44,
+      "expected": "أربعة وأربعون"
+    },
+    {
+      "input": 50,
+      "expected": "خمسون"
+    },
+    {
+      "input": 55,
+      "expected": "خمسة وخمسون"
+    },
+    {
+      "input": 60,
+      "expected": "ستون"
+    },
+    {
+      "input": 67,
+      "expected": "سبعة وستون"
+    },
+    {
+      "input": 70,
+      "expected": "سبعون"
+    },
+    {
+      "input": 79,
+      "expected": "تسعة وسبعون"
+    },
+    {
+      "input": 80,
+      "expected": "ثمانون"
+    },
+    {
+      "input": 89,
+      "expected": "تسعة وثمانون"
+    },
+    {
+      "input": 90,
+      "expected": "تسعون"
+    },
+    {
+      "input": 95,
+      "expected": "خمسة وتسعون"
+    },
+    {
+      "input": 99,
+      "expected": "تسعة وتسعون"
+    },
+    {
+      "input": 100,
+      "expected": "مئة"
+    },
+    {
+      "input": 101,
+      "expected": "مئة وواحد"
+    },
+    {
+      "input": 101,
+      "expected": "مئة وواحدة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "مئة واثنان"
+    },
+    {
+      "input": 110,
+      "expected": "مئة وعشرة"
+    },
+    {
+      "input": 110,
+      "expected": "مئة وعشر",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 111,
+      "expected": "مئة وأحد عشر"
+    },
+    {
+      "input": 120,
+      "expected": "مئة وعشرون"
+    },
+    {
+      "input": 130,
+      "expected": "مئة وثلاثون"
+    },
+    {
+      "input": 130,
+      "expected": "مئة وثلاثون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 190,
+      "expected": "مئة وتسعون"
+    },
+    {
+      "input": 198,
+      "expected": "مئة وثمانية وتسعون"
+    },
+    {
+      "input": 199,
+      "expected": "مئة وتسعة وتسعون"
+    },
+    {
+      "input": 200,
+      "expected": "مئتان"
+    },
+    {
+      "input": 203,
+      "expected": "مئتان وثلاثة"
+    },
+    {
+      "input": 287,
+      "expected": "مئتان وسبعة وثمانون"
+    },
+    {
+      "input": 356,
+      "expected": "ثلاثمئة وستة وخمسون"
+    },
+    {
+      "input": 400,
+      "expected": "أربعمئة"
+    },
+    {
+      "input": 434,
+      "expected": "أربعمئة وأربعة وثلاثون"
+    },
+    {
+      "input": 500,
+      "expected": "خمسمئة"
+    },
+    {
+      "input": 578,
+      "expected": "خمسمئة وثمانية وسبعون"
+    },
+    {
+      "input": 600,
+      "expected": "ستمئة"
+    },
+    {
+      "input": 689,
+      "expected": "ستمئة وتسعة وثمانون"
+    },
+    {
+      "input": 700,
+      "expected": "سبعمئة"
+    },
+    {
+      "input": 729,
+      "expected": "سبعمئة وتسعة وعشرون"
+    },
+    {
+      "input": 800,
+      "expected": "ثمانمئة"
+    },
+    {
+      "input": 810,
+      "expected": "ثمانمئة وعشرة"
+    },
+    {
+      "input": 820,
+      "expected": "ثمانمئة وعشرون"
+    },
+    {
+      "input": 823,
+      "expected": "ثمانمئة وثلاثة وعشرون"
+    },
+    {
+      "input": 833,
+      "expected": "ثمانمئة وثلاثة وثلاثون"
+    },
+    {
+      "input": 863,
+      "expected": "ثمانمئة وثلاثة وستون"
+    },
+    {
+      "input": 883,
+      "expected": "ثمانمئة وثلاثة وثمانون"
+    },
+    {
+      "input": 894,
+      "expected": "ثمانمئة وأربعة وتسعون"
+    },
+    {
+      "input": 900,
+      "expected": "تسعمئة"
+    },
+    {
+      "input": 999,
+      "expected": "تسعمئة وتسعة وتسعون"
+    },
+    {
+      "input": 1000,
+      "expected": "ألف"
+    },
+    {
+      "input": 1001,
+      "expected": "ألف وواحد"
+    },
+    {
+      "input": 1001,
+      "expected": "ألف وواحدة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1002,
+      "expected": "ألف واثنان"
+    },
+    {
+      "input": 1097,
+      "expected": "ألف وسبعة وتسعون"
+    },
+    {
+      "input": 1104,
+      "expected": "ألف ومئة وأربعة"
+    },
+    {
+      "input": 1243,
+      "expected": "ألف ومئتان وثلاثة وأربعون"
+    },
+    {
+      "input": 2000,
+      "expected": "ألفان"
+    },
+    {
+      "input": 2001,
+      "expected": "ألفان وواحد"
+    },
+    {
+      "input": 2385,
+      "expected": "ألفان وثلاثمئة وخمسة وثمانون"
+    },
+    {
+      "input": 3000,
+      "expected": "ثلاثة آلاف"
+    },
+    {
+      "input": 3000,
+      "expected": "ثلاثة آلاف",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 3003,
+      "expected": "ثلاثة آلاف وثلاث",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 3766,
+      "expected": "ثلاثة آلاف وسبعمئة وستة وستون"
+    },
+    {
+      "input": 4196,
+      "expected": "أربعة آلاف ومئة وستة وتسعون"
+    },
+    {
+      "input": 5846,
+      "expected": "خمسة آلاف وثمانمئة وستة وأربعون"
+    },
+    {
+      "input": 6459,
+      "expected": "ستة آلاف وأربعمئة وتسعة وخمسون"
+    },
+    {
+      "input": 7232,
+      "expected": "سبعة آلاف ومئتان واثنان وثلاثون"
+    },
+    {
+      "input": 8000,
+      "expected": "ثمانية آلاف"
+    },
+    {
+      "input": 8569,
+      "expected": "ثمانية آلاف وخمسمئة وتسعة وستون"
+    },
+    {
+      "input": 9539,
+      "expected": "تسعة آلاف وخمسمئة وتسعة وثلاثون"
+    },
+    {
+      "input": 10000,
+      "expected": "عشرة آلاف"
+    },
+    {
+      "input": 11000,
+      "expected": "أحد عشر ألفاً"
+    },
+    {
+      "input": 12000,
+      "expected": "اثنا عشر ألفاً"
+    },
+    {
+      "input": 13000,
+      "expected": "ثلاثة عشر ألفاً"
+    },
+    {
+      "input": 20000,
+      "expected": "عشرون ألفاً"
+    },
+    {
+      "input": 21000,
+      "expected": "واحد وعشرون ألفاً"
+    },
+    {
+      "input": 22000,
+      "expected": "اثنان وعشرون ألفاً"
+    },
+    {
+      "input": 23000,
+      "expected": "ثلاثة وعشرون ألفاً"
+    },
+    {
+      "input": 99000,
+      "expected": "تسعة وتسعون ألفاً"
+    },
+    {
+      "input": 100000,
+      "expected": "مئة ألف"
+    },
+    {
+      "input": 100001,
+      "expected": "مئة ألف وواحد"
+    },
+    {
+      "input": 101000,
+      "expected": "مئة ألف وألف"
+    },
+    {
+      "input": 102000,
+      "expected": "مئة ألف وألفان"
+    },
+    {
+      "input": 103000,
+      "expected": "مئة وثلاثة آلاف"
+    },
+    {
+      "input": 105000,
+      "expected": "مئة وخمسة آلاف"
+    },
+    {
+      "input": 110000,
+      "expected": "مئة وعشرة آلاف"
+    },
+    {
+      "input": 111000,
+      "expected": "مئة وأحد عشر ألفاً"
+    },
+    {
+      "input": 120000,
+      "expected": "مئة وعشرون ألفاً"
+    },
+    {
+      "input": 121000,
+      "expected": "مئة وواحد وعشرون ألفاً"
+    },
+    {
+      "input": 122000,
+      "expected": "مئة واثنان وعشرون ألفاً"
+    },
+    {
+      "input": 200000,
+      "expected": "مئتا ألف"
+    },
+    {
+      "input": 200200,
+      "expected": "مئتا ألف ومئتان"
+    },
+    {
+      "input": 201000,
+      "expected": "مئتا ألف وألف"
+    },
+    {
+      "input": 202000,
+      "expected": "مئتا ألف وألفان"
+    },
+    {
+      "input": 210000,
+      "expected": "مئتان وعشرة آلاف"
+    },
+    {
+      "input": 300000,
+      "expected": "ثلاثمئة ألف"
+    },
+    {
+      "input": 300200,
+      "expected": "ثلاثمئة ألف ومئتان"
+    },
+    {
+      "input": 999999,
+      "expected": "تسعمئة وتسعة وتسعون ألفاً وتسعمئة وتسعة وتسعون"
+    },
+    {
+      "input": 1000000,
+      "expected": "مليون"
+    },
+    {
+      "input": 1000001,
+      "expected": "مليون وواحد"
+    },
+    {
+      "input": 1001000,
+      "expected": "مليون وألف"
+    },
+    {
+      "input": 1500000,
+      "expected": "مليون وخمسمئة ألف"
+    },
+    {
+      "input": 2000000,
+      "expected": "مليونان"
+    },
+    {
+      "input": 2001000,
+      "expected": "مليونان وألف"
+    },
+    {
+      "input": 3000000,
+      "expected": "ثلاثة ملايين"
+    },
+    {
+      "input": 4000000,
+      "expected": "أربعة ملايين"
+    },
+    {
+      "input": 10000000,
+      "expected": "عشرة ملايين"
+    },
+    {
+      "input": 11000000,
+      "expected": "أحد عشر مليوناً"
+    },
+    {
+      "input": 12345678,
+      "expected": "اثنا عشر مليوناً وثلاثمئة وخمسة وأربعون ألفاً وستمئة وثمانية وسبعون"
+    },
+    {
+      "input": 100000000,
+      "expected": "مئة مليون"
+    },
+    {
+      "input": 200000000,
+      "expected": "مئتا مليون"
+    },
+    {
+      "input": 1000000000,
+      "expected": "مليار"
+    },
+    {
+      "input": 2000000000,
+      "expected": "ملياران"
+    },
+    {
+      "input": 3000000000,
+      "expected": "ثلاثة مليارات"
+    },
+    {
+      "input": 1000000000000,
+      "expected": "تريليون"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "عشرة تريليونات"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "مئة تريليون"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000"
+      },
+      "expected": "كوادريليون"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "كوينتليون"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000"
+      },
+      "expected": "سكستيليون"
+    },
+    {
+      "input": {
+        "bigint": "999999999999999999999999"
+      },
+      "expected": "تسعمئة وتسعة وتسعون سكستيليوناً وتسعمئة وتسعة وتسعون كوينتليوناً وتسعمئة وتسعة وتسعون كوادريليوناً وتسعمئة وتسعة وتسعون تريليوناً وتسعمئة وتسعة وتسعون ملياراً وتسعمئة وتسعة وتسعون مليوناً وتسعمئة وتسعة وتسعون ألفاً وتسعمئة وتسعة وتسعون"
+    },
+    {
+      "input": 100,
+      "expected": "مائة",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 200,
+      "expected": "مائتان",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 200,
+      "expected": "مائتين",
+      "options": {
+        "hundred_spelling": "مائة",
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 300,
+      "expected": "ثلاثمائة",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 999,
+      "expected": "تسعمائة وتسعة وتسعون",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 1100,
+      "expected": "ألف ومائة",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 200000,
+      "expected": "مائتا ألف",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "اثنين",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "اثنين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "اثنتين",
+      "options": {
+        "case": "genitive",
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 3,
+      "expected": "ثلاثة",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 8,
+      "expected": "ثماني",
+      "options": {
+        "case": "accusative",
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 8,
+      "expected": "ثمان",
+      "options": {
+        "case": "genitive",
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 12,
+      "expected": "اثني عشر",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 12,
+      "expected": "اثنتي عشرة",
+      "options": {
+        "case": "genitive",
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 20,
+      "expected": "عشرين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "واحد وعشرين",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "اثنين وعشرين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 28,
+      "expected": "ثماني وعشرين",
+      "options": {
+        "case": "accusative",
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 28,
+      "expected": "ثمان وعشرين",
+      "options": {
+        "case": "genitive",
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 99,
+      "expected": "تسعة وتسعين",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "مئة",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 200,
+      "expected": "مئتين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 202,
+      "expected": "مئتين واثنين",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 2000,
+      "expected": "ألفين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 2500,
+      "expected": "ألفين وخمسمئة",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 12000,
+      "expected": "اثني عشر ألفاً",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 22000,
+      "expected": "اثنين وعشرين ألفاً",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 200000,
+      "expected": "مئتي ألف",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 200200,
+      "expected": "مئتي ألف ومئتين",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 2000000,
+      "expected": "مليونين",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": -22,
+      "expected": "ناقص اثنين وعشرين",
+      "options": {
+        "case": "genitive"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "الأول"
+    },
+    {
+      "input": 2,
+      "expected": "الثاني"
+    },
+    {
+      "input": 3,
+      "expected": "الثالث"
+    },
+    {
+      "input": 4,
+      "expected": "الرابع"
+    },
+    {
+      "input": 5,
+      "expected": "الخامس"
+    },
+    {
+      "input": 6,
+      "expected": "السادس"
+    },
+    {
+      "input": 7,
+      "expected": "السابع"
+    },
+    {
+      "input": 8,
+      "expected": "الثامن"
+    },
+    {
+      "input": 9,
+      "expected": "التاسع"
+    },
+    {
+      "input": 10,
+      "expected": "العاشر"
+    },
+    {
+      "input": 1,
+      "expected": "الأولى",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "الثانية",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 3,
+      "expected": "الثالثة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "الخامسة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "العاشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 11,
+      "expected": "الحادي عشر"
+    },
+    {
+      "input": 11,
+      "expected": "الحادية عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 12,
+      "expected": "الثاني عشر"
+    },
+    {
+      "input": 12,
+      "expected": "الثانية عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 13,
+      "expected": "الثالث عشر"
+    },
+    {
+      "input": 13,
+      "expected": "الثالثة عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 19,
+      "expected": "التاسع عشر"
+    },
+    {
+      "input": 19,
+      "expected": "التاسعة عشرة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 20,
+      "expected": "العشرون"
+    },
+    {
+      "input": 20,
+      "expected": "العشرون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "الحادي والعشرون"
+    },
+    {
+      "input": 21,
+      "expected": "الحادية والعشرون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "الثاني والعشرون"
+    },
+    {
+      "input": 23,
+      "expected": "الثالث والعشرون"
+    },
+    {
+      "input": 30,
+      "expected": "الثلاثون"
+    },
+    {
+      "input": 31,
+      "expected": "الحادي والثلاثون"
+    },
+    {
+      "input": 42,
+      "expected": "الثاني والأربعون"
+    },
+    {
+      "input": 50,
+      "expected": "الخمسون"
+    },
+    {
+      "input": 99,
+      "expected": "التاسع والتسعون"
+    },
+    {
+      "input": 99,
+      "expected": "التاسعة والتسعون",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "المئة"
+    },
+    {
+      "input": 101,
+      "expected": "الحادي بعد المئة"
+    },
+    {
+      "input": 101,
+      "expected": "الحادية بعد المئة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "الثاني بعد المئة"
+    },
+    {
+      "input": 110,
+      "expected": "العاشر بعد المئة"
+    },
+    {
+      "input": 111,
+      "expected": "الحادي عشر بعد المئة"
+    },
+    {
+      "input": 120,
+      "expected": "العشرون بعد المئة"
+    },
+    {
+      "input": 121,
+      "expected": "الحادي والعشرون بعد المئة"
+    },
+    {
+      "input": 121,
+      "expected": "الحادية والعشرون بعد المئة",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 199,
+      "expected": "التاسع والتسعون بعد المئة"
+    },
+    {
+      "input": 200,
+      "expected": "المئتان"
+    },
+    {
+      "input": 201,
+      "expected": "الحادي بعد المئتين"
+    },
+    {
+      "input": 300,
+      "expected": "الثلاثمئة"
+    },
+    {
+      "input": 353,
+      "expected": "الثالث والخمسون بعد الثلاثمئة"
+    },
+    {
+      "input": 1000,
+      "expected": "الألف"
+    },
+    {
+      "input": 1001,
+      "expected": "الحادي بعد الألف"
+    },
+    {
+      "input": 1100,
+      "expected": "الألف والمئة"
+    },
+    {
+      "input": 1101,
+      "expected": "الحادي بعد الألف والمئة"
+    },
+    {
+      "input": 2000,
+      "expected": "الألفان"
+    },
+    {
+      "input": 2001,
+      "expected": "الحادي بعد الألفين"
+    },
+    {
+      "input": 3000,
+      "expected": "الثلاثة آلاف"
+    },
+    {
+      "input": 1000000,
+      "expected": "المليون"
+    },
+    {
+      "input": 100,
+      "expected": "المائة",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 121,
+      "expected": "الحادي والعشرون بعد المائة",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 201,
+      "expected": "الحادي بعد المائتين",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 20,
+      "expected": "العشرين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "الحادي والعشرين",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "الحادية والعشرين",
+      "options": {
+        "case": "genitive",
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 121,
+      "expected": "الحادي والعشرين بعد المئة",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 200,
+      "expected": "المئتين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 2000,
+      "expected": "الألفين",
+      "options": {
+        "case": "accusative"
+      }
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "صفر ريال"
+    },
+    {
+      "input": 1,
+      "expected": "ريال واحد"
+    },
+    {
+      "input": 2,
+      "expected": "ريالان"
+    },
+    {
+      "input": 3,
+      "expected": "ثلاثة ريالات"
+    },
+    {
+      "input": 5,
+      "expected": "خمسة ريالات"
+    },
+    {
+      "input": 8,
+      "expected": "ثمانية ريالات"
+    },
+    {
+      "input": 10,
+      "expected": "عشرة ريالات"
+    },
+    {
+      "input": 11,
+      "expected": "أحد عشر ريالاً"
+    },
+    {
+      "input": 12,
+      "expected": "اثنا عشر ريالاً"
+    },
+    {
+      "input": 20,
+      "expected": "عشرون ريالاً"
+    },
+    {
+      "input": 21,
+      "expected": "واحد وعشرون ريالاً"
+    },
+    {
+      "input": 22,
+      "expected": "اثنان وعشرون ريالاً"
+    },
+    {
+      "input": 99,
+      "expected": "تسعة وتسعون ريالاً"
+    },
+    {
+      "input": 100,
+      "expected": "مئة ريال"
+    },
+    {
+      "input": 101,
+      "expected": "مئة ريال وريال واحد"
+    },
+    {
+      "input": 102,
+      "expected": "مئة ريال وريالان"
+    },
+    {
+      "input": 103,
+      "expected": "مئة وثلاثة ريالات"
+    },
+    {
+      "input": 110,
+      "expected": "مئة وعشرة ريالات"
+    },
+    {
+      "input": 111,
+      "expected": "مئة وأحد عشر ريالاً"
+    },
+    {
+      "input": 150,
+      "expected": "مئة وخمسون ريالاً"
+    },
+    {
+      "input": 200,
+      "expected": "مئتا ريال"
+    },
+    {
+      "input": 201,
+      "expected": "مئتا ريال وريال واحد"
+    },
+    {
+      "input": 250,
+      "expected": "مئتان وخمسون ريالاً"
+    },
+    {
+      "input": 300,
+      "expected": "ثلاثمئة ريال"
+    },
+    {
+      "input": 1000,
+      "expected": "ألف ريال"
+    },
+    {
+      "input": 1001,
+      "expected": "ألف ريال وريال واحد"
+    },
+    {
+      "input": 1002,
+      "expected": "ألف ريال وريالان"
+    },
+    {
+      "input": 1003,
+      "expected": "ألف وثلاثة ريالات"
+    },
+    {
+      "input": 1100,
+      "expected": "ألف ومئة ريال"
+    },
+    {
+      "input": 1101,
+      "expected": "ألف ومئة ريال وريال واحد"
+    },
+    {
+      "input": 1500,
+      "expected": "ألف وخمسمئة ريال"
+    },
+    {
+      "input": 2000,
+      "expected": "ألفا ريال"
+    },
+    {
+      "input": 2001,
+      "expected": "ألفا ريال وريال واحد"
+    },
+    {
+      "input": 2500,
+      "expected": "ألفان وخمسمئة ريال"
+    },
+    {
+      "input": 3000,
+      "expected": "ثلاثة آلاف ريال"
+    },
+    {
+      "input": 3001,
+      "expected": "ثلاثة آلاف ريال وريال واحد"
+    },
+    {
+      "input": 10000,
+      "expected": "عشرة آلاف ريال"
+    },
+    {
+      "input": 11000,
+      "expected": "أحد عشر ألف ريال"
+    },
+    {
+      "input": 21000,
+      "expected": "واحد وعشرون ألف ريال"
+    },
+    {
+      "input": 21001,
+      "expected": "واحد وعشرون ألف ريال وريال واحد"
+    },
+    {
+      "input": 50000,
+      "expected": "خمسون ألف ريال"
+    },
+    {
+      "input": 100000,
+      "expected": "مئة ألف ريال"
+    },
+    {
+      "input": 100001,
+      "expected": "مئة ألف ريال وريال واحد"
+    },
+    {
+      "input": 101000,
+      "expected": "مئة ألف وألف ريال"
+    },
+    {
+      "input": 102000,
+      "expected": "مئة ألف وألفا ريال"
+    },
+    {
+      "input": 105000,
+      "expected": "مئة وخمسة آلاف ريال"
+    },
+    {
+      "input": 200000,
+      "expected": "مئتا ألف ريال"
+    },
+    {
+      "input": 1000000,
+      "expected": "مليون ريال"
+    },
+    {
+      "input": 1000001,
+      "expected": "مليون ريال وريال واحد"
+    },
+    {
+      "input": 1000101,
+      "expected": "مليون ومئة ريال وريال واحد"
+    },
+    {
+      "input": 1001000,
+      "expected": "مليون وألف ريال"
+    },
+    {
+      "input": 1500000,
+      "expected": "مليون وخمسمئة ألف ريال"
+    },
+    {
+      "input": 2000000,
+      "expected": "مليونا ريال"
+    },
+    {
+      "input": 3000000,
+      "expected": "ثلاثة ملايين ريال"
+    },
+    {
+      "input": 11000000,
+      "expected": "أحد عشر مليون ريال"
+    },
+    {
+      "input": 0.01,
+      "expected": "هللة واحدة"
+    },
+    {
+      "input": 0.02,
+      "expected": "هللتان"
+    },
+    {
+      "input": 0.03,
+      "expected": "ثلاث هللات"
+    },
+    {
+      "input": 0.05,
+      "expected": "خمس هللات"
+    },
+    {
+      "input": 0.08,
+      "expected": "ثماني هللات"
+    },
+    {
+      "input": 0.1,
+      "expected": "عشر هللات"
+    },
+    {
+      "input": 0.11,
+      "expected": "إحدى عشرة هللة"
+    },
+    {
+      "input": 0.12,
+      "expected": "اثنتا عشرة هللة"
+    },
+    {
+      "input": 0.13,
+      "expected": "ثلاث عشرة هللة"
+    },
+    {
+      "input": 0.21,
+      "expected": "إحدى وعشرون هللة"
+    },
+    {
+      "input": 0.25,
+      "expected": "خمس وعشرون هللة"
+    },
+    {
+      "input": 0.28,
+      "expected": "ثمان وعشرون هللة"
+    },
+    {
+      "input": 0.5,
+      "expected": "خمسون هللة"
+    },
+    {
+      "input": 0.99,
+      "expected": "تسع وتسعون هللة"
+    },
+    {
+      "input": 1.01,
+      "expected": "ريال واحد وهللة واحدة"
+    },
+    {
+      "input": 1.5,
+      "expected": "ريال واحد وخمسون هللة"
+    },
+    {
+      "input": 2.02,
+      "expected": "ريالان وهللتان"
+    },
+    {
+      "input": 42.5,
+      "expected": "اثنان وأربعون ريالاً وخمسون هللة"
+    },
+    {
+      "input": 100.99,
+      "expected": "مئة ريال وتسع وتسعون هللة"
+    },
+    {
+      "input": 1001.01,
+      "expected": "ألف ريال وريال واحد وهللة واحدة"
+    },
+    {
+      "input": -1,
+      "expected": "ناقص ريال واحد"
+    },
+    {
+      "input": -42.5,
+      "expected": "ناقص اثنان وأربعون ريالاً وخمسون هللة"
+    },
+    {
+      "input": "5.00",
+      "expected": "خمسة ريالات"
+    },
+    {
+      "input": 100,
+      "expected": "مائة ريال",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 200,
+      "expected": "مائتا ريال",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 500,
+      "expected": "خمسمائة ريال",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "مائة ريال وتسع وتسعون هللة",
+      "options": {
+        "hundred_spelling": "مائة"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "ريالين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "اثنين وعشرين ريالاً",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 200,
+      "expected": "مئتي ريال",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 2000,
+      "expected": "ألفي ريال",
+      "options": {
+        "case": "accusative"
+      }
+    },
+    {
+      "input": 2500,
+      "expected": "ألفين وخمسمئة ريال",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "ريالين وهللتين",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "اثنين وأربعين ريالاً وخمسين هللة",
+      "options": {
+        "case": "genitive"
+      }
+    },
+    {
+      "input": "1.500",
+      "expected": "دينار واحد وخمسمئة مليم",
+      "options": {
+        "currency": "TND"
+      }
+    },
+    {
+      "input": "1.101",
+      "expected": "دينار واحد ومئة مليم ومليم واحد",
+      "options": {
+        "currency": "TND"
+      }
+    },
+    {
+      "input": "2.002",
+      "expected": "ديناران ومليمان",
+      "options": {
+        "currency": "TND"
+      }
+    },
+    {
+      "input": "3.003",
+      "expected": "ثلاثة دنانير وثلاثة فلوس",
+      "options": {
+        "currency": "KWD"
+      }
+    },
+    {
+      "input": "11.011",
+      "expected": "أحد عشر ديناراً وأحد عشر فلساً",
+      "options": {
+        "currency": "KWD"
+      }
+    },
+    {
+      "input": "3.003",
+      "expected": "ثلاثة ريالات وثلاث بيسات",
+      "options": {
+        "currency": "OMR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "دينار واحد",
+      "options": {
+        "currency": "JOD"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ألف دينار",
+      "options": {
+        "currency": "IQD"
+      }
+    },
+    {
+      "input": "2.500",
+      "expected": "ديناران وخمسمئة درهم",
+      "options": {
+        "currency": "LYD"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "دينارين",
+      "options": {
+        "currency": "BHD",
+        "case": "genitive"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "درهم واحد",
+      "options": {
+        "currency": "MAD"
+      }
+    },
+    {
+      "input": "2.02",
+      "expected": "درهمان وسنتيمان",
+      "options": {
+        "currency": "MAD"
+      }
+    },
+    {
+      "input": "3.03",
+      "expected": "ثلاثة دراهم وثلاثة سنتيمات",
+      "options": {
+        "currency": "MAD"
+      }
+    },
+    {
+      "input": "11.11",
+      "expected": "أحد عشر درهماً وأحد عشر سنتيماً",
+      "options": {
+        "currency": "MAD"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "اثنان وأربعون درهماً وخمسون سنتيماً",
+      "options": {
+        "currency": "MAD"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "مئة دينار",
+      "options": {
+        "currency": "DZD"
+      }
+    },
+    {
+      "input": "3.03",
+      "expected": "ثلاثة دراهم وثلاثة فلوس",
+      "options": {
+        "currency": "AED"
+      }
+    },
+    {
+      "input": "2.02",
+      "expected": "ريالان ودرهمان",
+      "options": {
+        "currency": "QAR"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "واحد وعشرون ريالاً",
+      "options": {
+        "currency": "YER"
+      }
+    },
+    {
+      "input": "1.01",
+      "expected": "جنيه واحد وقرش واحد",
+      "options": {
+        "currency": "EGP"
+      }
+    },
+    {
+      "input": "3.03",
+      "expected": "ثلاثة جنيهات وثلاثة قروش",
+      "options": {
+        "currency": "EGP"
+      }
+    },
+    {
+      "input": "11.11",
+      "expected": "أحد عشر جنيهاً وأحد عشر قرشاً",
+      "options": {
+        "currency": "EGP"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ألف جنيه",
+      "options": {
+        "currency": "SDG"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "ليرة واحدة",
+      "options": {
+        "currency": "LBP"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "ليرتان",
+      "options": {
+        "currency": "LBP"
+      }
+    },
+    {
+      "input": 3,
+      "expected": "ثلاث ليرات",
+      "options": {
+        "currency": "LBP"
+      }
+    },
+    {
+      "input": 8,
+      "expected": "ثماني ليرات",
+      "options": {
+        "currency": "LBP"
+      }
+    },
+    {
+      "input": 11,
+      "expected": "إحدى عشرة ليرة",
+      "options": {
+        "currency": "LBP"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "إحدى وعشرون ليرة",
+      "options": {
+        "currency": "SYP"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "ألف ليرة وليرة واحدة",
+      "options": {
+        "currency": "SYP"
+      }
+    }
+  ]
+}

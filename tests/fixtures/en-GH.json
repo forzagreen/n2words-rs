@@ -1,0 +1,132 @@
+{
+  "code": "en-GH",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "one"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-one"
+    },
+    {
+      "input": 42,
+      "expected": "forty-two"
+    },
+    {
+      "input": 100,
+      "expected": "one hundred"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and one"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousand"
+    },
+    {
+      "input": 1001,
+      "expected": "one thousand and one"
+    },
+    {
+      "input": 1000000,
+      "expected": "one million"
+    },
+    {
+      "input": -42,
+      "expected": "minus forty-two"
+    },
+    {
+      "input": 3.14,
+      "expected": "three point fourteen"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "first"
+    },
+    {
+      "input": 2,
+      "expected": "second"
+    },
+    {
+      "input": 3,
+      "expected": "third"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-first"
+    },
+    {
+      "input": 42,
+      "expected": "forty-second"
+    },
+    {
+      "input": 100,
+      "expected": "one hundredth"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and first"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousandth"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero cedis"
+    },
+    {
+      "input": 1,
+      "expected": "one cedi"
+    },
+    {
+      "input": 2,
+      "expected": "two cedis"
+    },
+    {
+      "input": 0.01,
+      "expected": "one pesewa"
+    },
+    {
+      "input": 0.02,
+      "expected": "two pesewas"
+    },
+    {
+      "input": 0.5,
+      "expected": "fifty pesewas"
+    },
+    {
+      "input": 1.01,
+      "expected": "one cedi and one pesewa"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two cedis and fifty pesewas"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus forty-two cedis and fifty pesewas"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two cedis fifty pesewas",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 5,
+      "expected": "five cedis"
+    }
+  ]
+}

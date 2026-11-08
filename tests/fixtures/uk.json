@@ -1,0 +1,646 @@
+{
+  "code": "uk",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "нуль кома нуль один"
+    },
+    {
+      "input": 1.007,
+      "expected": "один кома нуль нуль сiм"
+    },
+    {
+      "input": 1.7,
+      "expected": "один кома сiм"
+    },
+    {
+      "input": 17.42,
+      "expected": "сiмнадцять кома сорок два"
+    },
+    {
+      "input": 27.312,
+      "expected": "двадцять сiм кома триста дванадцять"
+    },
+    {
+      "input": 53.486,
+      "expected": "п'ятдесят три кома чотириста вiсiмдесят шiсть"
+    },
+    {
+      "input": 300.42,
+      "expected": "триста кома сорок два"
+    },
+    {
+      "input": 4196.42,
+      "expected": "чотири тисячi сто дев'яносто шiсть кома сорок два"
+    },
+    {
+      "input": -17.42,
+      "expected": "мiнус сiмнадцять кома сорок два"
+    },
+    {
+      "input": -1,
+      "expected": "мiнус один"
+    },
+    {
+      "input": -20,
+      "expected": "мiнус двадцять"
+    },
+    {
+      "input": 0,
+      "expected": "нуль"
+    },
+    {
+      "input": 1,
+      "expected": "один"
+    },
+    {
+      "input": 2,
+      "expected": "два"
+    },
+    {
+      "input": 3,
+      "expected": "три"
+    },
+    {
+      "input": 11,
+      "expected": "одинадцять"
+    },
+    {
+      "input": 12,
+      "expected": "дванадцять"
+    },
+    {
+      "input": 16,
+      "expected": "шiстнадцять"
+    },
+    {
+      "input": 19,
+      "expected": "дев'ятнадцять"
+    },
+    {
+      "input": 20,
+      "expected": "двадцять"
+    },
+    {
+      "input": 21,
+      "expected": "двадцять один"
+    },
+    {
+      "input": 26,
+      "expected": "двадцять шiсть"
+    },
+    {
+      "input": 28,
+      "expected": "двадцять вiсiм"
+    },
+    {
+      "input": 30,
+      "expected": "тридцять"
+    },
+    {
+      "input": 31,
+      "expected": "тридцять один"
+    },
+    {
+      "input": 40,
+      "expected": "сорок"
+    },
+    {
+      "input": 44,
+      "expected": "сорок чотири"
+    },
+    {
+      "input": 50,
+      "expected": "п'ятдесят"
+    },
+    {
+      "input": 55,
+      "expected": "п'ятдесят п'ять"
+    },
+    {
+      "input": 60,
+      "expected": "шiстдесят"
+    },
+    {
+      "input": 67,
+      "expected": "шiстдесят сiм"
+    },
+    {
+      "input": 70,
+      "expected": "сiмдесят"
+    },
+    {
+      "input": 79,
+      "expected": "сiмдесят дев'ять"
+    },
+    {
+      "input": 89,
+      "expected": "вiсiмдесят дев'ять"
+    },
+    {
+      "input": 95,
+      "expected": "дев'яносто п'ять"
+    },
+    {
+      "input": 100,
+      "expected": "сто"
+    },
+    {
+      "input": 101,
+      "expected": "сто один"
+    },
+    {
+      "input": 199,
+      "expected": "сто дев'яносто дев'ять"
+    },
+    {
+      "input": 203,
+      "expected": "двiстi три"
+    },
+    {
+      "input": 287,
+      "expected": "двiстi вiсiмдесят сiм"
+    },
+    {
+      "input": 356,
+      "expected": "триста п'ятдесят шiсть"
+    },
+    {
+      "input": 400,
+      "expected": "чотириста"
+    },
+    {
+      "input": 434,
+      "expected": "чотириста тридцять чотири"
+    },
+    {
+      "input": 578,
+      "expected": "п'ятсот сiмдесят вiсiм"
+    },
+    {
+      "input": 689,
+      "expected": "шiстсот вiсiмдесят дев'ять"
+    },
+    {
+      "input": 729,
+      "expected": "сiмсот двадцять дев'ять"
+    },
+    {
+      "input": 894,
+      "expected": "вiсiмсот дев'яносто чотири"
+    },
+    {
+      "input": 999,
+      "expected": "дев'ятсот дев'яносто дев'ять"
+    },
+    {
+      "input": 1000,
+      "expected": "одна тисяча"
+    },
+    {
+      "input": 1001,
+      "expected": "одна тисяча один"
+    },
+    {
+      "input": 1097,
+      "expected": "одна тисяча дев'яносто сiм"
+    },
+    {
+      "input": 1104,
+      "expected": "одна тисяча сто чотири"
+    },
+    {
+      "input": 1243,
+      "expected": "одна тисяча двiстi сорок три"
+    },
+    {
+      "input": 2385,
+      "expected": "двi тисячi триста вiсiмдесят п'ять"
+    },
+    {
+      "input": 3766,
+      "expected": "три тисячi сiмсот шiстдесят шiсть"
+    },
+    {
+      "input": 4196,
+      "expected": "чотири тисячi сто дев'яносто шiсть"
+    },
+    {
+      "input": 5846,
+      "expected": "п'ять тисяч вiсiмсот сорок шiсть"
+    },
+    {
+      "input": 6459,
+      "expected": "шiсть тисяч чотириста п'ятдесят дев'ять"
+    },
+    {
+      "input": 7232,
+      "expected": "сiм тисяч двiстi тридцять два"
+    },
+    {
+      "input": 8569,
+      "expected": "вiсiм тисяч п'ятсот шiстдесят дев'ять"
+    },
+    {
+      "input": 9539,
+      "expected": "дев'ять тисяч п'ятсот тридцять дев'ять"
+    },
+    {
+      "input": 1000000,
+      "expected": "один мiльйон"
+    },
+    {
+      "input": 1000001,
+      "expected": "один мiльйон один"
+    },
+    {
+      "input": 4000000,
+      "expected": "чотири мiльйони"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "десять трильйонiв"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "сто трильйонiв"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "один квiнтильйон"
+    },
+    {
+      "input": 1,
+      "expected": "одна",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "двi",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "двадцять одна",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "двадцять двi",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 101,
+      "expected": "сто одна",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "сто двi",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "одна тисяча одна",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1002,
+      "expected": "одна тисяча двi",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2001,
+      "expected": "двi тисячi одна",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2002,
+      "expected": "двi тисячi двi",
+      "options": {
+        "gender": "feminine"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "перший"
+    },
+    {
+      "input": 2,
+      "expected": "другий"
+    },
+    {
+      "input": 3,
+      "expected": "третiй"
+    },
+    {
+      "input": 4,
+      "expected": "четвертий"
+    },
+    {
+      "input": 5,
+      "expected": "п'ятий"
+    },
+    {
+      "input": 6,
+      "expected": "шостий"
+    },
+    {
+      "input": 7,
+      "expected": "сьомий"
+    },
+    {
+      "input": 8,
+      "expected": "восьмий"
+    },
+    {
+      "input": 9,
+      "expected": "дев'ятий"
+    },
+    {
+      "input": 10,
+      "expected": "десятий"
+    },
+    {
+      "input": 11,
+      "expected": "одинадцятий"
+    },
+    {
+      "input": 12,
+      "expected": "дванадцятий"
+    },
+    {
+      "input": 15,
+      "expected": "п'ятнадцятий"
+    },
+    {
+      "input": 19,
+      "expected": "дев'ятнадцятий"
+    },
+    {
+      "input": 20,
+      "expected": "двадцятий"
+    },
+    {
+      "input": 21,
+      "expected": "двадцять перший"
+    },
+    {
+      "input": 30,
+      "expected": "тридцятий"
+    },
+    {
+      "input": 40,
+      "expected": "сороковий"
+    },
+    {
+      "input": 42,
+      "expected": "сорок другий"
+    },
+    {
+      "input": 99,
+      "expected": "дев'яносто дев'ятий"
+    },
+    {
+      "input": 100,
+      "expected": "сотий"
+    },
+    {
+      "input": 101,
+      "expected": "сто перший"
+    },
+    {
+      "input": 200,
+      "expected": "двохсотий"
+    },
+    {
+      "input": 1000,
+      "expected": "тисячний"
+    },
+    {
+      "input": 1001,
+      "expected": "одна тисяча перший"
+    },
+    {
+      "input": 2000,
+      "expected": "двi тисячний"
+    },
+    {
+      "input": 1000000,
+      "expected": "мiльйонний"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "нуль гривень",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "одна гривня",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "двi гривнi",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 3,
+      "expected": "три гривнi",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 4,
+      "expected": "чотири гривнi",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "п'ять гривень",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "десять гривень",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "двадцять одна гривня",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "двадцять двi гривнi",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "сорок двi гривнi",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "сто гривень",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "одна тисяча гривень",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "одна копiйка",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "двi копiйки",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "п'ять копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "двадцять п'ять копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "п'ятдесят копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "дев'яносто дев'ять копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "одна гривня одна копiйка",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "одна гривня п'ятдесят копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "двi гривнi двi копiйки",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 5.05,
+      "expected": "п'ять гривень п'ять копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "сорок двi гривнi п'ятдесят копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "сто гривень дев'яносто дев'ять копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "мiнус одна гривня",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "мiнус сорок двi гривнi п'ятдесят копiйок",
+      "options": {
+        "currency": "UAH"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "п'ять гривень",
+      "options": {
+        "currency": "UAH"
+      }
+    }
+  ]
+}

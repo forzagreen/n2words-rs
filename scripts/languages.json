@@ -1,0 +1,828 @@
+[
+  {
+    "code": "am-ET",
+    "module": "am_et",
+    "kind": "full",
+    "target": null,
+    "name": "Amharic (Ethiopia)"
+  },
+  {
+    "code": "am-Latn-ET",
+    "module": "am_latn_et",
+    "kind": "full",
+    "target": null,
+    "name": "Amharic (Latin, Ethiopia)"
+  },
+  {
+    "code": "ar",
+    "module": "ar",
+    "kind": "alias",
+    "target": "ar-SA",
+    "name": "Arabic"
+  },
+  {
+    "code": "ar-SA",
+    "module": "ar_sa",
+    "kind": "full",
+    "target": null,
+    "name": "Arabic (Saudi Arabia)"
+  },
+  {
+    "code": "az",
+    "module": "az",
+    "kind": "alias",
+    "target": "az-AZ",
+    "name": "Azerbaijani"
+  },
+  {
+    "code": "az-AZ",
+    "module": "az_az",
+    "kind": "full",
+    "target": null,
+    "name": "Azerbaijani (Azerbaijan)"
+  },
+  {
+    "code": "bn",
+    "module": "bn",
+    "kind": "alias",
+    "target": "bn-BD",
+    "name": "Bangla"
+  },
+  {
+    "code": "bn-BD",
+    "module": "bn_bd",
+    "kind": "full",
+    "target": null,
+    "name": "Bangla (Bangladesh)"
+  },
+  {
+    "code": "cs",
+    "module": "cs",
+    "kind": "alias",
+    "target": "cs-CZ",
+    "name": "Czech"
+  },
+  {
+    "code": "cs-CZ",
+    "module": "cs_cz",
+    "kind": "full",
+    "target": null,
+    "name": "Czech (Czechia)"
+  },
+  {
+    "code": "da",
+    "module": "da",
+    "kind": "alias",
+    "target": "da-DK",
+    "name": "Danish"
+  },
+  {
+    "code": "da-DK",
+    "module": "da_dk",
+    "kind": "full",
+    "target": null,
+    "name": "Danish (Denmark)"
+  },
+  {
+    "code": "de",
+    "module": "de",
+    "kind": "alias",
+    "target": "de-DE",
+    "name": "German"
+  },
+  {
+    "code": "de-DE",
+    "module": "de_de",
+    "kind": "full",
+    "target": null,
+    "name": "German (Germany)"
+  },
+  {
+    "code": "el",
+    "module": "el",
+    "kind": "alias",
+    "target": "el-GR",
+    "name": "Greek"
+  },
+  {
+    "code": "el-GR",
+    "module": "el_gr",
+    "kind": "full",
+    "target": null,
+    "name": "Greek (Greece)"
+  },
+  {
+    "code": "en",
+    "module": "en",
+    "kind": "alias",
+    "target": "en-US",
+    "name": "English"
+  },
+  {
+    "code": "en-AU",
+    "module": "en_au",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "Australian English"
+  },
+  {
+    "code": "en-BD",
+    "module": "en_bd",
+    "kind": "profile",
+    "target": "en-IN",
+    "name": "English (Bangladesh)"
+  },
+  {
+    "code": "en-CA",
+    "module": "en_ca",
+    "kind": "full",
+    "target": null,
+    "name": "Canadian English"
+  },
+  {
+    "code": "en-GB",
+    "module": "en_gb",
+    "kind": "full",
+    "target": null,
+    "name": "British English"
+  },
+  {
+    "code": "en-GH",
+    "module": "en_gh",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (Ghana)"
+  },
+  {
+    "code": "en-IE",
+    "module": "en_ie",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (Ireland)"
+  },
+  {
+    "code": "en-IN",
+    "module": "en_in",
+    "kind": "full",
+    "target": null,
+    "name": "English (India)"
+  },
+  {
+    "code": "en-KE",
+    "module": "en_ke",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (Kenya)"
+  },
+  {
+    "code": "en-MY",
+    "module": "en_my",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (Malaysia)"
+  },
+  {
+    "code": "en-NG",
+    "module": "en_ng",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (Nigeria)"
+  },
+  {
+    "code": "en-NZ",
+    "module": "en_nz",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (New Zealand)"
+  },
+  {
+    "code": "en-PH",
+    "module": "en_ph",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (Philippines)"
+  },
+  {
+    "code": "en-PK",
+    "module": "en_pk",
+    "kind": "profile",
+    "target": "en-IN",
+    "name": "English (Pakistan)"
+  },
+  {
+    "code": "en-SG",
+    "module": "en_sg",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (Singapore)"
+  },
+  {
+    "code": "en-US",
+    "module": "en_us",
+    "kind": "full",
+    "target": null,
+    "name": "American English"
+  },
+  {
+    "code": "en-ZA",
+    "module": "en_za",
+    "kind": "profile",
+    "target": "en-GB",
+    "name": "English (South Africa)"
+  },
+  {
+    "code": "es",
+    "module": "es",
+    "kind": "alias",
+    "target": "es-ES",
+    "name": "Spanish"
+  },
+  {
+    "code": "es-ES",
+    "module": "es_es",
+    "kind": "full",
+    "target": null,
+    "name": "European Spanish"
+  },
+  {
+    "code": "es-MX",
+    "module": "es_mx",
+    "kind": "profile",
+    "target": "es-ES",
+    "name": "Mexican Spanish"
+  },
+  {
+    "code": "es-US",
+    "module": "es_us",
+    "kind": "full",
+    "target": null,
+    "name": "Spanish (United States)"
+  },
+  {
+    "code": "fa",
+    "module": "fa",
+    "kind": "alias",
+    "target": "fa-IR",
+    "name": "Persian"
+  },
+  {
+    "code": "fa-IR",
+    "module": "fa_ir",
+    "kind": "full",
+    "target": null,
+    "name": "Persian (Iran)"
+  },
+  {
+    "code": "fi",
+    "module": "fi",
+    "kind": "alias",
+    "target": "fi-FI",
+    "name": "Finnish"
+  },
+  {
+    "code": "fi-FI",
+    "module": "fi_fi",
+    "kind": "full",
+    "target": null,
+    "name": "Finnish (Finland)"
+  },
+  {
+    "code": "fil",
+    "module": "fil",
+    "kind": "alias",
+    "target": "fil-PH",
+    "name": "Filipino"
+  },
+  {
+    "code": "fil-PH",
+    "module": "fil_ph",
+    "kind": "full",
+    "target": null,
+    "name": "Filipino (Philippines)"
+  },
+  {
+    "code": "fr",
+    "module": "fr",
+    "kind": "alias",
+    "target": "fr-FR",
+    "name": "French"
+  },
+  {
+    "code": "fr-BE",
+    "module": "fr_be",
+    "kind": "full",
+    "target": null,
+    "name": "French (Belgium)"
+  },
+  {
+    "code": "fr-FR",
+    "module": "fr_fr",
+    "kind": "full",
+    "target": null,
+    "name": "French (France)"
+  },
+  {
+    "code": "gu",
+    "module": "gu",
+    "kind": "alias",
+    "target": "gu-IN",
+    "name": "Gujarati"
+  },
+  {
+    "code": "gu-IN",
+    "module": "gu_in",
+    "kind": "full",
+    "target": null,
+    "name": "Gujarati (India)"
+  },
+  {
+    "code": "ha",
+    "module": "ha",
+    "kind": "alias",
+    "target": "ha-NG",
+    "name": "Hausa"
+  },
+  {
+    "code": "ha-NG",
+    "module": "ha_ng",
+    "kind": "full",
+    "target": null,
+    "name": "Hausa (Nigeria)"
+  },
+  {
+    "code": "hbo",
+    "module": "hbo",
+    "kind": "alias",
+    "target": "hbo-IL",
+    "name": "Biblical Hebrew"
+  },
+  {
+    "code": "hbo-IL",
+    "module": "hbo_il",
+    "kind": "full",
+    "target": null,
+    "name": "Biblical Hebrew (Israel)"
+  },
+  {
+    "code": "he",
+    "module": "he",
+    "kind": "alias",
+    "target": "he-IL",
+    "name": "Hebrew"
+  },
+  {
+    "code": "he-IL",
+    "module": "he_il",
+    "kind": "full",
+    "target": null,
+    "name": "Hebrew (Israel)"
+  },
+  {
+    "code": "hi",
+    "module": "hi",
+    "kind": "alias",
+    "target": "hi-IN",
+    "name": "Hindi"
+  },
+  {
+    "code": "hi-IN",
+    "module": "hi_in",
+    "kind": "full",
+    "target": null,
+    "name": "Hindi (India)"
+  },
+  {
+    "code": "hr",
+    "module": "hr",
+    "kind": "alias",
+    "target": "hr-HR",
+    "name": "Croatian"
+  },
+  {
+    "code": "hr-HR",
+    "module": "hr_hr",
+    "kind": "full",
+    "target": null,
+    "name": "Croatian (Croatia)"
+  },
+  {
+    "code": "hu",
+    "module": "hu",
+    "kind": "alias",
+    "target": "hu-HU",
+    "name": "Hungarian"
+  },
+  {
+    "code": "hu-HU",
+    "module": "hu_hu",
+    "kind": "full",
+    "target": null,
+    "name": "Hungarian (Hungary)"
+  },
+  {
+    "code": "id",
+    "module": "id",
+    "kind": "alias",
+    "target": "id-ID",
+    "name": "Indonesian"
+  },
+  {
+    "code": "id-ID",
+    "module": "id_id",
+    "kind": "full",
+    "target": null,
+    "name": "Indonesian (Indonesia)"
+  },
+  {
+    "code": "it",
+    "module": "it",
+    "kind": "alias",
+    "target": "it-IT",
+    "name": "Italian"
+  },
+  {
+    "code": "it-IT",
+    "module": "it_it",
+    "kind": "full",
+    "target": null,
+    "name": "Italian (Italy)"
+  },
+  {
+    "code": "ja",
+    "module": "ja",
+    "kind": "alias",
+    "target": "ja-JP",
+    "name": "Japanese"
+  },
+  {
+    "code": "ja-JP",
+    "module": "ja_jp",
+    "kind": "full",
+    "target": null,
+    "name": "Japanese (Japan)"
+  },
+  {
+    "code": "ka",
+    "module": "ka",
+    "kind": "alias",
+    "target": "ka-GE",
+    "name": "Georgian"
+  },
+  {
+    "code": "ka-GE",
+    "module": "ka_ge",
+    "kind": "full",
+    "target": null,
+    "name": "Georgian (Georgia)"
+  },
+  {
+    "code": "kn",
+    "module": "kn",
+    "kind": "alias",
+    "target": "kn-IN",
+    "name": "Kannada"
+  },
+  {
+    "code": "kn-IN",
+    "module": "kn_in",
+    "kind": "full",
+    "target": null,
+    "name": "Kannada (India)"
+  },
+  {
+    "code": "ko",
+    "module": "ko",
+    "kind": "alias",
+    "target": "ko-KR",
+    "name": "Korean"
+  },
+  {
+    "code": "ko-KR",
+    "module": "ko_kr",
+    "kind": "full",
+    "target": null,
+    "name": "Korean (South Korea)"
+  },
+  {
+    "code": "lt",
+    "module": "lt",
+    "kind": "alias",
+    "target": "lt-LT",
+    "name": "Lithuanian"
+  },
+  {
+    "code": "lt-LT",
+    "module": "lt_lt",
+    "kind": "full",
+    "target": null,
+    "name": "Lithuanian (Lithuania)"
+  },
+  {
+    "code": "lv",
+    "module": "lv",
+    "kind": "alias",
+    "target": "lv-LV",
+    "name": "Latvian"
+  },
+  {
+    "code": "lv-LV",
+    "module": "lv_lv",
+    "kind": "full",
+    "target": null,
+    "name": "Latvian (Latvia)"
+  },
+  {
+    "code": "mr",
+    "module": "mr",
+    "kind": "alias",
+    "target": "mr-IN",
+    "name": "Marathi"
+  },
+  {
+    "code": "mr-IN",
+    "module": "mr_in",
+    "kind": "full",
+    "target": null,
+    "name": "Marathi (India)"
+  },
+  {
+    "code": "ms",
+    "module": "ms",
+    "kind": "alias",
+    "target": "ms-MY",
+    "name": "Malay"
+  },
+  {
+    "code": "ms-MY",
+    "module": "ms_my",
+    "kind": "full",
+    "target": null,
+    "name": "Malay (Malaysia)"
+  },
+  {
+    "code": "nb",
+    "module": "nb",
+    "kind": "alias",
+    "target": "nb-NO",
+    "name": "Norwegian Bokmål"
+  },
+  {
+    "code": "nb-NO",
+    "module": "nb_no",
+    "kind": "full",
+    "target": null,
+    "name": "Norwegian Bokmål (Norway)"
+  },
+  {
+    "code": "nl",
+    "module": "nl",
+    "kind": "alias",
+    "target": "nl-NL",
+    "name": "Dutch"
+  },
+  {
+    "code": "nl-NL",
+    "module": "nl_nl",
+    "kind": "full",
+    "target": null,
+    "name": "Dutch (Netherlands)"
+  },
+  {
+    "code": "pa",
+    "module": "pa",
+    "kind": "alias",
+    "target": "pa-IN",
+    "name": "Punjabi"
+  },
+  {
+    "code": "pa-IN",
+    "module": "pa_in",
+    "kind": "full",
+    "target": null,
+    "name": "Punjabi (India)"
+  },
+  {
+    "code": "pl",
+    "module": "pl",
+    "kind": "alias",
+    "target": "pl-PL",
+    "name": "Polish"
+  },
+  {
+    "code": "pl-PL",
+    "module": "pl_pl",
+    "kind": "full",
+    "target": null,
+    "name": "Polish (Poland)"
+  },
+  {
+    "code": "pt-BR",
+    "module": "pt_br",
+    "kind": "full",
+    "target": null,
+    "name": "Brazilian Portuguese"
+  },
+  {
+    "code": "pt-PT",
+    "module": "pt_pt",
+    "kind": "full",
+    "target": null,
+    "name": "European Portuguese"
+  },
+  {
+    "code": "ro",
+    "module": "ro",
+    "kind": "alias",
+    "target": "ro-RO",
+    "name": "Romanian"
+  },
+  {
+    "code": "ro-RO",
+    "module": "ro_ro",
+    "kind": "full",
+    "target": null,
+    "name": "Romanian (Romania)"
+  },
+  {
+    "code": "ru",
+    "module": "ru",
+    "kind": "alias",
+    "target": "ru-RU",
+    "name": "Russian"
+  },
+  {
+    "code": "ru-RU",
+    "module": "ru_ru",
+    "kind": "full",
+    "target": null,
+    "name": "Russian (Russia)"
+  },
+  {
+    "code": "sr-Cyrl-RS",
+    "module": "sr_cyrl_rs",
+    "kind": "full",
+    "target": null,
+    "name": "Serbian (Cyrillic, Serbia)"
+  },
+  {
+    "code": "sr-Latn-RS",
+    "module": "sr_latn_rs",
+    "kind": "full",
+    "target": null,
+    "name": "Serbian (Latin, Serbia)"
+  },
+  {
+    "code": "sv",
+    "module": "sv",
+    "kind": "alias",
+    "target": "sv-SE",
+    "name": "Swedish"
+  },
+  {
+    "code": "sv-SE",
+    "module": "sv_se",
+    "kind": "full",
+    "target": null,
+    "name": "Swedish (Sweden)"
+  },
+  {
+    "code": "sw",
+    "module": "sw",
+    "kind": "alias",
+    "target": "sw-KE",
+    "name": "Swahili"
+  },
+  {
+    "code": "sw-KE",
+    "module": "sw_ke",
+    "kind": "full",
+    "target": null,
+    "name": "Swahili (Kenya)"
+  },
+  {
+    "code": "ta",
+    "module": "ta",
+    "kind": "alias",
+    "target": "ta-IN",
+    "name": "Tamil"
+  },
+  {
+    "code": "ta-IN",
+    "module": "ta_in",
+    "kind": "full",
+    "target": null,
+    "name": "Tamil (India)"
+  },
+  {
+    "code": "te",
+    "module": "te",
+    "kind": "alias",
+    "target": "te-IN",
+    "name": "Telugu"
+  },
+  {
+    "code": "te-IN",
+    "module": "te_in",
+    "kind": "full",
+    "target": null,
+    "name": "Telugu (India)"
+  },
+  {
+    "code": "th",
+    "module": "th",
+    "kind": "alias",
+    "target": "th-TH",
+    "name": "Thai"
+  },
+  {
+    "code": "th-TH",
+    "module": "th_th",
+    "kind": "full",
+    "target": null,
+    "name": "Thai (Thailand)"
+  },
+  {
+    "code": "tr",
+    "module": "tr",
+    "kind": "alias",
+    "target": "tr-TR",
+    "name": "Turkish"
+  },
+  {
+    "code": "tr-TR",
+    "module": "tr_tr",
+    "kind": "full",
+    "target": null,
+    "name": "Turkish (Türkiye)"
+  },
+  {
+    "code": "uk",
+    "module": "uk",
+    "kind": "alias",
+    "target": "uk-UA",
+    "name": "Ukrainian"
+  },
+  {
+    "code": "uk-UA",
+    "module": "uk_ua",
+    "kind": "full",
+    "target": null,
+    "name": "Ukrainian (Ukraine)"
+  },
+  {
+    "code": "ur",
+    "module": "ur",
+    "kind": "alias",
+    "target": "ur-PK",
+    "name": "Urdu"
+  },
+  {
+    "code": "ur-PK",
+    "module": "ur_pk",
+    "kind": "full",
+    "target": null,
+    "name": "Urdu (Pakistan)"
+  },
+  {
+    "code": "vi",
+    "module": "vi",
+    "kind": "alias",
+    "target": "vi-VN",
+    "name": "Vietnamese"
+  },
+  {
+    "code": "vi-VN",
+    "module": "vi_vn",
+    "kind": "full",
+    "target": null,
+    "name": "Vietnamese (Vietnam)"
+  },
+  {
+    "code": "yo",
+    "module": "yo",
+    "kind": "alias",
+    "target": "yo-NG",
+    "name": "Yoruba"
+  },
+  {
+    "code": "yo-NG",
+    "module": "yo_ng",
+    "kind": "full",
+    "target": null,
+    "name": "Yoruba (Nigeria)"
+  },
+  {
+    "code": "zh-Hans-CN",
+    "module": "zh_hans_cn",
+    "kind": "full",
+    "target": null,
+    "name": "Chinese (Simplified, China)"
+  },
+  {
+    "code": "zh-Hant-TW",
+    "module": "zh_hant_tw",
+    "kind": "full",
+    "target": null,
+    "name": "Chinese (Traditional, Taiwan)"
+  }
+]

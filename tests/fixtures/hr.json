@@ -1,0 +1,648 @@
+{
+  "code": "hr",
+  "cardinal": [
+    {
+      "input": 0.007,
+      "expected": "nula zarez nula nula sedam"
+    },
+    {
+      "input": 0.01,
+      "expected": "nula zarez nula jedan"
+    },
+    {
+      "input": 1.7,
+      "expected": "jedan zarez sedam"
+    },
+    {
+      "input": 17.42,
+      "expected": "sedamnaest zarez četrdeset dva"
+    },
+    {
+      "input": 27.312,
+      "expected": "dvadeset sedam zarez tristo dvanaest"
+    },
+    {
+      "input": 53.486,
+      "expected": "pedeset tri zarez četiristo osamdeset šest"
+    },
+    {
+      "input": 300.42,
+      "expected": "tristo zarez četrdeset dva"
+    },
+    {
+      "input": 4196.42,
+      "expected": "četiri tisuće sto devedeset šest zarez četrdeset dva"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus sedamnaest zarez četrdeset dva"
+    },
+    {
+      "input": -1,
+      "expected": "minus jedan"
+    },
+    {
+      "input": -20,
+      "expected": "minus dvadeset"
+    },
+    {
+      "input": 0,
+      "expected": "nula"
+    },
+    {
+      "input": 1,
+      "expected": "jedan"
+    },
+    {
+      "input": 2,
+      "expected": "dva"
+    },
+    {
+      "input": 3,
+      "expected": "tri"
+    },
+    {
+      "input": 11,
+      "expected": "jedanaest"
+    },
+    {
+      "input": 12,
+      "expected": "dvanaest"
+    },
+    {
+      "input": 16,
+      "expected": "šesnaest"
+    },
+    {
+      "input": 19,
+      "expected": "devetnaest"
+    },
+    {
+      "input": 20,
+      "expected": "dvadeset"
+    },
+    {
+      "input": 21,
+      "expected": "dvadeset jedan"
+    },
+    {
+      "input": 26,
+      "expected": "dvadeset šest"
+    },
+    {
+      "input": 28,
+      "expected": "dvadeset osam"
+    },
+    {
+      "input": 30,
+      "expected": "trideset"
+    },
+    {
+      "input": 31,
+      "expected": "trideset jedan"
+    },
+    {
+      "input": 40,
+      "expected": "četrdeset"
+    },
+    {
+      "input": 44,
+      "expected": "četrdeset četiri"
+    },
+    {
+      "input": 50,
+      "expected": "pedeset"
+    },
+    {
+      "input": 55,
+      "expected": "pedeset pet"
+    },
+    {
+      "input": 60,
+      "expected": "šezdeset"
+    },
+    {
+      "input": 67,
+      "expected": "šezdeset sedam"
+    },
+    {
+      "input": 70,
+      "expected": "sedamdeset"
+    },
+    {
+      "input": 79,
+      "expected": "sedamdeset devet"
+    },
+    {
+      "input": 89,
+      "expected": "osamdeset devet"
+    },
+    {
+      "input": 95,
+      "expected": "devedeset pet"
+    },
+    {
+      "input": 100,
+      "expected": "sto"
+    },
+    {
+      "input": 101,
+      "expected": "sto jedan"
+    },
+    {
+      "input": 199,
+      "expected": "sto devedeset devet"
+    },
+    {
+      "input": 203,
+      "expected": "dvjesto tri"
+    },
+    {
+      "input": 287,
+      "expected": "dvjesto osamdeset sedam"
+    },
+    {
+      "input": 356,
+      "expected": "tristo pedeset šest"
+    },
+    {
+      "input": 400,
+      "expected": "četiristo"
+    },
+    {
+      "input": 434,
+      "expected": "četiristo trideset četiri"
+    },
+    {
+      "input": 578,
+      "expected": "petsto sedamdeset osam"
+    },
+    {
+      "input": 689,
+      "expected": "šesto osamdeset devet"
+    },
+    {
+      "input": 729,
+      "expected": "sedamsto dvadeset devet"
+    },
+    {
+      "input": 894,
+      "expected": "osamsto devedeset četiri"
+    },
+    {
+      "input": 999,
+      "expected": "devetsto devedeset devet"
+    },
+    {
+      "input": 1000,
+      "expected": "jedna tisuća"
+    },
+    {
+      "input": 1001,
+      "expected": "jedna tisuća jedan"
+    },
+    {
+      "input": 1097,
+      "expected": "jedna tisuća devedeset sedam"
+    },
+    {
+      "input": 1104,
+      "expected": "jedna tisuća sto četiri"
+    },
+    {
+      "input": 1243,
+      "expected": "jedna tisuća dvjesto četrdeset tri"
+    },
+    {
+      "input": 2385,
+      "expected": "dvije tisuće tristo osamdeset pet"
+    },
+    {
+      "input": 3766,
+      "expected": "tri tisuće sedamsto šezdeset šest"
+    },
+    {
+      "input": 4196,
+      "expected": "četiri tisuće sto devedeset šest"
+    },
+    {
+      "input": 5846,
+      "expected": "pet tisuća osamsto četrdeset šest"
+    },
+    {
+      "input": 6459,
+      "expected": "šest tisuća četiristo pedeset devet"
+    },
+    {
+      "input": 7232,
+      "expected": "sedam tisuća dvjesto trideset dva"
+    },
+    {
+      "input": 8569,
+      "expected": "osam tisuća petsto šezdeset devet"
+    },
+    {
+      "input": 9539,
+      "expected": "devet tisuća petsto trideset devet"
+    },
+    {
+      "input": 1000000,
+      "expected": "jedan milijun"
+    },
+    {
+      "input": 1000001,
+      "expected": "jedan milijun jedan"
+    },
+    {
+      "input": 4000000,
+      "expected": "četiri milijuna"
+    },
+    {
+      "input": 1000000000,
+      "expected": "jedna milijarda"
+    },
+    {
+      "input": 2000000000,
+      "expected": "dvije milijarde"
+    },
+    {
+      "input": 5000000000,
+      "expected": "pet milijarda"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "deset bilijuna"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "sto bilijuna"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000"
+      },
+      "expected": "jedna bilijarda"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "jedan trilijun"
+    },
+    {
+      "input": 1,
+      "expected": "jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "dvije",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "dvadeset jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "dvadeset dvije",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 101,
+      "expected": "sto jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "sto dvije",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "jedna tisuća jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1002,
+      "expected": "jedna tisuća dvije",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2001,
+      "expected": "dvije tisuće jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2002,
+      "expected": "dvije tisuće dvije",
+      "options": {
+        "gender": "feminine"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "prvi"
+    },
+    {
+      "input": 2,
+      "expected": "drugi"
+    },
+    {
+      "input": 3,
+      "expected": "treći"
+    },
+    {
+      "input": 4,
+      "expected": "četvrti"
+    },
+    {
+      "input": 5,
+      "expected": "peti"
+    },
+    {
+      "input": 6,
+      "expected": "šesti"
+    },
+    {
+      "input": 7,
+      "expected": "sedmi"
+    },
+    {
+      "input": 8,
+      "expected": "osmi"
+    },
+    {
+      "input": 9,
+      "expected": "deveti"
+    },
+    {
+      "input": 10,
+      "expected": "deseti"
+    },
+    {
+      "input": 11,
+      "expected": "jedanaesti"
+    },
+    {
+      "input": 12,
+      "expected": "dvanaesti"
+    },
+    {
+      "input": 13,
+      "expected": "trinaesti"
+    },
+    {
+      "input": 19,
+      "expected": "devetnaesti"
+    },
+    {
+      "input": 20,
+      "expected": "dvadeseti"
+    },
+    {
+      "input": 21,
+      "expected": "dvadeset prvi"
+    },
+    {
+      "input": 30,
+      "expected": "trideseti"
+    },
+    {
+      "input": 42,
+      "expected": "četrdeset drugi"
+    },
+    {
+      "input": 99,
+      "expected": "devedeset deveti"
+    },
+    {
+      "input": 100,
+      "expected": "stoti"
+    },
+    {
+      "input": 101,
+      "expected": "sto prvi"
+    },
+    {
+      "input": 200,
+      "expected": "dvjestoti"
+    },
+    {
+      "input": 121,
+      "expected": "sto dvadeset prvi"
+    },
+    {
+      "input": 1000,
+      "expected": "tisućiti"
+    },
+    {
+      "input": 1001,
+      "expected": "jedna tisuća prvi"
+    },
+    {
+      "input": 2000,
+      "expected": "dvije tisućiti"
+    },
+    {
+      "input": 1000000,
+      "expected": "milijunti"
+    },
+    {
+      "input": 2000000,
+      "expected": "dva milijunti"
+    },
+    {
+      "input": 1000000000,
+      "expected": "milijarditi"
+    },
+    {
+      "input": 2000000000,
+      "expected": "dvije milijarditi"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nula eura",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "jedan euro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "dva eura",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "pet eura",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "deset eura",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "dvadeset jedan euro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "četrdeset dva eura",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "sto eura",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "jedna tisuća eura",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "jedan cent",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "dva centa",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "pet centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "dvadeset pet centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "pedeset centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "devedeset devet centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "jedan euro jedan cent",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "jedan euro pedeset centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "dva eura dva centa",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "četrdeset dva eura pedeset centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "sto eura devedeset devet centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "minus jedan euro",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "minus četrdeset dva eura pedeset centi",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "pet eura",
+      "options": {
+        "currency": "EUR"
+      }
+    }
+  ]
+}

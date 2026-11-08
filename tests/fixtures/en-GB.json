@@ -1,0 +1,777 @@
+{
+  "code": "en-GB",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "zero point zero one"
+    },
+    {
+      "input": 0.007,
+      "expected": "zero point zero zero seven"
+    },
+    {
+      "input": 17.42,
+      "expected": "seventeen point forty-two"
+    },
+    {
+      "input": 27.312,
+      "expected": "twenty-seven point three hundred and twelve"
+    },
+    {
+      "input": 53.486,
+      "expected": "fifty-three point four hundred and eighty-six"
+    },
+    {
+      "input": 300.42,
+      "expected": "three hundred point forty-two"
+    },
+    {
+      "input": 4196.42,
+      "expected": "four thousand one hundred and ninety-six point forty-two"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus seventeen point forty-two"
+    },
+    {
+      "input": -1,
+      "expected": "minus one"
+    },
+    {
+      "input": -20,
+      "expected": "minus twenty"
+    },
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "one"
+    },
+    {
+      "input": 2,
+      "expected": "two"
+    },
+    {
+      "input": 3,
+      "expected": "three"
+    },
+    {
+      "input": 5.5,
+      "expected": "five point five"
+    },
+    {
+      "input": 11,
+      "expected": "eleven"
+    },
+    {
+      "input": 12,
+      "expected": "twelve"
+    },
+    {
+      "input": 16,
+      "expected": "sixteen"
+    },
+    {
+      "input": 19,
+      "expected": "nineteen"
+    },
+    {
+      "input": 20,
+      "expected": "twenty"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-one"
+    },
+    {
+      "input": 26,
+      "expected": "twenty-six"
+    },
+    {
+      "input": 28,
+      "expected": "twenty-eight"
+    },
+    {
+      "input": 30,
+      "expected": "thirty"
+    },
+    {
+      "input": 31,
+      "expected": "thirty-one"
+    },
+    {
+      "input": 40,
+      "expected": "forty"
+    },
+    {
+      "input": 44,
+      "expected": "forty-four"
+    },
+    {
+      "input": 50,
+      "expected": "fifty"
+    },
+    {
+      "input": 55,
+      "expected": "fifty-five"
+    },
+    {
+      "input": 60,
+      "expected": "sixty"
+    },
+    {
+      "input": 67,
+      "expected": "sixty-seven"
+    },
+    {
+      "input": 70,
+      "expected": "seventy"
+    },
+    {
+      "input": 79,
+      "expected": "seventy-nine"
+    },
+    {
+      "input": 89,
+      "expected": "eighty-nine"
+    },
+    {
+      "input": 95,
+      "expected": "ninety-five"
+    },
+    {
+      "input": 100,
+      "expected": "one hundred"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and one"
+    },
+    {
+      "input": 199,
+      "expected": "one hundred and ninety-nine"
+    },
+    {
+      "input": 203,
+      "expected": "two hundred and three"
+    },
+    {
+      "input": 287,
+      "expected": "two hundred and eighty-seven"
+    },
+    {
+      "input": 356,
+      "expected": "three hundred and fifty-six"
+    },
+    {
+      "input": 400,
+      "expected": "four hundred"
+    },
+    {
+      "input": 434,
+      "expected": "four hundred and thirty-four"
+    },
+    {
+      "input": 578,
+      "expected": "five hundred and seventy-eight"
+    },
+    {
+      "input": 689,
+      "expected": "six hundred and eighty-nine"
+    },
+    {
+      "input": 729,
+      "expected": "seven hundred and twenty-nine"
+    },
+    {
+      "input": 894,
+      "expected": "eight hundred and ninety-four"
+    },
+    {
+      "input": 999,
+      "expected": "nine hundred and ninety-nine"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousand"
+    },
+    {
+      "input": 1001,
+      "expected": "one thousand and one"
+    },
+    {
+      "input": 1097,
+      "expected": "one thousand and ninety-seven"
+    },
+    {
+      "input": 1104,
+      "expected": "one thousand one hundred and four"
+    },
+    {
+      "input": 1243,
+      "expected": "one thousand two hundred and forty-three"
+    },
+    {
+      "input": 2385,
+      "expected": "two thousand three hundred and eighty-five"
+    },
+    {
+      "input": 3766,
+      "expected": "three thousand seven hundred and sixty-six"
+    },
+    {
+      "input": 4196,
+      "expected": "four thousand one hundred and ninety-six"
+    },
+    {
+      "input": 5846,
+      "expected": "five thousand eight hundred and forty-six"
+    },
+    {
+      "input": 6459,
+      "expected": "six thousand four hundred and fifty-nine"
+    },
+    {
+      "input": 7232,
+      "expected": "seven thousand two hundred and thirty-two"
+    },
+    {
+      "input": 8569,
+      "expected": "eight thousand five hundred and sixty-nine"
+    },
+    {
+      "input": 9539,
+      "expected": "nine thousand five hundred and thirty-nine"
+    },
+    {
+      "input": 1000000,
+      "expected": "one million"
+    },
+    {
+      "input": 1000001,
+      "expected": "one million and one"
+    },
+    {
+      "input": 4000000,
+      "expected": "four million"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "ten trillion"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "one hundred trillion"
+    },
+    {
+      "input": {
+        "bigint": "9007199254740995"
+      },
+      "expected": "nine quadrillion seven trillion one hundred and ninety-nine billion two hundred and fifty-four million seven hundred and forty thousand nine hundred and ninety-five"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "one quintillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000"
+      },
+      "expected": "one sextillion"
+    },
+    {
+      "input": {
+        "bigint": "10000000000000000000000000"
+      },
+      "expected": "ten septillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000"
+      },
+      "expected": "one octillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000"
+      },
+      "expected": "one nonillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000"
+      },
+      "expected": "one decillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000"
+      },
+      "expected": "one undecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000"
+      },
+      "expected": "one duodecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000"
+      },
+      "expected": "one tredecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000000"
+      },
+      "expected": "one quattuordecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000000000"
+      },
+      "expected": "one quindecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000000000000"
+      },
+      "expected": "one sexdecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000000000000000"
+      },
+      "expected": "one septendecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000000000000000000"
+      },
+      "expected": "one octodecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000000000000000000000"
+      },
+      "expected": "one novemdecillion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "expected": "one vigintillion"
+    },
+    {
+      "input": {
+        "bigint": "999123000000000000000000000000000000000000000000000000000000000000"
+      },
+      "expected": "nine hundred and ninety-nine vigintillion one hundred and twenty-three novemdecillion"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "first"
+    },
+    {
+      "input": 2,
+      "expected": "second"
+    },
+    {
+      "input": 3,
+      "expected": "third"
+    },
+    {
+      "input": 4,
+      "expected": "fourth"
+    },
+    {
+      "input": 5,
+      "expected": "fifth"
+    },
+    {
+      "input": 6,
+      "expected": "sixth"
+    },
+    {
+      "input": 7,
+      "expected": "seventh"
+    },
+    {
+      "input": 8,
+      "expected": "eighth"
+    },
+    {
+      "input": 9,
+      "expected": "ninth"
+    },
+    {
+      "input": 10,
+      "expected": "tenth"
+    },
+    {
+      "input": 11,
+      "expected": "eleventh"
+    },
+    {
+      "input": 12,
+      "expected": "twelfth"
+    },
+    {
+      "input": 13,
+      "expected": "thirteenth"
+    },
+    {
+      "input": 14,
+      "expected": "fourteenth"
+    },
+    {
+      "input": 15,
+      "expected": "fifteenth"
+    },
+    {
+      "input": 16,
+      "expected": "sixteenth"
+    },
+    {
+      "input": 17,
+      "expected": "seventeenth"
+    },
+    {
+      "input": 18,
+      "expected": "eighteenth"
+    },
+    {
+      "input": 19,
+      "expected": "nineteenth"
+    },
+    {
+      "input": 20,
+      "expected": "twentieth"
+    },
+    {
+      "input": 30,
+      "expected": "thirtieth"
+    },
+    {
+      "input": 40,
+      "expected": "fortieth"
+    },
+    {
+      "input": 50,
+      "expected": "fiftieth"
+    },
+    {
+      "input": 60,
+      "expected": "sixtieth"
+    },
+    {
+      "input": 70,
+      "expected": "seventieth"
+    },
+    {
+      "input": 80,
+      "expected": "eightieth"
+    },
+    {
+      "input": 90,
+      "expected": "ninetieth"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-first"
+    },
+    {
+      "input": 22,
+      "expected": "twenty-second"
+    },
+    {
+      "input": 23,
+      "expected": "twenty-third"
+    },
+    {
+      "input": 24,
+      "expected": "twenty-fourth"
+    },
+    {
+      "input": 32,
+      "expected": "thirty-second"
+    },
+    {
+      "input": 42,
+      "expected": "forty-second"
+    },
+    {
+      "input": 53,
+      "expected": "fifty-third"
+    },
+    {
+      "input": 67,
+      "expected": "sixty-seventh"
+    },
+    {
+      "input": 88,
+      "expected": "eighty-eighth"
+    },
+    {
+      "input": 99,
+      "expected": "ninety-ninth"
+    },
+    {
+      "input": 100,
+      "expected": "one hundredth"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and first"
+    },
+    {
+      "input": 102,
+      "expected": "one hundred and second"
+    },
+    {
+      "input": 103,
+      "expected": "one hundred and third"
+    },
+    {
+      "input": 110,
+      "expected": "one hundred and tenth"
+    },
+    {
+      "input": 111,
+      "expected": "one hundred and eleventh"
+    },
+    {
+      "input": 112,
+      "expected": "one hundred and twelfth"
+    },
+    {
+      "input": 120,
+      "expected": "one hundred and twentieth"
+    },
+    {
+      "input": 121,
+      "expected": "one hundred and twenty-first"
+    },
+    {
+      "input": 200,
+      "expected": "two hundredth"
+    },
+    {
+      "input": 300,
+      "expected": "three hundredth"
+    },
+    {
+      "input": 500,
+      "expected": "five hundredth"
+    },
+    {
+      "input": 999,
+      "expected": "nine hundred and ninety-ninth"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousandth"
+    },
+    {
+      "input": 1001,
+      "expected": "one thousand and first"
+    },
+    {
+      "input": 1010,
+      "expected": "one thousand and tenth"
+    },
+    {
+      "input": 1100,
+      "expected": "one thousand one hundredth"
+    },
+    {
+      "input": 1111,
+      "expected": "one thousand one hundred and eleventh"
+    },
+    {
+      "input": 2000,
+      "expected": "two thousandth"
+    },
+    {
+      "input": 5000,
+      "expected": "five thousandth"
+    },
+    {
+      "input": 10000,
+      "expected": "ten thousandth"
+    },
+    {
+      "input": 12345,
+      "expected": "twelve thousand three hundred and forty-fifth"
+    },
+    {
+      "input": 99999,
+      "expected": "ninety-nine thousand nine hundred and ninety-ninth"
+    },
+    {
+      "input": 1000000,
+      "expected": "one millionth"
+    },
+    {
+      "input": 1000001,
+      "expected": "one million and first"
+    },
+    {
+      "input": 1000100,
+      "expected": "one million one hundredth"
+    },
+    {
+      "input": 2000000,
+      "expected": "two millionth"
+    },
+    {
+      "input": 1000000000,
+      "expected": "one billionth"
+    },
+    {
+      "input": 1000000000000,
+      "expected": "one trillionth"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "one quintillionth"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000"
+      },
+      "expected": "one sextillionth"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero pounds"
+    },
+    {
+      "input": 1,
+      "expected": "one pound"
+    },
+    {
+      "input": 2,
+      "expected": "two pounds"
+    },
+    {
+      "input": 10,
+      "expected": "ten pounds"
+    },
+    {
+      "input": 100,
+      "expected": "one hundred pounds"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousand pounds"
+    },
+    {
+      "input": 1000000,
+      "expected": "one million pounds"
+    },
+    {
+      "input": 0.01,
+      "expected": "one penny"
+    },
+    {
+      "input": 0.02,
+      "expected": "two pence"
+    },
+    {
+      "input": 0.1,
+      "expected": "ten pence"
+    },
+    {
+      "input": 0.5,
+      "expected": "fifty pence"
+    },
+    {
+      "input": 0.99,
+      "expected": "ninety-nine pence"
+    },
+    {
+      "input": 1.01,
+      "expected": "one pound and one penny"
+    },
+    {
+      "input": 1.5,
+      "expected": "one pound and fifty pence"
+    },
+    {
+      "input": 2.02,
+      "expected": "two pounds and two pence"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two pounds and fifty pence"
+    },
+    {
+      "input": 100.99,
+      "expected": "one hundred pounds and ninety-nine pence"
+    },
+    {
+      "input": 1000.01,
+      "expected": "one thousand pounds and one penny"
+    },
+    {
+      "input": 1000000.01,
+      "expected": "one million pounds and one penny"
+    },
+    {
+      "input": -1,
+      "expected": "minus one pound"
+    },
+    {
+      "input": -0.5,
+      "expected": "minus fifty pence"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus forty-two pounds and fifty pence"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two pounds fifty pence",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "one pound one penny",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 5,
+      "expected": "five pounds"
+    },
+    {
+      "input": "5.00",
+      "expected": "five pounds"
+    },
+    {
+      "input": "42.50",
+      "expected": "forty-two pounds and fifty pence"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "one trillion pounds"
+    }
+  ]
+}

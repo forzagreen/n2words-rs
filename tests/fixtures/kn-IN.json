@@ -1,0 +1,401 @@
+{
+  "code": "kn-IN",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "ಸೊನ್ನೆ"
+    },
+    {
+      "input": 1,
+      "expected": "ಒಂದು"
+    },
+    {
+      "input": 2,
+      "expected": "ಎರಡು"
+    },
+    {
+      "input": 3,
+      "expected": "ಮೂರು"
+    },
+    {
+      "input": 4,
+      "expected": "ನಾಲ್ಕು"
+    },
+    {
+      "input": 5,
+      "expected": "ಐದು"
+    },
+    {
+      "input": 6,
+      "expected": "ಆರು"
+    },
+    {
+      "input": 7,
+      "expected": "ಏಳು"
+    },
+    {
+      "input": 8,
+      "expected": "ಎಂಟು"
+    },
+    {
+      "input": 9,
+      "expected": "ಒಂಬತ್ತು"
+    },
+    {
+      "input": 10,
+      "expected": "ಹತ್ತು"
+    },
+    {
+      "input": 11,
+      "expected": "ಹನ್ನೊಂದು"
+    },
+    {
+      "input": 12,
+      "expected": "ಹನ್ನೆರಡು"
+    },
+    {
+      "input": 15,
+      "expected": "ಹದಿನೈದು"
+    },
+    {
+      "input": 19,
+      "expected": "ಹತ್ತೊಂಬತ್ತು"
+    },
+    {
+      "input": 20,
+      "expected": "ಇಪ್ಪತ್ತು"
+    },
+    {
+      "input": 21,
+      "expected": "ಇಪ್ಪತ್ತೊಂದು"
+    },
+    {
+      "input": 25,
+      "expected": "ಇಪ್ಪತ್ತೈದು"
+    },
+    {
+      "input": 30,
+      "expected": "ಮೂವತ್ತು"
+    },
+    {
+      "input": 35,
+      "expected": "ಮೂವತ್ತೈದು"
+    },
+    {
+      "input": 40,
+      "expected": "ನಲವತ್ತು"
+    },
+    {
+      "input": 42,
+      "expected": "ನಲವತ್ತೆರಡು"
+    },
+    {
+      "input": 50,
+      "expected": "ಐವತ್ತು"
+    },
+    {
+      "input": 55,
+      "expected": "ಐವತ್ತೈದು"
+    },
+    {
+      "input": 60,
+      "expected": "ಅರವತ್ತು"
+    },
+    {
+      "input": 66,
+      "expected": "ಅರವತ್ತಾರು"
+    },
+    {
+      "input": 70,
+      "expected": "ಎಪ್ಪತ್ತು"
+    },
+    {
+      "input": 77,
+      "expected": "ಎಪ್ಪತ್ತೇಳು"
+    },
+    {
+      "input": 80,
+      "expected": "ಎಂಬತ್ತು"
+    },
+    {
+      "input": 88,
+      "expected": "ಎಂಬತ್ತೆಂಟು"
+    },
+    {
+      "input": 90,
+      "expected": "ತೊಂಬತ್ತು"
+    },
+    {
+      "input": 99,
+      "expected": "ತೊಂಬತ್ತೊಂಬತ್ತು"
+    },
+    {
+      "input": 100,
+      "expected": "ಒಂದು ನೂರು"
+    },
+    {
+      "input": 101,
+      "expected": "ಒಂದು ನೂರು ಒಂದು"
+    },
+    {
+      "input": 200,
+      "expected": "ಎರಡು ನೂರು"
+    },
+    {
+      "input": 250,
+      "expected": "ಎರಡು ನೂರು ಐವತ್ತು"
+    },
+    {
+      "input": 300,
+      "expected": "ಮೂರು ನೂರು"
+    },
+    {
+      "input": 500,
+      "expected": "ಐದು ನೂರು"
+    },
+    {
+      "input": 999,
+      "expected": "ಒಂಬತ್ತು ನೂರು ತೊಂಬತ್ತೊಂಬತ್ತು"
+    },
+    {
+      "input": 1000,
+      "expected": "ಒಂದು ಸಾವಿರ"
+    },
+    {
+      "input": 1001,
+      "expected": "ಒಂದು ಸಾವಿರ ಒಂದು"
+    },
+    {
+      "input": 2000,
+      "expected": "ಎರಡು ಸಾವಿರ"
+    },
+    {
+      "input": 5000,
+      "expected": "ಐದು ಸಾವಿರ"
+    },
+    {
+      "input": 10000,
+      "expected": "ಹತ್ತು ಸಾವಿರ"
+    },
+    {
+      "input": 50000,
+      "expected": "ಐವತ್ತು ಸಾವಿರ"
+    },
+    {
+      "input": 99999,
+      "expected": "ತೊಂಬತ್ತೊಂಬತ್ತು ಸಾವಿರ ಒಂಬತ್ತು ನೂರು ತೊಂಬತ್ತೊಂಬತ್ತು"
+    },
+    {
+      "input": 100000,
+      "expected": "ಒಂದು ಲಕ್ಷ"
+    },
+    {
+      "input": 200000,
+      "expected": "ಎರಡು ಲಕ್ಷ"
+    },
+    {
+      "input": 500000,
+      "expected": "ಐದು ಲಕ್ಷ"
+    },
+    {
+      "input": 1000000,
+      "expected": "ಹತ್ತು ಲಕ್ಷ"
+    },
+    {
+      "input": 5000000,
+      "expected": "ಐವತ್ತು ಲಕ್ಷ"
+    },
+    {
+      "input": 10000000,
+      "expected": "ಒಂದು ಕೋಟಿ"
+    },
+    {
+      "input": 50000000,
+      "expected": "ಐದು ಕೋಟಿ"
+    },
+    {
+      "input": 100000000,
+      "expected": "ಹತ್ತು ಕೋಟಿ"
+    },
+    {
+      "input": -1,
+      "expected": "ಋಣಾತ್ಮಕ ಒಂದು"
+    },
+    {
+      "input": -42,
+      "expected": "ಋಣಾತ್ಮಕ ನಲವತ್ತೆರಡು"
+    },
+    {
+      "input": "3.14",
+      "expected": "ಮೂರು ದಶಮಾಂಶ ಒಂದು ನಾಲ್ಕು"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "ಮೊದಲನೇ"
+    },
+    {
+      "input": 2,
+      "expected": "ಎರಡನೇ"
+    },
+    {
+      "input": 3,
+      "expected": "ಮೂರನೇ"
+    },
+    {
+      "input": 4,
+      "expected": "ನಾಲ್ಕನೇ"
+    },
+    {
+      "input": 5,
+      "expected": "ಐದನೇ"
+    },
+    {
+      "input": 6,
+      "expected": "ಆರನೇ"
+    },
+    {
+      "input": 7,
+      "expected": "ಏಳುನೇ"
+    },
+    {
+      "input": 8,
+      "expected": "ಎಂಟುನೇ"
+    },
+    {
+      "input": 9,
+      "expected": "ಒಂಬತ್ತುನೇ"
+    },
+    {
+      "input": 10,
+      "expected": "ಹತ್ತುನೇ"
+    },
+    {
+      "input": 11,
+      "expected": "ಹನ್ನೊಂದುನೇ"
+    },
+    {
+      "input": 20,
+      "expected": "ಇಪ್ಪತ್ತುನೇ"
+    },
+    {
+      "input": 21,
+      "expected": "ಇಪ್ಪತ್ತೊಂದುನೇ"
+    },
+    {
+      "input": 42,
+      "expected": "ನಲವತ್ತೆರಡುನೇ"
+    },
+    {
+      "input": 99,
+      "expected": "ತೊಂಬತ್ತೊಂಬತ್ತುನೇ"
+    },
+    {
+      "input": 100,
+      "expected": "ಒಂದು ನೂರುನೇ"
+    },
+    {
+      "input": 101,
+      "expected": "ಒಂದು ನೂರು ಒಂದುನೇ"
+    },
+    {
+      "input": 200,
+      "expected": "ಎರಡು ನೂರುನೇ"
+    },
+    {
+      "input": 1000,
+      "expected": "ಒಂದು ಸಾವಿರನೇ"
+    },
+    {
+      "input": 1001,
+      "expected": "ಒಂದು ಸಾವಿರ ಒಂದುನೇ"
+    },
+    {
+      "input": 100000,
+      "expected": "ಒಂದು ಲಕ್ಷನೇ"
+    },
+    {
+      "input": 10000000,
+      "expected": "ಒಂದು ಕೋಟಿನೇ"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "ಸೊನ್ನೆ ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": 1,
+      "expected": "ಒಂದು ರೂಪಾಯಿ"
+    },
+    {
+      "input": 2,
+      "expected": "ಎರಡು ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": 10,
+      "expected": "ಹತ್ತು ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": 21,
+      "expected": "ಇಪ್ಪತ್ತೊಂದು ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": 100,
+      "expected": "ಒಂದು ನೂರು ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": 1000,
+      "expected": "ಒಂದು ಸಾವಿರ ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": 100000,
+      "expected": "ಒಂದು ಲಕ್ಷ ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": 0.01,
+      "expected": "ಒಂದು ಪೈಸೆ"
+    },
+    {
+      "input": 0.02,
+      "expected": "ಎರಡು ಪೈಸೆಗಳು"
+    },
+    {
+      "input": 0.5,
+      "expected": "ಐವತ್ತು ಪೈಸೆಗಳು"
+    },
+    {
+      "input": 0.99,
+      "expected": "ತೊಂಬತ್ತೊಂಬತ್ತು ಪೈಸೆಗಳು"
+    },
+    {
+      "input": 1.01,
+      "expected": "ಒಂದು ರೂಪಾಯಿ ಒಂದು ಪೈಸೆ"
+    },
+    {
+      "input": 42.5,
+      "expected": "ನಲವತ್ತೆರಡು ರೂಪಾಯಿಗಳು ಐವತ್ತು ಪೈಸೆಗಳು"
+    },
+    {
+      "input": 1000.99,
+      "expected": "ಒಂದು ಸಾವಿರ ರೂಪಾಯಿಗಳು ತೊಂಬತ್ತೊಂಬತ್ತು ಪೈಸೆಗಳು"
+    },
+    {
+      "input": -1,
+      "expected": "ಋಣಾತ್ಮಕ ಒಂದು ರೂಪಾಯಿ"
+    },
+    {
+      "input": -42.5,
+      "expected": "ಋಣಾತ್ಮಕ ನಲವತ್ತೆರಡು ರೂಪಾಯಿಗಳು ಐವತ್ತು ಪೈಸೆಗಳು"
+    },
+    {
+      "input": 5,
+      "expected": "ಐದು ರೂಪಾಯಿಗಳು"
+    },
+    {
+      "input": "5.00",
+      "expected": "ಐದು ರೂಪಾಯಿಗಳು"
+    }
+  ]
+}

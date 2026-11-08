@@ -1,0 +1,684 @@
+{
+  "code": "pl",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "zero przecinek zero jeden"
+    },
+    {
+      "input": 1.007,
+      "expected": "jeden przecinek zero zero siedem"
+    },
+    {
+      "input": 1.7,
+      "expected": "jeden przecinek siedem"
+    },
+    {
+      "input": 17.42,
+      "expected": "siedemnaście przecinek czterdzieści dwa"
+    },
+    {
+      "input": 27.312,
+      "expected": "dwadzieścia siedem przecinek trzysta dwanaście"
+    },
+    {
+      "input": 53.486,
+      "expected": "pięćdziesiąt trzy przecinek czterysta osiemdziesiąt sześć"
+    },
+    {
+      "input": 300.42,
+      "expected": "trzysta przecinek czterdzieści dwa"
+    },
+    {
+      "input": 4196.42,
+      "expected": "cztery tysiące sto dziewięćdziesiąt sześć przecinek czterdzieści dwa"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus siedemnaście przecinek czterdzieści dwa"
+    },
+    {
+      "input": -1,
+      "expected": "minus jeden"
+    },
+    {
+      "input": -20,
+      "expected": "minus dwadzieścia"
+    },
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "jeden"
+    },
+    {
+      "input": 2,
+      "expected": "dwa"
+    },
+    {
+      "input": 3,
+      "expected": "trzy"
+    },
+    {
+      "input": 11,
+      "expected": "jedenaście"
+    },
+    {
+      "input": 12,
+      "expected": "dwanaście"
+    },
+    {
+      "input": 16,
+      "expected": "szesnaście"
+    },
+    {
+      "input": 19,
+      "expected": "dziewiętnaście"
+    },
+    {
+      "input": 20,
+      "expected": "dwadzieścia"
+    },
+    {
+      "input": 21,
+      "expected": "dwadzieścia jeden"
+    },
+    {
+      "input": 26,
+      "expected": "dwadzieścia sześć"
+    },
+    {
+      "input": 28,
+      "expected": "dwadzieścia osiem"
+    },
+    {
+      "input": 30,
+      "expected": "trzydzieści"
+    },
+    {
+      "input": 31,
+      "expected": "trzydzieści jeden"
+    },
+    {
+      "input": 40,
+      "expected": "czterdzieści"
+    },
+    {
+      "input": 44,
+      "expected": "czterdzieści cztery"
+    },
+    {
+      "input": 50,
+      "expected": "pięćdziesiąt"
+    },
+    {
+      "input": 55,
+      "expected": "pięćdziesiąt pięć"
+    },
+    {
+      "input": 60,
+      "expected": "sześćdziesiąt"
+    },
+    {
+      "input": 67,
+      "expected": "sześćdziesiąt siedem"
+    },
+    {
+      "input": 70,
+      "expected": "siedemdziesiąt"
+    },
+    {
+      "input": 79,
+      "expected": "siedemdziesiąt dziewięć"
+    },
+    {
+      "input": 89,
+      "expected": "osiemdziesiąt dziewięć"
+    },
+    {
+      "input": 95,
+      "expected": "dziewięćdziesiąt pięć"
+    },
+    {
+      "input": 100,
+      "expected": "sto"
+    },
+    {
+      "input": 101,
+      "expected": "sto jeden"
+    },
+    {
+      "input": 199,
+      "expected": "sto dziewięćdziesiąt dziewięć"
+    },
+    {
+      "input": 203,
+      "expected": "dwieście trzy"
+    },
+    {
+      "input": 287,
+      "expected": "dwieście osiemdziesiąt siedem"
+    },
+    {
+      "input": 356,
+      "expected": "trzysta pięćdziesiąt sześć"
+    },
+    {
+      "input": 400,
+      "expected": "czterysta"
+    },
+    {
+      "input": 434,
+      "expected": "czterysta trzydzieści cztery"
+    },
+    {
+      "input": 578,
+      "expected": "pięćset siedemdziesiąt osiem"
+    },
+    {
+      "input": 689,
+      "expected": "sześćset osiemdziesiąt dziewięć"
+    },
+    {
+      "input": 729,
+      "expected": "siedemset dwadzieścia dziewięć"
+    },
+    {
+      "input": 894,
+      "expected": "osiemset dziewięćdziesiąt cztery"
+    },
+    {
+      "input": 999,
+      "expected": "dziewięćset dziewięćdziesiąt dziewięć"
+    },
+    {
+      "input": 1000,
+      "expected": "tysiąc"
+    },
+    {
+      "input": 1001,
+      "expected": "tysiąc jeden"
+    },
+    {
+      "input": 1097,
+      "expected": "tysiąc dziewięćdziesiąt siedem"
+    },
+    {
+      "input": 1104,
+      "expected": "tysiąc sto cztery"
+    },
+    {
+      "input": 1243,
+      "expected": "tysiąc dwieście czterdzieści trzy"
+    },
+    {
+      "input": 2385,
+      "expected": "dwa tysiące trzysta osiemdziesiąt pięć"
+    },
+    {
+      "input": 3766,
+      "expected": "trzy tysiące siedemset sześćdziesiąt sześć"
+    },
+    {
+      "input": 4196,
+      "expected": "cztery tysiące sto dziewięćdziesiąt sześć"
+    },
+    {
+      "input": 5846,
+      "expected": "pięć tysięcy osiemset czterdzieści sześć"
+    },
+    {
+      "input": 6459,
+      "expected": "sześć tysięcy czterysta pięćdziesiąt dziewięć"
+    },
+    {
+      "input": 7232,
+      "expected": "siedem tysięcy dwieście trzydzieści dwa"
+    },
+    {
+      "input": 8569,
+      "expected": "osiem tysięcy pięćset sześćdziesiąt dziewięć"
+    },
+    {
+      "input": 9539,
+      "expected": "dziewięć tysięcy pięćset trzydzieści dziewięć"
+    },
+    {
+      "input": 1000000,
+      "expected": "milion"
+    },
+    {
+      "input": 1000001,
+      "expected": "milion jeden"
+    },
+    {
+      "input": 4000000,
+      "expected": "cztery miliony"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "dziesięć bilionów"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "sto bilionów"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "trylion"
+    },
+    {
+      "input": 1,
+      "expected": "jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "dwie",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 4,
+      "expected": "cztery",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "pięć",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "dwadzieścia jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "dwadzieścia dwie",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 101,
+      "expected": "sto jedna",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "sto dwie",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "tysiąc jeden",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1002,
+      "expected": "tysiąc dwa",
+      "options": {
+        "gender": "feminine"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "pierwszy"
+    },
+    {
+      "input": 2,
+      "expected": "drugi"
+    },
+    {
+      "input": 3,
+      "expected": "trzeci"
+    },
+    {
+      "input": 4,
+      "expected": "czwarty"
+    },
+    {
+      "input": 5,
+      "expected": "piąty"
+    },
+    {
+      "input": 6,
+      "expected": "szósty"
+    },
+    {
+      "input": 7,
+      "expected": "siódmy"
+    },
+    {
+      "input": 8,
+      "expected": "ósmy"
+    },
+    {
+      "input": 9,
+      "expected": "dziewiąty"
+    },
+    {
+      "input": 10,
+      "expected": "dziesiąty"
+    },
+    {
+      "input": 11,
+      "expected": "jedenasty"
+    },
+    {
+      "input": 12,
+      "expected": "dwunasty"
+    },
+    {
+      "input": 13,
+      "expected": "trzynasty"
+    },
+    {
+      "input": 14,
+      "expected": "czternasty"
+    },
+    {
+      "input": 15,
+      "expected": "piętnasty"
+    },
+    {
+      "input": 16,
+      "expected": "szesnasty"
+    },
+    {
+      "input": 17,
+      "expected": "siedemnasty"
+    },
+    {
+      "input": 18,
+      "expected": "osiemnasty"
+    },
+    {
+      "input": 19,
+      "expected": "dziewiętnasty"
+    },
+    {
+      "input": 20,
+      "expected": "dwudziesty"
+    },
+    {
+      "input": 21,
+      "expected": "dwudziesty pierwszy"
+    },
+    {
+      "input": 30,
+      "expected": "trzydziesty"
+    },
+    {
+      "input": 42,
+      "expected": "czterdziesty drugi"
+    },
+    {
+      "input": 50,
+      "expected": "pięćdziesiąty"
+    },
+    {
+      "input": 99,
+      "expected": "dziewięćdziesiąty dziewiąty"
+    },
+    {
+      "input": 100,
+      "expected": "setny"
+    },
+    {
+      "input": 101,
+      "expected": "sto pierwszy"
+    },
+    {
+      "input": 200,
+      "expected": "dwusetny"
+    },
+    {
+      "input": 300,
+      "expected": "trzechsetny"
+    },
+    {
+      "input": 1000,
+      "expected": "tysięczny"
+    },
+    {
+      "input": 1001,
+      "expected": "tysiąc pierwszy"
+    },
+    {
+      "input": 2000,
+      "expected": "dwa tysięczny"
+    },
+    {
+      "input": 1000000,
+      "expected": "milionowy"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "jeden złoty",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "dwa złote",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 3,
+      "expected": "trzy złote",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 4,
+      "expected": "cztery złote",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "pięć złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "dziesięć złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 11,
+      "expected": "jedenaście złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 12,
+      "expected": "dwanaście złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "dwadzieścia jeden złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "dwadzieścia dwa złote",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "czterdzieści dwa złote",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "sto złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "tysiąc złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "jeden grosz",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "dwa grosze",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "pięć groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "dwadzieścia pięć groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "pięćdziesiąt groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "dziewięćdziesiąt dziewięć groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "jeden złoty jeden grosz",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "jeden złoty pięćdziesiąt groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "dwa złote dwa grosze",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 5.05,
+      "expected": "pięć złotych pięć groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "czterdzieści dwa złote pięćdziesiąt groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "sto złotych dziewięćdziesiąt dziewięć groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "minus jeden złoty",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "minus czterdzieści dwa złote pięćdziesiąt groszy",
+      "options": {
+        "currency": "PLN"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "pięć złotych",
+      "options": {
+        "currency": "PLN"
+      }
+    }
+  ]
+}

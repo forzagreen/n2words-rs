@@ -1,0 +1,271 @@
+{
+  "code": "pa-IN",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "ਸਿਫ਼ਰ"
+    },
+    {
+      "input": 1,
+      "expected": "ਇੱਕ"
+    },
+    {
+      "input": 2,
+      "expected": "ਦੋ"
+    },
+    {
+      "input": 5.5,
+      "expected": "ਪੰਜ ਦਸ਼ਮਲਵ ਪੰਜ"
+    },
+    {
+      "input": "0.05",
+      "expected": "ਸਿਫ਼ਰ ਦਸ਼ਮਲਵ ਸਿਫ਼ਰ ਪੰਜ"
+    },
+    {
+      "input": -17,
+      "expected": "ਮਾਇਨਸ ਸਤਾਰਾਂ"
+    },
+    {
+      "input": 10,
+      "expected": "ਦੱਸ"
+    },
+    {
+      "input": 11,
+      "expected": "ਗਿਆਰਾਂ"
+    },
+    {
+      "input": 19,
+      "expected": "ਉੱਨੀ"
+    },
+    {
+      "input": 20,
+      "expected": "ਵੀਹ"
+    },
+    {
+      "input": 21,
+      "expected": "ਇੱਕੀ"
+    },
+    {
+      "input": 45,
+      "expected": "ਪੰਤਾਲੀ"
+    },
+    {
+      "input": 58,
+      "expected": "ਅਠਵੰਜਾ"
+    },
+    {
+      "input": 73,
+      "expected": "ਤਹੱਤਰ"
+    },
+    {
+      "input": 99,
+      "expected": "ਨਿਨਾਨਵੇਂ"
+    },
+    {
+      "input": 100,
+      "expected": "ਇੱਕ ਸੌ"
+    },
+    {
+      "input": 101,
+      "expected": "ਇੱਕ ਸੌ ਇੱਕ"
+    },
+    {
+      "input": 215,
+      "expected": "ਦੋ ਸੌ ਪੰਦਰਾਂ"
+    },
+    {
+      "input": 999,
+      "expected": "ਨੌਂ ਸੌ ਨਿਨਾਨਵੇਂ"
+    },
+    {
+      "input": 1000,
+      "expected": "ਇੱਕ ਹਜ਼ਾਰ"
+    },
+    {
+      "input": 10000,
+      "expected": "ਦੱਸ ਹਜ਼ਾਰ"
+    },
+    {
+      "input": 100000,
+      "expected": "ਇੱਕ ਲੱਖ"
+    },
+    {
+      "input": 1000000,
+      "expected": "ਦੱਸ ਲੱਖ"
+    },
+    {
+      "input": {
+        "bigint": "123456789"
+      },
+      "expected": "ਬਾਰਾਂ ਕਰੋੜ ਚੌਂਤੀ ਲੱਖ ਛਪੰਜਾ ਹਜ਼ਾਰ ਸੱਤ ਸੌ ਨਵਾਸੀ"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "ਪਹਿਲਾ"
+    },
+    {
+      "input": 2,
+      "expected": "ਦੂਜਾ"
+    },
+    {
+      "input": 3,
+      "expected": "ਤੀਜਾ"
+    },
+    {
+      "input": 4,
+      "expected": "ਚੌਥਾ"
+    },
+    {
+      "input": 5,
+      "expected": "ਪੰਜਵਾਂ"
+    },
+    {
+      "input": 6,
+      "expected": "ਛੇਵਾਂ"
+    },
+    {
+      "input": 7,
+      "expected": "ਸੱਤਵਾਂ"
+    },
+    {
+      "input": 8,
+      "expected": "ਅੱਠਵਾਂ"
+    },
+    {
+      "input": 9,
+      "expected": "ਨੌਂਵਾਂ"
+    },
+    {
+      "input": 10,
+      "expected": "ਦੱਸਵਾਂ"
+    },
+    {
+      "input": 11,
+      "expected": "ਗਿਆਰਾਂਵਾਂ"
+    },
+    {
+      "input": 20,
+      "expected": "ਵੀਹਵਾਂ"
+    },
+    {
+      "input": 21,
+      "expected": "ਇੱਕੀਵਾਂ"
+    },
+    {
+      "input": 42,
+      "expected": "ਬਿਆਲੀਵਾਂ"
+    },
+    {
+      "input": 99,
+      "expected": "ਨਿਨਾਨਵੇਂਵਾਂ"
+    },
+    {
+      "input": 100,
+      "expected": "ਇੱਕ ਸੌਵਾਂ"
+    },
+    {
+      "input": 101,
+      "expected": "ਇੱਕ ਸੌ ਇੱਕਵਾਂ"
+    },
+    {
+      "input": 200,
+      "expected": "ਦੋ ਸੌਵਾਂ"
+    },
+    {
+      "input": 1000,
+      "expected": "ਇੱਕ ਹਜ਼ਾਰਵਾਂ"
+    },
+    {
+      "input": 1001,
+      "expected": "ਇੱਕ ਹਜ਼ਾਰ ਇੱਕਵਾਂ"
+    },
+    {
+      "input": 100000,
+      "expected": "ਇੱਕ ਲੱਖਵਾਂ"
+    },
+    {
+      "input": 10000000,
+      "expected": "ਇੱਕ ਕਰੋੜਵਾਂ"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "ਸਿਫ਼ਰ ਰੁਪਏ"
+    },
+    {
+      "input": 1,
+      "expected": "ਇੱਕ ਰੁਪਇਆ"
+    },
+    {
+      "input": 2,
+      "expected": "ਦੋ ਰੁਪਏ"
+    },
+    {
+      "input": 10,
+      "expected": "ਦੱਸ ਰੁਪਏ"
+    },
+    {
+      "input": 21,
+      "expected": "ਇੱਕੀ ਰੁਪਏ"
+    },
+    {
+      "input": 100,
+      "expected": "ਇੱਕ ਸੌ ਰੁਪਏ"
+    },
+    {
+      "input": 1000,
+      "expected": "ਇੱਕ ਹਜ਼ਾਰ ਰੁਪਏ"
+    },
+    {
+      "input": 100000,
+      "expected": "ਇੱਕ ਲੱਖ ਰੁਪਏ"
+    },
+    {
+      "input": 0.01,
+      "expected": "ਇੱਕ ਪੈਸਾ"
+    },
+    {
+      "input": 0.02,
+      "expected": "ਦੋ ਪੈਸੇ"
+    },
+    {
+      "input": 0.5,
+      "expected": "ਪੰਜਾਹ ਪੈਸੇ"
+    },
+    {
+      "input": 0.99,
+      "expected": "ਨਿਨਾਨਵੇਂ ਪੈਸੇ"
+    },
+    {
+      "input": 1.01,
+      "expected": "ਇੱਕ ਰੁਪਇਆ ਇੱਕ ਪੈਸਾ"
+    },
+    {
+      "input": 42.5,
+      "expected": "ਬਿਆਲੀ ਰੁਪਏ ਪੰਜਾਹ ਪੈਸੇ"
+    },
+    {
+      "input": 1000.99,
+      "expected": "ਇੱਕ ਹਜ਼ਾਰ ਰੁਪਏ ਨਿਨਾਨਵੇਂ ਪੈਸੇ"
+    },
+    {
+      "input": -1,
+      "expected": "ਮਾਇਨਸ ਇੱਕ ਰੁਪਇਆ"
+    },
+    {
+      "input": -42.5,
+      "expected": "ਮਾਇਨਸ ਬਿਆਲੀ ਰੁਪਏ ਪੰਜਾਹ ਪੈਸੇ"
+    },
+    {
+      "input": 5,
+      "expected": "ਪੰਜ ਰੁਪਏ"
+    },
+    {
+      "input": "5.00",
+      "expected": "ਪੰਜ ਰੁਪਏ"
+    }
+  ]
+}

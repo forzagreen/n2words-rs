@@ -1,0 +1,511 @@
+{
+  "code": "hu",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "nulla egész nulla egy"
+    },
+    {
+      "input": 0.007,
+      "expected": "nulla egész nulla nulla hét"
+    },
+    {
+      "input": 17.42,
+      "expected": "tizenhét egész negyvenkettő"
+    },
+    {
+      "input": 27.312,
+      "expected": "huszonhét egész háromszáztizenkettő"
+    },
+    {
+      "input": 53.486,
+      "expected": "ötvenhárom egész négyszáznyolcvanhat"
+    },
+    {
+      "input": 300.42,
+      "expected": "háromszáz egész negyvenkettő"
+    },
+    {
+      "input": 4196.42,
+      "expected": "négyezer-százkilencvenhat egész negyvenkettő"
+    },
+    {
+      "input": -17.42,
+      "expected": "mínusz tizenhét egész negyvenkettő"
+    },
+    {
+      "input": -1,
+      "expected": "mínusz egy"
+    },
+    {
+      "input": -20,
+      "expected": "mínusz húsz"
+    },
+    {
+      "input": 0,
+      "expected": "nulla"
+    },
+    {
+      "input": 1,
+      "expected": "egy"
+    },
+    {
+      "input": 2,
+      "expected": "kettő"
+    },
+    {
+      "input": 3,
+      "expected": "három"
+    },
+    {
+      "input": 11,
+      "expected": "tizenegy"
+    },
+    {
+      "input": 12,
+      "expected": "tizenkettő"
+    },
+    {
+      "input": 16,
+      "expected": "tizenhat"
+    },
+    {
+      "input": 19,
+      "expected": "tizenkilenc"
+    },
+    {
+      "input": 20,
+      "expected": "húsz"
+    },
+    {
+      "input": 21,
+      "expected": "huszonegy"
+    },
+    {
+      "input": 26,
+      "expected": "huszonhat"
+    },
+    {
+      "input": 28,
+      "expected": "huszonnyolc"
+    },
+    {
+      "input": 30,
+      "expected": "harminc"
+    },
+    {
+      "input": 31,
+      "expected": "harmincegy"
+    },
+    {
+      "input": 40,
+      "expected": "negyven"
+    },
+    {
+      "input": 44,
+      "expected": "negyvennégy"
+    },
+    {
+      "input": 50,
+      "expected": "ötven"
+    },
+    {
+      "input": 55,
+      "expected": "ötvenöt"
+    },
+    {
+      "input": 60,
+      "expected": "hatvan"
+    },
+    {
+      "input": 67,
+      "expected": "hatvanhét"
+    },
+    {
+      "input": 70,
+      "expected": "hetven"
+    },
+    {
+      "input": 79,
+      "expected": "hetvenkilenc"
+    },
+    {
+      "input": 89,
+      "expected": "nyolcvankilenc"
+    },
+    {
+      "input": 95,
+      "expected": "kilencvenöt"
+    },
+    {
+      "input": 100,
+      "expected": "száz"
+    },
+    {
+      "input": 101,
+      "expected": "százegy"
+    },
+    {
+      "input": 199,
+      "expected": "százkilencvenkilenc"
+    },
+    {
+      "input": 203,
+      "expected": "kétszázhárom"
+    },
+    {
+      "input": 287,
+      "expected": "kétszáznyolcvanhét"
+    },
+    {
+      "input": 356,
+      "expected": "háromszázötvenhat"
+    },
+    {
+      "input": 400,
+      "expected": "négyszáz"
+    },
+    {
+      "input": 434,
+      "expected": "négyszázharmincnégy"
+    },
+    {
+      "input": 578,
+      "expected": "ötszázhetvennyolc"
+    },
+    {
+      "input": 689,
+      "expected": "hatszáznyolcvankilenc"
+    },
+    {
+      "input": 729,
+      "expected": "hétszázhuszonkilenc"
+    },
+    {
+      "input": 894,
+      "expected": "nyolcszázkilencvennégy"
+    },
+    {
+      "input": 999,
+      "expected": "kilencszázkilencvenkilenc"
+    },
+    {
+      "input": 1000,
+      "expected": "ezer"
+    },
+    {
+      "input": 1001,
+      "expected": "ezeregy"
+    },
+    {
+      "input": 1097,
+      "expected": "ezerkilencvenhét"
+    },
+    {
+      "input": 1104,
+      "expected": "ezerszáznégy"
+    },
+    {
+      "input": 1243,
+      "expected": "ezerkétszáznegyvenhárom"
+    },
+    {
+      "input": 2000,
+      "expected": "kétezer"
+    },
+    {
+      "input": 2385,
+      "expected": "kétezer-háromszáznyolcvanöt"
+    },
+    {
+      "input": 3766,
+      "expected": "háromezer-hétszázhatvanhat"
+    },
+    {
+      "input": 4196,
+      "expected": "négyezer-százkilencvenhat"
+    },
+    {
+      "input": 5846,
+      "expected": "ötezer-nyolcszáznegyvenhat"
+    },
+    {
+      "input": 6459,
+      "expected": "hatezer-négyszázötvenkilenc"
+    },
+    {
+      "input": 7232,
+      "expected": "hétezer-kétszázharminckettő"
+    },
+    {
+      "input": 8569,
+      "expected": "nyolcezer-ötszázhatvankilenc"
+    },
+    {
+      "input": 9539,
+      "expected": "kilencezer-ötszázharminckilenc"
+    },
+    {
+      "input": 1000000,
+      "expected": "egymillió"
+    },
+    {
+      "input": 1000001,
+      "expected": "egymillió-egy"
+    },
+    {
+      "input": 4000000,
+      "expected": "négymillió"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "tízbillió"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "százbillió"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "egytrillió"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "első"
+    },
+    {
+      "input": 2,
+      "expected": "második"
+    },
+    {
+      "input": 3,
+      "expected": "harmadik"
+    },
+    {
+      "input": 4,
+      "expected": "negyedik"
+    },
+    {
+      "input": 5,
+      "expected": "ötödik"
+    },
+    {
+      "input": 6,
+      "expected": "hatodik"
+    },
+    {
+      "input": 7,
+      "expected": "hetedik"
+    },
+    {
+      "input": 8,
+      "expected": "nyolcadik"
+    },
+    {
+      "input": 9,
+      "expected": "kilencedik"
+    },
+    {
+      "input": 10,
+      "expected": "tizedik"
+    },
+    {
+      "input": 11,
+      "expected": "tizenegyedik"
+    },
+    {
+      "input": 12,
+      "expected": "tizenkettődik"
+    },
+    {
+      "input": 19,
+      "expected": "tizenkilencedik"
+    },
+    {
+      "input": 20,
+      "expected": "huszadik"
+    },
+    {
+      "input": 21,
+      "expected": "huszonegyedik"
+    },
+    {
+      "input": 30,
+      "expected": "harmincadik"
+    },
+    {
+      "input": 42,
+      "expected": "negyvenkettődik"
+    },
+    {
+      "input": 99,
+      "expected": "kilencvenkilencedik"
+    },
+    {
+      "input": 100,
+      "expected": "századik"
+    },
+    {
+      "input": 101,
+      "expected": "százegyedik"
+    },
+    {
+      "input": 200,
+      "expected": "kétszázadik"
+    },
+    {
+      "input": 1000,
+      "expected": "ezredik"
+    },
+    {
+      "input": 1001,
+      "expected": "ezeregyedik"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nulla forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "egy forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "kettő forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "öt forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "tíz forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "huszonegy forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "negyvenkettő forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "száz forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ezer forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "egy fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "huszonöt fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "ötven fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "kilencvenkilenc fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "egy forint egy fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "egy forint ötven fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "negyvenkettő forint ötven fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "száz forint kilencvenkilenc fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "mínusz egy forint",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "mínusz negyvenkettő forint ötven fillér",
+      "options": {
+        "currency": "HUF"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "öt forint",
+      "options": {
+        "currency": "HUF"
+      }
+    }
+  ]
+}

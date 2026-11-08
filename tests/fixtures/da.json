@@ -1,0 +1,533 @@
+{
+  "code": "da",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "nul komma nul et"
+    },
+    {
+      "input": 1.007,
+      "expected": "et komma nul nul syv"
+    },
+    {
+      "input": 1.7,
+      "expected": "et komma syv"
+    },
+    {
+      "input": 17.42,
+      "expected": "sytten komma toogfyrre"
+    },
+    {
+      "input": 27.312,
+      "expected": "syvogtyve komma trehundrede og tolv"
+    },
+    {
+      "input": 53.486,
+      "expected": "treoghalvtreds komma firehundrede og seksogfirs"
+    },
+    {
+      "input": 300.42,
+      "expected": "trehundrede komma toogfyrre"
+    },
+    {
+      "input": 4196.42,
+      "expected": "firetusinde og ethundrede og seksoghalvfems komma toogfyrre"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus sytten komma toogfyrre"
+    },
+    {
+      "input": -1,
+      "expected": "minus et"
+    },
+    {
+      "input": -20,
+      "expected": "minus tyve"
+    },
+    {
+      "input": 0,
+      "expected": "nul"
+    },
+    {
+      "input": 1,
+      "expected": "et"
+    },
+    {
+      "input": 2,
+      "expected": "to"
+    },
+    {
+      "input": 3,
+      "expected": "tre"
+    },
+    {
+      "input": 11,
+      "expected": "elleve"
+    },
+    {
+      "input": 12,
+      "expected": "tolv"
+    },
+    {
+      "input": 16,
+      "expected": "seksten"
+    },
+    {
+      "input": 19,
+      "expected": "nitten"
+    },
+    {
+      "input": 20,
+      "expected": "tyve"
+    },
+    {
+      "input": 21,
+      "expected": "enogtyve"
+    },
+    {
+      "input": 26,
+      "expected": "seksogtyve"
+    },
+    {
+      "input": 28,
+      "expected": "otteogtyve"
+    },
+    {
+      "input": 30,
+      "expected": "tredive"
+    },
+    {
+      "input": 31,
+      "expected": "enogtredive"
+    },
+    {
+      "input": 40,
+      "expected": "fyrre"
+    },
+    {
+      "input": 44,
+      "expected": "fireogfyrre"
+    },
+    {
+      "input": 50,
+      "expected": "halvtreds"
+    },
+    {
+      "input": 55,
+      "expected": "femoghalvtreds"
+    },
+    {
+      "input": 60,
+      "expected": "treds"
+    },
+    {
+      "input": 67,
+      "expected": "syvogtreds"
+    },
+    {
+      "input": 70,
+      "expected": "halvfjerds"
+    },
+    {
+      "input": 79,
+      "expected": "nioghalvfjerds"
+    },
+    {
+      "input": 89,
+      "expected": "niogfirs"
+    },
+    {
+      "input": 95,
+      "expected": "femoghalvfems"
+    },
+    {
+      "input": 100,
+      "expected": "ethundrede"
+    },
+    {
+      "input": 101,
+      "expected": "ethundrede og et"
+    },
+    {
+      "input": 199,
+      "expected": "ethundrede og nioghalvfems"
+    },
+    {
+      "input": 203,
+      "expected": "tohundrede og tre"
+    },
+    {
+      "input": 287,
+      "expected": "tohundrede og syvogfirs"
+    },
+    {
+      "input": 356,
+      "expected": "trehundrede og seksoghalvtreds"
+    },
+    {
+      "input": 400,
+      "expected": "firehundrede"
+    },
+    {
+      "input": 434,
+      "expected": "firehundrede og fireogtredive"
+    },
+    {
+      "input": 578,
+      "expected": "femhundrede og otteoghalvfjerds"
+    },
+    {
+      "input": 689,
+      "expected": "sekshundrede og niogfirs"
+    },
+    {
+      "input": 729,
+      "expected": "syvhundrede og niogtyve"
+    },
+    {
+      "input": 894,
+      "expected": "ottehundrede og fireoghalvfems"
+    },
+    {
+      "input": 999,
+      "expected": "nihundrede og nioghalvfems"
+    },
+    {
+      "input": 1000,
+      "expected": "ettusind"
+    },
+    {
+      "input": 1001,
+      "expected": "ettusinde og et"
+    },
+    {
+      "input": 1097,
+      "expected": "ettusinde og syvoghalvfems"
+    },
+    {
+      "input": 1104,
+      "expected": "ettusinde og ethundrede og fire"
+    },
+    {
+      "input": 1243,
+      "expected": "ettusinde og tohundrede og treogfyrre"
+    },
+    {
+      "input": 2385,
+      "expected": "totusinde og trehundrede og femogfirs"
+    },
+    {
+      "input": 3766,
+      "expected": "tretusinde og syvhundrede og seksogtreds"
+    },
+    {
+      "input": 4196,
+      "expected": "firetusinde og ethundrede og seksoghalvfems"
+    },
+    {
+      "input": 5846,
+      "expected": "femtusinde og ottehundrede og seksogfyrre"
+    },
+    {
+      "input": 6459,
+      "expected": "sekstusinde og firehundrede og nioghalvtreds"
+    },
+    {
+      "input": 7232,
+      "expected": "syvtusinde og tohundrede og toogtredive"
+    },
+    {
+      "input": 8569,
+      "expected": "ottetusinde og femhundrede og niogtreds"
+    },
+    {
+      "input": 9539,
+      "expected": "nitusinde og femhundrede og niogtredive"
+    },
+    {
+      "input": 1000000,
+      "expected": "en millioner"
+    },
+    {
+      "input": 1000001,
+      "expected": "en millioner et"
+    },
+    {
+      "input": 1001001,
+      "expected": "en millioner ettusinde og et"
+    },
+    {
+      "input": 4000000,
+      "expected": "fire millioner"
+    },
+    {
+      "input": 1001000000,
+      "expected": "en millarder en millioner"
+    },
+    {
+      "input": {
+        "bigint": "2000002000000"
+      },
+      "expected": "to billioner to millioner"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "ti billioner"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "ethundrede billioner"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "en trillioner"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "første"
+    },
+    {
+      "input": 2,
+      "expected": "anden"
+    },
+    {
+      "input": 3,
+      "expected": "tredje"
+    },
+    {
+      "input": 4,
+      "expected": "fjerde"
+    },
+    {
+      "input": 5,
+      "expected": "femte"
+    },
+    {
+      "input": 6,
+      "expected": "sjette"
+    },
+    {
+      "input": 7,
+      "expected": "syvende"
+    },
+    {
+      "input": 8,
+      "expected": "ottende"
+    },
+    {
+      "input": 9,
+      "expected": "niende"
+    },
+    {
+      "input": 10,
+      "expected": "tiende"
+    },
+    {
+      "input": 11,
+      "expected": "ellevte"
+    },
+    {
+      "input": 12,
+      "expected": "tolvte"
+    },
+    {
+      "input": 13,
+      "expected": "trettende"
+    },
+    {
+      "input": 14,
+      "expected": "fjortende"
+    },
+    {
+      "input": 19,
+      "expected": "nittende"
+    },
+    {
+      "input": 20,
+      "expected": "tyvede"
+    },
+    {
+      "input": 21,
+      "expected": "enogtyvede"
+    },
+    {
+      "input": 30,
+      "expected": "tredivede"
+    },
+    {
+      "input": 42,
+      "expected": "toogfyrrede"
+    },
+    {
+      "input": 99,
+      "expected": "nioghalvfemsde"
+    },
+    {
+      "input": 100,
+      "expected": "ethundredede"
+    },
+    {
+      "input": 101,
+      "expected": "ethundrede og etde"
+    },
+    {
+      "input": 200,
+      "expected": "tohundredede"
+    },
+    {
+      "input": 1000,
+      "expected": "ettusindde"
+    },
+    {
+      "input": 1001,
+      "expected": "ettusinde og etde"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nul kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "en krone",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "to kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "fem kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "ti kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "enogtyve kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "toogfyrre kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "ethundrede kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ettusind kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "et øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "femogtyve øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "halvtreds øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "nioghalvfems øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "en krone og et øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "en krone og halvtreds øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "toogfyrre kroner og halvtreds øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "ethundrede kroner og nioghalvfems øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "minus en krone",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "minus toogfyrre kroner og halvtreds øre",
+      "options": {
+        "currency": "DKK"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "fem kroner",
+      "options": {
+        "currency": "DKK"
+      }
+    }
+  ]
+}

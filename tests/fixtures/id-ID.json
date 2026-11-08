@@ -1,0 +1,431 @@
+{
+  "code": "id-ID",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "nol koma nol satu"
+    },
+    {
+      "input": 0.007,
+      "expected": "nol koma nol nol tujuh"
+    },
+    {
+      "input": 5.5,
+      "expected": "lima koma lima"
+    },
+    {
+      "input": 17.42,
+      "expected": "tujuh belas koma empat puluh dua"
+    },
+    {
+      "input": 27.312,
+      "expected": "dua puluh tujuh koma tiga ratus dua belas"
+    },
+    {
+      "input": 53.486,
+      "expected": "lima puluh tiga koma empat ratus delapan puluh enam"
+    },
+    {
+      "input": 300.42,
+      "expected": "tiga ratus koma empat puluh dua"
+    },
+    {
+      "input": 4196.42,
+      "expected": "empat ribu seratus sembilan puluh enam koma empat puluh dua"
+    },
+    {
+      "input": -17.42,
+      "expected": "min tujuh belas koma empat puluh dua"
+    },
+    {
+      "input": -1,
+      "expected": "min satu"
+    },
+    {
+      "input": -20,
+      "expected": "min dua puluh"
+    },
+    {
+      "input": 0,
+      "expected": "nol"
+    },
+    {
+      "input": 1,
+      "expected": "satu"
+    },
+    {
+      "input": 2,
+      "expected": "dua"
+    },
+    {
+      "input": 3,
+      "expected": "tiga"
+    },
+    {
+      "input": 11,
+      "expected": "sebelas"
+    },
+    {
+      "input": 12,
+      "expected": "dua belas"
+    },
+    {
+      "input": 16,
+      "expected": "enam belas"
+    },
+    {
+      "input": 19,
+      "expected": "sembilan belas"
+    },
+    {
+      "input": 20,
+      "expected": "dua puluh"
+    },
+    {
+      "input": 21,
+      "expected": "dua puluh satu"
+    },
+    {
+      "input": 26,
+      "expected": "dua puluh enam"
+    },
+    {
+      "input": 28,
+      "expected": "dua puluh delapan"
+    },
+    {
+      "input": 30,
+      "expected": "tiga puluh"
+    },
+    {
+      "input": 31,
+      "expected": "tiga puluh satu"
+    },
+    {
+      "input": 40,
+      "expected": "empat puluh"
+    },
+    {
+      "input": 44,
+      "expected": "empat puluh empat"
+    },
+    {
+      "input": 50,
+      "expected": "lima puluh"
+    },
+    {
+      "input": 55,
+      "expected": "lima puluh lima"
+    },
+    {
+      "input": 60,
+      "expected": "enam puluh"
+    },
+    {
+      "input": 67,
+      "expected": "enam puluh tujuh"
+    },
+    {
+      "input": 70,
+      "expected": "tujuh puluh"
+    },
+    {
+      "input": 79,
+      "expected": "tujuh puluh sembilan"
+    },
+    {
+      "input": 89,
+      "expected": "delapan puluh sembilan"
+    },
+    {
+      "input": 95,
+      "expected": "sembilan puluh lima"
+    },
+    {
+      "input": 100,
+      "expected": "seratus"
+    },
+    {
+      "input": 101,
+      "expected": "seratus satu"
+    },
+    {
+      "input": 199,
+      "expected": "seratus sembilan puluh sembilan"
+    },
+    {
+      "input": 203,
+      "expected": "dua ratus tiga"
+    },
+    {
+      "input": 287,
+      "expected": "dua ratus delapan puluh tujuh"
+    },
+    {
+      "input": 356,
+      "expected": "tiga ratus lima puluh enam"
+    },
+    {
+      "input": 400,
+      "expected": "empat ratus"
+    },
+    {
+      "input": 434,
+      "expected": "empat ratus tiga puluh empat"
+    },
+    {
+      "input": 578,
+      "expected": "lima ratus tujuh puluh delapan"
+    },
+    {
+      "input": 689,
+      "expected": "enam ratus delapan puluh sembilan"
+    },
+    {
+      "input": 729,
+      "expected": "tujuh ratus dua puluh sembilan"
+    },
+    {
+      "input": 894,
+      "expected": "delapan ratus sembilan puluh empat"
+    },
+    {
+      "input": 999,
+      "expected": "sembilan ratus sembilan puluh sembilan"
+    },
+    {
+      "input": 1000,
+      "expected": "seribu"
+    },
+    {
+      "input": 1001,
+      "expected": "seribu satu"
+    },
+    {
+      "input": 1097,
+      "expected": "seribu sembilan puluh tujuh"
+    },
+    {
+      "input": 1104,
+      "expected": "seribu seratus empat"
+    },
+    {
+      "input": 1243,
+      "expected": "seribu dua ratus empat puluh tiga"
+    },
+    {
+      "input": 2385,
+      "expected": "dua ribu tiga ratus delapan puluh lima"
+    },
+    {
+      "input": 3766,
+      "expected": "tiga ribu tujuh ratus enam puluh enam"
+    },
+    {
+      "input": 4196,
+      "expected": "empat ribu seratus sembilan puluh enam"
+    },
+    {
+      "input": 5846,
+      "expected": "lima ribu delapan ratus empat puluh enam"
+    },
+    {
+      "input": 6459,
+      "expected": "enam ribu empat ratus lima puluh sembilan"
+    },
+    {
+      "input": 7232,
+      "expected": "tujuh ribu dua ratus tiga puluh dua"
+    },
+    {
+      "input": 8569,
+      "expected": "delapan ribu lima ratus enam puluh sembilan"
+    },
+    {
+      "input": 9539,
+      "expected": "sembilan ribu lima ratus tiga puluh sembilan"
+    },
+    {
+      "input": 1000000,
+      "expected": "satu juta"
+    },
+    {
+      "input": 1000001,
+      "expected": "satu juta satu"
+    },
+    {
+      "input": 4000000,
+      "expected": "empat juta"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "sepuluh triliun"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "seratus triliun"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "satu kuantiliun"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "pertama"
+    },
+    {
+      "input": 2,
+      "expected": "kedua"
+    },
+    {
+      "input": 3,
+      "expected": "ketiga"
+    },
+    {
+      "input": 4,
+      "expected": "keempat"
+    },
+    {
+      "input": 5,
+      "expected": "kelima"
+    },
+    {
+      "input": 6,
+      "expected": "keenam"
+    },
+    {
+      "input": 7,
+      "expected": "ketujuh"
+    },
+    {
+      "input": 8,
+      "expected": "kedelapan"
+    },
+    {
+      "input": 9,
+      "expected": "kesembilan"
+    },
+    {
+      "input": 10,
+      "expected": "kesepuluh"
+    },
+    {
+      "input": 11,
+      "expected": "kesebelas"
+    },
+    {
+      "input": 12,
+      "expected": "kedua belas"
+    },
+    {
+      "input": 15,
+      "expected": "kelima belas"
+    },
+    {
+      "input": 19,
+      "expected": "kesembilan belas"
+    },
+    {
+      "input": 20,
+      "expected": "kedua puluh"
+    },
+    {
+      "input": 21,
+      "expected": "kedua puluh satu"
+    },
+    {
+      "input": 30,
+      "expected": "ketiga puluh"
+    },
+    {
+      "input": 42,
+      "expected": "keempat puluh dua"
+    },
+    {
+      "input": 99,
+      "expected": "kesembilan puluh sembilan"
+    },
+    {
+      "input": 100,
+      "expected": "keseratus"
+    },
+    {
+      "input": 101,
+      "expected": "keseratus satu"
+    },
+    {
+      "input": 200,
+      "expected": "kedua ratus"
+    },
+    {
+      "input": 1000,
+      "expected": "keseribu"
+    },
+    {
+      "input": 1001,
+      "expected": "keseribu satu"
+    },
+    {
+      "input": 1000000,
+      "expected": "kesatu juta"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nol rupiah"
+    },
+    {
+      "input": 1,
+      "expected": "satu rupiah"
+    },
+    {
+      "input": 2,
+      "expected": "dua rupiah"
+    },
+    {
+      "input": 5,
+      "expected": "lima rupiah"
+    },
+    {
+      "input": 10,
+      "expected": "sepuluh rupiah"
+    },
+    {
+      "input": 100,
+      "expected": "seratus rupiah"
+    },
+    {
+      "input": 1000,
+      "expected": "seribu rupiah"
+    },
+    {
+      "input": 10000,
+      "expected": "sepuluh ribu rupiah"
+    },
+    {
+      "input": 100000,
+      "expected": "seratus ribu rupiah"
+    },
+    {
+      "input": 1000000,
+      "expected": "satu juta rupiah"
+    },
+    {
+      "input": -1,
+      "expected": "min satu rupiah"
+    },
+    {
+      "input": -1000,
+      "expected": "min seribu rupiah"
+    },
+    {
+      "input": "5.00",
+      "expected": "lima rupiah"
+    }
+  ]
+}

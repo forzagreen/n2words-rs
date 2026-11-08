@@ -1,0 +1,489 @@
+{
+  "code": "fa",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "صفر ممیّز صفر یک"
+    },
+    {
+      "input": 0.007,
+      "expected": "صفر ممیّز صفر صفر هفت"
+    },
+    {
+      "input": 5.5,
+      "expected": "پنج ممیّز پنج"
+    },
+    {
+      "input": 17.42,
+      "expected": "هفده ممیّز چهل و دو"
+    },
+    {
+      "input": 27.312,
+      "expected": "بیست و هفت ممیّز سيصد و دوازده"
+    },
+    {
+      "input": 53.486,
+      "expected": "پنجاه و سه ممیّز چهار صد و هشتاد و شش"
+    },
+    {
+      "input": 300.42,
+      "expected": "سيصد ممیّز چهل و دو"
+    },
+    {
+      "input": 4196.42,
+      "expected": "چهار هزار صد و نود و شش ممیّز چهل و دو"
+    },
+    {
+      "input": -17.42,
+      "expected": "منفى هفده ممیّز چهل و دو"
+    },
+    {
+      "input": -1,
+      "expected": "منفى یک"
+    },
+    {
+      "input": -20,
+      "expected": "منفى بیست"
+    },
+    {
+      "input": 0,
+      "expected": "صفر"
+    },
+    {
+      "input": 1,
+      "expected": "یک"
+    },
+    {
+      "input": 2,
+      "expected": "دو"
+    },
+    {
+      "input": 3,
+      "expected": "سه"
+    },
+    {
+      "input": 11,
+      "expected": "یازده"
+    },
+    {
+      "input": 12,
+      "expected": "دوازده"
+    },
+    {
+      "input": 16,
+      "expected": "شانزده"
+    },
+    {
+      "input": 19,
+      "expected": "نوزده"
+    },
+    {
+      "input": 20,
+      "expected": "بیست"
+    },
+    {
+      "input": 21,
+      "expected": "بیست و یک"
+    },
+    {
+      "input": 26,
+      "expected": "بیست و شش"
+    },
+    {
+      "input": 28,
+      "expected": "بیست و هشت"
+    },
+    {
+      "input": 30,
+      "expected": "سی"
+    },
+    {
+      "input": 31,
+      "expected": "سی و یک"
+    },
+    {
+      "input": 40,
+      "expected": "چهل"
+    },
+    {
+      "input": 44,
+      "expected": "چهل و چهار"
+    },
+    {
+      "input": 50,
+      "expected": "پنجاه"
+    },
+    {
+      "input": 55,
+      "expected": "پنجاه و پنج"
+    },
+    {
+      "input": 60,
+      "expected": "شصت"
+    },
+    {
+      "input": 67,
+      "expected": "شصت و هفت"
+    },
+    {
+      "input": 70,
+      "expected": "هفتاد"
+    },
+    {
+      "input": 79,
+      "expected": "هفتاد و نه"
+    },
+    {
+      "input": 89,
+      "expected": "هشتاد و نه"
+    },
+    {
+      "input": 95,
+      "expected": "نود و پنج"
+    },
+    {
+      "input": 100,
+      "expected": "صد"
+    },
+    {
+      "input": 101,
+      "expected": "صد و یک"
+    },
+    {
+      "input": 199,
+      "expected": "صد و نود و نه"
+    },
+    {
+      "input": 203,
+      "expected": "دویست و سه"
+    },
+    {
+      "input": 287,
+      "expected": "دویست و هشتاد و هفت"
+    },
+    {
+      "input": 356,
+      "expected": "سيصد و پنجاه و شش"
+    },
+    {
+      "input": 400,
+      "expected": "چهار صد"
+    },
+    {
+      "input": 434,
+      "expected": "چهار صد و سی و چهار"
+    },
+    {
+      "input": 578,
+      "expected": "پانصد و هفتاد و هشت"
+    },
+    {
+      "input": 689,
+      "expected": "ششصد و هشتاد و نه"
+    },
+    {
+      "input": 729,
+      "expected": "هفتصد و بیست و نه"
+    },
+    {
+      "input": 894,
+      "expected": "هشتصد و نود و چهار"
+    },
+    {
+      "input": 999,
+      "expected": "نهصد و نود و نه"
+    },
+    {
+      "input": 1000,
+      "expected": "هزار"
+    },
+    {
+      "input": 1001,
+      "expected": "هزار یک"
+    },
+    {
+      "input": 1097,
+      "expected": "هزار نود و هفت"
+    },
+    {
+      "input": 1104,
+      "expected": "هزار صد و چهار"
+    },
+    {
+      "input": 1243,
+      "expected": "هزار دویست و چهل و سه"
+    },
+    {
+      "input": 2385,
+      "expected": "دو هزار سيصد و هشتاد و پنج"
+    },
+    {
+      "input": 3766,
+      "expected": "سه هزار هفتصد و شصت و شش"
+    },
+    {
+      "input": 4196,
+      "expected": "چهار هزار صد و نود و شش"
+    },
+    {
+      "input": 5846,
+      "expected": "پنج هزار هشتصد و چهل و شش"
+    },
+    {
+      "input": 6459,
+      "expected": "شش هزار چهار صد و پنجاه و نه"
+    },
+    {
+      "input": 7232,
+      "expected": "هفت هزار دویست و سی و دو"
+    },
+    {
+      "input": 8569,
+      "expected": "هشت هزار پانصد و شصت و نه"
+    },
+    {
+      "input": 9539,
+      "expected": "نه هزار پانصد و سی و نه"
+    },
+    {
+      "input": 20000,
+      "expected": "بیست هزار"
+    },
+    {
+      "input": 21234,
+      "expected": "بیست و یک هزار دویست و سی و چهار"
+    },
+    {
+      "input": 77777,
+      "expected": "هفتاد و هفت هزار هفتصد و هفتاد و هفت"
+    },
+    {
+      "input": 1000000,
+      "expected": "یک میلیون"
+    },
+    {
+      "input": 1000001,
+      "expected": "یک میلیون و یک"
+    },
+    {
+      "input": 4000000,
+      "expected": "چهار میلیون"
+    },
+    {
+      "input": 40000000,
+      "expected": "چهل میلیون"
+    },
+    {
+      "input": 400000000,
+      "expected": "چهار صد میلیون"
+    },
+    {
+      "input": 1000000000,
+      "expected": "یک میلیارد"
+    },
+    {
+      "input": 2000000000,
+      "expected": "دو میلیارد"
+    },
+    {
+      "input": 4000000000,
+      "expected": "چهار میلیارد"
+    },
+    {
+      "input": 10000000000,
+      "expected": "ده میلیارد"
+    },
+    {
+      "input": 100000000000,
+      "expected": "صد میلیارد"
+    },
+    {
+      "input": 1234567890,
+      "expected": "یک میلیارد و دویست و سی و چهار میلیون و پانصد و شصت و هفت هزار هشتصد و نود"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "اول"
+    },
+    {
+      "input": 2,
+      "expected": "دوم"
+    },
+    {
+      "input": 3,
+      "expected": "سوم"
+    },
+    {
+      "input": 4,
+      "expected": "چهارم"
+    },
+    {
+      "input": 5,
+      "expected": "پنجم"
+    },
+    {
+      "input": 6,
+      "expected": "ششم"
+    },
+    {
+      "input": 7,
+      "expected": "هفتم"
+    },
+    {
+      "input": 8,
+      "expected": "هشتم"
+    },
+    {
+      "input": 9,
+      "expected": "نهم"
+    },
+    {
+      "input": 10,
+      "expected": "دهم"
+    },
+    {
+      "input": 11,
+      "expected": "یازدهم"
+    },
+    {
+      "input": 12,
+      "expected": "دوازدهم"
+    },
+    {
+      "input": 15,
+      "expected": "پانزدهم"
+    },
+    {
+      "input": 19,
+      "expected": "نوزدهم"
+    },
+    {
+      "input": 20,
+      "expected": "بیستم"
+    },
+    {
+      "input": 21,
+      "expected": "بیست و یکم"
+    },
+    {
+      "input": 30,
+      "expected": "سیم"
+    },
+    {
+      "input": 42,
+      "expected": "چهل و دوم"
+    },
+    {
+      "input": 99,
+      "expected": "نود و نهم"
+    },
+    {
+      "input": 100,
+      "expected": "صدم"
+    },
+    {
+      "input": 101,
+      "expected": "صد و یکم"
+    },
+    {
+      "input": 200,
+      "expected": "دویستم"
+    },
+    {
+      "input": 1000,
+      "expected": "هزارم"
+    },
+    {
+      "input": 1001,
+      "expected": "هزار یکم"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "صفر ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "یک ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "دو ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "پنج ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "ده ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "صد ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "هزار ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 10000,
+      "expected": "ده هزار ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": 1000000,
+      "expected": "یک میلیون ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "منفى یک ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": -1000,
+      "expected": "منفى هزار ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "پنج ریال",
+      "options": {
+        "currency": "IRR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "code": "am-ET",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "ዜሮ"
+    },
+    {
+      "input": 1,
+      "expected": "አንድ"
+    },
+    {
+      "input": 2,
+      "expected": "ሁለት"
+    },
+    {
+      "input": 3,
+      "expected": "ሶስት"
+    },
+    {
+      "input": 4,
+      "expected": "አራት"
+    },
+    {
+      "input": 5,
+      "expected": "አምስት"
+    },
+    {
+      "input": 6,
+      "expected": "ስድስት"
+    },
+    {
+      "input": 7,
+      "expected": "ሰባት"
+    },
+    {
+      "input": 8,
+      "expected": "ስምንት"
+    },
+    {
+      "input": 9,
+      "expected": "ዘጠኝ"
+    },
+    {
+      "input": 10,
+      "expected": "አስር"
+    },
+    {
+      "input": 11,
+      "expected": "አስራ አንድ"
+    },
+    {
+      "input": 12,
+      "expected": "አስራ ሁለት"
+    },
+    {
+      "input": 13,
+      "expected": "አስራ ሶስት"
+    },
+    {
+      "input": 14,
+      "expected": "አስራ አራት"
+    },
+    {
+      "input": 15,
+      "expected": "አስራ አምስት"
+    },
+    {
+      "input": 16,
+      "expected": "አስራ ስድስት"
+    },
+    {
+      "input": 17,
+      "expected": "አስራ ሰባት"
+    },
+    {
+      "input": 18,
+      "expected": "አስራ ስምንት"
+    },
+    {
+      "input": 19,
+      "expected": "አስራ ዘጠኝ"
+    },
+    {
+      "input": 20,
+      "expected": "ሃያ"
+    },
+    {
+      "input": 30,
+      "expected": "ሰላሳ"
+    },
+    {
+      "input": 40,
+      "expected": "አርባ"
+    },
+    {
+      "input": 50,
+      "expected": "ሃምሳ"
+    },
+    {
+      "input": 60,
+      "expected": "ስልሳ"
+    },
+    {
+      "input": 70,
+      "expected": "ሰባ"
+    },
+    {
+      "input": 80,
+      "expected": "ሰማንያ"
+    },
+    {
+      "input": 90,
+      "expected": "ዘጠና"
+    },
+    {
+      "input": 21,
+      "expected": "ሃያ አንድ"
+    },
+    {
+      "input": 35,
+      "expected": "ሰላሳ አምስት"
+    },
+    {
+      "input": 42,
+      "expected": "አርባ ሁለት"
+    },
+    {
+      "input": 99,
+      "expected": "ዘጠና ዘጠኝ"
+    },
+    {
+      "input": 100,
+      "expected": "አንድ መቶ"
+    },
+    {
+      "input": 101,
+      "expected": "አንድ መቶ አንድ"
+    },
+    {
+      "input": 110,
+      "expected": "አንድ መቶ አስር"
+    },
+    {
+      "input": 200,
+      "expected": "ሁለት መቶ"
+    },
+    {
+      "input": 500,
+      "expected": "አምስት መቶ"
+    },
+    {
+      "input": 999,
+      "expected": "ዘጠኝ መቶ ዘጠና ዘጠኝ"
+    },
+    {
+      "input": 1000,
+      "expected": "አንድ ሺ"
+    },
+    {
+      "input": 1001,
+      "expected": "አንድ ሺ አንድ"
+    },
+    {
+      "input": 2000,
+      "expected": "ሁለት ሺ"
+    },
+    {
+      "input": 10000,
+      "expected": "አስር ሺ"
+    },
+    {
+      "input": 100000,
+      "expected": "አንድ መቶ ሺ"
+    },
+    {
+      "input": 1000000,
+      "expected": "አንድ ሚሊዮን"
+    },
+    {
+      "input": 2000000,
+      "expected": "ሁለት ሚሊዮን"
+    },
+    {
+      "input": 1000000000,
+      "expected": "አንድ ቢሊዮን"
+    },
+    {
+      "input": -1,
+      "expected": "አሉታዊ አንድ"
+    },
+    {
+      "input": -42,
+      "expected": "አሉታዊ አርባ ሁለት"
+    },
+    {
+      "input": "3.14",
+      "expected": "ሶስት ነጥብ አንድ አራት"
+    },
+    {
+      "input": "0.5",
+      "expected": "ዜሮ ነጥብ አምስት"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "አንደኛ"
+    },
+    {
+      "input": 2,
+      "expected": "ሁለትኛ"
+    },
+    {
+      "input": 3,
+      "expected": "ሶስትኛ"
+    },
+    {
+      "input": 4,
+      "expected": "አራትኛ"
+    },
+    {
+      "input": 5,
+      "expected": "አምስትኛ"
+    },
+    {
+      "input": 6,
+      "expected": "ስድስትኛ"
+    },
+    {
+      "input": 7,
+      "expected": "ሰባትኛ"
+    },
+    {
+      "input": 8,
+      "expected": "ስምንትኛ"
+    },
+    {
+      "input": 9,
+      "expected": "ዘጠኝኛ"
+    },
+    {
+      "input": 10,
+      "expected": "አስርኛ"
+    },
+    {
+      "input": 11,
+      "expected": "አስራ አንድኛ"
+    },
+    {
+      "input": 12,
+      "expected": "አስራ ሁለትኛ"
+    },
+    {
+      "input": 19,
+      "expected": "አስራ ዘጠኝኛ"
+    },
+    {
+      "input": 20,
+      "expected": "ሃያኛ"
+    },
+    {
+      "input": 30,
+      "expected": "ሰላሳኛ"
+    },
+    {
+      "input": 42,
+      "expected": "አርባ ሁለትኛ"
+    },
+    {
+      "input": 99,
+      "expected": "ዘጠና ዘጠኝኛ"
+    },
+    {
+      "input": 100,
+      "expected": "አንድ መቶኛ"
+    },
+    {
+      "input": 101,
+      "expected": "አንድ መቶ አንድኛ"
+    },
+    {
+      "input": 200,
+      "expected": "ሁለት መቶኛ"
+    },
+    {
+      "input": 1000,
+      "expected": "አንድ ሺኛ"
+    },
+    {
+      "input": 1001,
+      "expected": "አንድ ሺ አንድኛ"
+    },
+    {
+      "input": 2000,
+      "expected": "ሁለት ሺኛ"
+    },
+    {
+      "input": 1000000,
+      "expected": "አንድ ሚሊዮንኛ"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "ዜሮ ብር"
+    },
+    {
+      "input": 1,
+      "expected": "አንድ ብር"
+    },
+    {
+      "input": 2,
+      "expected": "ሁለት ብር"
+    },
+    {
+      "input": 10,
+      "expected": "አስር ብር"
+    },
+    {
+      "input": 100,
+      "expected": "አንድ መቶ ብር"
+    },
+    {
+      "input": 1000,
+      "expected": "አንድ ሺ ብር"
+    },
+    {
+      "input": 0.01,
+      "expected": "አንድ ሳንቲም"
+    },
+    {
+      "input": 0.02,
+      "expected": "ሁለት ሳንቲም"
+    },
+    {
+      "input": 0.5,
+      "expected": "ሃምሳ ሳንቲም"
+    },
+    {
+      "input": 0.99,
+      "expected": "ዘጠና ዘጠኝ ሳንቲም"
+    },
+    {
+      "input": 1.01,
+      "expected": "አንድ ብር አንድ ሳንቲም"
+    },
+    {
+      "input": 42.5,
+      "expected": "አርባ ሁለት ብር ሃምሳ ሳንቲም"
+    },
+    {
+      "input": 1000.99,
+      "expected": "አንድ ሺ ብር ዘጠና ዘጠኝ ሳንቲም"
+    },
+    {
+      "input": -1,
+      "expected": "አሉታዊ አንድ ብር"
+    },
+    {
+      "input": -42.5,
+      "expected": "አሉታዊ አርባ ሁለት ብር ሃምሳ ሳንቲም"
+    },
+    {
+      "input": 5,
+      "expected": "አምስት ብር"
+    },
+    {
+      "input": "5.00",
+      "expected": "አምስት ብር"
+    }
+  ]
+}

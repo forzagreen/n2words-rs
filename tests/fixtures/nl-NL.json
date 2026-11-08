@@ -1,0 +1,978 @@
+{
+  "code": "nl-NL",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "nul komma nul één"
+    },
+    {
+      "input": 1.007,
+      "expected": "één komma nul nul zeven"
+    },
+    {
+      "input": 1.7,
+      "expected": "één komma zeven"
+    },
+    {
+      "input": 17.42,
+      "expected": "zeventien komma tweeënveertig"
+    },
+    {
+      "input": 27.312,
+      "expected": "zevenentwintig komma driehonderdtwaalf"
+    },
+    {
+      "input": 53.486,
+      "expected": "drieënvijftig komma vierhonderdzesentachtig"
+    },
+    {
+      "input": 300.42,
+      "expected": "driehonderd komma tweeënveertig"
+    },
+    {
+      "input": 4196.42,
+      "expected": "eenenveertighonderd zesennegentig komma tweeënveertig"
+    },
+    {
+      "input": -17.42,
+      "expected": "min zeventien komma tweeënveertig"
+    },
+    {
+      "input": -1,
+      "expected": "min één"
+    },
+    {
+      "input": -20,
+      "expected": "min twintig"
+    },
+    {
+      "input": 0,
+      "expected": "nul"
+    },
+    {
+      "input": 1,
+      "expected": "één"
+    },
+    {
+      "input": 1,
+      "expected": "een",
+      "options": {
+        "accent_one": false
+      }
+    },
+    {
+      "input": 2,
+      "expected": "twee"
+    },
+    {
+      "input": 3,
+      "expected": "drie"
+    },
+    {
+      "input": 11,
+      "expected": "elf"
+    },
+    {
+      "input": 12,
+      "expected": "twaalf"
+    },
+    {
+      "input": 16,
+      "expected": "zestien"
+    },
+    {
+      "input": 19,
+      "expected": "negentien"
+    },
+    {
+      "input": 20,
+      "expected": "twintig"
+    },
+    {
+      "input": 21,
+      "expected": "eenentwintig"
+    },
+    {
+      "input": 21,
+      "expected": "eenentwintig",
+      "options": {
+        "accent_one": true
+      }
+    },
+    {
+      "input": 26,
+      "expected": "zesentwintig"
+    },
+    {
+      "input": 28,
+      "expected": "achtentwintig"
+    },
+    {
+      "input": 30,
+      "expected": "dertig"
+    },
+    {
+      "input": 31,
+      "expected": "eenendertig"
+    },
+    {
+      "input": 40,
+      "expected": "veertig"
+    },
+    {
+      "input": 44,
+      "expected": "vierenveertig"
+    },
+    {
+      "input": 50,
+      "expected": "vijftig"
+    },
+    {
+      "input": 55,
+      "expected": "vijfenvijftig"
+    },
+    {
+      "input": 60,
+      "expected": "zestig"
+    },
+    {
+      "input": 67,
+      "expected": "zevenenzestig"
+    },
+    {
+      "input": 70,
+      "expected": "zeventig"
+    },
+    {
+      "input": 79,
+      "expected": "negenenzeventig"
+    },
+    {
+      "input": 89,
+      "expected": "negenentachtig"
+    },
+    {
+      "input": 95,
+      "expected": "vijfennegentig"
+    },
+    {
+      "input": 100,
+      "expected": "honderd"
+    },
+    {
+      "input": 101,
+      "expected": "honderdeen"
+    },
+    {
+      "input": 101,
+      "expected": "honderdeneen",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 111,
+      "expected": "honderdelf"
+    },
+    {
+      "input": 111,
+      "expected": "honderdenelf",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 112,
+      "expected": "honderdtwaalf"
+    },
+    {
+      "input": 112,
+      "expected": "honderdentwaalf",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 113,
+      "expected": "honderddertien"
+    },
+    {
+      "input": 113,
+      "expected": "honderddertien",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 199,
+      "expected": "honderdnegenennegentig"
+    },
+    {
+      "input": 200,
+      "expected": "tweehonderd"
+    },
+    {
+      "input": 235,
+      "expected": "tweehonderdvijfendertig"
+    },
+    {
+      "input": 203,
+      "expected": "tweehonderddrie"
+    },
+    {
+      "input": 203,
+      "expected": "tweehonderdendrie",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 242,
+      "expected": "tweehonderdtweeënveertig"
+    },
+    {
+      "input": 287,
+      "expected": "tweehonderdzevenentachtig"
+    },
+    {
+      "input": 356,
+      "expected": "driehonderdzesenvijftig"
+    },
+    {
+      "input": 400,
+      "expected": "vierhonderd"
+    },
+    {
+      "input": 434,
+      "expected": "vierhonderdvierendertig"
+    },
+    {
+      "input": 578,
+      "expected": "vijfhonderdachtenzeventig"
+    },
+    {
+      "input": 689,
+      "expected": "zeshonderdnegenentachtig"
+    },
+    {
+      "input": 729,
+      "expected": "zevenhonderdnegenentwintig"
+    },
+    {
+      "input": 894,
+      "expected": "achthonderdvierennegentig"
+    },
+    {
+      "input": 999,
+      "expected": "negenhonderdnegenennegentig"
+    },
+    {
+      "input": 1000,
+      "expected": "duizend"
+    },
+    {
+      "input": 1001,
+      "expected": "duizend één"
+    },
+    {
+      "input": 1001,
+      "expected": "duizend een",
+      "options": {
+        "accent_one": false
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "duizend en één",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 1010,
+      "expected": "duizend tien"
+    },
+    {
+      "input": 1010,
+      "expected": "duizend en tien",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 1012,
+      "expected": "duizend twaalf"
+    },
+    {
+      "input": 1012,
+      "expected": "duizend en twaalf",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 1013,
+      "expected": "duizend dertien"
+    },
+    {
+      "input": 1013,
+      "expected": "duizend dertien",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 1097,
+      "expected": "duizend zevenennegentig"
+    },
+    {
+      "input": 1104,
+      "expected": "elfhonderd vier"
+    },
+    {
+      "input": 1104,
+      "expected": "elfhonderd en vier",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 1104,
+      "expected": "duizend honderdvier",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 1104,
+      "expected": "duizend honderdenvier",
+      "options": {
+        "no_hundred_pairing": true,
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 1243,
+      "expected": "twaalfhonderd drieënveertig"
+    },
+    {
+      "input": 1243,
+      "expected": "duizend tweehonderddrieënveertig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 1700,
+      "expected": "zeventienhonderd"
+    },
+    {
+      "input": 2385,
+      "expected": "drieëntwintighonderd vijfentachtig"
+    },
+    {
+      "input": 2385,
+      "expected": "tweeduizend driehonderdvijfentachtig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 3766,
+      "expected": "zevenendertighonderd zesenzestig"
+    },
+    {
+      "input": 3766,
+      "expected": "drieduizend zevenhonderdzesenzestig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 4196,
+      "expected": "eenenveertighonderd zesennegentig"
+    },
+    {
+      "input": 4196,
+      "expected": "vierduizend honderdzesennegentig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 5846,
+      "expected": "achtenvijftighonderd zesenveertig"
+    },
+    {
+      "input": 5846,
+      "expected": "vijfduizend achthonderdzesenveertig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 6028,
+      "expected": "zesduizend achtentwintig"
+    },
+    {
+      "input": 6459,
+      "expected": "vierenzestighonderd negenenvijftig"
+    },
+    {
+      "input": 6459,
+      "expected": "zesduizend vierhonderdnegenenvijftig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 7232,
+      "expected": "tweeënzeventighonderd tweeëndertig"
+    },
+    {
+      "input": 7232,
+      "expected": "zevenduizend tweehonderdtweeëndertig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 8569,
+      "expected": "vijfentachtighonderd negenenzestig"
+    },
+    {
+      "input": 8569,
+      "expected": "achtduizend vijfhonderdnegenenzestig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 9539,
+      "expected": "vijfennegentighonderd negenendertig"
+    },
+    {
+      "input": 9539,
+      "expected": "negenduizend vijfhonderdnegenendertig",
+      "options": {
+        "no_hundred_pairing": true
+      }
+    },
+    {
+      "input": 28000,
+      "expected": "achtentwintigduizend"
+    },
+    {
+      "input": 28064,
+      "expected": "achtentwintigduizend vierenzestig"
+    },
+    {
+      "input": 100000,
+      "expected": "honderdduizend"
+    },
+    {
+      "input": 115000,
+      "expected": "honderdvijftienduizend"
+    },
+    {
+      "input": 271850,
+      "expected": "tweehonderdeenenzeventigduizend achthonderdvijftig"
+    },
+    {
+      "input": 381000,
+      "expected": "driehonderdeenentachtigduizend"
+    },
+    {
+      "input": 500000,
+      "expected": "vijfhonderdduizend"
+    },
+    {
+      "input": 1000000,
+      "expected": "één miljoen"
+    },
+    {
+      "input": 1000000,
+      "expected": "een miljoen",
+      "options": {
+        "accent_one": false
+      }
+    },
+    {
+      "input": 1000001,
+      "expected": "één miljoen één"
+    },
+    {
+      "input": 1000001,
+      "expected": "een miljoen een",
+      "options": {
+        "accent_one": false
+      }
+    },
+    {
+      "input": 1000001,
+      "expected": "één miljoen en één",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": 4000000,
+      "expected": "vier miljoen"
+    },
+    {
+      "input": 4323000,
+      "expected": "vier miljoen driehonderddrieëntwintigduizend"
+    },
+    {
+      "input": 4323055,
+      "expected": "vier miljoen driehonderddrieëntwintigduizend vijfenvijftig"
+    },
+    {
+      "input": 1570025,
+      "expected": "één miljoen vijfhonderdzeventigduizend vijfentwintig"
+    },
+    {
+      "input": 4000000000,
+      "expected": "vier miljard"
+    },
+    {
+      "input": 1000000000,
+      "expected": "één miljard"
+    },
+    {
+      "input": 2580000000,
+      "expected": "twee miljard vijfhonderdtachtig miljoen"
+    },
+    {
+      "input": 5200000000,
+      "expected": "vijf miljard tweehonderd miljoen"
+    },
+    {
+      "input": 347625728221,
+      "expected": "driehonderdzevenenveertig miljard zeshonderdvijfentwintig miljoen zevenhonderdachtentwintigduizend tweehonderdeenentwintig"
+    },
+    {
+      "input": 1000000000000,
+      "expected": "één biljoen"
+    },
+    {
+      "input": 3627000000000,
+      "expected": "drie biljoen zeshonderdzevenentwintig miljard"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "tien biljoen"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "honderd biljoen"
+    },
+    {
+      "input": 4500072900000111,
+      "expected": "vier biljard vijfhonderd biljoen tweeënzeventig miljard negenhonderd miljoen honderdelf"
+    },
+    {
+      "input": 4500072900000111,
+      "expected": "vier biljard vijfhonderd biljoen tweeënzeventig miljard negenhonderd miljoen honderdenelf",
+      "options": {
+        "include_optional_and": true
+      }
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "één triljoen"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "eerste"
+    },
+    {
+      "input": 2,
+      "expected": "tweede"
+    },
+    {
+      "input": 3,
+      "expected": "derde"
+    },
+    {
+      "input": 4,
+      "expected": "vierde"
+    },
+    {
+      "input": 5,
+      "expected": "vijfde"
+    },
+    {
+      "input": 6,
+      "expected": "zesde"
+    },
+    {
+      "input": 7,
+      "expected": "zevende"
+    },
+    {
+      "input": 8,
+      "expected": "achtste"
+    },
+    {
+      "input": 9,
+      "expected": "negende"
+    },
+    {
+      "input": 10,
+      "expected": "tiende"
+    },
+    {
+      "input": 11,
+      "expected": "elfde"
+    },
+    {
+      "input": 12,
+      "expected": "twaalfde"
+    },
+    {
+      "input": 13,
+      "expected": "dertiende"
+    },
+    {
+      "input": 14,
+      "expected": "veertiende"
+    },
+    {
+      "input": 15,
+      "expected": "vijftiende"
+    },
+    {
+      "input": 16,
+      "expected": "zestiende"
+    },
+    {
+      "input": 17,
+      "expected": "zeventiende"
+    },
+    {
+      "input": 18,
+      "expected": "achttiende"
+    },
+    {
+      "input": 19,
+      "expected": "negentiende"
+    },
+    {
+      "input": 20,
+      "expected": "twintigste"
+    },
+    {
+      "input": 30,
+      "expected": "dertigste"
+    },
+    {
+      "input": 40,
+      "expected": "veertigste"
+    },
+    {
+      "input": 50,
+      "expected": "vijftigste"
+    },
+    {
+      "input": 60,
+      "expected": "zestigste"
+    },
+    {
+      "input": 70,
+      "expected": "zeventigste"
+    },
+    {
+      "input": 80,
+      "expected": "tachtigste"
+    },
+    {
+      "input": 90,
+      "expected": "negentigste"
+    },
+    {
+      "input": 21,
+      "expected": "eenentwintigste"
+    },
+    {
+      "input": 22,
+      "expected": "tweeëntwintigste"
+    },
+    {
+      "input": 23,
+      "expected": "drieëntwintigste"
+    },
+    {
+      "input": 32,
+      "expected": "tweeëndertigste"
+    },
+    {
+      "input": 42,
+      "expected": "tweeënveertigste"
+    },
+    {
+      "input": 53,
+      "expected": "drieënvijftigste"
+    },
+    {
+      "input": 67,
+      "expected": "zevenenzestigste"
+    },
+    {
+      "input": 88,
+      "expected": "achtentachtigste"
+    },
+    {
+      "input": 99,
+      "expected": "negenennegentigste"
+    },
+    {
+      "input": 100,
+      "expected": "honderdste"
+    },
+    {
+      "input": 101,
+      "expected": "honderd eerste"
+    },
+    {
+      "input": 102,
+      "expected": "honderd tweede"
+    },
+    {
+      "input": 103,
+      "expected": "honderd derde"
+    },
+    {
+      "input": 110,
+      "expected": "honderd tiende"
+    },
+    {
+      "input": 111,
+      "expected": "honderd elfde"
+    },
+    {
+      "input": 121,
+      "expected": "honderd eenentwintigste"
+    },
+    {
+      "input": 200,
+      "expected": "tweehonderdste"
+    },
+    {
+      "input": 300,
+      "expected": "driehonderdste"
+    },
+    {
+      "input": 500,
+      "expected": "vijfhonderdste"
+    },
+    {
+      "input": 999,
+      "expected": "negenhonderd negenennegentigste"
+    },
+    {
+      "input": 1000,
+      "expected": "duizendste"
+    },
+    {
+      "input": 1001,
+      "expected": "duizend eerste"
+    },
+    {
+      "input": 1010,
+      "expected": "duizend tiende"
+    },
+    {
+      "input": 1100,
+      "expected": "duizend honderdste"
+    },
+    {
+      "input": 1111,
+      "expected": "duizend honderd elfde"
+    },
+    {
+      "input": 2000,
+      "expected": "tweeduizendste"
+    },
+    {
+      "input": 5000,
+      "expected": "vijfduizendste"
+    },
+    {
+      "input": 10000,
+      "expected": "tienduizendste"
+    },
+    {
+      "input": 12345,
+      "expected": "twaalfduizend driehonderd vijfenveertigste"
+    },
+    {
+      "input": 99999,
+      "expected": "negenennegentigduizend negenhonderd negenennegentigste"
+    },
+    {
+      "input": 1000000,
+      "expected": "een miljoenste"
+    },
+    {
+      "input": 1000001,
+      "expected": "een miljoen eerste"
+    },
+    {
+      "input": 2000000,
+      "expected": "twee miljoenste"
+    },
+    {
+      "input": 1000000000,
+      "expected": "een miljardste"
+    },
+    {
+      "input": 1000000000000,
+      "expected": "een biljoenste"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "een triljoenste"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nul euro"
+    },
+    {
+      "input": 1,
+      "expected": "één euro"
+    },
+    {
+      "input": 2,
+      "expected": "twee euro"
+    },
+    {
+      "input": 10,
+      "expected": "tien euro"
+    },
+    {
+      "input": 21,
+      "expected": "eenentwintig euro"
+    },
+    {
+      "input": 100,
+      "expected": "honderd euro"
+    },
+    {
+      "input": 1000,
+      "expected": "duizend euro"
+    },
+    {
+      "input": 1000000,
+      "expected": "één miljoen euro"
+    },
+    {
+      "input": 0.01,
+      "expected": "één cent"
+    },
+    {
+      "input": 0.02,
+      "expected": "twee cent"
+    },
+    {
+      "input": 0.1,
+      "expected": "tien cent"
+    },
+    {
+      "input": 0.21,
+      "expected": "eenentwintig cent"
+    },
+    {
+      "input": 0.5,
+      "expected": "vijftig cent"
+    },
+    {
+      "input": 0.99,
+      "expected": "negenennegentig cent"
+    },
+    {
+      "input": 1.01,
+      "expected": "één euro en één cent"
+    },
+    {
+      "input": 1.5,
+      "expected": "één euro en vijftig cent"
+    },
+    {
+      "input": 2.02,
+      "expected": "twee euro en twee cent"
+    },
+    {
+      "input": 21.21,
+      "expected": "eenentwintig euro en eenentwintig cent"
+    },
+    {
+      "input": 42.5,
+      "expected": "tweeënveertig euro en vijftig cent"
+    },
+    {
+      "input": 100.99,
+      "expected": "honderd euro en negenennegentig cent"
+    },
+    {
+      "input": 1000.01,
+      "expected": "duizend euro en één cent"
+    },
+    {
+      "input": 1000000.01,
+      "expected": "één miljoen euro en één cent"
+    },
+    {
+      "input": -1,
+      "expected": "min één euro"
+    },
+    {
+      "input": -0.5,
+      "expected": "min vijftig cent"
+    },
+    {
+      "input": -42.5,
+      "expected": "min tweeënveertig euro en vijftig cent"
+    },
+    {
+      "input": 42.5,
+      "expected": "tweeënveertig euro vijftig cent",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "één euro één cent",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 5,
+      "expected": "vijf euro"
+    },
+    {
+      "input": "5.00",
+      "expected": "vijf euro"
+    },
+    {
+      "input": "42.50",
+      "expected": "tweeënveertig euro en vijftig cent"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "één biljoen euro"
+    }
+  ]
+}

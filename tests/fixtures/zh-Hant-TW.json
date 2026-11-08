@@ -1,0 +1,628 @@
+{
+  "code": "zh-Hant-TW",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "零點零壹"
+    },
+    {
+      "input": 0.007,
+      "expected": "零點零零柒"
+    },
+    {
+      "input": 17.42,
+      "expected": "壹拾柒點肆貳"
+    },
+    {
+      "input": -17.42,
+      "expected": "負壹拾柒點肆貳"
+    },
+    {
+      "input": -1,
+      "expected": "負壹"
+    },
+    {
+      "input": -20,
+      "expected": "負貳拾"
+    },
+    {
+      "input": 0,
+      "expected": "零"
+    },
+    {
+      "input": 1,
+      "expected": "壹"
+    },
+    {
+      "input": 2,
+      "expected": "貳"
+    },
+    {
+      "input": 3,
+      "expected": "參"
+    },
+    {
+      "input": 5.5,
+      "expected": "伍點伍"
+    },
+    {
+      "input": 11,
+      "expected": "壹拾壹"
+    },
+    {
+      "input": 100,
+      "expected": "壹佰"
+    },
+    {
+      "input": 200,
+      "expected": "貳佰"
+    },
+    {
+      "input": 101,
+      "expected": "壹佰零壹"
+    },
+    {
+      "input": 199,
+      "expected": "壹佰玖拾玖"
+    },
+    {
+      "input": 999,
+      "expected": "玖佰玖拾玖"
+    },
+    {
+      "input": 1000,
+      "expected": "壹仟"
+    },
+    {
+      "input": 2000,
+      "expected": "貳仟"
+    },
+    {
+      "input": 1001,
+      "expected": "壹仟零壹"
+    },
+    {
+      "input": 1010,
+      "expected": "壹仟零壹拾"
+    },
+    {
+      "input": 1011,
+      "expected": "壹仟零壹拾壹"
+    },
+    {
+      "input": 1104,
+      "expected": "壹仟壹佰零肆"
+    },
+    {
+      "input": 1243,
+      "expected": "壹仟貳佰肆拾參"
+    },
+    {
+      "input": 10000,
+      "expected": "壹萬"
+    },
+    {
+      "input": 11000,
+      "expected": "壹萬壹仟"
+    },
+    {
+      "input": 21000,
+      "expected": "貳萬壹仟"
+    },
+    {
+      "input": 100000,
+      "expected": "壹拾萬"
+    },
+    {
+      "input": 101000,
+      "expected": "壹拾萬零壹仟"
+    },
+    {
+      "input": 111000,
+      "expected": "壹拾壹萬壹仟"
+    },
+    {
+      "input": 1000000,
+      "expected": "壹佰萬"
+    },
+    {
+      "input": 1001000,
+      "expected": "壹佰萬零壹仟"
+    },
+    {
+      "input": 1111000,
+      "expected": "壹佰壹拾壹萬壹仟"
+    },
+    {
+      "input": 100000000,
+      "expected": "壹億"
+    },
+    {
+      "input": 101000000,
+      "expected": "壹億零壹佰萬"
+    },
+    {
+      "input": 0.01,
+      "expected": "零點零一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 0.007,
+      "expected": "零點零零七",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 17.42,
+      "expected": "一十七點四二",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": -17.42,
+      "expected": "負一十七點四二",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": -1,
+      "expected": "負一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": -20,
+      "expected": "負二十",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 0,
+      "expected": "零",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1,
+      "expected": "一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 2,
+      "expected": "二",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 3,
+      "expected": "三",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 5.5,
+      "expected": "五點五",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 11,
+      "expected": "一十一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 100,
+      "expected": "一百",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 200,
+      "expected": "二百",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 101,
+      "expected": "一百零一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 199,
+      "expected": "一百九十九",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 999,
+      "expected": "九百九十九",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 2000,
+      "expected": "二千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "一千零一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1010,
+      "expected": "一千零一十",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1011,
+      "expected": "一千零一十一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1104,
+      "expected": "一千一百零四",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1243,
+      "expected": "一千二百四十三",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 10000,
+      "expected": "一萬",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 11000,
+      "expected": "一萬一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 21000,
+      "expected": "二萬一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 100000,
+      "expected": "一十萬",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 101000,
+      "expected": "一十萬零一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 111000,
+      "expected": "一十一萬一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1000000,
+      "expected": "一百萬",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1001000,
+      "expected": "一百萬零一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1111000,
+      "expected": "一百一十一萬一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 100000000,
+      "expected": "一億",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 101000000,
+      "expected": "一億零一百萬",
+      "options": {
+        "formal": false
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "第壹"
+    },
+    {
+      "input": 2,
+      "expected": "第貳"
+    },
+    {
+      "input": 3,
+      "expected": "第參"
+    },
+    {
+      "input": 10,
+      "expected": "第壹拾"
+    },
+    {
+      "input": 11,
+      "expected": "第壹拾壹"
+    },
+    {
+      "input": 21,
+      "expected": "第貳拾壹"
+    },
+    {
+      "input": 100,
+      "expected": "第壹佰"
+    },
+    {
+      "input": 101,
+      "expected": "第壹佰零壹"
+    },
+    {
+      "input": 1000,
+      "expected": "第壹仟"
+    },
+    {
+      "input": 10000,
+      "expected": "第壹萬"
+    },
+    {
+      "input": 100000000,
+      "expected": "第壹億"
+    },
+    {
+      "input": 1,
+      "expected": "第一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 2,
+      "expected": "第二",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 3,
+      "expected": "第三",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 10,
+      "expected": "第一十",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 11,
+      "expected": "第一十一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 21,
+      "expected": "第二十一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 100,
+      "expected": "第一百",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 101,
+      "expected": "第一百零一",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "第一千",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 10000,
+      "expected": "第一萬",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 100000000,
+      "expected": "第一億",
+      "options": {
+        "formal": false
+      }
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "零圓整"
+    },
+    {
+      "input": 1,
+      "expected": "壹圓整"
+    },
+    {
+      "input": 2,
+      "expected": "貳圓整"
+    },
+    {
+      "input": 10,
+      "expected": "壹拾圓整"
+    },
+    {
+      "input": 100,
+      "expected": "壹佰圓整"
+    },
+    {
+      "input": 1000,
+      "expected": "壹仟圓整"
+    },
+    {
+      "input": 0.1,
+      "expected": "壹角整"
+    },
+    {
+      "input": 0.2,
+      "expected": "貳角整"
+    },
+    {
+      "input": 0.5,
+      "expected": "伍角整"
+    },
+    {
+      "input": 0.01,
+      "expected": "壹分"
+    },
+    {
+      "input": 0.02,
+      "expected": "貳分"
+    },
+    {
+      "input": 0.05,
+      "expected": "伍分"
+    },
+    {
+      "input": 1.1,
+      "expected": "壹圓壹角整"
+    },
+    {
+      "input": 42.5,
+      "expected": "肆拾貳圓伍角整"
+    },
+    {
+      "input": 1.01,
+      "expected": "壹圓零壹分"
+    },
+    {
+      "input": 1.05,
+      "expected": "壹圓零伍分"
+    },
+    {
+      "input": 1.11,
+      "expected": "壹圓壹角壹分"
+    },
+    {
+      "input": 42.56,
+      "expected": "肆拾貳圓伍角陸分"
+    },
+    {
+      "input": 1000.99,
+      "expected": "壹仟圓玖角玖分"
+    },
+    {
+      "input": -1,
+      "expected": "負壹圓整"
+    },
+    {
+      "input": -42.5,
+      "expected": "負肆拾貳圓伍角整"
+    },
+    {
+      "input": 42.5,
+      "expected": "四十二元五角整",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "一元零一分",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 0,
+      "expected": "零元整",
+      "options": {
+        "formal": false
+      }
+    },
+    {
+      "input": 5,
+      "expected": "伍圓整"
+    },
+    {
+      "input": "5.00",
+      "expected": "伍圓整"
+    }
+  ]
+}

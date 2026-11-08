@@ -1,0 +1,612 @@
+{
+  "code": "ka",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "ნული"
+    },
+    {
+      "input": 1,
+      "expected": "ერთი"
+    },
+    {
+      "input": 2,
+      "expected": "ორი"
+    },
+    {
+      "input": 3,
+      "expected": "სამი"
+    },
+    {
+      "input": 4,
+      "expected": "ოთხი"
+    },
+    {
+      "input": 5,
+      "expected": "ხუთი"
+    },
+    {
+      "input": 6,
+      "expected": "ექვსი"
+    },
+    {
+      "input": 7,
+      "expected": "შვიდი"
+    },
+    {
+      "input": 8,
+      "expected": "რვა"
+    },
+    {
+      "input": 9,
+      "expected": "ცხრა"
+    },
+    {
+      "input": 10,
+      "expected": "ათი"
+    },
+    {
+      "input": 11,
+      "expected": "თერთმეტი"
+    },
+    {
+      "input": 12,
+      "expected": "თორმეტი"
+    },
+    {
+      "input": 13,
+      "expected": "ცამეტი"
+    },
+    {
+      "input": 14,
+      "expected": "თოთხმეტი"
+    },
+    {
+      "input": 15,
+      "expected": "თხუთმეტი"
+    },
+    {
+      "input": 16,
+      "expected": "თექვსმეტი"
+    },
+    {
+      "input": 17,
+      "expected": "ჩვიდმეტი"
+    },
+    {
+      "input": 18,
+      "expected": "თვრამეტი"
+    },
+    {
+      "input": 19,
+      "expected": "ცხრამეტი"
+    },
+    {
+      "input": 20,
+      "expected": "ოცი"
+    },
+    {
+      "input": 21,
+      "expected": "ოცდაერთი"
+    },
+    {
+      "input": 22,
+      "expected": "ოცდაორი"
+    },
+    {
+      "input": 25,
+      "expected": "ოცდახუთი"
+    },
+    {
+      "input": 30,
+      "expected": "ოცდაათი"
+    },
+    {
+      "input": 31,
+      "expected": "ოცდათერთმეტი"
+    },
+    {
+      "input": 39,
+      "expected": "ოცდაცხრამეტი"
+    },
+    {
+      "input": 40,
+      "expected": "ორმოცი"
+    },
+    {
+      "input": 41,
+      "expected": "ორმოცდაერთი"
+    },
+    {
+      "input": 50,
+      "expected": "ორმოცდაათი"
+    },
+    {
+      "input": 55,
+      "expected": "ორმოცდათხუთმეტი"
+    },
+    {
+      "input": 60,
+      "expected": "სამოცი"
+    },
+    {
+      "input": 70,
+      "expected": "სამოცდაათი"
+    },
+    {
+      "input": 77,
+      "expected": "სამოცდაჩვიდმეტი"
+    },
+    {
+      "input": 80,
+      "expected": "ოთხმოცი"
+    },
+    {
+      "input": 90,
+      "expected": "ოთხმოცდაათი"
+    },
+    {
+      "input": 99,
+      "expected": "ოთხმოცდაცხრამეტი"
+    },
+    {
+      "input": 100,
+      "expected": "ასი"
+    },
+    {
+      "input": 101,
+      "expected": "ას ერთი"
+    },
+    {
+      "input": 110,
+      "expected": "ას ათი"
+    },
+    {
+      "input": 111,
+      "expected": "ას თერთმეტი"
+    },
+    {
+      "input": 120,
+      "expected": "ას ოცი"
+    },
+    {
+      "input": 121,
+      "expected": "ას ოცდაერთი"
+    },
+    {
+      "input": 200,
+      "expected": "ორასი"
+    },
+    {
+      "input": 201,
+      "expected": "ორას ერთი"
+    },
+    {
+      "input": 300,
+      "expected": "სამასი"
+    },
+    {
+      "input": 400,
+      "expected": "ოთხასი"
+    },
+    {
+      "input": 500,
+      "expected": "ხუთასი"
+    },
+    {
+      "input": 600,
+      "expected": "ექვსასი"
+    },
+    {
+      "input": 700,
+      "expected": "შვიდასი"
+    },
+    {
+      "input": 800,
+      "expected": "რვაასი"
+    },
+    {
+      "input": 900,
+      "expected": "ცხრაასი"
+    },
+    {
+      "input": 999,
+      "expected": "ცხრაას ოთხმოცდაცხრამეტი"
+    },
+    {
+      "input": 1000,
+      "expected": "ათასი"
+    },
+    {
+      "input": 1001,
+      "expected": "ათას ერთი"
+    },
+    {
+      "input": 1010,
+      "expected": "ათას ათი"
+    },
+    {
+      "input": 1100,
+      "expected": "ათას ასი"
+    },
+    {
+      "input": 1234,
+      "expected": "ათას ორას ოცდათოთხმეტი"
+    },
+    {
+      "input": 2000,
+      "expected": "ორ ათასი"
+    },
+    {
+      "input": 2001,
+      "expected": "ორ ათას ერთი"
+    },
+    {
+      "input": 3000,
+      "expected": "სამ ათასი"
+    },
+    {
+      "input": 5000,
+      "expected": "ხუთ ათასი"
+    },
+    {
+      "input": 10000,
+      "expected": "ათ ათასი"
+    },
+    {
+      "input": 11000,
+      "expected": "თერთმეტ ათასი"
+    },
+    {
+      "input": 20000,
+      "expected": "ოც ათასი"
+    },
+    {
+      "input": 21000,
+      "expected": "ოცდაერთ ათასი"
+    },
+    {
+      "input": 100000,
+      "expected": "ას ათასი"
+    },
+    {
+      "input": 123456,
+      "expected": "ას ოცდასამ ათას ოთხას ორმოცდათექვსმეტი"
+    },
+    {
+      "input": 1000000,
+      "expected": "ერთი მილიონი"
+    },
+    {
+      "input": 2000000,
+      "expected": "ორი მილიონი"
+    },
+    {
+      "input": 1000001,
+      "expected": "ერთი მილიონი ერთი"
+    },
+    {
+      "input": 1001000,
+      "expected": "ერთი მილიონი ათასი"
+    },
+    {
+      "input": 1234567,
+      "expected": "ერთი მილიონი ორას ოცდათოთხმეტ ათას ხუთას სამოცდაშვიდი"
+    },
+    {
+      "input": 1000000000,
+      "expected": "ერთი მილიარდი"
+    },
+    {
+      "input": 2000000000,
+      "expected": "ორი მილიარდი"
+    },
+    {
+      "input": -1,
+      "expected": "მინუს ერთი"
+    },
+    {
+      "input": -42,
+      "expected": "მინუს ორმოცდაორი"
+    },
+    {
+      "input": -1000,
+      "expected": "მინუს ათასი"
+    },
+    {
+      "input": "1.5",
+      "expected": "ერთი მთელი ხუთი"
+    },
+    {
+      "input": "3.14",
+      "expected": "სამი მთელი თოთხმეტი"
+    },
+    {
+      "input": "0.01",
+      "expected": "ნული მთელი ნული ერთი"
+    },
+    {
+      "input": {
+        "bigint": "9007199254740991"
+      },
+      "expected": "ცხრა კვადრილიონი შვიდი ტრილიონი ას ოთხმოცდაცხრამეტი მილიარდი ორას ორმოცდათოთხმეტი მილიონი შვიდას ორმოც ათას ცხრაას ოთხმოცდათერთმეტი"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "პირველი"
+    },
+    {
+      "input": 2,
+      "expected": "მეორე"
+    },
+    {
+      "input": 3,
+      "expected": "მესამე"
+    },
+    {
+      "input": 4,
+      "expected": "მეოთხე"
+    },
+    {
+      "input": 5,
+      "expected": "მეხუთე"
+    },
+    {
+      "input": 6,
+      "expected": "მეექვსე"
+    },
+    {
+      "input": 7,
+      "expected": "მეშვიდე"
+    },
+    {
+      "input": 8,
+      "expected": "მერვე"
+    },
+    {
+      "input": 9,
+      "expected": "მეცხრე"
+    },
+    {
+      "input": 10,
+      "expected": "მეათე"
+    },
+    {
+      "input": 11,
+      "expected": "მეთერთმეტე"
+    },
+    {
+      "input": 12,
+      "expected": "მეთორმეტე"
+    },
+    {
+      "input": 13,
+      "expected": "მეცამეტე"
+    },
+    {
+      "input": 19,
+      "expected": "მეცხრამეტე"
+    },
+    {
+      "input": 20,
+      "expected": "მეოცე"
+    },
+    {
+      "input": 21,
+      "expected": "მეოცდაერთე"
+    },
+    {
+      "input": 30,
+      "expected": "მეოცდაათე"
+    },
+    {
+      "input": 42,
+      "expected": "მეორმოცდაორე"
+    },
+    {
+      "input": 99,
+      "expected": "მეოთხმოცდაცხრამეტე"
+    },
+    {
+      "input": 100,
+      "expected": "მეასე"
+    },
+    {
+      "input": 101,
+      "expected": "მეას ერთე"
+    },
+    {
+      "input": 200,
+      "expected": "მეორასე"
+    },
+    {
+      "input": 121,
+      "expected": "მეას ოცდაერთე"
+    },
+    {
+      "input": 1000,
+      "expected": "მეათასე"
+    },
+    {
+      "input": 1001,
+      "expected": "მეათას ერთე"
+    },
+    {
+      "input": 2000,
+      "expected": "მეორ ათასე"
+    },
+    {
+      "input": 1000000,
+      "expected": "მეერთი მილიონე"
+    },
+    {
+      "input": 2000000,
+      "expected": "მეორი მილიონე"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "ნული ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "ერთი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "ორი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "ხუთი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "ათი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "ოცდაერთი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "ორმოცდაორი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "ასი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ათასი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "ერთი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "ორი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "ხუთი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "ოცდახუთი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "ორმოცდაათი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "ოთხმოცდაცხრამეტი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "ერთი ლარი ერთი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "ერთი ლარი ორმოცდაათი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "ორი ლარი ორი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "ორმოცდაორი ლარი ორმოცდაათი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "ასი ლარი ოთხმოცდაცხრამეტი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "მინუს ერთი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "მინუს ორმოცდაორი ლარი ორმოცდაათი თეთრი",
+      "options": {
+        "currency": "GEL"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "ხუთი ლარი",
+      "options": {
+        "currency": "GEL"
+      }
+    }
+  ]
+}

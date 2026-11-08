@@ -1,0 +1,405 @@
+{
+  "code": "gu-IN",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "શૂન્ય"
+    },
+    {
+      "input": 1,
+      "expected": "એક"
+    },
+    {
+      "input": 2,
+      "expected": "બે"
+    },
+    {
+      "input": 3,
+      "expected": "ત્રણ"
+    },
+    {
+      "input": 4,
+      "expected": "ચાર"
+    },
+    {
+      "input": 5,
+      "expected": "પાંચ"
+    },
+    {
+      "input": 6,
+      "expected": "છ"
+    },
+    {
+      "input": 7,
+      "expected": "સાત"
+    },
+    {
+      "input": 8,
+      "expected": "આઠ"
+    },
+    {
+      "input": 9,
+      "expected": "નવ"
+    },
+    {
+      "input": 10,
+      "expected": "દસ"
+    },
+    {
+      "input": 11,
+      "expected": "અગિયાર"
+    },
+    {
+      "input": 12,
+      "expected": "બાર"
+    },
+    {
+      "input": 13,
+      "expected": "તેર"
+    },
+    {
+      "input": 14,
+      "expected": "ચૌદ"
+    },
+    {
+      "input": 15,
+      "expected": "પંદર"
+    },
+    {
+      "input": 16,
+      "expected": "સોળ"
+    },
+    {
+      "input": 17,
+      "expected": "સત્તર"
+    },
+    {
+      "input": 18,
+      "expected": "અઢાર"
+    },
+    {
+      "input": 19,
+      "expected": "ઓગણીસ"
+    },
+    {
+      "input": 20,
+      "expected": "વીસ"
+    },
+    {
+      "input": 21,
+      "expected": "એકવીસ"
+    },
+    {
+      "input": 25,
+      "expected": "પચીસ"
+    },
+    {
+      "input": 30,
+      "expected": "ત્રીસ"
+    },
+    {
+      "input": 42,
+      "expected": "બેતાળીસ"
+    },
+    {
+      "input": 50,
+      "expected": "પચાસ"
+    },
+    {
+      "input": 60,
+      "expected": "સાઠ"
+    },
+    {
+      "input": 70,
+      "expected": "સિત્તેર"
+    },
+    {
+      "input": 80,
+      "expected": "એંસી"
+    },
+    {
+      "input": 90,
+      "expected": "નેવું"
+    },
+    {
+      "input": 99,
+      "expected": "નવ્વાણું"
+    },
+    {
+      "input": 100,
+      "expected": "એક સો"
+    },
+    {
+      "input": 101,
+      "expected": "એક સો એક"
+    },
+    {
+      "input": 200,
+      "expected": "બે સો"
+    },
+    {
+      "input": 500,
+      "expected": "પાંચ સો"
+    },
+    {
+      "input": 999,
+      "expected": "નવ સો નવ્વાણું"
+    },
+    {
+      "input": 1000,
+      "expected": "એક હજાર"
+    },
+    {
+      "input": 1001,
+      "expected": "એક હજાર એક"
+    },
+    {
+      "input": 2000,
+      "expected": "બે હજાર"
+    },
+    {
+      "input": 5000,
+      "expected": "પાંચ હજાર"
+    },
+    {
+      "input": 10000,
+      "expected": "દસ હજાર"
+    },
+    {
+      "input": 50000,
+      "expected": "પચાસ હજાર"
+    },
+    {
+      "input": 99999,
+      "expected": "નવ્વાણું હજાર નવ સો નવ્વાણું"
+    },
+    {
+      "input": 100000,
+      "expected": "એક લાખ"
+    },
+    {
+      "input": 200000,
+      "expected": "બે લાખ"
+    },
+    {
+      "input": 500000,
+      "expected": "પાંચ લાખ"
+    },
+    {
+      "input": 1000000,
+      "expected": "દસ લાખ"
+    },
+    {
+      "input": 5000000,
+      "expected": "પચાસ લાખ"
+    },
+    {
+      "input": 9999999,
+      "expected": "નવ્વાણું લાખ નવ્વાણું હજાર નવ સો નવ્વાણું"
+    },
+    {
+      "input": 10000000,
+      "expected": "એક કરોડ"
+    },
+    {
+      "input": 50000000,
+      "expected": "પાંચ કરોડ"
+    },
+    {
+      "input": 100000000,
+      "expected": "દસ કરોડ"
+    },
+    {
+      "input": -1,
+      "expected": "ઋણ એક"
+    },
+    {
+      "input": -42,
+      "expected": "ઋણ બેતાળીસ"
+    },
+    {
+      "input": -1000,
+      "expected": "ઋણ એક હજાર"
+    },
+    {
+      "input": "3.14",
+      "expected": "ત્રણ દશાંશ એક ચાર"
+    },
+    {
+      "input": "0.5",
+      "expected": "શૂન્ય દશાંશ પાંચ"
+    },
+    {
+      "input": "100.05",
+      "expected": "એક સો દશાંશ શૂન્ય પાંચ"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "પહેલું"
+    },
+    {
+      "input": 2,
+      "expected": "બીજું"
+    },
+    {
+      "input": 3,
+      "expected": "ત્રીજું"
+    },
+    {
+      "input": 4,
+      "expected": "ચોથું"
+    },
+    {
+      "input": 5,
+      "expected": "પાંચમું"
+    },
+    {
+      "input": 6,
+      "expected": "છઠ્ઠું"
+    },
+    {
+      "input": 7,
+      "expected": "સાતમું"
+    },
+    {
+      "input": 8,
+      "expected": "આઠમું"
+    },
+    {
+      "input": 9,
+      "expected": "નવમું"
+    },
+    {
+      "input": 10,
+      "expected": "દસમું"
+    },
+    {
+      "input": 11,
+      "expected": "અગિયારમું"
+    },
+    {
+      "input": 20,
+      "expected": "વીસમું"
+    },
+    {
+      "input": 21,
+      "expected": "એકવીસમું"
+    },
+    {
+      "input": 42,
+      "expected": "બેતાળીસમું"
+    },
+    {
+      "input": 99,
+      "expected": "નવ્વાણુંમું"
+    },
+    {
+      "input": 100,
+      "expected": "એક સોમું"
+    },
+    {
+      "input": 101,
+      "expected": "એક સો એકમું"
+    },
+    {
+      "input": 200,
+      "expected": "બે સોમું"
+    },
+    {
+      "input": 1000,
+      "expected": "એક હજારમું"
+    },
+    {
+      "input": 1001,
+      "expected": "એક હજાર એકમું"
+    },
+    {
+      "input": 100000,
+      "expected": "એક લાખમું"
+    },
+    {
+      "input": 10000000,
+      "expected": "એક કરોડમું"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "શૂન્ય રૂપિયા"
+    },
+    {
+      "input": 1,
+      "expected": "એક રૂપિયો"
+    },
+    {
+      "input": 2,
+      "expected": "બે રૂપિયા"
+    },
+    {
+      "input": 10,
+      "expected": "દસ રૂપિયા"
+    },
+    {
+      "input": 21,
+      "expected": "એકવીસ રૂપિયા"
+    },
+    {
+      "input": 100,
+      "expected": "એક સો રૂપિયા"
+    },
+    {
+      "input": 1000,
+      "expected": "એક હજાર રૂપિયા"
+    },
+    {
+      "input": 100000,
+      "expected": "એક લાખ રૂપિયા"
+    },
+    {
+      "input": 0.01,
+      "expected": "એક પૈસો"
+    },
+    {
+      "input": 0.02,
+      "expected": "બે પૈસા"
+    },
+    {
+      "input": 0.5,
+      "expected": "પચાસ પૈસા"
+    },
+    {
+      "input": 0.99,
+      "expected": "નવ્વાણું પૈસા"
+    },
+    {
+      "input": 1.01,
+      "expected": "એક રૂપિયો એક પૈસો"
+    },
+    {
+      "input": 42.5,
+      "expected": "બેતાળીસ રૂપિયા પચાસ પૈસા"
+    },
+    {
+      "input": 1000.99,
+      "expected": "એક હજાર રૂપિયા નવ્વાણું પૈસા"
+    },
+    {
+      "input": -1,
+      "expected": "ઋણ એક રૂપિયો"
+    },
+    {
+      "input": -42.5,
+      "expected": "ઋણ બેતાળીસ રૂપિયા પચાસ પૈસા"
+    },
+    {
+      "input": 5,
+      "expected": "પાંચ રૂપિયા"
+    },
+    {
+      "input": "5.00",
+      "expected": "પાંચ રૂપિયા"
+    }
+  ]
+}

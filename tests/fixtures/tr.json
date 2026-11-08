@@ -1,0 +1,708 @@
+{
+  "code": "tr",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "sıfırvirgülsıfırbir",
+      "options": {
+        "drop_spaces": true
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "sıfır virgül sıfır bir",
+      "options": {
+        "drop_spaces": false
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "sıfır virgül sıfır bir"
+    },
+    {
+      "input": 1.7,
+      "expected": "bir virgül yedi"
+    },
+    {
+      "input": 1.007,
+      "expected": "bir virgül sıfır sıfır yedi"
+    },
+    {
+      "input": 17.42,
+      "expected": "on yedi virgül kırk iki"
+    },
+    {
+      "input": 27.312,
+      "expected": "yirmi yedi virgül üç yüz on iki"
+    },
+    {
+      "input": 53.486,
+      "expected": "elli üç virgül dört yüz seksen altı"
+    },
+    {
+      "input": 53.486,
+      "expected": "elliüçvirgüldörtyüzseksenaltı",
+      "options": {
+        "drop_spaces": true
+      }
+    },
+    {
+      "input": 300.42,
+      "expected": "üç yüz virgül kırk iki"
+    },
+    {
+      "input": 4196.42,
+      "expected": "dört bin yüz doksan altı virgül kırk iki"
+    },
+    {
+      "input": -17.42,
+      "expected": "eksi on yedi virgül kırk iki"
+    },
+    {
+      "input": -1,
+      "expected": "eksi bir"
+    },
+    {
+      "input": -20,
+      "expected": "eksi yirmi"
+    },
+    {
+      "input": -1.7,
+      "expected": "eksibirvirgülyedi",
+      "options": {
+        "drop_spaces": true
+      }
+    },
+    {
+      "input": 0,
+      "expected": "sıfır"
+    },
+    {
+      "input": 0,
+      "expected": "sıfır",
+      "options": {
+        "drop_spaces": true
+      }
+    },
+    {
+      "input": 1,
+      "expected": "bir"
+    },
+    {
+      "input": 2,
+      "expected": "iki"
+    },
+    {
+      "input": 3,
+      "expected": "üç"
+    },
+    {
+      "input": 9,
+      "expected": "dokuz"
+    },
+    {
+      "input": 10,
+      "expected": "on"
+    },
+    {
+      "input": 11,
+      "expected": "on bir"
+    },
+    {
+      "input": 12,
+      "expected": "on iki"
+    },
+    {
+      "input": 16,
+      "expected": "on altı"
+    },
+    {
+      "input": 19,
+      "expected": "on dokuz"
+    },
+    {
+      "input": 20,
+      "expected": "yirmi"
+    },
+    {
+      "input": 21,
+      "expected": "yirmi bir"
+    },
+    {
+      "input": 26,
+      "expected": "yirmi altı"
+    },
+    {
+      "input": 28,
+      "expected": "yirmi sekiz"
+    },
+    {
+      "input": 30,
+      "expected": "otuz"
+    },
+    {
+      "input": 31,
+      "expected": "otuz bir"
+    },
+    {
+      "input": 40,
+      "expected": "kırk"
+    },
+    {
+      "input": 44,
+      "expected": "kırk dört"
+    },
+    {
+      "input": 50,
+      "expected": "elli"
+    },
+    {
+      "input": 55,
+      "expected": "elli beş"
+    },
+    {
+      "input": 60,
+      "expected": "altmış"
+    },
+    {
+      "input": 67,
+      "expected": "altmış yedi"
+    },
+    {
+      "input": 70,
+      "expected": "yetmiş"
+    },
+    {
+      "input": 79,
+      "expected": "yetmiş dokuz"
+    },
+    {
+      "input": 89,
+      "expected": "seksen dokuz"
+    },
+    {
+      "input": 95,
+      "expected": "doksan beş"
+    },
+    {
+      "input": 100,
+      "expected": "yüz"
+    },
+    {
+      "input": 101,
+      "expected": "yüz bir"
+    },
+    {
+      "input": 103,
+      "expected": "yüz üç"
+    },
+    {
+      "input": 110,
+      "expected": "yüz on"
+    },
+    {
+      "input": 111,
+      "expected": "yüz on bir"
+    },
+    {
+      "input": 123,
+      "expected": "yüz yirmi üç"
+    },
+    {
+      "input": 199,
+      "expected": "yüz doksan dokuz"
+    },
+    {
+      "input": 203,
+      "expected": "iki yüz üç"
+    },
+    {
+      "input": 287,
+      "expected": "iki yüz seksen yedi"
+    },
+    {
+      "input": 356,
+      "expected": "üç yüz elli altı"
+    },
+    {
+      "input": 400,
+      "expected": "dört yüz"
+    },
+    {
+      "input": 434,
+      "expected": "dört yüz otuz dört"
+    },
+    {
+      "input": 578,
+      "expected": "beş yüz yetmiş sekiz"
+    },
+    {
+      "input": 689,
+      "expected": "altı yüz seksen dokuz"
+    },
+    {
+      "input": 729,
+      "expected": "yedi yüz yirmi dokuz"
+    },
+    {
+      "input": 894,
+      "expected": "sekiz yüz doksan dört"
+    },
+    {
+      "input": 999,
+      "expected": "dokuz yüz doksan dokuz"
+    },
+    {
+      "input": 1000,
+      "expected": "bin"
+    },
+    {
+      "input": 1001,
+      "expected": "bin bir"
+    },
+    {
+      "input": 1010,
+      "expected": "bin on"
+    },
+    {
+      "input": 1011,
+      "expected": "bin on bir"
+    },
+    {
+      "input": 1097,
+      "expected": "bin doksan yedi"
+    },
+    {
+      "input": 1100,
+      "expected": "bin yüz"
+    },
+    {
+      "input": 1104,
+      "expected": "bin yüz dört"
+    },
+    {
+      "input": 1110,
+      "expected": "bin yüz on"
+    },
+    {
+      "input": 1243,
+      "expected": "bin iki yüz kırk üç"
+    },
+    {
+      "input": 1243,
+      "expected": "bin iki yüz kırk üç",
+      "options": {
+        "drop_spaces": false
+      }
+    },
+    {
+      "input": 1243,
+      "expected": "binikiyüzkırküç",
+      "options": {
+        "drop_spaces": true
+      }
+    },
+    {
+      "input": 2341,
+      "expected": "iki bin üç yüz kırk bir"
+    },
+    {
+      "input": 2385,
+      "expected": "iki bin üç yüz seksen beş"
+    },
+    {
+      "input": 3766,
+      "expected": "üç bin yedi yüz altmış altı"
+    },
+    {
+      "input": 4196,
+      "expected": "dört bin yüz doksan altı"
+    },
+    {
+      "input": 5846,
+      "expected": "beş bin sekiz yüz kırk altı"
+    },
+    {
+      "input": 6459,
+      "expected": "altı bin dört yüz elli dokuz"
+    },
+    {
+      "input": 7232,
+      "expected": "yedi bin iki yüz otuz iki"
+    },
+    {
+      "input": 8569,
+      "expected": "sekiz bin beş yüz altmış dokuz"
+    },
+    {
+      "input": 9539,
+      "expected": "dokuz bin beş yüz otuz dokuz"
+    },
+    {
+      "input": 10000,
+      "expected": "on bin"
+    },
+    {
+      "input": 10010,
+      "expected": "on bin on"
+    },
+    {
+      "input": 10100,
+      "expected": "on bin yüz"
+    },
+    {
+      "input": 10110,
+      "expected": "on bin yüz on"
+    },
+    {
+      "input": 11000,
+      "expected": "on bir bin"
+    },
+    {
+      "input": 35000,
+      "expected": "otuz beş bin"
+    },
+    {
+      "input": 116331,
+      "expected": "yüz on altı bin üç yüz otuz bir"
+    },
+    {
+      "input": 116330,
+      "expected": "yüz on altı bin üç yüz otuz"
+    },
+    {
+      "input": 500000,
+      "expected": "beş yüz bin"
+    },
+    {
+      "input": 501000,
+      "expected": "beş yüz bir bin"
+    },
+    {
+      "input": 1000000,
+      "expected": "bir milyon"
+    },
+    {
+      "input": 1000001,
+      "expected": "bir milyon bir"
+    },
+    {
+      "input": 1000111,
+      "expected": "bir milyon yüz on bir"
+    },
+    {
+      "input": 4000000,
+      "expected": "dört milyon"
+    },
+    {
+      "input": 100001000,
+      "expected": "yüz milyon bin"
+    },
+    {
+      "input": 100001001,
+      "expected": "yüz milyon bin bir"
+    },
+    {
+      "input": 100010000,
+      "expected": "yüz milyon on bin"
+    },
+    {
+      "input": 100010001,
+      "expected": "yüz milyon on bin bir"
+    },
+    {
+      "input": 100011000,
+      "expected": "yüz milyon on bir bin"
+    },
+    {
+      "input": 100011001,
+      "expected": "yüz milyon on bir bin bir"
+    },
+    {
+      "input": 101011001,
+      "expected": "yüz bir milyon on bir bin bir"
+    },
+    {
+      "input": 101011010,
+      "expected": "yüz bir milyon on bir bin on"
+    },
+    {
+      "input": 111000111,
+      "expected": "yüz on bir milyon yüz on bir"
+    },
+    {
+      "input": 111001111,
+      "expected": "yüz on bir milyon bin yüz on bir"
+    },
+    {
+      "input": 111111111,
+      "expected": "yüz on bir milyon yüz on bir bin yüz on bir"
+    },
+    {
+      "input": 1101011010,
+      "expected": "bir milyar yüz bir milyon on bir bin on"
+    },
+    {
+      "input": 1234567890,
+      "expected": "bir milyar iki yüz otuz dört milyon beş yüz altmış yedi bin sekiz yüz doksan"
+    },
+    {
+      "input": 101101011010,
+      "expected": "yüz bir milyar yüz bir milyon on bir bin on"
+    },
+    {
+      "input": 1000000000001,
+      "expected": "bir trilyon bir"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "on trilyon"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "yüz trilyon"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "bir kentilyon"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "birinci"
+    },
+    {
+      "input": 2,
+      "expected": "ikinci"
+    },
+    {
+      "input": 3,
+      "expected": "üçüncü"
+    },
+    {
+      "input": 4,
+      "expected": "dördüncü"
+    },
+    {
+      "input": 5,
+      "expected": "beşinci"
+    },
+    {
+      "input": 6,
+      "expected": "altıncı"
+    },
+    {
+      "input": 7,
+      "expected": "yedinci"
+    },
+    {
+      "input": 8,
+      "expected": "sekizinci"
+    },
+    {
+      "input": 9,
+      "expected": "dokuzuncu"
+    },
+    {
+      "input": 10,
+      "expected": "onuncu"
+    },
+    {
+      "input": 11,
+      "expected": "onbirinci"
+    },
+    {
+      "input": 12,
+      "expected": "onikiinci"
+    },
+    {
+      "input": 19,
+      "expected": "ondokuzuncu"
+    },
+    {
+      "input": 20,
+      "expected": "yirmiinci"
+    },
+    {
+      "input": 21,
+      "expected": "yirmibirinci"
+    },
+    {
+      "input": 30,
+      "expected": "otuzuncu"
+    },
+    {
+      "input": 42,
+      "expected": "kırkikiinci"
+    },
+    {
+      "input": 99,
+      "expected": "doksandokuzuncu"
+    },
+    {
+      "input": 100,
+      "expected": "yüzüncü"
+    },
+    {
+      "input": 101,
+      "expected": "yüzbirinci"
+    },
+    {
+      "input": 200,
+      "expected": "ikiyüzüncü"
+    },
+    {
+      "input": 1000,
+      "expected": "bininci"
+    },
+    {
+      "input": 1001,
+      "expected": "binbirinci"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "sıfır lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "bir lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "iki lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "beş lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "on lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "yirmi bir lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "kırk iki lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "yüz lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "bin lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "bir kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "yirmi beş kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "elli kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "doksan dokuz kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "bir lira bir kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "bir lira elli kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "kırk iki lira elli kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "yüz lira doksan dokuz kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "eksi bir lira",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "eksi kırk iki lira elli kuruş",
+      "options": {
+        "currency": "TRY"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "beş lira",
+      "options": {
+        "currency": "TRY"
+      }
+    }
+  ]
+}

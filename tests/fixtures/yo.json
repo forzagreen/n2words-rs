@@ -1,0 +1,561 @@
+{
+  "code": "yo",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "òdo"
+    },
+    {
+      "input": 1,
+      "expected": "ọ̀kan"
+    },
+    {
+      "input": 2,
+      "expected": "èjì"
+    },
+    {
+      "input": 3,
+      "expected": "ẹ̀ta"
+    },
+    {
+      "input": 4,
+      "expected": "ẹ̀rin"
+    },
+    {
+      "input": 5,
+      "expected": "àrùn"
+    },
+    {
+      "input": 6,
+      "expected": "ẹ̀fà"
+    },
+    {
+      "input": 7,
+      "expected": "èje"
+    },
+    {
+      "input": 8,
+      "expected": "ẹ̀jọ"
+    },
+    {
+      "input": 9,
+      "expected": "ẹ̀sán"
+    },
+    {
+      "input": 10,
+      "expected": "ẹ̀wá"
+    },
+    {
+      "input": 11,
+      "expected": "ọ̀kànlá"
+    },
+    {
+      "input": 12,
+      "expected": "èjìlá"
+    },
+    {
+      "input": 13,
+      "expected": "ẹ̀talá"
+    },
+    {
+      "input": 14,
+      "expected": "ẹ̀rinlá"
+    },
+    {
+      "input": 15,
+      "expected": "àrùndínlógún"
+    },
+    {
+      "input": 16,
+      "expected": "ẹ̀rìndínlógún"
+    },
+    {
+      "input": 17,
+      "expected": "ẹ̀tadínlógún"
+    },
+    {
+      "input": 18,
+      "expected": "èjìdínlógún"
+    },
+    {
+      "input": 19,
+      "expected": "ọ̀kàndínlógún"
+    },
+    {
+      "input": 20,
+      "expected": "ogún"
+    },
+    {
+      "input": 30,
+      "expected": "ọgbọ̀n"
+    },
+    {
+      "input": 40,
+      "expected": "ogójì"
+    },
+    {
+      "input": 50,
+      "expected": "àádọ́ta"
+    },
+    {
+      "input": 60,
+      "expected": "ogóta"
+    },
+    {
+      "input": 70,
+      "expected": "àádọ́rin"
+    },
+    {
+      "input": 80,
+      "expected": "ogórin"
+    },
+    {
+      "input": 90,
+      "expected": "àádọ́rùn"
+    },
+    {
+      "input": 100,
+      "expected": "ọgọ́rùn"
+    },
+    {
+      "input": 21,
+      "expected": "ọ̀kan lé lógún"
+    },
+    {
+      "input": 22,
+      "expected": "èjì lé lógún"
+    },
+    {
+      "input": 23,
+      "expected": "ẹ̀ta lé lógún"
+    },
+    {
+      "input": 24,
+      "expected": "ẹ̀rin lé lógún"
+    },
+    {
+      "input": 25,
+      "expected": "àrùndínlọgbọ̀n"
+    },
+    {
+      "input": 26,
+      "expected": "ẹ̀rindínlọgbọ̀n"
+    },
+    {
+      "input": 27,
+      "expected": "ẹ̀tadínlọgbọ̀n"
+    },
+    {
+      "input": 28,
+      "expected": "èjìdínlọgbọ̀n"
+    },
+    {
+      "input": 29,
+      "expected": "ọ̀kandínlọgbọ̀n"
+    },
+    {
+      "input": 31,
+      "expected": "ọ̀kan lé lọgbọ̀n"
+    },
+    {
+      "input": 35,
+      "expected": "àrùndínlógójì"
+    },
+    {
+      "input": 39,
+      "expected": "ọ̀kandínlógójì"
+    },
+    {
+      "input": 41,
+      "expected": "ọ̀kan lé lógójì"
+    },
+    {
+      "input": 45,
+      "expected": "àrùndínláàádọ́ta"
+    },
+    {
+      "input": 49,
+      "expected": "ọ̀kandínláàádọ́ta"
+    },
+    {
+      "input": 51,
+      "expected": "ọ̀kan lé láàádọ́ta"
+    },
+    {
+      "input": 54,
+      "expected": "ẹ̀rin lé láàádọ́ta"
+    },
+    {
+      "input": 55,
+      "expected": "àrùndínlógóta"
+    },
+    {
+      "input": 59,
+      "expected": "ọ̀kandínlógóta"
+    },
+    {
+      "input": 61,
+      "expected": "ọ̀kan lé lógóta"
+    },
+    {
+      "input": 65,
+      "expected": "àrùndínláàádọ́rin"
+    },
+    {
+      "input": 69,
+      "expected": "ọ̀kandínláàádọ́rin"
+    },
+    {
+      "input": 71,
+      "expected": "ọ̀kan lé láàádọ́rin"
+    },
+    {
+      "input": 75,
+      "expected": "àrùndínlógórin"
+    },
+    {
+      "input": 79,
+      "expected": "ọ̀kandínlógórin"
+    },
+    {
+      "input": 81,
+      "expected": "ọ̀kan lé lógórin"
+    },
+    {
+      "input": 85,
+      "expected": "àrùndínláàádọ́rùn"
+    },
+    {
+      "input": 89,
+      "expected": "ọ̀kandínláàádọ́rùn"
+    },
+    {
+      "input": 91,
+      "expected": "ọ̀kan lé láàádọ́rùn"
+    },
+    {
+      "input": 95,
+      "expected": "àrùndínlọ́gọ́rùn"
+    },
+    {
+      "input": 99,
+      "expected": "ọ̀kandínlọ́gọ́rùn"
+    },
+    {
+      "input": 200,
+      "expected": "igba"
+    },
+    {
+      "input": 400,
+      "expected": "irinwó"
+    },
+    {
+      "input": 101,
+      "expected": "ọgọ́rùn ó lé ọ̀kan"
+    },
+    {
+      "input": 110,
+      "expected": "ọgọ́rùn ó lé ẹ̀wá"
+    },
+    {
+      "input": 150,
+      "expected": "ọgọ́rùn ó lé àádọ́ta"
+    },
+    {
+      "input": 300,
+      "expected": "ẹ̀ta ọgọ́rùn"
+    },
+    {
+      "input": 500,
+      "expected": "àrùn ọgọ́rùn"
+    },
+    {
+      "input": 999,
+      "expected": "ẹ̀sán ọgọ́rùn ó lé ọ̀kandínlọ́gọ́rùn"
+    },
+    {
+      "input": 1000,
+      "expected": "ẹgbẹ̀rún kan"
+    },
+    {
+      "input": 1001,
+      "expected": "ẹgbẹ̀rún kan, ó lé ọ̀kan"
+    },
+    {
+      "input": 2000,
+      "expected": "ẹgbẹ̀rún èjì"
+    },
+    {
+      "input": 10000,
+      "expected": "ẹgbàárùn"
+    },
+    {
+      "input": 20000,
+      "expected": "ọ̀kẹ́"
+    },
+    {
+      "input": 1000000,
+      "expected": "mílíọ̀nù kan"
+    },
+    {
+      "input": 2000000,
+      "expected": "mílíọ̀nù èjì"
+    },
+    {
+      "input": -1,
+      "expected": "àìní ọ̀kan"
+    },
+    {
+      "input": -42,
+      "expected": "àìní èjì lé lógójì"
+    },
+    {
+      "input": "3.14",
+      "expected": "ẹ̀ta àmì ọ̀kan ẹ̀rin"
+    },
+    {
+      "input": "0.5",
+      "expected": "òdo àmì àrùn"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "àkọ́kọ́"
+    },
+    {
+      "input": 2,
+      "expected": "ìkejì"
+    },
+    {
+      "input": 3,
+      "expected": "ìkẹẹ̀ta"
+    },
+    {
+      "input": 4,
+      "expected": "ìkẹẹ̀rin"
+    },
+    {
+      "input": 5,
+      "expected": "ìkẹàrùn"
+    },
+    {
+      "input": 6,
+      "expected": "ìkẹẹ̀fà"
+    },
+    {
+      "input": 7,
+      "expected": "ìkẹèje"
+    },
+    {
+      "input": 8,
+      "expected": "ìkẹẹ̀jọ"
+    },
+    {
+      "input": 9,
+      "expected": "ìkẹẹ̀sán"
+    },
+    {
+      "input": 10,
+      "expected": "ìkẹẹ̀wá"
+    },
+    {
+      "input": 11,
+      "expected": "ìkẹọ̀kànlá"
+    },
+    {
+      "input": 12,
+      "expected": "ìkẹèjìlá"
+    },
+    {
+      "input": 15,
+      "expected": "ìkẹàrùndínlógún"
+    },
+    {
+      "input": 19,
+      "expected": "ìkẹọ̀kàndínlógún"
+    },
+    {
+      "input": 20,
+      "expected": "ìkẹogún"
+    },
+    {
+      "input": 21,
+      "expected": "ìkẹọ̀kan lé lógún"
+    },
+    {
+      "input": 30,
+      "expected": "ìkẹọgbọ̀n"
+    },
+    {
+      "input": 42,
+      "expected": "ìkẹèjì lé lógójì"
+    },
+    {
+      "input": 50,
+      "expected": "ìkẹàádọ́ta"
+    },
+    {
+      "input": 100,
+      "expected": "ìkẹọgọ́rùn"
+    },
+    {
+      "input": 101,
+      "expected": "ìkẹọgọ́rùn ó lé ọ̀kan"
+    },
+    {
+      "input": 200,
+      "expected": "ìkẹigba"
+    },
+    {
+      "input": 1000,
+      "expected": "ìkẹẹgbẹ̀rún kan"
+    },
+    {
+      "input": 1001,
+      "expected": "ìkẹẹgbẹ̀rún kan, ó lé ọ̀kan"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "òdo náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "ọ̀kan náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "èjì náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "àrùn náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "ẹ̀wá náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "ọ̀kan lé lógún náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "èjì lé lógójì náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "ọgọ́rùn náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ẹgbẹ̀rún kan náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "ọ̀kan kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "àrùndínlọgbọ̀n kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "àádọ́ta kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "ọ̀kandínlọ́gọ́rùn kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "ọ̀kan náírà àti ọ̀kan kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "ọ̀kan náírà àti àádọ́ta kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "èjì lé lógójì náírà àti àádọ́ta kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "ọgọ́rùn náírà àti ọ̀kandínlọ́gọ́rùn kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "àìní ọ̀kan náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "àìní èjì lé lógójì náírà àti àádọ́ta kọ́bọ̀",
+      "options": {
+        "currency": "NGN"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "àrùn náírà",
+      "options": {
+        "currency": "NGN"
+      }
+    }
+  ]
+}

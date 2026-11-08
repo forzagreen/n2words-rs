@@ -1,0 +1,498 @@
+{
+  "code": "el",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "μηδέν"
+    },
+    {
+      "input": 1,
+      "expected": "ένα"
+    },
+    {
+      "input": 2,
+      "expected": "δύο"
+    },
+    {
+      "input": 3,
+      "expected": "τρία"
+    },
+    {
+      "input": 4,
+      "expected": "τέσσερα"
+    },
+    {
+      "input": 5,
+      "expected": "πέντε"
+    },
+    {
+      "input": 6,
+      "expected": "έξι"
+    },
+    {
+      "input": 7,
+      "expected": "επτά"
+    },
+    {
+      "input": 8,
+      "expected": "οκτώ"
+    },
+    {
+      "input": 9,
+      "expected": "εννέα"
+    },
+    {
+      "input": 10,
+      "expected": "δέκα"
+    },
+    {
+      "input": 11,
+      "expected": "έντεκα"
+    },
+    {
+      "input": 12,
+      "expected": "δώδεκα"
+    },
+    {
+      "input": 13,
+      "expected": "δεκατρία"
+    },
+    {
+      "input": 14,
+      "expected": "δεκατέσσερα"
+    },
+    {
+      "input": 15,
+      "expected": "δεκαπέντε"
+    },
+    {
+      "input": 16,
+      "expected": "δεκαέξι"
+    },
+    {
+      "input": 17,
+      "expected": "δεκαεπτά"
+    },
+    {
+      "input": 18,
+      "expected": "δεκαοκτώ"
+    },
+    {
+      "input": 19,
+      "expected": "δεκαεννέα"
+    },
+    {
+      "input": 20,
+      "expected": "είκοσι"
+    },
+    {
+      "input": 21,
+      "expected": "είκοσι ένα"
+    },
+    {
+      "input": 30,
+      "expected": "τριάντα"
+    },
+    {
+      "input": 40,
+      "expected": "σαράντα"
+    },
+    {
+      "input": 42,
+      "expected": "σαράντα δύο"
+    },
+    {
+      "input": 50,
+      "expected": "πενήντα"
+    },
+    {
+      "input": 60,
+      "expected": "εξήντα"
+    },
+    {
+      "input": 70,
+      "expected": "εβδομήντα"
+    },
+    {
+      "input": 80,
+      "expected": "ογδόντα"
+    },
+    {
+      "input": 90,
+      "expected": "ενενήντα"
+    },
+    {
+      "input": 99,
+      "expected": "ενενήντα εννέα"
+    },
+    {
+      "input": 100,
+      "expected": "εκατό"
+    },
+    {
+      "input": 101,
+      "expected": "εκατό ένα"
+    },
+    {
+      "input": 200,
+      "expected": "διακόσια"
+    },
+    {
+      "input": 300,
+      "expected": "τριακόσια"
+    },
+    {
+      "input": 500,
+      "expected": "πεντακόσια"
+    },
+    {
+      "input": 999,
+      "expected": "εννιακόσια ενενήντα εννέα"
+    },
+    {
+      "input": 1000,
+      "expected": "χίλια"
+    },
+    {
+      "input": 1001,
+      "expected": "χίλια ένα"
+    },
+    {
+      "input": 2000,
+      "expected": "δύο χίλια"
+    },
+    {
+      "input": 5000,
+      "expected": "πέντε χίλια"
+    },
+    {
+      "input": 10000,
+      "expected": "δέκα χίλια"
+    },
+    {
+      "input": 50000,
+      "expected": "πενήντα χίλια"
+    },
+    {
+      "input": 100000,
+      "expected": "εκατό χίλια"
+    },
+    {
+      "input": 500000,
+      "expected": "πεντακόσια χίλια"
+    },
+    {
+      "input": 1000000,
+      "expected": "εκατομμύριο"
+    },
+    {
+      "input": 2000000,
+      "expected": "δύο εκατομμύριο"
+    },
+    {
+      "input": 5000000,
+      "expected": "πέντε εκατομμύριο"
+    },
+    {
+      "input": 10000000,
+      "expected": "δέκα εκατομμύριο"
+    },
+    {
+      "input": 100000000,
+      "expected": "εκατό εκατομμύριο"
+    },
+    {
+      "input": 1000000000,
+      "expected": "δισεκατομμύριο"
+    },
+    {
+      "input": -1,
+      "expected": "μείον ένα"
+    },
+    {
+      "input": -42,
+      "expected": "μείον σαράντα δύο"
+    },
+    {
+      "input": "3.14",
+      "expected": "τρία κόμμα ένα τέσσερα"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "πρώτος"
+    },
+    {
+      "input": 2,
+      "expected": "δεύτερος"
+    },
+    {
+      "input": 3,
+      "expected": "τρίτος"
+    },
+    {
+      "input": 4,
+      "expected": "τέταρτος"
+    },
+    {
+      "input": 5,
+      "expected": "πέμπτος"
+    },
+    {
+      "input": 6,
+      "expected": "έκτος"
+    },
+    {
+      "input": 7,
+      "expected": "έβδομος"
+    },
+    {
+      "input": 8,
+      "expected": "όγδοος"
+    },
+    {
+      "input": 9,
+      "expected": "ένατος"
+    },
+    {
+      "input": 10,
+      "expected": "δέκατος"
+    },
+    {
+      "input": 11,
+      "expected": "ενδέκατος"
+    },
+    {
+      "input": 12,
+      "expected": "δωδέκατος"
+    },
+    {
+      "input": 13,
+      "expected": "δέκατος τρίτος"
+    },
+    {
+      "input": 19,
+      "expected": "δέκατος ένατος"
+    },
+    {
+      "input": 20,
+      "expected": "εικοστός"
+    },
+    {
+      "input": 21,
+      "expected": "εικοστός πρώτος"
+    },
+    {
+      "input": 30,
+      "expected": "τριακοστός"
+    },
+    {
+      "input": 42,
+      "expected": "τεσσαρακοστός δεύτερος"
+    },
+    {
+      "input": 99,
+      "expected": "ενενηκοστός ένατος"
+    },
+    {
+      "input": 100,
+      "expected": "εκατοστός"
+    },
+    {
+      "input": 101,
+      "expected": "εκατό πρώτος"
+    },
+    {
+      "input": 200,
+      "expected": "διακοσιοστός"
+    },
+    {
+      "input": 121,
+      "expected": "εκατό εικοστός πρώτος"
+    },
+    {
+      "input": 1000,
+      "expected": "χιλιοστός"
+    },
+    {
+      "input": 1001,
+      "expected": "χίλια πρώτος"
+    },
+    {
+      "input": 2000,
+      "expected": "δύο χιλιοστός"
+    },
+    {
+      "input": 1000000,
+      "expected": "εκατομμυριοστός"
+    },
+    {
+      "input": 2000000,
+      "expected": "δύο εκατομμυριοστός"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "μηδέν ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "ένα ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "δύο ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "πέντε ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "δέκα ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "είκοσι ένα ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "σαράντα δύο ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "εκατό ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "χίλια ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "ένα λεπτό",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "δύο λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "πέντε λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "είκοσι πέντε λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "πενήντα λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "ενενήντα εννέα λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "ένα ευρώ ένα λεπτό",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "ένα ευρώ πενήντα λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "δύο ευρώ δύο λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "σαράντα δύο ευρώ πενήντα λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "εκατό ευρώ ενενήντα εννέα λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "μείον ένα ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "μείον σαράντα δύο ευρώ πενήντα λεπτά",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "πέντε ευρώ",
+      "options": {
+        "currency": "EUR"
+      }
+    }
+  ]
+}

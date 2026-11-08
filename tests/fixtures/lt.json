@@ -1,0 +1,625 @@
+{
+  "code": "lt",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "nulis kablelis nulis vienas"
+    },
+    {
+      "input": 1.007,
+      "expected": "vienas kablelis nulis nulis septyni"
+    },
+    {
+      "input": 1.7,
+      "expected": "vienas kablelis septyni"
+    },
+    {
+      "input": 17.42,
+      "expected": "septyniolika kablelis keturiasdešimt du"
+    },
+    {
+      "input": 27.312,
+      "expected": "dvidešimt septyni kablelis trys šimtai dvylika"
+    },
+    {
+      "input": 53.486,
+      "expected": "penkiasdešimt trys kablelis keturi šimtai aštuoniasdešimt šeši"
+    },
+    {
+      "input": 300.42,
+      "expected": "trys šimtai kablelis keturiasdešimt du"
+    },
+    {
+      "input": 4196.42,
+      "expected": "keturi tūkstančiai vienas šimtas devyniasdešimt šeši kablelis keturiasdešimt du"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus septyniolika kablelis keturiasdešimt du"
+    },
+    {
+      "input": -1,
+      "expected": "minus vienas"
+    },
+    {
+      "input": -20,
+      "expected": "minus dvidešimt"
+    },
+    {
+      "input": 0,
+      "expected": "nulis"
+    },
+    {
+      "input": 1,
+      "expected": "vienas"
+    },
+    {
+      "input": 2,
+      "expected": "du"
+    },
+    {
+      "input": 3,
+      "expected": "trys"
+    },
+    {
+      "input": 11,
+      "expected": "vienuolika"
+    },
+    {
+      "input": 12,
+      "expected": "dvylika"
+    },
+    {
+      "input": 16,
+      "expected": "šešiolika"
+    },
+    {
+      "input": 19,
+      "expected": "devyniolika"
+    },
+    {
+      "input": 20,
+      "expected": "dvidešimt"
+    },
+    {
+      "input": 21,
+      "expected": "dvidešimt vienas"
+    },
+    {
+      "input": 26,
+      "expected": "dvidešimt šeši"
+    },
+    {
+      "input": 28,
+      "expected": "dvidešimt aštuoni"
+    },
+    {
+      "input": 30,
+      "expected": "trisdešimt"
+    },
+    {
+      "input": 31,
+      "expected": "trisdešimt vienas"
+    },
+    {
+      "input": 40,
+      "expected": "keturiasdešimt"
+    },
+    {
+      "input": 44,
+      "expected": "keturiasdešimt keturi"
+    },
+    {
+      "input": 50,
+      "expected": "penkiasdešimt"
+    },
+    {
+      "input": 55,
+      "expected": "penkiasdešimt penki"
+    },
+    {
+      "input": 60,
+      "expected": "šešiasdešimt"
+    },
+    {
+      "input": 67,
+      "expected": "šešiasdešimt septyni"
+    },
+    {
+      "input": 70,
+      "expected": "septyniasdešimt"
+    },
+    {
+      "input": 79,
+      "expected": "septyniasdešimt devyni"
+    },
+    {
+      "input": 89,
+      "expected": "aštuoniasdešimt devyni"
+    },
+    {
+      "input": 95,
+      "expected": "devyniasdešimt penki"
+    },
+    {
+      "input": 100,
+      "expected": "vienas šimtas"
+    },
+    {
+      "input": 101,
+      "expected": "vienas šimtas vienas"
+    },
+    {
+      "input": 199,
+      "expected": "vienas šimtas devyniasdešimt devyni"
+    },
+    {
+      "input": 203,
+      "expected": "du šimtai trys"
+    },
+    {
+      "input": 287,
+      "expected": "du šimtai aštuoniasdešimt septyni"
+    },
+    {
+      "input": 356,
+      "expected": "trys šimtai penkiasdešimt šeši"
+    },
+    {
+      "input": 400,
+      "expected": "keturi šimtai"
+    },
+    {
+      "input": 434,
+      "expected": "keturi šimtai trisdešimt keturi"
+    },
+    {
+      "input": 578,
+      "expected": "penki šimtai septyniasdešimt aštuoni"
+    },
+    {
+      "input": 689,
+      "expected": "šeši šimtai aštuoniasdešimt devyni"
+    },
+    {
+      "input": 729,
+      "expected": "septyni šimtai dvidešimt devyni"
+    },
+    {
+      "input": 894,
+      "expected": "aštuoni šimtai devyniasdešimt keturi"
+    },
+    {
+      "input": 999,
+      "expected": "devyni šimtai devyniasdešimt devyni"
+    },
+    {
+      "input": 1000,
+      "expected": "vienas tūkstantis"
+    },
+    {
+      "input": 1001,
+      "expected": "vienas tūkstantis vienas"
+    },
+    {
+      "input": 1097,
+      "expected": "vienas tūkstantis devyniasdešimt septyni"
+    },
+    {
+      "input": 1104,
+      "expected": "vienas tūkstantis vienas šimtas keturi"
+    },
+    {
+      "input": 1243,
+      "expected": "vienas tūkstantis du šimtai keturiasdešimt trys"
+    },
+    {
+      "input": 2385,
+      "expected": "du tūkstančiai trys šimtai aštuoniasdešimt penki"
+    },
+    {
+      "input": 3766,
+      "expected": "trys tūkstančiai septyni šimtai šešiasdešimt šeši"
+    },
+    {
+      "input": 4196,
+      "expected": "keturi tūkstančiai vienas šimtas devyniasdešimt šeši"
+    },
+    {
+      "input": 5846,
+      "expected": "penki tūkstančiai aštuoni šimtai keturiasdešimt šeši"
+    },
+    {
+      "input": 6459,
+      "expected": "šeši tūkstančiai keturi šimtai penkiasdešimt devyni"
+    },
+    {
+      "input": 7232,
+      "expected": "septyni tūkstančiai du šimtai trisdešimt du"
+    },
+    {
+      "input": 8569,
+      "expected": "aštuoni tūkstančiai penki šimtai šešiasdešimt devyni"
+    },
+    {
+      "input": 9539,
+      "expected": "devyni tūkstančiai penki šimtai trisdešimt devyni"
+    },
+    {
+      "input": 1000000,
+      "expected": "vienas milijonas"
+    },
+    {
+      "input": 1000001,
+      "expected": "vienas milijonas vienas"
+    },
+    {
+      "input": 4000000,
+      "expected": "keturi milijonai"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "dešimt trilijonų"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "vienas šimtas trilijonų"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "vienas kvintilijonas"
+    },
+    {
+      "input": 1,
+      "expected": "viena",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "dvi",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 4,
+      "expected": "keturios",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "penkios",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "dvidešimt viena",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "dvidešimt dvi",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 101,
+      "expected": "vienas šimtas viena",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "vienas šimtas dvi",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "vienas tūkstantis vienas",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1002,
+      "expected": "vienas tūkstantis du",
+      "options": {
+        "gender": "feminine"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "pirmas"
+    },
+    {
+      "input": 2,
+      "expected": "antras"
+    },
+    {
+      "input": 3,
+      "expected": "trečias"
+    },
+    {
+      "input": 4,
+      "expected": "ketvirtas"
+    },
+    {
+      "input": 5,
+      "expected": "penktas"
+    },
+    {
+      "input": 6,
+      "expected": "šeštas"
+    },
+    {
+      "input": 7,
+      "expected": "septintas"
+    },
+    {
+      "input": 8,
+      "expected": "aštuntas"
+    },
+    {
+      "input": 9,
+      "expected": "devintas"
+    },
+    {
+      "input": 10,
+      "expected": "dešimtas"
+    },
+    {
+      "input": 11,
+      "expected": "vienuoliktas"
+    },
+    {
+      "input": 12,
+      "expected": "dvyliktas"
+    },
+    {
+      "input": 13,
+      "expected": "tryliktas"
+    },
+    {
+      "input": 19,
+      "expected": "devynioliktas"
+    },
+    {
+      "input": 20,
+      "expected": "dvidešimtas"
+    },
+    {
+      "input": 21,
+      "expected": "dvidešimt pirmas"
+    },
+    {
+      "input": 30,
+      "expected": "trisdešimtas"
+    },
+    {
+      "input": 42,
+      "expected": "keturiasdešimt antras"
+    },
+    {
+      "input": 99,
+      "expected": "devyniasdešimt devintas"
+    },
+    {
+      "input": 100,
+      "expected": "šimtasis"
+    },
+    {
+      "input": 101,
+      "expected": "vienas šimtas pirmas"
+    },
+    {
+      "input": 200,
+      "expected": "dviejų šimtasis"
+    },
+    {
+      "input": 1000,
+      "expected": "tūkstantasis"
+    },
+    {
+      "input": 1001,
+      "expected": "vienas tūkstantis pirmas"
+    },
+    {
+      "input": 2000,
+      "expected": "du tūkstančiai tūkstantasis"
+    },
+    {
+      "input": 1000000,
+      "expected": "milijonasis"
+    },
+    {
+      "input": 2000000,
+      "expected": "du milijonai milijonasis"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nulis eurų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "vienas euras",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "du eurai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "penki eurai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "dešimt eurų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "dvidešimt vienas euras",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "keturiasdešimt du eurai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "vienas šimtas eurų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "vienas tūkstantis eurų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "vienas centas",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "du centai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.05,
+      "expected": "penki centai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.1,
+      "expected": "dešimt centų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.25,
+      "expected": "dvidešimt penki centai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "penkiasdešimt centų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "devyniasdešimt devyni centai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "vienas euras vienas centas",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 1.5,
+      "expected": "vienas euras penkiasdešimt centų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 2.02,
+      "expected": "du eurai du centai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "keturiasdešimt du eurai penkiasdešimt centų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": 100.99,
+      "expected": "vienas šimtas eurų devyniasdešimt devyni centai",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "minus vienas euras",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "minus keturiasdešimt du eurai penkiasdešimt centų",
+      "options": {
+        "currency": "EUR"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "penki eurai",
+      "options": {
+        "currency": "EUR"
+      }
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "code": "sv-SE",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "noll"
+    },
+    {
+      "input": 1,
+      "expected": "ett"
+    },
+    {
+      "input": 2,
+      "expected": "två"
+    },
+    {
+      "input": 10,
+      "expected": "tio"
+    },
+    {
+      "input": 11,
+      "expected": "elva"
+    },
+    {
+      "input": 14,
+      "expected": "fjorton"
+    },
+    {
+      "input": 20,
+      "expected": "tjugo"
+    },
+    {
+      "input": 21,
+      "expected": "tjugo-ett"
+    },
+    {
+      "input": 99,
+      "expected": "nittio-nio"
+    },
+    {
+      "input": 100,
+      "expected": "hundra"
+    },
+    {
+      "input": 101,
+      "expected": "hundra och ett"
+    },
+    {
+      "input": 115,
+      "expected": "hundra och femton"
+    },
+    {
+      "input": 200,
+      "expected": "två hundra"
+    },
+    {
+      "input": 1000,
+      "expected": "tusen"
+    },
+    {
+      "input": 1234,
+      "expected": "tusen två hundra och trettio-fyra"
+    },
+    {
+      "input": 2000,
+      "expected": "två tusen"
+    },
+    {
+      "input": 1000000,
+      "expected": "en miljon"
+    },
+    {
+      "input": -5,
+      "expected": "minus fem"
+    },
+    {
+      "input": "3.05",
+      "expected": "tre komma noll fem"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "första"
+    },
+    {
+      "input": 2,
+      "expected": "andra"
+    },
+    {
+      "input": 3,
+      "expected": "tredje"
+    },
+    {
+      "input": 4,
+      "expected": "fjärde"
+    },
+    {
+      "input": 5,
+      "expected": "femte"
+    },
+    {
+      "input": 6,
+      "expected": "sjätte"
+    },
+    {
+      "input": 7,
+      "expected": "sjunde"
+    },
+    {
+      "input": 8,
+      "expected": "åttonde"
+    },
+    {
+      "input": 9,
+      "expected": "nionde"
+    },
+    {
+      "input": 10,
+      "expected": "tionde"
+    },
+    {
+      "input": 11,
+      "expected": "elfte"
+    },
+    {
+      "input": 12,
+      "expected": "tolfte"
+    },
+    {
+      "input": 13,
+      "expected": "trettonde"
+    },
+    {
+      "input": 14,
+      "expected": "fjortonde"
+    },
+    {
+      "input": 15,
+      "expected": "femtonde"
+    },
+    {
+      "input": 19,
+      "expected": "nittonde"
+    },
+    {
+      "input": 20,
+      "expected": "tjugode"
+    },
+    {
+      "input": 21,
+      "expected": "tjugo-ettde"
+    },
+    {
+      "input": 30,
+      "expected": "trettiode"
+    },
+    {
+      "input": 42,
+      "expected": "fyrtio-tvåde"
+    },
+    {
+      "input": 99,
+      "expected": "nittio-niode"
+    },
+    {
+      "input": 100,
+      "expected": "hundrade"
+    },
+    {
+      "input": 101,
+      "expected": "hundra och ettde"
+    },
+    {
+      "input": 200,
+      "expected": "två hundrade"
+    },
+    {
+      "input": 1000,
+      "expected": "tusende"
+    },
+    {
+      "input": 1001,
+      "expected": "tusen och ettde"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "noll kronor"
+    },
+    {
+      "input": 1,
+      "expected": "en krona"
+    },
+    {
+      "input": 2,
+      "expected": "två kronor"
+    },
+    {
+      "input": 5,
+      "expected": "fem kronor"
+    },
+    {
+      "input": 10,
+      "expected": "tio kronor"
+    },
+    {
+      "input": 21,
+      "expected": "tjugo-ett kronor"
+    },
+    {
+      "input": 42,
+      "expected": "fyrtio-två kronor"
+    },
+    {
+      "input": 100,
+      "expected": "hundra kronor"
+    },
+    {
+      "input": 1000,
+      "expected": "tusen kronor"
+    },
+    {
+      "input": 0.01,
+      "expected": "ett öre"
+    },
+    {
+      "input": 0.25,
+      "expected": "tjugo-fem öre"
+    },
+    {
+      "input": 0.5,
+      "expected": "femtio öre"
+    },
+    {
+      "input": 0.99,
+      "expected": "nittio-nio öre"
+    },
+    {
+      "input": 1.01,
+      "expected": "en krona och ett öre"
+    },
+    {
+      "input": 1.5,
+      "expected": "en krona och femtio öre"
+    },
+    {
+      "input": 42.5,
+      "expected": "fyrtio-två kronor och femtio öre"
+    },
+    {
+      "input": 100.99,
+      "expected": "hundra kronor och nittio-nio öre"
+    },
+    {
+      "input": -1,
+      "expected": "minus en krona"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus fyrtio-två kronor och femtio öre"
+    },
+    {
+      "input": "5.00",
+      "expected": "fem kronor"
+    }
+  ]
+}

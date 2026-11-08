@@ -1,0 +1,381 @@
+{
+  "code": "fil-PH",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "isa"
+    },
+    {
+      "input": 2,
+      "expected": "dalawa"
+    },
+    {
+      "input": 3,
+      "expected": "tatlo"
+    },
+    {
+      "input": 4,
+      "expected": "apat"
+    },
+    {
+      "input": 5,
+      "expected": "lima"
+    },
+    {
+      "input": 6,
+      "expected": "anim"
+    },
+    {
+      "input": 7,
+      "expected": "pito"
+    },
+    {
+      "input": 8,
+      "expected": "walo"
+    },
+    {
+      "input": 9,
+      "expected": "siyam"
+    },
+    {
+      "input": 10,
+      "expected": "sampu"
+    },
+    {
+      "input": 11,
+      "expected": "labinisa"
+    },
+    {
+      "input": 12,
+      "expected": "labindalawa"
+    },
+    {
+      "input": 13,
+      "expected": "labintatlo"
+    },
+    {
+      "input": 14,
+      "expected": "labinapat"
+    },
+    {
+      "input": 15,
+      "expected": "labinlima"
+    },
+    {
+      "input": 16,
+      "expected": "labinanum"
+    },
+    {
+      "input": 17,
+      "expected": "labimpito"
+    },
+    {
+      "input": 18,
+      "expected": "labingwalo"
+    },
+    {
+      "input": 19,
+      "expected": "labinsiyam"
+    },
+    {
+      "input": 20,
+      "expected": "dalawampu"
+    },
+    {
+      "input": 21,
+      "expected": "dalawampu isa"
+    },
+    {
+      "input": 30,
+      "expected": "tatlumpu"
+    },
+    {
+      "input": 40,
+      "expected": "apatnapu"
+    },
+    {
+      "input": 42,
+      "expected": "apatnapu dalawa"
+    },
+    {
+      "input": 50,
+      "expected": "limampu"
+    },
+    {
+      "input": 60,
+      "expected": "animnapu"
+    },
+    {
+      "input": 70,
+      "expected": "pitumpu"
+    },
+    {
+      "input": 80,
+      "expected": "walumpu"
+    },
+    {
+      "input": 90,
+      "expected": "siyamnapu"
+    },
+    {
+      "input": 99,
+      "expected": "siyamnapu siyam"
+    },
+    {
+      "input": 100,
+      "expected": "isang daang"
+    },
+    {
+      "input": 101,
+      "expected": "isang daang isa"
+    },
+    {
+      "input": 200,
+      "expected": "dalawang daang"
+    },
+    {
+      "input": 256,
+      "expected": "dalawang daang limampung anim"
+    },
+    {
+      "input": 999,
+      "expected": "siyam na daang siyamnapu siyam"
+    },
+    {
+      "input": 1000,
+      "expected": "isang libong"
+    },
+    {
+      "input": 1001,
+      "expected": "isang libong isa"
+    },
+    {
+      "input": 2000,
+      "expected": "dalawang libong"
+    },
+    {
+      "input": 12345,
+      "expected": "labindalawang libong tatlong daang apatnapu lima"
+    },
+    {
+      "input": 99999,
+      "expected": "siyamnapu siyam na libong siyam na daang siyamnapu siyam"
+    },
+    {
+      "input": 1000000,
+      "expected": "isang milyong"
+    },
+    {
+      "input": 1234567,
+      "expected": "isang milyong dalawang daang tatlumpu apat na libong limang daang animnapu pito"
+    },
+    {
+      "input": -1,
+      "expected": "negatibo isa"
+    },
+    {
+      "input": -5,
+      "expected": "negatibo lima"
+    },
+    {
+      "input": -1000,
+      "expected": "negatibo isang libong"
+    },
+    {
+      "input": "3.14",
+      "expected": "tatlo punto isa apat"
+    },
+    {
+      "input": "0.5",
+      "expected": "zero punto lima"
+    },
+    {
+      "input": "10.05",
+      "expected": "sampu punto zero lima"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "una"
+    },
+    {
+      "input": 2,
+      "expected": "ikalawa"
+    },
+    {
+      "input": 3,
+      "expected": "ika-tatlo"
+    },
+    {
+      "input": 4,
+      "expected": "ika-apat"
+    },
+    {
+      "input": 5,
+      "expected": "ika-lima"
+    },
+    {
+      "input": 6,
+      "expected": "ika-anim"
+    },
+    {
+      "input": 7,
+      "expected": "ika-pito"
+    },
+    {
+      "input": 8,
+      "expected": "ika-walo"
+    },
+    {
+      "input": 9,
+      "expected": "ika-siyam"
+    },
+    {
+      "input": 10,
+      "expected": "ika-sampu"
+    },
+    {
+      "input": 11,
+      "expected": "ika-labinisa"
+    },
+    {
+      "input": 12,
+      "expected": "ika-labindalawa"
+    },
+    {
+      "input": 19,
+      "expected": "ika-labinsiyam"
+    },
+    {
+      "input": 20,
+      "expected": "ika-dalawampu"
+    },
+    {
+      "input": 21,
+      "expected": "ika-dalawampu isa"
+    },
+    {
+      "input": 30,
+      "expected": "ika-tatlumpu"
+    },
+    {
+      "input": 42,
+      "expected": "ika-apatnapu dalawa"
+    },
+    {
+      "input": 99,
+      "expected": "ika-siyamnapu siyam"
+    },
+    {
+      "input": 100,
+      "expected": "ika-isang daang"
+    },
+    {
+      "input": 101,
+      "expected": "ika-isang daang isa"
+    },
+    {
+      "input": 200,
+      "expected": "ika-dalawang daang"
+    },
+    {
+      "input": 1000,
+      "expected": "ika-isang libong"
+    },
+    {
+      "input": 1001,
+      "expected": "ika-isang libong isa"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero piso"
+    },
+    {
+      "input": 1,
+      "expected": "isang piso"
+    },
+    {
+      "input": 2,
+      "expected": "dalawang piso"
+    },
+    {
+      "input": 5,
+      "expected": "limang piso"
+    },
+    {
+      "input": 9,
+      "expected": "siyam na piso"
+    },
+    {
+      "input": 10,
+      "expected": "sampung piso"
+    },
+    {
+      "input": 21,
+      "expected": "dalawampu isang piso"
+    },
+    {
+      "input": 42,
+      "expected": "apatnapu dalawang piso"
+    },
+    {
+      "input": 100,
+      "expected": "isang daang piso"
+    },
+    {
+      "input": 1000,
+      "expected": "isang libong piso"
+    },
+    {
+      "input": 0.01,
+      "expected": "isang sentimo"
+    },
+    {
+      "input": 0.25,
+      "expected": "dalawampu limang sentimo"
+    },
+    {
+      "input": 0.5,
+      "expected": "limampung sentimo"
+    },
+    {
+      "input": 0.99,
+      "expected": "siyamnapu siyam na sentimo"
+    },
+    {
+      "input": 1.01,
+      "expected": "isang piso at isang sentimo"
+    },
+    {
+      "input": 1.5,
+      "expected": "isang piso at limampung sentimo"
+    },
+    {
+      "input": 42.5,
+      "expected": "apatnapu dalawang piso at limampung sentimo"
+    },
+    {
+      "input": 100.99,
+      "expected": "isang daang piso at siyamnapu siyam na sentimo"
+    },
+    {
+      "input": -1,
+      "expected": "negatibo isang piso"
+    },
+    {
+      "input": -42.5,
+      "expected": "negatibo apatnapu dalawang piso at limampung sentimo"
+    },
+    {
+      "input": "5.00",
+      "expected": "limang piso"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "code": "sw-KE",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "sifuri"
+    },
+    {
+      "input": 1,
+      "expected": "moja"
+    },
+    {
+      "input": 2,
+      "expected": "mbili"
+    },
+    {
+      "input": 3,
+      "expected": "tatu"
+    },
+    {
+      "input": 5.5,
+      "expected": "tano nukta tano"
+    },
+    {
+      "input": "0.01",
+      "expected": "sifuri nukta sifuri moja"
+    },
+    {
+      "input": "0.005",
+      "expected": "sifuri nukta sifuri sifuri tano"
+    },
+    {
+      "input": 3.14,
+      "expected": "tatu nukta kumi na nne"
+    },
+    {
+      "input": -5,
+      "expected": "minus tano"
+    },
+    {
+      "input": 10,
+      "expected": "kumi"
+    },
+    {
+      "input": 11,
+      "expected": "kumi na moja"
+    },
+    {
+      "input": 15,
+      "expected": "kumi na tano"
+    },
+    {
+      "input": 19,
+      "expected": "kumi na tisa"
+    },
+    {
+      "input": 20,
+      "expected": "ishirini"
+    },
+    {
+      "input": 21,
+      "expected": "ishirini na moja"
+    },
+    {
+      "input": 25,
+      "expected": "ishirini na tano"
+    },
+    {
+      "input": 29,
+      "expected": "ishirini na tisa"
+    },
+    {
+      "input": 30,
+      "expected": "thelathini"
+    },
+    {
+      "input": 33,
+      "expected": "thelathini na tatu"
+    },
+    {
+      "input": 40,
+      "expected": "arobaini"
+    },
+    {
+      "input": 45,
+      "expected": "arobaini na tano"
+    },
+    {
+      "input": 50,
+      "expected": "hamsini"
+    },
+    {
+      "input": 58,
+      "expected": "hamsini na nane"
+    },
+    {
+      "input": 60,
+      "expected": "sitini"
+    },
+    {
+      "input": 68,
+      "expected": "sitini na nane"
+    },
+    {
+      "input": 70,
+      "expected": "sabini"
+    },
+    {
+      "input": 79,
+      "expected": "sabini na tisa"
+    },
+    {
+      "input": 80,
+      "expected": "themanini"
+    },
+    {
+      "input": 90,
+      "expected": "tisini"
+    },
+    {
+      "input": 99,
+      "expected": "tisini na tisa"
+    },
+    {
+      "input": 100,
+      "expected": "mia moja"
+    },
+    {
+      "input": 101,
+      "expected": "mia moja na moja"
+    },
+    {
+      "input": 110,
+      "expected": "mia moja kumi"
+    },
+    {
+      "input": 125,
+      "expected": "mia moja ishirini na tano"
+    },
+    {
+      "input": 200,
+      "expected": "mia mbili"
+    },
+    {
+      "input": 215,
+      "expected": "mia mbili kumi na tano"
+    },
+    {
+      "input": 999,
+      "expected": "mia tisa tisini na tisa"
+    },
+    {
+      "input": 1000,
+      "expected": "elfu moja"
+    },
+    {
+      "input": 1001,
+      "expected": "elfu moja na moja"
+    },
+    {
+      "input": 1010,
+      "expected": "elfu moja kumi"
+    },
+    {
+      "input": 1100,
+      "expected": "elfu moja mia"
+    },
+    {
+      "input": 1234,
+      "expected": "elfu moja mia mbili thelathini na nne"
+    },
+    {
+      "input": 10000,
+      "expected": "elfu kumi"
+    },
+    {
+      "input": 50000,
+      "expected": "elfu hamsini"
+    },
+    {
+      "input": 99999,
+      "expected": "elfu tisini na tisa mia tisa tisini na tisa"
+    },
+    {
+      "input": 1000000,
+      "expected": "milioni moja"
+    },
+    {
+      "input": 2000000,
+      "expected": "milioni mbili"
+    },
+    {
+      "input": 12345678,
+      "expected": "milioni kumi na mbili elfu mia tatu arobaini na tano mia sita sabini na nane"
+    },
+    {
+      "input": 1000000000,
+      "expected": "bilioni moja"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "trilioni moja"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "wa kwanza"
+    },
+    {
+      "input": 2,
+      "expected": "wa pili"
+    },
+    {
+      "input": 3,
+      "expected": "wa tatu"
+    },
+    {
+      "input": 4,
+      "expected": "wa nne"
+    },
+    {
+      "input": 5,
+      "expected": "wa tano"
+    },
+    {
+      "input": 6,
+      "expected": "wa sita"
+    },
+    {
+      "input": 7,
+      "expected": "wa saba"
+    },
+    {
+      "input": 8,
+      "expected": "wa nane"
+    },
+    {
+      "input": 9,
+      "expected": "wa tisa"
+    },
+    {
+      "input": 10,
+      "expected": "wa kumi"
+    },
+    {
+      "input": 11,
+      "expected": "wa kumi na moja"
+    },
+    {
+      "input": 12,
+      "expected": "wa kumi na mbili"
+    },
+    {
+      "input": 19,
+      "expected": "wa kumi na tisa"
+    },
+    {
+      "input": 20,
+      "expected": "wa ishirini"
+    },
+    {
+      "input": 21,
+      "expected": "wa ishirini na moja"
+    },
+    {
+      "input": 30,
+      "expected": "wa thelathini"
+    },
+    {
+      "input": 42,
+      "expected": "wa arobaini na mbili"
+    },
+    {
+      "input": 99,
+      "expected": "wa tisini na tisa"
+    },
+    {
+      "input": 100,
+      "expected": "wa mia moja"
+    },
+    {
+      "input": 101,
+      "expected": "wa mia moja na moja"
+    },
+    {
+      "input": 200,
+      "expected": "wa mia mbili"
+    },
+    {
+      "input": 1000,
+      "expected": "wa elfu moja"
+    },
+    {
+      "input": 1001,
+      "expected": "wa elfu moja na moja"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "shilingi sifuri"
+    },
+    {
+      "input": 1,
+      "expected": "shilingi moja"
+    },
+    {
+      "input": 2,
+      "expected": "shilingi mbili"
+    },
+    {
+      "input": 5,
+      "expected": "shilingi tano"
+    },
+    {
+      "input": 10,
+      "expected": "shilingi kumi"
+    },
+    {
+      "input": 21,
+      "expected": "shilingi ishirini na moja"
+    },
+    {
+      "input": 42,
+      "expected": "shilingi arobaini na mbili"
+    },
+    {
+      "input": 100,
+      "expected": "shilingi mia moja"
+    },
+    {
+      "input": 1000,
+      "expected": "shilingi elfu moja"
+    },
+    {
+      "input": 0.01,
+      "expected": "senti moja"
+    },
+    {
+      "input": 0.25,
+      "expected": "senti ishirini na tano"
+    },
+    {
+      "input": 0.5,
+      "expected": "senti hamsini"
+    },
+    {
+      "input": 0.99,
+      "expected": "senti tisini na tisa"
+    },
+    {
+      "input": 1.01,
+      "expected": "shilingi moja na senti moja"
+    },
+    {
+      "input": 1.5,
+      "expected": "shilingi moja na senti hamsini"
+    },
+    {
+      "input": 42.5,
+      "expected": "shilingi arobaini na mbili na senti hamsini"
+    },
+    {
+      "input": 100.99,
+      "expected": "shilingi mia moja na senti tisini na tisa"
+    },
+    {
+      "input": -1,
+      "expected": "minus shilingi moja"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus shilingi arobaini na mbili na senti hamsini"
+    },
+    {
+      "input": "5.00",
+      "expected": "shilingi tano"
+    }
+  ]
+}

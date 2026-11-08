@@ -1,0 +1,383 @@
+{
+  "code": "ms-MY",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "sifar"
+    },
+    {
+      "input": 1,
+      "expected": "satu"
+    },
+    {
+      "input": 2,
+      "expected": "dua"
+    },
+    {
+      "input": 3,
+      "expected": "tiga"
+    },
+    {
+      "input": 5.5,
+      "expected": "lima perpuluhan lima"
+    },
+    {
+      "input": "0.01",
+      "expected": "sifar perpuluhan sifar satu"
+    },
+    {
+      "input": "0.005",
+      "expected": "sifar perpuluhan sifar sifar lima"
+    },
+    {
+      "input": 3.14,
+      "expected": "tiga perpuluhan empat belas"
+    },
+    {
+      "input": -5,
+      "expected": "minus lima"
+    },
+    {
+      "input": 10,
+      "expected": "sepuluh"
+    },
+    {
+      "input": 11,
+      "expected": "sebelas"
+    },
+    {
+      "input": 15,
+      "expected": "lima belas"
+    },
+    {
+      "input": 19,
+      "expected": "sembilan belas"
+    },
+    {
+      "input": 20,
+      "expected": "dua puluh"
+    },
+    {
+      "input": 21,
+      "expected": "dua puluh satu"
+    },
+    {
+      "input": 25,
+      "expected": "dua puluh lima"
+    },
+    {
+      "input": 29,
+      "expected": "dua puluh sembilan"
+    },
+    {
+      "input": 30,
+      "expected": "tiga puluh"
+    },
+    {
+      "input": 33,
+      "expected": "tiga puluh tiga"
+    },
+    {
+      "input": 40,
+      "expected": "empat puluh"
+    },
+    {
+      "input": 45,
+      "expected": "empat puluh lima"
+    },
+    {
+      "input": 50,
+      "expected": "lima puluh"
+    },
+    {
+      "input": 58,
+      "expected": "lima puluh lapan"
+    },
+    {
+      "input": 60,
+      "expected": "enam puluh"
+    },
+    {
+      "input": 68,
+      "expected": "enam puluh lapan"
+    },
+    {
+      "input": 70,
+      "expected": "tujuh puluh"
+    },
+    {
+      "input": 79,
+      "expected": "tujuh puluh sembilan"
+    },
+    {
+      "input": 80,
+      "expected": "lapan puluh"
+    },
+    {
+      "input": 90,
+      "expected": "sembilan puluh"
+    },
+    {
+      "input": 99,
+      "expected": "sembilan puluh sembilan"
+    },
+    {
+      "input": 100,
+      "expected": "seratus"
+    },
+    {
+      "input": 101,
+      "expected": "seratus satu"
+    },
+    {
+      "input": 110,
+      "expected": "seratus sepuluh"
+    },
+    {
+      "input": 125,
+      "expected": "seratus dua puluh lima"
+    },
+    {
+      "input": 200,
+      "expected": "dua ratus"
+    },
+    {
+      "input": 215,
+      "expected": "dua ratus lima belas"
+    },
+    {
+      "input": 999,
+      "expected": "sembilan ratus sembilan puluh sembilan"
+    },
+    {
+      "input": 1000,
+      "expected": "seribu"
+    },
+    {
+      "input": 1001,
+      "expected": "seribu satu"
+    },
+    {
+      "input": 1010,
+      "expected": "seribu sepuluh"
+    },
+    {
+      "input": 1100,
+      "expected": "seribu seratus"
+    },
+    {
+      "input": 1234,
+      "expected": "seribu dua ratus tiga puluh empat"
+    },
+    {
+      "input": 10000,
+      "expected": "sepuluh ribu"
+    },
+    {
+      "input": 50000,
+      "expected": "lima puluh ribu"
+    },
+    {
+      "input": 99999,
+      "expected": "sembilan puluh sembilan ribu sembilan ratus sembilan puluh sembilan"
+    },
+    {
+      "input": 1000000,
+      "expected": "sejuta"
+    },
+    {
+      "input": 2000000,
+      "expected": "dua juta"
+    },
+    {
+      "input": 12345678,
+      "expected": "dua belas juta tiga ratus empat puluh lima ribu enam ratus tujuh puluh lapan"
+    },
+    {
+      "input": 1000000000,
+      "expected": "sebilion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "setrilion"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "pertama"
+    },
+    {
+      "input": 2,
+      "expected": "kedua"
+    },
+    {
+      "input": 3,
+      "expected": "ketiga"
+    },
+    {
+      "input": 4,
+      "expected": "keempat"
+    },
+    {
+      "input": 5,
+      "expected": "kelima"
+    },
+    {
+      "input": 6,
+      "expected": "keenam"
+    },
+    {
+      "input": 7,
+      "expected": "ketujuh"
+    },
+    {
+      "input": 8,
+      "expected": "kelapan"
+    },
+    {
+      "input": 9,
+      "expected": "kesembilan"
+    },
+    {
+      "input": 10,
+      "expected": "kesepuluh"
+    },
+    {
+      "input": 11,
+      "expected": "kesebelas"
+    },
+    {
+      "input": 12,
+      "expected": "kedua belas"
+    },
+    {
+      "input": 15,
+      "expected": "kelima belas"
+    },
+    {
+      "input": 19,
+      "expected": "kesembilan belas"
+    },
+    {
+      "input": 20,
+      "expected": "kedua puluh"
+    },
+    {
+      "input": 21,
+      "expected": "kedua puluh satu"
+    },
+    {
+      "input": 30,
+      "expected": "ketiga puluh"
+    },
+    {
+      "input": 42,
+      "expected": "keempat puluh dua"
+    },
+    {
+      "input": 99,
+      "expected": "kesembilan puluh sembilan"
+    },
+    {
+      "input": 100,
+      "expected": "keseratus"
+    },
+    {
+      "input": 101,
+      "expected": "keseratus satu"
+    },
+    {
+      "input": 200,
+      "expected": "kedua ratus"
+    },
+    {
+      "input": 1000,
+      "expected": "keseribu"
+    },
+    {
+      "input": 1001,
+      "expected": "keseribu satu"
+    },
+    {
+      "input": 1000000,
+      "expected": "kesejuta"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "sifar ringgit"
+    },
+    {
+      "input": 1,
+      "expected": "satu ringgit"
+    },
+    {
+      "input": 2,
+      "expected": "dua ringgit"
+    },
+    {
+      "input": 5,
+      "expected": "lima ringgit"
+    },
+    {
+      "input": 10,
+      "expected": "sepuluh ringgit"
+    },
+    {
+      "input": 100,
+      "expected": "seratus ringgit"
+    },
+    {
+      "input": 1000,
+      "expected": "seribu ringgit"
+    },
+    {
+      "input": 1000000,
+      "expected": "sejuta ringgit"
+    },
+    {
+      "input": 0.01,
+      "expected": "satu sen"
+    },
+    {
+      "input": 0.1,
+      "expected": "sepuluh sen"
+    },
+    {
+      "input": 0.5,
+      "expected": "lima puluh sen"
+    },
+    {
+      "input": 0.99,
+      "expected": "sembilan puluh sembilan sen"
+    },
+    {
+      "input": 1.01,
+      "expected": "satu ringgit satu sen"
+    },
+    {
+      "input": 42.5,
+      "expected": "empat puluh dua ringgit lima puluh sen"
+    },
+    {
+      "input": 1000.99,
+      "expected": "seribu ringgit sembilan puluh sembilan sen"
+    },
+    {
+      "input": -1,
+      "expected": "minus satu ringgit"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus empat puluh dua ringgit lima puluh sen"
+    },
+    {
+      "input": "5.00",
+      "expected": "lima ringgit"
+    }
+  ]
+}

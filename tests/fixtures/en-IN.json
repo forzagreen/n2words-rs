@@ -1,0 +1,699 @@
+{
+  "code": "en-IN",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "zero point zero one"
+    },
+    {
+      "input": 0.007,
+      "expected": "zero point zero zero seven"
+    },
+    {
+      "input": 5.5,
+      "expected": "five point five"
+    },
+    {
+      "input": 17.42,
+      "expected": "seventeen point forty-two"
+    },
+    {
+      "input": 27.312,
+      "expected": "twenty-seven point three hundred and twelve"
+    },
+    {
+      "input": 53.486,
+      "expected": "fifty-three point four hundred and eighty-six"
+    },
+    {
+      "input": -1,
+      "expected": "minus one"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus seventeen point forty-two"
+    },
+    {
+      "input": -100000,
+      "expected": "minus one lakh"
+    },
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "one"
+    },
+    {
+      "input": 2,
+      "expected": "two"
+    },
+    {
+      "input": 5,
+      "expected": "five"
+    },
+    {
+      "input": 11,
+      "expected": "eleven"
+    },
+    {
+      "input": 12,
+      "expected": "twelve"
+    },
+    {
+      "input": 16,
+      "expected": "sixteen"
+    },
+    {
+      "input": 19,
+      "expected": "nineteen"
+    },
+    {
+      "input": 20,
+      "expected": "twenty"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-one"
+    },
+    {
+      "input": 30,
+      "expected": "thirty"
+    },
+    {
+      "input": 42,
+      "expected": "forty-two"
+    },
+    {
+      "input": 50,
+      "expected": "fifty"
+    },
+    {
+      "input": 67,
+      "expected": "sixty-seven"
+    },
+    {
+      "input": 89,
+      "expected": "eighty-nine"
+    },
+    {
+      "input": 99,
+      "expected": "ninety-nine"
+    },
+    {
+      "input": 100,
+      "expected": "one hundred"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and one"
+    },
+    {
+      "input": 110,
+      "expected": "one hundred and ten"
+    },
+    {
+      "input": 111,
+      "expected": "one hundred and eleven"
+    },
+    {
+      "input": 199,
+      "expected": "one hundred and ninety-nine"
+    },
+    {
+      "input": 200,
+      "expected": "two hundred"
+    },
+    {
+      "input": 287,
+      "expected": "two hundred and eighty-seven"
+    },
+    {
+      "input": 500,
+      "expected": "five hundred"
+    },
+    {
+      "input": 999,
+      "expected": "nine hundred and ninety-nine"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousand"
+    },
+    {
+      "input": 1001,
+      "expected": "one thousand and one"
+    },
+    {
+      "input": 1010,
+      "expected": "one thousand and ten"
+    },
+    {
+      "input": 1100,
+      "expected": "one thousand one hundred"
+    },
+    {
+      "input": 1101,
+      "expected": "one thousand one hundred and one"
+    },
+    {
+      "input": 1234,
+      "expected": "one thousand two hundred and thirty-four"
+    },
+    {
+      "input": 2000,
+      "expected": "two thousand"
+    },
+    {
+      "input": 5000,
+      "expected": "five thousand"
+    },
+    {
+      "input": 10000,
+      "expected": "ten thousand"
+    },
+    {
+      "input": 12345,
+      "expected": "twelve thousand three hundred and forty-five"
+    },
+    {
+      "input": 50000,
+      "expected": "fifty thousand"
+    },
+    {
+      "input": 99999,
+      "expected": "ninety-nine thousand nine hundred and ninety-nine"
+    },
+    {
+      "input": 100000,
+      "expected": "one lakh"
+    },
+    {
+      "input": 100001,
+      "expected": "one lakh and one"
+    },
+    {
+      "input": 100100,
+      "expected": "one lakh one hundred"
+    },
+    {
+      "input": 100101,
+      "expected": "one lakh one hundred and one"
+    },
+    {
+      "input": 110000,
+      "expected": "one lakh ten thousand"
+    },
+    {
+      "input": 123456,
+      "expected": "one lakh twenty-three thousand four hundred and fifty-six"
+    },
+    {
+      "input": 200000,
+      "expected": "two lakh"
+    },
+    {
+      "input": 500000,
+      "expected": "five lakh"
+    },
+    {
+      "input": 999999,
+      "expected": "nine lakh ninety-nine thousand nine hundred and ninety-nine"
+    },
+    {
+      "input": 1000000,
+      "expected": "ten lakh"
+    },
+    {
+      "input": 1000001,
+      "expected": "ten lakh and one"
+    },
+    {
+      "input": 1234567,
+      "expected": "twelve lakh thirty-four thousand five hundred and sixty-seven"
+    },
+    {
+      "input": 5000000,
+      "expected": "fifty lakh"
+    },
+    {
+      "input": 9999999,
+      "expected": "ninety-nine lakh ninety-nine thousand nine hundred and ninety-nine"
+    },
+    {
+      "input": 10000000,
+      "expected": "one crore"
+    },
+    {
+      "input": 10000001,
+      "expected": "one crore and one"
+    },
+    {
+      "input": 10100000,
+      "expected": "one crore one lakh"
+    },
+    {
+      "input": 12345678,
+      "expected": "one crore twenty-three lakh forty-five thousand six hundred and seventy-eight"
+    },
+    {
+      "input": 50000000,
+      "expected": "five crore"
+    },
+    {
+      "input": 99999999,
+      "expected": "nine crore ninety-nine lakh ninety-nine thousand nine hundred and ninety-nine"
+    },
+    {
+      "input": 100000000,
+      "expected": "ten crore"
+    },
+    {
+      "input": 123456789,
+      "expected": "twelve crore thirty-four lakh fifty-six thousand seven hundred and eighty-nine"
+    },
+    {
+      "input": 1000000000,
+      "expected": "one arab"
+    },
+    {
+      "input": 1000000001,
+      "expected": "one arab and one"
+    },
+    {
+      "input": 1234567890,
+      "expected": "one arab twenty-three crore forty-five lakh sixty-seven thousand eight hundred and ninety"
+    },
+    {
+      "input": 10000000000,
+      "expected": "ten arab"
+    },
+    {
+      "input": 100000000000,
+      "expected": "one kharab"
+    },
+    {
+      "input": {
+        "bigint": "100000000001"
+      },
+      "expected": "one kharab and one"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "ten kharab"
+    },
+    {
+      "input": {
+        "bigint": "10000000000000"
+      },
+      "expected": "one neel"
+    },
+    {
+      "input": {
+        "bigint": "100000000000000"
+      },
+      "expected": "ten neel"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000"
+      },
+      "expected": "one padma"
+    },
+    {
+      "input": {
+        "bigint": "10000000000000000"
+      },
+      "expected": "ten padma"
+    },
+    {
+      "input": {
+        "bigint": "100000000000000000"
+      },
+      "expected": "one shankh"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "first"
+    },
+    {
+      "input": 2,
+      "expected": "second"
+    },
+    {
+      "input": 3,
+      "expected": "third"
+    },
+    {
+      "input": 4,
+      "expected": "fourth"
+    },
+    {
+      "input": 5,
+      "expected": "fifth"
+    },
+    {
+      "input": 6,
+      "expected": "sixth"
+    },
+    {
+      "input": 7,
+      "expected": "seventh"
+    },
+    {
+      "input": 8,
+      "expected": "eighth"
+    },
+    {
+      "input": 9,
+      "expected": "ninth"
+    },
+    {
+      "input": 10,
+      "expected": "tenth"
+    },
+    {
+      "input": 11,
+      "expected": "eleventh"
+    },
+    {
+      "input": 12,
+      "expected": "twelfth"
+    },
+    {
+      "input": 13,
+      "expected": "thirteenth"
+    },
+    {
+      "input": 14,
+      "expected": "fourteenth"
+    },
+    {
+      "input": 15,
+      "expected": "fifteenth"
+    },
+    {
+      "input": 16,
+      "expected": "sixteenth"
+    },
+    {
+      "input": 17,
+      "expected": "seventeenth"
+    },
+    {
+      "input": 18,
+      "expected": "eighteenth"
+    },
+    {
+      "input": 19,
+      "expected": "nineteenth"
+    },
+    {
+      "input": 20,
+      "expected": "twentieth"
+    },
+    {
+      "input": 30,
+      "expected": "thirtieth"
+    },
+    {
+      "input": 40,
+      "expected": "fortieth"
+    },
+    {
+      "input": 50,
+      "expected": "fiftieth"
+    },
+    {
+      "input": 60,
+      "expected": "sixtieth"
+    },
+    {
+      "input": 70,
+      "expected": "seventieth"
+    },
+    {
+      "input": 80,
+      "expected": "eightieth"
+    },
+    {
+      "input": 90,
+      "expected": "ninetieth"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-first"
+    },
+    {
+      "input": 22,
+      "expected": "twenty-second"
+    },
+    {
+      "input": 42,
+      "expected": "forty-second"
+    },
+    {
+      "input": 99,
+      "expected": "ninety-ninth"
+    },
+    {
+      "input": 100,
+      "expected": "one hundredth"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and first"
+    },
+    {
+      "input": 110,
+      "expected": "one hundred and tenth"
+    },
+    {
+      "input": 121,
+      "expected": "one hundred and twenty-first"
+    },
+    {
+      "input": 200,
+      "expected": "two hundredth"
+    },
+    {
+      "input": 999,
+      "expected": "nine hundred and ninety-ninth"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousandth"
+    },
+    {
+      "input": 1001,
+      "expected": "one thousand and first"
+    },
+    {
+      "input": 1100,
+      "expected": "one thousand one hundredth"
+    },
+    {
+      "input": 2000,
+      "expected": "two thousandth"
+    },
+    {
+      "input": 10000,
+      "expected": "ten thousandth"
+    },
+    {
+      "input": 99999,
+      "expected": "ninety-nine thousand nine hundred and ninety-ninth"
+    },
+    {
+      "input": 100000,
+      "expected": "one lakhth"
+    },
+    {
+      "input": 100001,
+      "expected": "one lakh and first"
+    },
+    {
+      "input": 100100,
+      "expected": "one lakh one hundredth"
+    },
+    {
+      "input": 200000,
+      "expected": "two lakhth"
+    },
+    {
+      "input": 1000000,
+      "expected": "ten lakhth"
+    },
+    {
+      "input": 1000001,
+      "expected": "ten lakh and first"
+    },
+    {
+      "input": 10000000,
+      "expected": "one croreth"
+    },
+    {
+      "input": 10000001,
+      "expected": "one crore and first"
+    },
+    {
+      "input": 10100000,
+      "expected": "one crore one lakhth"
+    },
+    {
+      "input": 1000000000,
+      "expected": "one arabth"
+    },
+    {
+      "input": 1000000001,
+      "expected": "one arab and first"
+    },
+    {
+      "input": 100121,
+      "expected": "one lakh one hundred and twenty-first"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero rupees"
+    },
+    {
+      "input": 1,
+      "expected": "one rupee"
+    },
+    {
+      "input": 2,
+      "expected": "two rupees"
+    },
+    {
+      "input": 10,
+      "expected": "ten rupees"
+    },
+    {
+      "input": 100,
+      "expected": "one hundred rupees"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousand rupees"
+    },
+    {
+      "input": 100000,
+      "expected": "one lakh rupees"
+    },
+    {
+      "input": 1000000,
+      "expected": "ten lakh rupees"
+    },
+    {
+      "input": 10000000,
+      "expected": "one crore rupees"
+    },
+    {
+      "input": 1000000000,
+      "expected": "one arab rupees"
+    },
+    {
+      "input": 0.01,
+      "expected": "one paisa"
+    },
+    {
+      "input": 0.02,
+      "expected": "two paise"
+    },
+    {
+      "input": 0.1,
+      "expected": "ten paise"
+    },
+    {
+      "input": 0.5,
+      "expected": "fifty paise"
+    },
+    {
+      "input": 0.99,
+      "expected": "ninety-nine paise"
+    },
+    {
+      "input": 1.01,
+      "expected": "one rupee and one paisa"
+    },
+    {
+      "input": 1.5,
+      "expected": "one rupee and fifty paise"
+    },
+    {
+      "input": 2.02,
+      "expected": "two rupees and two paise"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two rupees and fifty paise"
+    },
+    {
+      "input": 100.99,
+      "expected": "one hundred rupees and ninety-nine paise"
+    },
+    {
+      "input": 1000.01,
+      "expected": "one thousand rupees and one paisa"
+    },
+    {
+      "input": 100000.5,
+      "expected": "one lakh rupees and fifty paise"
+    },
+    {
+      "input": 10000000.01,
+      "expected": "one crore rupees and one paisa"
+    },
+    {
+      "input": -1,
+      "expected": "minus one rupee"
+    },
+    {
+      "input": -0.5,
+      "expected": "minus fifty paise"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus forty-two rupees and fifty paise"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two rupees fifty paise",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "one rupee one paisa",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 5,
+      "expected": "five rupees"
+    },
+    {
+      "input": "5.00",
+      "expected": "five rupees"
+    },
+    {
+      "input": "42.50",
+      "expected": "forty-two rupees and fifty paise"
+    },
+    {
+      "input": {
+        "bigint": "100000000000"
+      },
+      "expected": "one kharab rupees"
+    }
+  ]
+}

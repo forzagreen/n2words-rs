@@ -1,0 +1,328 @@
+{
+  "code": "ur",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "صفر"
+    },
+    {
+      "input": 1,
+      "expected": "ایک"
+    },
+    {
+      "input": 2,
+      "expected": "دو"
+    },
+    {
+      "input": 5.5,
+      "expected": "پانچ اعشاریہ پانچ"
+    },
+    {
+      "input": "0.05",
+      "expected": "صفر اعشاریہ صفر پانچ"
+    },
+    {
+      "input": -17,
+      "expected": "منفی سترہ"
+    },
+    {
+      "input": 10,
+      "expected": "دس"
+    },
+    {
+      "input": 11,
+      "expected": "گیارہ"
+    },
+    {
+      "input": 19,
+      "expected": "انیس"
+    },
+    {
+      "input": 20,
+      "expected": "بیس"
+    },
+    {
+      "input": 21,
+      "expected": "اکیس"
+    },
+    {
+      "input": 45,
+      "expected": "پینتالیس"
+    },
+    {
+      "input": 58,
+      "expected": "اٹھاون"
+    },
+    {
+      "input": 73,
+      "expected": "تہتر"
+    },
+    {
+      "input": 99,
+      "expected": "ننانوے"
+    },
+    {
+      "input": 100,
+      "expected": "ایک سو"
+    },
+    {
+      "input": 101,
+      "expected": "ایک سو ایک"
+    },
+    {
+      "input": 215,
+      "expected": "دو سو پندرہ"
+    },
+    {
+      "input": 999,
+      "expected": "نو سو ننانوے"
+    },
+    {
+      "input": 1000,
+      "expected": "ایک ہزار"
+    },
+    {
+      "input": 10000,
+      "expected": "دس ہزار"
+    },
+    {
+      "input": 100000,
+      "expected": "ایک لاکھ"
+    },
+    {
+      "input": 1000000,
+      "expected": "دس لاکھ"
+    },
+    {
+      "input": {
+        "bigint": "123456789"
+      },
+      "expected": "بارہ کروڑ چونتیس لاکھ چھپن ہزار سات سو نواسی"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "پہلا"
+    },
+    {
+      "input": 2,
+      "expected": "دوسرا"
+    },
+    {
+      "input": 3,
+      "expected": "تیسرا"
+    },
+    {
+      "input": 4,
+      "expected": "چوتھا"
+    },
+    {
+      "input": 5,
+      "expected": "پانچواں"
+    },
+    {
+      "input": 6,
+      "expected": "چھٹا"
+    },
+    {
+      "input": 7,
+      "expected": "ساتواں"
+    },
+    {
+      "input": 8,
+      "expected": "آٹھواں"
+    },
+    {
+      "input": 9,
+      "expected": "نوواں"
+    },
+    {
+      "input": 10,
+      "expected": "دسواں"
+    },
+    {
+      "input": 11,
+      "expected": "گیارہواں"
+    },
+    {
+      "input": 20,
+      "expected": "بیسواں"
+    },
+    {
+      "input": 21,
+      "expected": "اکیسواں"
+    },
+    {
+      "input": 42,
+      "expected": "بیالیسواں"
+    },
+    {
+      "input": 99,
+      "expected": "ننانوےواں"
+    },
+    {
+      "input": 100,
+      "expected": "ایک سوواں"
+    },
+    {
+      "input": 101,
+      "expected": "ایک سو ایکواں"
+    },
+    {
+      "input": 200,
+      "expected": "دو سوواں"
+    },
+    {
+      "input": 1000,
+      "expected": "ایک ہزارواں"
+    },
+    {
+      "input": 1001,
+      "expected": "ایک ہزار ایکواں"
+    },
+    {
+      "input": 100000,
+      "expected": "ایک لاکھواں"
+    },
+    {
+      "input": 10000000,
+      "expected": "ایک کروڑواں"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "صفر روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 1,
+      "expected": "ایک روپیہ",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "دو روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 10,
+      "expected": "دس روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "اکیس روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 100,
+      "expected": "ایک سو روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 1000,
+      "expected": "ایک ہزار روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 100000,
+      "expected": "ایک لاکھ روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 0.01,
+      "expected": "ایک پیسہ",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 0.02,
+      "expected": "دو پیسے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 0.5,
+      "expected": "پچاس پیسے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 0.99,
+      "expected": "ننانوے پیسے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "ایک روپیہ ایک پیسہ",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 42.5,
+      "expected": "بیالیس روپے پچاس پیسے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 1000.99,
+      "expected": "ایک ہزار روپے ننانوے پیسے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": -1,
+      "expected": "منفی ایک روپیہ",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": -42.5,
+      "expected": "منفی بیالیس روپے پچاس پیسے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": 5,
+      "expected": "پانچ روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    },
+    {
+      "input": "5.00",
+      "expected": "پانچ روپے",
+      "options": {
+        "currency": "PKR"
+      }
+    }
+  ]
+}

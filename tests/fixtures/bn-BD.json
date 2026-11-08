@@ -1,0 +1,411 @@
+{
+  "code": "bn-BD",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "শূন্য"
+    },
+    {
+      "input": 1,
+      "expected": "এক"
+    },
+    {
+      "input": 2,
+      "expected": "দুই"
+    },
+    {
+      "input": 3,
+      "expected": "তিন"
+    },
+    {
+      "input": 5.5,
+      "expected": "পাঁচ দশমিক পাঁচ"
+    },
+    {
+      "input": "0.01",
+      "expected": "শূন্য দশমিক শূন্য এক"
+    },
+    {
+      "input": "0.005",
+      "expected": "শূন্য দশমিক শূন্য শূন্য পাঁচ"
+    },
+    {
+      "input": 3.14,
+      "expected": "তিন দশমিক চৌদ্দ"
+    },
+    {
+      "input": -5,
+      "expected": "মাইনাস পাঁচ"
+    },
+    {
+      "input": -17.42,
+      "expected": "মাইনাস সতেরো দশমিক বেয়াল্লিশ"
+    },
+    {
+      "input": 10,
+      "expected": "দশ"
+    },
+    {
+      "input": 11,
+      "expected": "এগারো"
+    },
+    {
+      "input": 15,
+      "expected": "পনেরো"
+    },
+    {
+      "input": 19,
+      "expected": "উনিশ"
+    },
+    {
+      "input": 20,
+      "expected": "বিশ"
+    },
+    {
+      "input": 21,
+      "expected": "একুশ"
+    },
+    {
+      "input": 25,
+      "expected": "পঁচিশ"
+    },
+    {
+      "input": 29,
+      "expected": "উনত্রিশ"
+    },
+    {
+      "input": 30,
+      "expected": "ত্রিশ"
+    },
+    {
+      "input": 33,
+      "expected": "তেত্রিশ"
+    },
+    {
+      "input": 40,
+      "expected": "চল্লিশ"
+    },
+    {
+      "input": 42,
+      "expected": "বেয়াল্লিশ"
+    },
+    {
+      "input": 50,
+      "expected": "পঞ্চাশ"
+    },
+    {
+      "input": 58,
+      "expected": "আটান্ন"
+    },
+    {
+      "input": 60,
+      "expected": "ষাট"
+    },
+    {
+      "input": 68,
+      "expected": "আটষট্টি"
+    },
+    {
+      "input": 70,
+      "expected": "সত্তর"
+    },
+    {
+      "input": 79,
+      "expected": "উনআশি"
+    },
+    {
+      "input": 80,
+      "expected": "আশি"
+    },
+    {
+      "input": 90,
+      "expected": "নব্বই"
+    },
+    {
+      "input": 99,
+      "expected": "নিরানব্বই"
+    },
+    {
+      "input": 100,
+      "expected": "এক শত"
+    },
+    {
+      "input": 101,
+      "expected": "এক শত এক"
+    },
+    {
+      "input": 110,
+      "expected": "এক শত দশ"
+    },
+    {
+      "input": 125,
+      "expected": "এক শত পঁচিশ"
+    },
+    {
+      "input": 200,
+      "expected": "দুই শত"
+    },
+    {
+      "input": 215,
+      "expected": "দুই শত পনেরো"
+    },
+    {
+      "input": 999,
+      "expected": "নয় শত নিরানব্বই"
+    },
+    {
+      "input": 1000,
+      "expected": "এক হাজার"
+    },
+    {
+      "input": 1001,
+      "expected": "এক হাজার এক"
+    },
+    {
+      "input": 1010,
+      "expected": "এক হাজার দশ"
+    },
+    {
+      "input": 1100,
+      "expected": "এক হাজার এক শত"
+    },
+    {
+      "input": 1234,
+      "expected": "এক হাজার দুই শত চৌত্রিশ"
+    },
+    {
+      "input": 10000,
+      "expected": "দশ হাজার"
+    },
+    {
+      "input": 50000,
+      "expected": "পঞ্চাশ হাজার"
+    },
+    {
+      "input": 99999,
+      "expected": "নিরানব্বই হাজার নয় শত নিরানব্বই"
+    },
+    {
+      "input": 100000,
+      "expected": "এক লাখ"
+    },
+    {
+      "input": 123456,
+      "expected": "এক লাখ তেইশ হাজার চার শত ছাপ্পান্ন"
+    },
+    {
+      "input": 999999,
+      "expected": "নয় লাখ নিরানব্বই হাজার নয় শত নিরানব্বই"
+    },
+    {
+      "input": 1000000,
+      "expected": "দশ লাখ"
+    },
+    {
+      "input": 10000000,
+      "expected": "এক কোটি"
+    },
+    {
+      "input": 12345678,
+      "expected": "এক কোটি তেইশ লাখ পঁয়তাল্লিশ হাজার ছয় শত আটাত্তর"
+    },
+    {
+      "input": {
+        "bigint": "999999999"
+      },
+      "expected": "নিরানব্বই কোটি নিরানব্বই লাখ নিরানব্বই হাজার নয় শত নিরানব্বই"
+    },
+    {
+      "input": {
+        "bigint": "1000000000"
+      },
+      "expected": "এক আরব"
+    },
+    {
+      "input": {
+        "bigint": "100000000000"
+      },
+      "expected": "এক খরব"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "দশ খরব"
+    },
+    {
+      "input": {
+        "bigint": "9223344556677"
+      },
+      "expected": "বিরানব্বই খরব তেইশ আরব চৌত্রিশ কোটি পঁয়তাল্লিশ লাখ ছাপ্পান্ন হাজার ছয় শত সাতাত্তর"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "প্রথম"
+    },
+    {
+      "input": 2,
+      "expected": "দ্বিতীয়"
+    },
+    {
+      "input": 3,
+      "expected": "তৃতীয়"
+    },
+    {
+      "input": 4,
+      "expected": "চতুর্থ"
+    },
+    {
+      "input": 5,
+      "expected": "পঞ্চম"
+    },
+    {
+      "input": 6,
+      "expected": "ষষ্ঠ"
+    },
+    {
+      "input": 7,
+      "expected": "সাততম"
+    },
+    {
+      "input": 8,
+      "expected": "আটতম"
+    },
+    {
+      "input": 9,
+      "expected": "নয়তম"
+    },
+    {
+      "input": 10,
+      "expected": "দশতম"
+    },
+    {
+      "input": 11,
+      "expected": "এগারোতম"
+    },
+    {
+      "input": 20,
+      "expected": "বিশতম"
+    },
+    {
+      "input": 21,
+      "expected": "একুশতম"
+    },
+    {
+      "input": 42,
+      "expected": "বেয়াল্লিশতম"
+    },
+    {
+      "input": 99,
+      "expected": "নিরানব্বইতম"
+    },
+    {
+      "input": 100,
+      "expected": "এক শততম"
+    },
+    {
+      "input": 101,
+      "expected": "এক শত একতম"
+    },
+    {
+      "input": 200,
+      "expected": "দুই শততম"
+    },
+    {
+      "input": 1000,
+      "expected": "এক হাজারতম"
+    },
+    {
+      "input": 1001,
+      "expected": "এক হাজার একতম"
+    },
+    {
+      "input": 100000,
+      "expected": "এক লাখতম"
+    },
+    {
+      "input": 10000000,
+      "expected": "এক কোটিতম"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "শূন্য টাকা"
+    },
+    {
+      "input": 1,
+      "expected": "এক টাকা"
+    },
+    {
+      "input": 2,
+      "expected": "দুই টাকা"
+    },
+    {
+      "input": 10,
+      "expected": "দশ টাকা"
+    },
+    {
+      "input": 21,
+      "expected": "একুশ টাকা"
+    },
+    {
+      "input": 100,
+      "expected": "এক শত টাকা"
+    },
+    {
+      "input": 1000,
+      "expected": "এক হাজার টাকা"
+    },
+    {
+      "input": 100000,
+      "expected": "এক লাখ টাকা"
+    },
+    {
+      "input": 0.01,
+      "expected": "এক পয়সা"
+    },
+    {
+      "input": 0.02,
+      "expected": "দুই পয়সা"
+    },
+    {
+      "input": 0.5,
+      "expected": "পঞ্চাশ পয়সা"
+    },
+    {
+      "input": 0.99,
+      "expected": "নিরানব্বই পয়সা"
+    },
+    {
+      "input": 1.01,
+      "expected": "এক টাকা এক পয়সা"
+    },
+    {
+      "input": 42.5,
+      "expected": "বেয়াল্লিশ টাকা পঞ্চাশ পয়সা"
+    },
+    {
+      "input": 1000.99,
+      "expected": "এক হাজার টাকা নিরানব্বই পয়সা"
+    },
+    {
+      "input": -1,
+      "expected": "মাইনাস এক টাকা"
+    },
+    {
+      "input": -42.5,
+      "expected": "মাইনাস বেয়াল্লিশ টাকা পঞ্চাশ পয়সা"
+    },
+    {
+      "input": 5,
+      "expected": "পাঁচ টাকা"
+    },
+    {
+      "input": "5.00",
+      "expected": "পাঁচ টাকা"
+    }
+  ]
+}

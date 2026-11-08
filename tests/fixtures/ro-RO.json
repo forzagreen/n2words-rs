@@ -1,0 +1,793 @@
+{
+  "code": "ro-RO",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "zero virgulă zero unu"
+    },
+    {
+      "input": 0.007,
+      "expected": "zero virgulă zero zero șapte"
+    },
+    {
+      "input": 1.007,
+      "expected": "unu virgulă zero zero șapte"
+    },
+    {
+      "input": 5.5,
+      "expected": "cinci virgulă cinci"
+    },
+    {
+      "input": 17.42,
+      "expected": "șaptesprezece virgulă patruzeci și doi"
+    },
+    {
+      "input": 27.312,
+      "expected": "douăzeci și șapte virgulă trei sute doisprezece"
+    },
+    {
+      "input": 53.486,
+      "expected": "cincizeci și trei virgulă patru sute optzeci și șase"
+    },
+    {
+      "input": 300.42,
+      "expected": "trei sute virgulă patruzeci și doi"
+    },
+    {
+      "input": 4196.42,
+      "expected": "patru mii o sută nouăzeci și șase virgulă patruzeci și doi"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus șaptesprezece virgulă patruzeci și doi"
+    },
+    {
+      "input": -1,
+      "expected": "minus unu"
+    },
+    {
+      "input": -20,
+      "expected": "minus douăzeci"
+    },
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "unu"
+    },
+    {
+      "input": 2,
+      "expected": "doi"
+    },
+    {
+      "input": 3,
+      "expected": "trei"
+    },
+    {
+      "input": 4,
+      "expected": "patru"
+    },
+    {
+      "input": 5,
+      "expected": "cinci"
+    },
+    {
+      "input": 6,
+      "expected": "șase"
+    },
+    {
+      "input": 7,
+      "expected": "șapte"
+    },
+    {
+      "input": 8,
+      "expected": "opt"
+    },
+    {
+      "input": 9,
+      "expected": "nouă"
+    },
+    {
+      "input": 10,
+      "expected": "zece"
+    },
+    {
+      "input": 11,
+      "expected": "unsprezece"
+    },
+    {
+      "input": 12,
+      "expected": "douăsprezece"
+    },
+    {
+      "input": 13,
+      "expected": "treisprezece"
+    },
+    {
+      "input": 14,
+      "expected": "paisprezece"
+    },
+    {
+      "input": 15,
+      "expected": "cincisprezece"
+    },
+    {
+      "input": 16,
+      "expected": "șaisprezece"
+    },
+    {
+      "input": 17,
+      "expected": "șaptesprezece"
+    },
+    {
+      "input": 18,
+      "expected": "optsprezece"
+    },
+    {
+      "input": 19,
+      "expected": "nouăsprezece"
+    },
+    {
+      "input": 20,
+      "expected": "douăzeci"
+    },
+    {
+      "input": 21,
+      "expected": "douăzeci și unu"
+    },
+    {
+      "input": 26,
+      "expected": "douăzeci și șase"
+    },
+    {
+      "input": 28,
+      "expected": "douăzeci și opt"
+    },
+    {
+      "input": 30,
+      "expected": "treizeci"
+    },
+    {
+      "input": 31,
+      "expected": "treizeci și unu"
+    },
+    {
+      "input": 40,
+      "expected": "patruzeci"
+    },
+    {
+      "input": 44,
+      "expected": "patruzeci și patru"
+    },
+    {
+      "input": 50,
+      "expected": "cincizeci"
+    },
+    {
+      "input": 55,
+      "expected": "cincizeci și cinci"
+    },
+    {
+      "input": 60,
+      "expected": "șaizeci"
+    },
+    {
+      "input": 67,
+      "expected": "șaizeci și șapte"
+    },
+    {
+      "input": 70,
+      "expected": "șaptezeci"
+    },
+    {
+      "input": 79,
+      "expected": "șaptezeci și nouă"
+    },
+    {
+      "input": 89,
+      "expected": "optzeci și nouă"
+    },
+    {
+      "input": 95,
+      "expected": "nouăzeci și cinci"
+    },
+    {
+      "input": 99,
+      "expected": "nouăzeci și nouă"
+    },
+    {
+      "input": 100,
+      "expected": "o sută"
+    },
+    {
+      "input": 101,
+      "expected": "o sută unu"
+    },
+    {
+      "input": 199,
+      "expected": "o sută nouăzeci și nouă"
+    },
+    {
+      "input": 200,
+      "expected": "două sute"
+    },
+    {
+      "input": 203,
+      "expected": "două sute trei"
+    },
+    {
+      "input": 287,
+      "expected": "două sute optzeci și șapte"
+    },
+    {
+      "input": 356,
+      "expected": "trei sute cincizeci și șase"
+    },
+    {
+      "input": 400,
+      "expected": "patru sute"
+    },
+    {
+      "input": 434,
+      "expected": "patru sute treizeci și patru"
+    },
+    {
+      "input": 578,
+      "expected": "cinci sute șaptezeci și opt"
+    },
+    {
+      "input": 689,
+      "expected": "șase sute optzeci și nouă"
+    },
+    {
+      "input": 729,
+      "expected": "șapte sute douăzeci și nouă"
+    },
+    {
+      "input": 894,
+      "expected": "opt sute nouăzeci și patru"
+    },
+    {
+      "input": 999,
+      "expected": "nouă sute nouăzeci și nouă"
+    },
+    {
+      "input": 1000,
+      "expected": "o mie"
+    },
+    {
+      "input": 1001,
+      "expected": "o mie unu"
+    },
+    {
+      "input": 1097,
+      "expected": "o mie nouăzeci și șapte"
+    },
+    {
+      "input": 1104,
+      "expected": "o mie o sută patru"
+    },
+    {
+      "input": 1243,
+      "expected": "o mie două sute patruzeci și trei"
+    },
+    {
+      "input": 2000,
+      "expected": "două mii"
+    },
+    {
+      "input": 2385,
+      "expected": "două mii trei sute optzeci și cinci"
+    },
+    {
+      "input": 3766,
+      "expected": "trei mii șapte sute șaizeci și șase"
+    },
+    {
+      "input": 4196,
+      "expected": "patru mii o sută nouăzeci și șase"
+    },
+    {
+      "input": 5846,
+      "expected": "cinci mii opt sute patruzeci și șase"
+    },
+    {
+      "input": 6459,
+      "expected": "șase mii patru sute cincizeci și nouă"
+    },
+    {
+      "input": 7232,
+      "expected": "șapte mii două sute treizeci și doi"
+    },
+    {
+      "input": 8569,
+      "expected": "opt mii cinci sute șaizeci și nouă"
+    },
+    {
+      "input": 9539,
+      "expected": "nouă mii cinci sute treizeci și nouă"
+    },
+    {
+      "input": 20000,
+      "expected": "douăzeci de mii"
+    },
+    {
+      "input": 21000,
+      "expected": "douăzeci și una de mii"
+    },
+    {
+      "input": 25000,
+      "expected": "douăzeci și cinci de mii"
+    },
+    {
+      "input": 100000,
+      "expected": "o sută de mii"
+    },
+    {
+      "input": 101000,
+      "expected": "o sută una de mii"
+    },
+    {
+      "input": 150000,
+      "expected": "o sută cincizeci de mii"
+    },
+    {
+      "input": 200000,
+      "expected": "două sute de mii"
+    },
+    {
+      "input": 999000,
+      "expected": "nouă sute nouăzeci și nouă de mii"
+    },
+    {
+      "input": 1000000,
+      "expected": "un milion"
+    },
+    {
+      "input": 1000001,
+      "expected": "un milion unu"
+    },
+    {
+      "input": 2000000,
+      "expected": "două milioane"
+    },
+    {
+      "input": 4000000,
+      "expected": "patru milioane"
+    },
+    {
+      "input": 20000000,
+      "expected": "douăzeci de milioane"
+    },
+    {
+      "input": 21000000,
+      "expected": "douăzeci și una de milioane"
+    },
+    {
+      "input": 100000000,
+      "expected": "o sută de milioane"
+    },
+    {
+      "input": 150000000,
+      "expected": "o sută cincizeci de milioane"
+    },
+    {
+      "input": 1000000000,
+      "expected": "un miliard"
+    },
+    {
+      "input": 2000000000,
+      "expected": "două miliarde"
+    },
+    {
+      "input": 20000000000,
+      "expected": "douăzeci de miliarde"
+    },
+    {
+      "input": 100000000000,
+      "expected": "o sută de miliarde"
+    },
+    {
+      "input": 1000000000000,
+      "expected": "un trilion"
+    },
+    {
+      "input": 2000000000000,
+      "expected": "două trilioane"
+    },
+    {
+      "input": 20000000000000,
+      "expected": "douăzeci de trilioane"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "un cvintilion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000"
+      },
+      "expected": "un sextilion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000000000"
+      },
+      "expected": "un septilion"
+    },
+    {
+      "input": 1,
+      "expected": "una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2,
+      "expected": "două",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 12,
+      "expected": "douăsprezece",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21,
+      "expected": "douăzeci și una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 22,
+      "expected": "douăzeci și două",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 31,
+      "expected": "treizeci și una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 42,
+      "expected": "patruzeci și două",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 101,
+      "expected": "o sută una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 102,
+      "expected": "o sută două",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 112,
+      "expected": "o sută douăsprezece",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 201,
+      "expected": "două sute una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 212,
+      "expected": "două sute douăsprezece",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1001,
+      "expected": "o mie una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1002,
+      "expected": "o mie două",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1012,
+      "expected": "o mie douăsprezece",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2001,
+      "expected": "două mii una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2002,
+      "expected": "două mii două",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2012,
+      "expected": "două mii douăsprezece",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 21001,
+      "expected": "douăzeci și una de mii una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1000001,
+      "expected": "un milion una",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 1000002,
+      "expected": "un milion două",
+      "options": {
+        "gender": "feminine"
+      }
+    },
+    {
+      "input": 2000001,
+      "expected": "două milioane una",
+      "options": {
+        "gender": "feminine"
+      }
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "primul"
+    },
+    {
+      "input": 2,
+      "expected": "al doilea"
+    },
+    {
+      "input": 3,
+      "expected": "al treilea"
+    },
+    {
+      "input": 4,
+      "expected": "al patrulea"
+    },
+    {
+      "input": 5,
+      "expected": "al cincilea"
+    },
+    {
+      "input": 6,
+      "expected": "al șaselea"
+    },
+    {
+      "input": 7,
+      "expected": "al șaptelea"
+    },
+    {
+      "input": 8,
+      "expected": "al optulea"
+    },
+    {
+      "input": 9,
+      "expected": "al nouălea"
+    },
+    {
+      "input": 10,
+      "expected": "al zecelea"
+    },
+    {
+      "input": 11,
+      "expected": "al unsprezecelea"
+    },
+    {
+      "input": 12,
+      "expected": "al doisprezecelea"
+    },
+    {
+      "input": 13,
+      "expected": "al treisprezecelea"
+    },
+    {
+      "input": 19,
+      "expected": "al nouăsprezecelea"
+    },
+    {
+      "input": 20,
+      "expected": "al douăzecilea"
+    },
+    {
+      "input": 21,
+      "expected": "douăzeci și primul"
+    },
+    {
+      "input": 30,
+      "expected": "al treizecilea"
+    },
+    {
+      "input": 42,
+      "expected": "patruzeci și al doilea"
+    },
+    {
+      "input": 99,
+      "expected": "nouăzeci și al nouălea"
+    },
+    {
+      "input": 100,
+      "expected": "al sutălea"
+    },
+    {
+      "input": 101,
+      "expected": "o sută primul"
+    },
+    {
+      "input": 200,
+      "expected": "al sutălea"
+    },
+    {
+      "input": 121,
+      "expected": "o sută douăzeci și primul"
+    },
+    {
+      "input": 1000,
+      "expected": "al miilea"
+    },
+    {
+      "input": 1001,
+      "expected": "o mie primul"
+    },
+    {
+      "input": 2000,
+      "expected": "două mii al miilea"
+    },
+    {
+      "input": 1000000,
+      "expected": "al milionulea"
+    },
+    {
+      "input": 2000000,
+      "expected": "două milioane al milionulea"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero lei"
+    },
+    {
+      "input": 1,
+      "expected": "un leu"
+    },
+    {
+      "input": 2,
+      "expected": "doi lei"
+    },
+    {
+      "input": 5,
+      "expected": "cinci lei"
+    },
+    {
+      "input": 10,
+      "expected": "zece lei"
+    },
+    {
+      "input": 19,
+      "expected": "nouăsprezece lei"
+    },
+    {
+      "input": 20,
+      "expected": "douăzeci de lei"
+    },
+    {
+      "input": 21,
+      "expected": "douăzeci și unu de lei"
+    },
+    {
+      "input": 42,
+      "expected": "patruzeci și doi de lei"
+    },
+    {
+      "input": 100,
+      "expected": "o sută de lei"
+    },
+    {
+      "input": 1000,
+      "expected": "o mie de lei"
+    },
+    {
+      "input": 0.01,
+      "expected": "un ban"
+    },
+    {
+      "input": 0.02,
+      "expected": "doi bani"
+    },
+    {
+      "input": 0.05,
+      "expected": "cinci bani"
+    },
+    {
+      "input": 0.25,
+      "expected": "douăzeci și cinci de bani"
+    },
+    {
+      "input": 0.5,
+      "expected": "cincizeci de bani"
+    },
+    {
+      "input": 0.99,
+      "expected": "nouăzeci și nouă de bani"
+    },
+    {
+      "input": 1.01,
+      "expected": "un leu un ban"
+    },
+    {
+      "input": 1.5,
+      "expected": "un leu cincizeci de bani"
+    },
+    {
+      "input": 2.02,
+      "expected": "doi lei doi bani"
+    },
+    {
+      "input": 42.5,
+      "expected": "patruzeci și doi de lei cincizeci de bani"
+    },
+    {
+      "input": 100.99,
+      "expected": "o sută de lei nouăzeci și nouă de bani"
+    },
+    {
+      "input": -1,
+      "expected": "minus un leu"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus patruzeci și doi de lei cincizeci de bani"
+    },
+    {
+      "input": "5.00",
+      "expected": "cinci lei"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "code": "fi-FI",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "nolla"
+    },
+    {
+      "input": 1,
+      "expected": "yksi"
+    },
+    {
+      "input": 2,
+      "expected": "kaksi"
+    },
+    {
+      "input": 3,
+      "expected": "kolme"
+    },
+    {
+      "input": 4,
+      "expected": "neljä"
+    },
+    {
+      "input": 5,
+      "expected": "viisi"
+    },
+    {
+      "input": 6,
+      "expected": "kuusi"
+    },
+    {
+      "input": 7,
+      "expected": "seitsemän"
+    },
+    {
+      "input": 8,
+      "expected": "kahdeksan"
+    },
+    {
+      "input": 9,
+      "expected": "yhdeksän"
+    },
+    {
+      "input": 10,
+      "expected": "kymmenen"
+    },
+    {
+      "input": 11,
+      "expected": "yksitoista"
+    },
+    {
+      "input": 12,
+      "expected": "kaksitoista"
+    },
+    {
+      "input": 13,
+      "expected": "kolmetoista"
+    },
+    {
+      "input": 14,
+      "expected": "neljätoista"
+    },
+    {
+      "input": 15,
+      "expected": "viisitoista"
+    },
+    {
+      "input": 16,
+      "expected": "kuusitoista"
+    },
+    {
+      "input": 17,
+      "expected": "seitsemäntoista"
+    },
+    {
+      "input": 18,
+      "expected": "kahdeksantoista"
+    },
+    {
+      "input": 19,
+      "expected": "yhdeksäntoista"
+    },
+    {
+      "input": 20,
+      "expected": "kaksikymmentä"
+    },
+    {
+      "input": 21,
+      "expected": "kaksikymmentäyksi"
+    },
+    {
+      "input": 22,
+      "expected": "kaksikymmentäkaksi"
+    },
+    {
+      "input": 30,
+      "expected": "kolmekymmentä"
+    },
+    {
+      "input": 42,
+      "expected": "neljäkymmentäkaksi"
+    },
+    {
+      "input": 50,
+      "expected": "viisikymmentä"
+    },
+    {
+      "input": 67,
+      "expected": "kuusikymmentäseitsemän"
+    },
+    {
+      "input": 99,
+      "expected": "yhdeksänkymmentäyhdeksän"
+    },
+    {
+      "input": 100,
+      "expected": "sata"
+    },
+    {
+      "input": 101,
+      "expected": "sata yksi"
+    },
+    {
+      "input": 110,
+      "expected": "sata kymmenen"
+    },
+    {
+      "input": 111,
+      "expected": "sata yksitoista"
+    },
+    {
+      "input": 123,
+      "expected": "sata kaksikymmentäkolme"
+    },
+    {
+      "input": 200,
+      "expected": "kaksi sata"
+    },
+    {
+      "input": 500,
+      "expected": "viisi sata"
+    },
+    {
+      "input": 999,
+      "expected": "yhdeksän sata yhdeksänkymmentäyhdeksän"
+    },
+    {
+      "input": 1000,
+      "expected": "tuhat"
+    },
+    {
+      "input": 1001,
+      "expected": "tuhat yksi"
+    },
+    {
+      "input": 1100,
+      "expected": "tuhat sata"
+    },
+    {
+      "input": 1234,
+      "expected": "tuhat kaksi sata kolmekymmentäneljä"
+    },
+    {
+      "input": 2000,
+      "expected": "kaksi tuhat"
+    },
+    {
+      "input": 10000,
+      "expected": "kymmenen tuhat"
+    },
+    {
+      "input": 100000,
+      "expected": "sata tuhat"
+    },
+    {
+      "input": 1000000,
+      "expected": "yksi miljoona"
+    },
+    {
+      "input": 2000000,
+      "expected": "kaksi miljoona"
+    },
+    {
+      "input": 1000001,
+      "expected": "yksi miljoona yksi"
+    },
+    {
+      "input": 1000000000,
+      "expected": "yksi miljardi"
+    },
+    {
+      "input": -1,
+      "expected": "miinus yksi"
+    },
+    {
+      "input": -42,
+      "expected": "miinus neljäkymmentäkaksi"
+    },
+    {
+      "input": "3.14",
+      "expected": "kolme pilkku yksi neljä"
+    },
+    {
+      "input": "0.5",
+      "expected": "nolla pilkku viisi"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "ensimmäinen"
+    },
+    {
+      "input": 2,
+      "expected": "toinen"
+    },
+    {
+      "input": 3,
+      "expected": "kolmas"
+    },
+    {
+      "input": 4,
+      "expected": "neljäs"
+    },
+    {
+      "input": 5,
+      "expected": "viides"
+    },
+    {
+      "input": 6,
+      "expected": "kuudes"
+    },
+    {
+      "input": 7,
+      "expected": "seitsemäs"
+    },
+    {
+      "input": 8,
+      "expected": "kahdeksas"
+    },
+    {
+      "input": 9,
+      "expected": "yhdeksäs"
+    },
+    {
+      "input": 10,
+      "expected": "kymmenes"
+    },
+    {
+      "input": 11,
+      "expected": "yhdestoista"
+    },
+    {
+      "input": 12,
+      "expected": "kahdestoista"
+    },
+    {
+      "input": 13,
+      "expected": "kolmastoista"
+    },
+    {
+      "input": 15,
+      "expected": "viidestoista"
+    },
+    {
+      "input": 19,
+      "expected": "yhdeksästoista"
+    },
+    {
+      "input": 20,
+      "expected": "kahdeskymmenes"
+    },
+    {
+      "input": 21,
+      "expected": "kaksikymmentäensimmäinen"
+    },
+    {
+      "input": 30,
+      "expected": "kolmaskymmenes"
+    },
+    {
+      "input": 42,
+      "expected": "neljäkymmentätoinen"
+    },
+    {
+      "input": 99,
+      "expected": "yhdeksänkymmentäyhdeksäs"
+    },
+    {
+      "input": 100,
+      "expected": "satas"
+    },
+    {
+      "input": 1000,
+      "expected": "tuhats"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "nolla euroa"
+    },
+    {
+      "input": 1,
+      "expected": "yksi euro"
+    },
+    {
+      "input": 2,
+      "expected": "kaksi euroa"
+    },
+    {
+      "input": 5,
+      "expected": "viisi euroa"
+    },
+    {
+      "input": 10,
+      "expected": "kymmenen euroa"
+    },
+    {
+      "input": 100,
+      "expected": "sata euroa"
+    },
+    {
+      "input": 1000,
+      "expected": "tuhat euroa"
+    },
+    {
+      "input": 0.01,
+      "expected": "yksi sentti"
+    },
+    {
+      "input": 0.02,
+      "expected": "kaksi senttiä"
+    },
+    {
+      "input": 0.5,
+      "expected": "viisikymmentä senttiä"
+    },
+    {
+      "input": 0.99,
+      "expected": "yhdeksänkymmentäyhdeksän senttiä"
+    },
+    {
+      "input": 1.01,
+      "expected": "yksi euro yksi sentti"
+    },
+    {
+      "input": 1.5,
+      "expected": "yksi euro viisikymmentä senttiä"
+    },
+    {
+      "input": 42.5,
+      "expected": "neljäkymmentäkaksi euroa viisikymmentä senttiä"
+    },
+    {
+      "input": 1000.99,
+      "expected": "tuhat euroa yhdeksänkymmentäyhdeksän senttiä"
+    },
+    {
+      "input": -1,
+      "expected": "miinus yksi euro"
+    },
+    {
+      "input": -42.5,
+      "expected": "miinus neljäkymmentäkaksi euroa viisikymmentä senttiä"
+    },
+    {
+      "input": "5.00",
+      "expected": "viisi euroa"
+    }
+  ]
+}

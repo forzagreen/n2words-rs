@@ -1,0 +1,459 @@
+{
+  "code": "nb-NO",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "null komma null en"
+    },
+    {
+      "input": 1.007,
+      "expected": "en komma null null syv"
+    },
+    {
+      "input": 1.7,
+      "expected": "en komma syv"
+    },
+    {
+      "input": 17.42,
+      "expected": "sytten komma førti-to"
+    },
+    {
+      "input": 27.312,
+      "expected": "tjue-syv komma tre hundre og tolv"
+    },
+    {
+      "input": 53.486,
+      "expected": "femti-tre komma fire hundre og åtti-seks"
+    },
+    {
+      "input": 300.42,
+      "expected": "tre hundre komma førti-to"
+    },
+    {
+      "input": 4196.42,
+      "expected": "fire tusen, en hundre og nitti-seks komma førti-to"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus sytten komma førti-to"
+    },
+    {
+      "input": -1,
+      "expected": "minus en"
+    },
+    {
+      "input": -20,
+      "expected": "minus tjue"
+    },
+    {
+      "input": 0,
+      "expected": "null"
+    },
+    {
+      "input": 1,
+      "expected": "en"
+    },
+    {
+      "input": 2,
+      "expected": "to"
+    },
+    {
+      "input": 3,
+      "expected": "tre"
+    },
+    {
+      "input": 11,
+      "expected": "elleve"
+    },
+    {
+      "input": 12,
+      "expected": "tolv"
+    },
+    {
+      "input": 16,
+      "expected": "seksten"
+    },
+    {
+      "input": 19,
+      "expected": "nitten"
+    },
+    {
+      "input": 20,
+      "expected": "tjue"
+    },
+    {
+      "input": 21,
+      "expected": "tjue-en"
+    },
+    {
+      "input": 26,
+      "expected": "tjue-seks"
+    },
+    {
+      "input": 28,
+      "expected": "tjue-åtte"
+    },
+    {
+      "input": 30,
+      "expected": "tretti"
+    },
+    {
+      "input": 31,
+      "expected": "tretti-en"
+    },
+    {
+      "input": 40,
+      "expected": "førti"
+    },
+    {
+      "input": 44,
+      "expected": "førti-fire"
+    },
+    {
+      "input": 50,
+      "expected": "femti"
+    },
+    {
+      "input": 55,
+      "expected": "femti-fem"
+    },
+    {
+      "input": 60,
+      "expected": "seksti"
+    },
+    {
+      "input": 67,
+      "expected": "seksti-syv"
+    },
+    {
+      "input": 70,
+      "expected": "sytti"
+    },
+    {
+      "input": 79,
+      "expected": "sytti-ni"
+    },
+    {
+      "input": 89,
+      "expected": "åtti-ni"
+    },
+    {
+      "input": 95,
+      "expected": "nitti-fem"
+    },
+    {
+      "input": 100,
+      "expected": "en hundre"
+    },
+    {
+      "input": 101,
+      "expected": "en hundre og en"
+    },
+    {
+      "input": 199,
+      "expected": "en hundre og nitti-ni"
+    },
+    {
+      "input": 203,
+      "expected": "to hundre og tre"
+    },
+    {
+      "input": 287,
+      "expected": "to hundre og åtti-syv"
+    },
+    {
+      "input": 356,
+      "expected": "tre hundre og femti-seks"
+    },
+    {
+      "input": 400,
+      "expected": "fire hundre"
+    },
+    {
+      "input": 434,
+      "expected": "fire hundre og tretti-fire"
+    },
+    {
+      "input": 578,
+      "expected": "fem hundre og sytti-åtte"
+    },
+    {
+      "input": 689,
+      "expected": "seks hundre og åtti-ni"
+    },
+    {
+      "input": 729,
+      "expected": "syv hundre og tjue-ni"
+    },
+    {
+      "input": 894,
+      "expected": "åtte hundre og nitti-fire"
+    },
+    {
+      "input": 999,
+      "expected": "ni hundre og nitti-ni"
+    },
+    {
+      "input": 1000,
+      "expected": "en tusen"
+    },
+    {
+      "input": 1001,
+      "expected": "en tusen og en"
+    },
+    {
+      "input": 1097,
+      "expected": "en tusen og nitti-syv"
+    },
+    {
+      "input": 1104,
+      "expected": "en tusen, en hundre og fire"
+    },
+    {
+      "input": 1243,
+      "expected": "en tusen, to hundre og førti-tre"
+    },
+    {
+      "input": 2385,
+      "expected": "to tusen, tre hundre og åtti-fem"
+    },
+    {
+      "input": 3766,
+      "expected": "tre tusen, syv hundre og seksti-seks"
+    },
+    {
+      "input": 4196,
+      "expected": "fire tusen, en hundre og nitti-seks"
+    },
+    {
+      "input": 5846,
+      "expected": "fem tusen, åtte hundre og førti-seks"
+    },
+    {
+      "input": 6459,
+      "expected": "seks tusen, fire hundre og femti-ni"
+    },
+    {
+      "input": 7232,
+      "expected": "syv tusen, to hundre og tretti-to"
+    },
+    {
+      "input": 8569,
+      "expected": "åtte tusen, fem hundre og seksti-ni"
+    },
+    {
+      "input": 9539,
+      "expected": "ni tusen, fem hundre og tretti-ni"
+    },
+    {
+      "input": 1000000,
+      "expected": "en million"
+    },
+    {
+      "input": 1000001,
+      "expected": "en million og en"
+    },
+    {
+      "input": 4000000,
+      "expected": "fire million"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "ti billion"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "en hundre billion"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "en kvintillion"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "første"
+    },
+    {
+      "input": 2,
+      "expected": "andre"
+    },
+    {
+      "input": 3,
+      "expected": "tredje"
+    },
+    {
+      "input": 4,
+      "expected": "fjerde"
+    },
+    {
+      "input": 5,
+      "expected": "femte"
+    },
+    {
+      "input": 6,
+      "expected": "sjette"
+    },
+    {
+      "input": 7,
+      "expected": "sjuende"
+    },
+    {
+      "input": 8,
+      "expected": "åttende"
+    },
+    {
+      "input": 9,
+      "expected": "niende"
+    },
+    {
+      "input": 10,
+      "expected": "tiende"
+    },
+    {
+      "input": 11,
+      "expected": "ellevte"
+    },
+    {
+      "input": 12,
+      "expected": "tolvte"
+    },
+    {
+      "input": 13,
+      "expected": "trettende"
+    },
+    {
+      "input": 14,
+      "expected": "fjortende"
+    },
+    {
+      "input": 19,
+      "expected": "nittende"
+    },
+    {
+      "input": 20,
+      "expected": "tjuede"
+    },
+    {
+      "input": 21,
+      "expected": "tjue-ende"
+    },
+    {
+      "input": 30,
+      "expected": "trettide"
+    },
+    {
+      "input": 42,
+      "expected": "førti-tode"
+    },
+    {
+      "input": 99,
+      "expected": "nitti-niede"
+    },
+    {
+      "input": 100,
+      "expected": "en hundrede"
+    },
+    {
+      "input": 101,
+      "expected": "en hundre og ende"
+    },
+    {
+      "input": 200,
+      "expected": "to hundrede"
+    },
+    {
+      "input": 1000,
+      "expected": "en tusende"
+    },
+    {
+      "input": 1001,
+      "expected": "en tusen og ende"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "null kroner"
+    },
+    {
+      "input": 1,
+      "expected": "en krone"
+    },
+    {
+      "input": 2,
+      "expected": "to kroner"
+    },
+    {
+      "input": 5,
+      "expected": "fem kroner"
+    },
+    {
+      "input": 10,
+      "expected": "ti kroner"
+    },
+    {
+      "input": 21,
+      "expected": "tjue-en kroner"
+    },
+    {
+      "input": 42,
+      "expected": "førti-to kroner"
+    },
+    {
+      "input": 100,
+      "expected": "en hundre kroner"
+    },
+    {
+      "input": 1000,
+      "expected": "en tusen kroner"
+    },
+    {
+      "input": 0.01,
+      "expected": "en øre"
+    },
+    {
+      "input": 0.25,
+      "expected": "tjue-fem øre"
+    },
+    {
+      "input": 0.5,
+      "expected": "femti øre"
+    },
+    {
+      "input": 0.99,
+      "expected": "nitti-ni øre"
+    },
+    {
+      "input": 1.01,
+      "expected": "en krone og en øre"
+    },
+    {
+      "input": 1.5,
+      "expected": "en krone og femti øre"
+    },
+    {
+      "input": 42.5,
+      "expected": "førti-to kroner og femti øre"
+    },
+    {
+      "input": 100.99,
+      "expected": "en hundre kroner og nitti-ni øre"
+    },
+    {
+      "input": -1,
+      "expected": "minus en krone"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus førti-to kroner og femti øre"
+    },
+    {
+      "input": "5.00",
+      "expected": "fem kroner"
+    }
+  ]
+}

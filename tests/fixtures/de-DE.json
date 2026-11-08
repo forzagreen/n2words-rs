@@ -1,0 +1,749 @@
+{
+  "code": "de-DE",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "null komma null eins"
+    },
+    {
+      "input": 1.007,
+      "expected": "eins komma null null sieben"
+    },
+    {
+      "input": 1.7,
+      "expected": "eins komma sieben"
+    },
+    {
+      "input": 17.42,
+      "expected": "siebzehn komma zweiundvierzig"
+    },
+    {
+      "input": 27.312,
+      "expected": "siebenundzwanzig komma dreihundertzwölf"
+    },
+    {
+      "input": 53.486,
+      "expected": "dreiundfünfzig komma vierhundertsechsundachtzig"
+    },
+    {
+      "input": 300.42,
+      "expected": "dreihundert komma zweiundvierzig"
+    },
+    {
+      "input": 4196.42,
+      "expected": "viertausendeinhundertsechsundneunzig komma zweiundvierzig"
+    },
+    {
+      "input": -17.42,
+      "expected": "minus siebzehn komma zweiundvierzig"
+    },
+    {
+      "input": -1,
+      "expected": "minus eins"
+    },
+    {
+      "input": -20,
+      "expected": "minus zwanzig"
+    },
+    {
+      "input": 0,
+      "expected": "null"
+    },
+    {
+      "input": 1,
+      "expected": "eins"
+    },
+    {
+      "input": 2,
+      "expected": "zwei"
+    },
+    {
+      "input": 3,
+      "expected": "drei"
+    },
+    {
+      "input": 11,
+      "expected": "elf"
+    },
+    {
+      "input": 12,
+      "expected": "zwölf"
+    },
+    {
+      "input": 16,
+      "expected": "sechzehn"
+    },
+    {
+      "input": 19,
+      "expected": "neunzehn"
+    },
+    {
+      "input": 20,
+      "expected": "zwanzig"
+    },
+    {
+      "input": 21,
+      "expected": "einundzwanzig"
+    },
+    {
+      "input": 26,
+      "expected": "sechsundzwanzig"
+    },
+    {
+      "input": 28,
+      "expected": "achtundzwanzig"
+    },
+    {
+      "input": 30,
+      "expected": "dreißig"
+    },
+    {
+      "input": 31,
+      "expected": "einunddreißig"
+    },
+    {
+      "input": 40,
+      "expected": "vierzig"
+    },
+    {
+      "input": 44,
+      "expected": "vierundvierzig"
+    },
+    {
+      "input": 50,
+      "expected": "fünfzig"
+    },
+    {
+      "input": 55,
+      "expected": "fünfundfünfzig"
+    },
+    {
+      "input": 60,
+      "expected": "sechzig"
+    },
+    {
+      "input": 67,
+      "expected": "siebenundsechzig"
+    },
+    {
+      "input": 70,
+      "expected": "siebzig"
+    },
+    {
+      "input": 79,
+      "expected": "neunundsiebzig"
+    },
+    {
+      "input": 89,
+      "expected": "neunundachtzig"
+    },
+    {
+      "input": 95,
+      "expected": "fünfundneunzig"
+    },
+    {
+      "input": 100,
+      "expected": "einhundert"
+    },
+    {
+      "input": 101,
+      "expected": "einhunderteins"
+    },
+    {
+      "input": 199,
+      "expected": "einhundertneunundneunzig"
+    },
+    {
+      "input": 203,
+      "expected": "zweihundertdrei"
+    },
+    {
+      "input": 287,
+      "expected": "zweihundertsiebenundachtzig"
+    },
+    {
+      "input": 356,
+      "expected": "dreihundertsechsundfünfzig"
+    },
+    {
+      "input": 400,
+      "expected": "vierhundert"
+    },
+    {
+      "input": 434,
+      "expected": "vierhundertvierunddreißig"
+    },
+    {
+      "input": 578,
+      "expected": "fünfhundertachtundsiebzig"
+    },
+    {
+      "input": 689,
+      "expected": "sechshundertneunundachtzig"
+    },
+    {
+      "input": 729,
+      "expected": "siebenhundertneunundzwanzig"
+    },
+    {
+      "input": 894,
+      "expected": "achthundertvierundneunzig"
+    },
+    {
+      "input": 999,
+      "expected": "neunhundertneunundneunzig"
+    },
+    {
+      "input": 1000,
+      "expected": "eintausend"
+    },
+    {
+      "input": 1001,
+      "expected": "eintausendeins"
+    },
+    {
+      "input": 1097,
+      "expected": "eintausendsiebenundneunzig"
+    },
+    {
+      "input": 1104,
+      "expected": "eintausendeinhundertvier"
+    },
+    {
+      "input": 1243,
+      "expected": "eintausendzweihundertdreiundvierzig"
+    },
+    {
+      "input": 2385,
+      "expected": "zweitausenddreihundertfünfundachtzig"
+    },
+    {
+      "input": 3766,
+      "expected": "dreitausendsiebenhundertsechsundsechzig"
+    },
+    {
+      "input": 4196,
+      "expected": "viertausendeinhundertsechsundneunzig"
+    },
+    {
+      "input": 5846,
+      "expected": "fünftausendachthundertsechsundvierzig"
+    },
+    {
+      "input": 6459,
+      "expected": "sechstausendvierhundertneunundfünfzig"
+    },
+    {
+      "input": 7232,
+      "expected": "siebentausendzweihundertzweiunddreißig"
+    },
+    {
+      "input": 8569,
+      "expected": "achttausendfünfhundertneunundsechzig"
+    },
+    {
+      "input": 9539,
+      "expected": "neuntausendfünfhundertneununddreißig"
+    },
+    {
+      "input": 101000,
+      "expected": "einhunderteintausend"
+    },
+    {
+      "input": 201000,
+      "expected": "zweihunderteintausend"
+    },
+    {
+      "input": 301005,
+      "expected": "dreihunderteintausendfünf"
+    },
+    {
+      "input": 1201000,
+      "expected": "eine Million zweihunderteintausend"
+    },
+    {
+      "input": 1000000,
+      "expected": "eine Million"
+    },
+    {
+      "input": 1000001,
+      "expected": "eine Million eins"
+    },
+    {
+      "input": 4000000,
+      "expected": "vier Millionen"
+    },
+    {
+      "input": 4000000000,
+      "expected": "vier Milliarden"
+    },
+    {
+      "input": 1000000000,
+      "expected": "eine Milliarde"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "zehn Billionen"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "einhundert Billionen"
+    },
+    {
+      "input": 4500072900000111,
+      "expected": "vier Billiarden fünfhundert Billionen zweiundsiebzig Milliarden neunhundert Millionen einhundertelf"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "eine Trillion"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "erste"
+    },
+    {
+      "input": 2,
+      "expected": "zweite"
+    },
+    {
+      "input": 3,
+      "expected": "dritte"
+    },
+    {
+      "input": 4,
+      "expected": "vierte"
+    },
+    {
+      "input": 5,
+      "expected": "fünfte"
+    },
+    {
+      "input": 6,
+      "expected": "sechste"
+    },
+    {
+      "input": 7,
+      "expected": "siebte"
+    },
+    {
+      "input": 8,
+      "expected": "achte"
+    },
+    {
+      "input": 9,
+      "expected": "neunte"
+    },
+    {
+      "input": 10,
+      "expected": "zehnte"
+    },
+    {
+      "input": 11,
+      "expected": "elfte"
+    },
+    {
+      "input": 12,
+      "expected": "zwölfte"
+    },
+    {
+      "input": 13,
+      "expected": "dreizehnte"
+    },
+    {
+      "input": 14,
+      "expected": "vierzehnte"
+    },
+    {
+      "input": 15,
+      "expected": "fünfzehnte"
+    },
+    {
+      "input": 16,
+      "expected": "sechzehnte"
+    },
+    {
+      "input": 17,
+      "expected": "siebzehnte"
+    },
+    {
+      "input": 18,
+      "expected": "achtzehnte"
+    },
+    {
+      "input": 19,
+      "expected": "neunzehnte"
+    },
+    {
+      "input": 20,
+      "expected": "zwanzigste"
+    },
+    {
+      "input": 30,
+      "expected": "dreißigste"
+    },
+    {
+      "input": 40,
+      "expected": "vierzigste"
+    },
+    {
+      "input": 50,
+      "expected": "fünfzigste"
+    },
+    {
+      "input": 60,
+      "expected": "sechzigste"
+    },
+    {
+      "input": 70,
+      "expected": "siebzigste"
+    },
+    {
+      "input": 80,
+      "expected": "achtzigste"
+    },
+    {
+      "input": 90,
+      "expected": "neunzigste"
+    },
+    {
+      "input": 21,
+      "expected": "einundzwanzigste"
+    },
+    {
+      "input": 22,
+      "expected": "zweiundzwanzigste"
+    },
+    {
+      "input": 23,
+      "expected": "dreiundzwanzigste"
+    },
+    {
+      "input": 32,
+      "expected": "zweiunddreißigste"
+    },
+    {
+      "input": 42,
+      "expected": "zweiundvierzigste"
+    },
+    {
+      "input": 53,
+      "expected": "dreiundfünfzigste"
+    },
+    {
+      "input": 67,
+      "expected": "siebenundsechzigste"
+    },
+    {
+      "input": 88,
+      "expected": "achtundachtzigste"
+    },
+    {
+      "input": 99,
+      "expected": "neunundneunzigste"
+    },
+    {
+      "input": 100,
+      "expected": "einhundertste"
+    },
+    {
+      "input": 101,
+      "expected": "einhunderterste"
+    },
+    {
+      "input": 102,
+      "expected": "einhundertzweite"
+    },
+    {
+      "input": 103,
+      "expected": "einhundertdritte"
+    },
+    {
+      "input": 110,
+      "expected": "einhundertzehnte"
+    },
+    {
+      "input": 111,
+      "expected": "einhundertelfte"
+    },
+    {
+      "input": 121,
+      "expected": "einhunderteinundzwanzigste"
+    },
+    {
+      "input": 200,
+      "expected": "zweihundertste"
+    },
+    {
+      "input": 300,
+      "expected": "dreihundertste"
+    },
+    {
+      "input": 500,
+      "expected": "fünfhundertste"
+    },
+    {
+      "input": 999,
+      "expected": "neunhundertneunundneunzigste"
+    },
+    {
+      "input": 1000,
+      "expected": "eintausendste"
+    },
+    {
+      "input": 1001,
+      "expected": "eintausenderste"
+    },
+    {
+      "input": 1010,
+      "expected": "eintausendzehnte"
+    },
+    {
+      "input": 1100,
+      "expected": "eintausendeinhundertste"
+    },
+    {
+      "input": 1111,
+      "expected": "eintausendeinhundertelfte"
+    },
+    {
+      "input": 2000,
+      "expected": "zweitausendste"
+    },
+    {
+      "input": 5000,
+      "expected": "fünftausendste"
+    },
+    {
+      "input": 10000,
+      "expected": "zehntausendste"
+    },
+    {
+      "input": 12345,
+      "expected": "zwölftausenddreihundertfünfundvierzigste"
+    },
+    {
+      "input": 99999,
+      "expected": "neunundneunzigtausendneunhundertneunundneunzigste"
+    },
+    {
+      "input": 201000,
+      "expected": "zweihunderteintausendste"
+    },
+    {
+      "input": 1000000,
+      "expected": "millionste"
+    },
+    {
+      "input": 1000001,
+      "expected": "eine Million erste"
+    },
+    {
+      "input": 1000100,
+      "expected": "eine Million einhundertste"
+    },
+    {
+      "input": 2000000,
+      "expected": "zweimillionste"
+    },
+    {
+      "input": 21000000,
+      "expected": "einundzwanzigmillionste"
+    },
+    {
+      "input": 200000000,
+      "expected": "zweihundertmillionste"
+    },
+    {
+      "input": 201000000,
+      "expected": "zweihunderteinmillionste"
+    },
+    {
+      "input": 1000000000,
+      "expected": "milliardste"
+    },
+    {
+      "input": 3000000000,
+      "expected": "dreimilliardste"
+    },
+    {
+      "input": 1001000000,
+      "expected": "eine Milliarde einmillionste"
+    },
+    {
+      "input": 1002000000,
+      "expected": "eine Milliarde zweimillionste"
+    },
+    {
+      "input": 1000000000000,
+      "expected": "billionste"
+    },
+    {
+      "input": 1000000000000000,
+      "expected": "billiardste"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "trillionste"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "null Euro"
+    },
+    {
+      "input": 1,
+      "expected": "ein Euro"
+    },
+    {
+      "input": 2,
+      "expected": "zwei Euro"
+    },
+    {
+      "input": 10,
+      "expected": "zehn Euro"
+    },
+    {
+      "input": 21,
+      "expected": "einundzwanzig Euro"
+    },
+    {
+      "input": 100,
+      "expected": "einhundert Euro"
+    },
+    {
+      "input": 1000,
+      "expected": "eintausend Euro"
+    },
+    {
+      "input": 1000000,
+      "expected": "eine Million Euro"
+    },
+    {
+      "input": 101,
+      "expected": "einhundertein Euro"
+    },
+    {
+      "input": 1001,
+      "expected": "eintausendein Euro"
+    },
+    {
+      "input": 201000,
+      "expected": "zweihunderteintausend Euro"
+    },
+    {
+      "input": 1000001,
+      "expected": "eine Million ein Euro"
+    },
+    {
+      "input": 101.01,
+      "expected": "einhundertein Euro und ein Cent"
+    },
+    {
+      "input": 0.01,
+      "expected": "ein Cent"
+    },
+    {
+      "input": 0.02,
+      "expected": "zwei Cent"
+    },
+    {
+      "input": 0.1,
+      "expected": "zehn Cent"
+    },
+    {
+      "input": 0.21,
+      "expected": "einundzwanzig Cent"
+    },
+    {
+      "input": 0.5,
+      "expected": "fünfzig Cent"
+    },
+    {
+      "input": 0.99,
+      "expected": "neunundneunzig Cent"
+    },
+    {
+      "input": 1.01,
+      "expected": "ein Euro und ein Cent"
+    },
+    {
+      "input": 1.5,
+      "expected": "ein Euro und fünfzig Cent"
+    },
+    {
+      "input": 2.02,
+      "expected": "zwei Euro und zwei Cent"
+    },
+    {
+      "input": 21.21,
+      "expected": "einundzwanzig Euro und einundzwanzig Cent"
+    },
+    {
+      "input": 42.5,
+      "expected": "zweiundvierzig Euro und fünfzig Cent"
+    },
+    {
+      "input": 100.99,
+      "expected": "einhundert Euro und neunundneunzig Cent"
+    },
+    {
+      "input": 1000.01,
+      "expected": "eintausend Euro und ein Cent"
+    },
+    {
+      "input": 1000000.01,
+      "expected": "eine Million Euro und ein Cent"
+    },
+    {
+      "input": -1,
+      "expected": "minus ein Euro"
+    },
+    {
+      "input": -0.5,
+      "expected": "minus fünfzig Cent"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus zweiundvierzig Euro und fünfzig Cent"
+    },
+    {
+      "input": 42.5,
+      "expected": "zweiundvierzig Euro fünfzig Cent",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 1.01,
+      "expected": "ein Euro ein Cent",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 5,
+      "expected": "fünf Euro"
+    },
+    {
+      "input": "5.00",
+      "expected": "fünf Euro"
+    },
+    {
+      "input": "42.50",
+      "expected": "zweiundvierzig Euro und fünfzig Cent"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000"
+      },
+      "expected": "eine Billion Euro"
+    }
+  ]
+}

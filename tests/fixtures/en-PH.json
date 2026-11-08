@@ -1,0 +1,132 @@
+{
+  "code": "en-PH",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "one"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-one"
+    },
+    {
+      "input": 42,
+      "expected": "forty-two"
+    },
+    {
+      "input": 100,
+      "expected": "one hundred"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and one"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousand"
+    },
+    {
+      "input": 1001,
+      "expected": "one thousand and one"
+    },
+    {
+      "input": 1000000,
+      "expected": "one million"
+    },
+    {
+      "input": -42,
+      "expected": "minus forty-two"
+    },
+    {
+      "input": 3.14,
+      "expected": "three point fourteen"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "first"
+    },
+    {
+      "input": 2,
+      "expected": "second"
+    },
+    {
+      "input": 3,
+      "expected": "third"
+    },
+    {
+      "input": 21,
+      "expected": "twenty-first"
+    },
+    {
+      "input": 42,
+      "expected": "forty-second"
+    },
+    {
+      "input": 100,
+      "expected": "one hundredth"
+    },
+    {
+      "input": 101,
+      "expected": "one hundred and first"
+    },
+    {
+      "input": 1000,
+      "expected": "one thousandth"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero pesos"
+    },
+    {
+      "input": 1,
+      "expected": "one peso"
+    },
+    {
+      "input": 2,
+      "expected": "two pesos"
+    },
+    {
+      "input": 0.01,
+      "expected": "one centavo"
+    },
+    {
+      "input": 0.02,
+      "expected": "two centavos"
+    },
+    {
+      "input": 0.5,
+      "expected": "fifty centavos"
+    },
+    {
+      "input": 1.01,
+      "expected": "one peso and one centavo"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two pesos and fifty centavos"
+    },
+    {
+      "input": -42.5,
+      "expected": "minus forty-two pesos and fifty centavos"
+    },
+    {
+      "input": 42.5,
+      "expected": "forty-two pesos fifty centavos",
+      "options": {
+        "and": false
+      }
+    },
+    {
+      "input": 5,
+      "expected": "five pesos"
+    }
+  ]
+}

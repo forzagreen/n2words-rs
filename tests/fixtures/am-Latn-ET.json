@@ -1,0 +1,377 @@
+{
+  "code": "am-Latn-ET",
+  "cardinal": [
+    {
+      "input": 0,
+      "expected": "zero"
+    },
+    {
+      "input": 1,
+      "expected": "and"
+    },
+    {
+      "input": 2,
+      "expected": "hulet"
+    },
+    {
+      "input": 3,
+      "expected": "sost"
+    },
+    {
+      "input": 4,
+      "expected": "arat"
+    },
+    {
+      "input": 5,
+      "expected": "amist"
+    },
+    {
+      "input": 6,
+      "expected": "siddist"
+    },
+    {
+      "input": 7,
+      "expected": "sebat"
+    },
+    {
+      "input": 8,
+      "expected": "siment"
+    },
+    {
+      "input": 9,
+      "expected": "zeteny"
+    },
+    {
+      "input": 10,
+      "expected": "asir"
+    },
+    {
+      "input": 11,
+      "expected": "asra and"
+    },
+    {
+      "input": 12,
+      "expected": "asra hulet"
+    },
+    {
+      "input": 13,
+      "expected": "asra sost"
+    },
+    {
+      "input": 14,
+      "expected": "asra arat"
+    },
+    {
+      "input": 15,
+      "expected": "asra amist"
+    },
+    {
+      "input": 16,
+      "expected": "asra siddist"
+    },
+    {
+      "input": 17,
+      "expected": "asra sebat"
+    },
+    {
+      "input": 18,
+      "expected": "asra siment"
+    },
+    {
+      "input": 19,
+      "expected": "asra zeteny"
+    },
+    {
+      "input": 20,
+      "expected": "haya"
+    },
+    {
+      "input": 30,
+      "expected": "selasa"
+    },
+    {
+      "input": 40,
+      "expected": "arba"
+    },
+    {
+      "input": 50,
+      "expected": "hamsa"
+    },
+    {
+      "input": 60,
+      "expected": "silsa"
+    },
+    {
+      "input": 70,
+      "expected": "seba"
+    },
+    {
+      "input": 80,
+      "expected": "semanya"
+    },
+    {
+      "input": 90,
+      "expected": "zetena"
+    },
+    {
+      "input": 21,
+      "expected": "haya and"
+    },
+    {
+      "input": 35,
+      "expected": "selasa amist"
+    },
+    {
+      "input": 42,
+      "expected": "arba hulet"
+    },
+    {
+      "input": 99,
+      "expected": "zetena zeteny"
+    },
+    {
+      "input": 100,
+      "expected": "and meto"
+    },
+    {
+      "input": 101,
+      "expected": "and meto and"
+    },
+    {
+      "input": 110,
+      "expected": "and meto asir"
+    },
+    {
+      "input": 200,
+      "expected": "hulet meto"
+    },
+    {
+      "input": 500,
+      "expected": "amist meto"
+    },
+    {
+      "input": 999,
+      "expected": "zeteny meto zetena zeteny"
+    },
+    {
+      "input": 1000,
+      "expected": "and shi"
+    },
+    {
+      "input": 1001,
+      "expected": "and shi and"
+    },
+    {
+      "input": 2000,
+      "expected": "hulet shi"
+    },
+    {
+      "input": 10000,
+      "expected": "asir shi"
+    },
+    {
+      "input": 100000,
+      "expected": "and meto shi"
+    },
+    {
+      "input": 1000000,
+      "expected": "and miliyon"
+    },
+    {
+      "input": 2000000,
+      "expected": "hulet miliyon"
+    },
+    {
+      "input": 1000000000,
+      "expected": "and billiyon"
+    },
+    {
+      "input": -1,
+      "expected": "asitegna and"
+    },
+    {
+      "input": -5,
+      "expected": "asitegna amist"
+    },
+    {
+      "input": -42,
+      "expected": "asitegna arba hulet"
+    },
+    {
+      "input": "3.14",
+      "expected": "sost netib and arat"
+    },
+    {
+      "input": "0.5",
+      "expected": "zero netib amist"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "andenya"
+    },
+    {
+      "input": 2,
+      "expected": "huletnya"
+    },
+    {
+      "input": 3,
+      "expected": "sostnya"
+    },
+    {
+      "input": 4,
+      "expected": "aratnya"
+    },
+    {
+      "input": 5,
+      "expected": "amistnya"
+    },
+    {
+      "input": 6,
+      "expected": "siddistnya"
+    },
+    {
+      "input": 7,
+      "expected": "sebatnya"
+    },
+    {
+      "input": 8,
+      "expected": "simentnya"
+    },
+    {
+      "input": 9,
+      "expected": "zetenynya"
+    },
+    {
+      "input": 10,
+      "expected": "asirnya"
+    },
+    {
+      "input": 11,
+      "expected": "asra andnya"
+    },
+    {
+      "input": 12,
+      "expected": "asra huletnya"
+    },
+    {
+      "input": 19,
+      "expected": "asra zetenynya"
+    },
+    {
+      "input": 20,
+      "expected": "hayanya"
+    },
+    {
+      "input": 30,
+      "expected": "selasanya"
+    },
+    {
+      "input": 42,
+      "expected": "arba huletnya"
+    },
+    {
+      "input": 99,
+      "expected": "zetena zetenynya"
+    },
+    {
+      "input": 100,
+      "expected": "and metonya"
+    },
+    {
+      "input": 101,
+      "expected": "and meto andnya"
+    },
+    {
+      "input": 200,
+      "expected": "hulet metonya"
+    },
+    {
+      "input": 1000,
+      "expected": "and shinya"
+    },
+    {
+      "input": 1001,
+      "expected": "and shi andnya"
+    },
+    {
+      "input": 2000,
+      "expected": "hulet shinya"
+    },
+    {
+      "input": 1000000,
+      "expected": "and miliyonnya"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "zero birr"
+    },
+    {
+      "input": 1,
+      "expected": "and birr"
+    },
+    {
+      "input": 2,
+      "expected": "hulet birr"
+    },
+    {
+      "input": 10,
+      "expected": "asir birr"
+    },
+    {
+      "input": 100,
+      "expected": "and meto birr"
+    },
+    {
+      "input": 1000,
+      "expected": "and shi birr"
+    },
+    {
+      "input": 0.01,
+      "expected": "and santim"
+    },
+    {
+      "input": 0.02,
+      "expected": "hulet santim"
+    },
+    {
+      "input": 0.5,
+      "expected": "hamsa santim"
+    },
+    {
+      "input": 0.99,
+      "expected": "zetena zeteny santim"
+    },
+    {
+      "input": 1.01,
+      "expected": "and birr and santim"
+    },
+    {
+      "input": 42.5,
+      "expected": "arba hulet birr hamsa santim"
+    },
+    {
+      "input": 1000.99,
+      "expected": "and shi birr zetena zeteny santim"
+    },
+    {
+      "input": -1,
+      "expected": "asitegna and birr"
+    },
+    {
+      "input": -42.5,
+      "expected": "asitegna arba hulet birr hamsa santim"
+    },
+    {
+      "input": 5,
+      "expected": "amist birr"
+    },
+    {
+      "input": "5.00",
+      "expected": "amist birr"
+    }
+  ]
+}

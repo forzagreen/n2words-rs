@@ -1,0 +1,431 @@
+{
+  "code": "ko-KR",
+  "cardinal": [
+    {
+      "input": 0.01,
+      "expected": "영 점 영 일"
+    },
+    {
+      "input": 1.007,
+      "expected": "일 점 영 영 칠"
+    },
+    {
+      "input": 1.7,
+      "expected": "일 점 칠"
+    },
+    {
+      "input": 17.42,
+      "expected": "십칠 점 사십이"
+    },
+    {
+      "input": 27.312,
+      "expected": "이십칠 점 삼백십이"
+    },
+    {
+      "input": 53.486,
+      "expected": "오십삼 점 사백팔십육"
+    },
+    {
+      "input": 300.42,
+      "expected": "삼백 점 사십이"
+    },
+    {
+      "input": 4196.42,
+      "expected": "사천백구십육 점 사십이"
+    },
+    {
+      "input": -17.42,
+      "expected": "마이너스 십칠 점 사십이"
+    },
+    {
+      "input": -1,
+      "expected": "마이너스 일"
+    },
+    {
+      "input": -20,
+      "expected": "마이너스 이십"
+    },
+    {
+      "input": 0,
+      "expected": "영"
+    },
+    {
+      "input": 1,
+      "expected": "일"
+    },
+    {
+      "input": 2,
+      "expected": "이"
+    },
+    {
+      "input": 3,
+      "expected": "삼"
+    },
+    {
+      "input": 11,
+      "expected": "십일"
+    },
+    {
+      "input": 12,
+      "expected": "십이"
+    },
+    {
+      "input": 16,
+      "expected": "십육"
+    },
+    {
+      "input": 19,
+      "expected": "십구"
+    },
+    {
+      "input": 20,
+      "expected": "이십"
+    },
+    {
+      "input": 21,
+      "expected": "이십일"
+    },
+    {
+      "input": 26,
+      "expected": "이십육"
+    },
+    {
+      "input": 28,
+      "expected": "이십팔"
+    },
+    {
+      "input": 30,
+      "expected": "삼십"
+    },
+    {
+      "input": 31,
+      "expected": "삼십일"
+    },
+    {
+      "input": 40,
+      "expected": "사십"
+    },
+    {
+      "input": 44,
+      "expected": "사십사"
+    },
+    {
+      "input": 50,
+      "expected": "오십"
+    },
+    {
+      "input": 55,
+      "expected": "오십오"
+    },
+    {
+      "input": 60,
+      "expected": "육십"
+    },
+    {
+      "input": 67,
+      "expected": "육십칠"
+    },
+    {
+      "input": 70,
+      "expected": "칠십"
+    },
+    {
+      "input": 79,
+      "expected": "칠십구"
+    },
+    {
+      "input": 89,
+      "expected": "팔십구"
+    },
+    {
+      "input": 95,
+      "expected": "구십오"
+    },
+    {
+      "input": 100,
+      "expected": "백"
+    },
+    {
+      "input": 101,
+      "expected": "백일"
+    },
+    {
+      "input": 199,
+      "expected": "백구십구"
+    },
+    {
+      "input": 203,
+      "expected": "이백삼"
+    },
+    {
+      "input": 287,
+      "expected": "이백팔십칠"
+    },
+    {
+      "input": 356,
+      "expected": "삼백오십육"
+    },
+    {
+      "input": 400,
+      "expected": "사백"
+    },
+    {
+      "input": 434,
+      "expected": "사백삼십사"
+    },
+    {
+      "input": 578,
+      "expected": "오백칠십팔"
+    },
+    {
+      "input": 689,
+      "expected": "육백팔십구"
+    },
+    {
+      "input": 729,
+      "expected": "칠백이십구"
+    },
+    {
+      "input": 894,
+      "expected": "팔백구십사"
+    },
+    {
+      "input": 999,
+      "expected": "구백구십구"
+    },
+    {
+      "input": 1000,
+      "expected": "천"
+    },
+    {
+      "input": 1001,
+      "expected": "천일"
+    },
+    {
+      "input": 1097,
+      "expected": "천구십칠"
+    },
+    {
+      "input": 1104,
+      "expected": "천백사"
+    },
+    {
+      "input": 1243,
+      "expected": "천이백사십삼"
+    },
+    {
+      "input": 2385,
+      "expected": "이천삼백팔십오"
+    },
+    {
+      "input": 3766,
+      "expected": "삼천칠백육십육"
+    },
+    {
+      "input": 4196,
+      "expected": "사천백구십육"
+    },
+    {
+      "input": 5846,
+      "expected": "오천팔백사십육"
+    },
+    {
+      "input": 6459,
+      "expected": "육천사백오십구"
+    },
+    {
+      "input": 7232,
+      "expected": "칠천이백삼십이"
+    },
+    {
+      "input": 8569,
+      "expected": "팔천오백육십구"
+    },
+    {
+      "input": 9539,
+      "expected": "구천오백삼십구"
+    },
+    {
+      "input": 1000000,
+      "expected": "백만"
+    },
+    {
+      "input": 1000001,
+      "expected": "백만 일"
+    },
+    {
+      "input": 4000000,
+      "expected": "사백만"
+    },
+    {
+      "input": 10000000000000,
+      "expected": "십조"
+    },
+    {
+      "input": 100000000000000,
+      "expected": "백조"
+    },
+    {
+      "input": {
+        "bigint": "1000000000000000000"
+      },
+      "expected": "백경"
+    }
+  ],
+  "ordinal": [
+    {
+      "input": 1,
+      "expected": "제일"
+    },
+    {
+      "input": 2,
+      "expected": "제이"
+    },
+    {
+      "input": 3,
+      "expected": "제삼"
+    },
+    {
+      "input": 4,
+      "expected": "제사"
+    },
+    {
+      "input": 5,
+      "expected": "제오"
+    },
+    {
+      "input": 6,
+      "expected": "제육"
+    },
+    {
+      "input": 7,
+      "expected": "제칠"
+    },
+    {
+      "input": 8,
+      "expected": "제팔"
+    },
+    {
+      "input": 9,
+      "expected": "제구"
+    },
+    {
+      "input": 10,
+      "expected": "제십"
+    },
+    {
+      "input": 11,
+      "expected": "제십일"
+    },
+    {
+      "input": 12,
+      "expected": "제십이"
+    },
+    {
+      "input": 19,
+      "expected": "제십구"
+    },
+    {
+      "input": 20,
+      "expected": "제이십"
+    },
+    {
+      "input": 21,
+      "expected": "제이십일"
+    },
+    {
+      "input": 30,
+      "expected": "제삼십"
+    },
+    {
+      "input": 42,
+      "expected": "제사십이"
+    },
+    {
+      "input": 99,
+      "expected": "제구십구"
+    },
+    {
+      "input": 100,
+      "expected": "제백"
+    },
+    {
+      "input": 101,
+      "expected": "제백일"
+    },
+    {
+      "input": 200,
+      "expected": "제이백"
+    },
+    {
+      "input": 1000,
+      "expected": "제천"
+    },
+    {
+      "input": 1001,
+      "expected": "제천일"
+    },
+    {
+      "input": 10000,
+      "expected": "제만"
+    },
+    {
+      "input": 100000000,
+      "expected": "제억"
+    }
+  ],
+  "currency": [
+    {
+      "input": 0,
+      "expected": "영원"
+    },
+    {
+      "input": 1,
+      "expected": "일원"
+    },
+    {
+      "input": 2,
+      "expected": "이원"
+    },
+    {
+      "input": 5,
+      "expected": "오원"
+    },
+    {
+      "input": 10,
+      "expected": "십원"
+    },
+    {
+      "input": 100,
+      "expected": "백원"
+    },
+    {
+      "input": 1000,
+      "expected": "천원"
+    },
+    {
+      "input": 10000,
+      "expected": "만원"
+    },
+    {
+      "input": 50000,
+      "expected": "오만원"
+    },
+    {
+      "input": 100000000,
+      "expected": "억원"
+    },
+    {
+      "input": -1,
+      "expected": "마이너스 일원"
+    },
+    {
+      "input": -1000,
+      "expected": "마이너스 천원"
+    },
+    {
+      "input": "5.00",
+      "expected": "오원"
+    }
+  ]
+}
