@@ -1,0 +1,65 @@
+# git-cliff configuration: Keep-a-Changelog style sections grouped by
+# Conventional Commit type, newest release first. The release workflow renders
+# only the latest version's section as the GitHub release notes; `cargo
+# release` regenerates CHANGELOG.md in full before tagging.
+
+[changelog]
+header = """
+# Changelog
+
+All notable changes to this project are documented here. The format follows
+[Keep a Changelog](https://keepachangelog.com/) and the project adheres to
+[Semantic Versioning](https://semver.org/). Entries are generated from
+[Conventional Commits](https://www.conventionalcommits.org/) with
+[git-cliff](https://git-cliff.org/) at release time.
+
+"""
+body = """
+{% if version %}\
+## [{{ version | trim_start_matches(pat="v") }}](https://github.com/forzagreen/n2words-rs/releases/tag/{{ version }}) ({{ timestamp | date(format="%Y-%m-%d") }})
+{% else %}\
+## [Unreleased]
+{% endif %}
+{% set breaking = commits | filter(attribute="breaking", value=true) %}\
+{% if breaking | length > 0 %}
+### ⚠ BREAKING CHANGES
+
+{% for commit in breaking %}\
+* {% if commit.scope %}**{{ commit.scope }}:** {% endif %}{{ commit.breaking_description }}
+{% endfor %}\
+{% endif %}\
+{% for group, commits in commits | group_by(attribute="group") %}\
+{% if "skip" not in group %}
+### {{ group | split(pat=">") | last }}
+
+{% for commit in commits %}\
+* {% if commit.scope %}**{{ commit.scope }}:** {% endif %}{{ commit.message }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/forzagreen/n2words-rs/commit/{{ commit.id }}))
+{% endfor %}\
+{% endif %}\
+{% endfor %}
+
+"""
+trim = true
+footer = ""
+
+[git]
+conventional_commits = true
+filter_unconventional = true
+split_commits = false
+commit_preprocessors = [
+  { pattern = '\(#([0-9]+)\)', replace = "([#${1}](https://github.com/forzagreen/n2words-rs/pull/${1}))" },
+]
+commit_parsers = [
+  { message = "^feat", group = "<1>Features" },
+  { message = "^fix", group = "<2>Bug Fixes" },
+  { message = "^perf", group = "<3>Performance" },
+  { message = "^refactor", group = "<4>Refactoring" },
+  { message = "^docs", group = "<5>Documentation" },
+  { message = "^revert", group = "<6>Reverts" },
+  { message = "^chore\\(release\\)", skip = true },
+  { message = "^(test|build|ci|chore|style)", group = "<9>skip" },
+]
+filter_commits = false
+tag_pattern = "v[0-9].*"
+topo_order = false
+sort_commits = "oldest"
