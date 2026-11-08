@@ -1,15 +1,316 @@
 //! Kannada (India) (`kn-IN`).
 //!
-//! **Not yet ported** — this is a placeholder so the registry compiles.
+//! - Indian numbering system (ಸಾವಿರ, ಲಕ್ಷ, ಕೋಟಿ)
+//! - Kannada script
+//! - 3-2-2 grouping pattern (last 3 digits, then groups of 2)
+//! - Complete word forms for 0-99
+//! - Per-digit decimal reading
+//! - Ordinals: special forms for 1-6, then the -ನೇ suffix on the cardinal
+//!
+//! ```
+//! use n2words::kn_in::{to_cardinal, to_currency, to_ordinal};
+//!
+//! assert_eq!(to_cardinal(42)?, "ನಲವತ್ತೆರಡು");
+//! assert_eq!(to_ordinal(10)?, "ಹತ್ತುನೇ");
+//! assert_eq!(to_currency(42.5)?, "ನಲವತ್ತೆರಡು ರೂಪಾಯಿಗಳು ಐವತ್ತು ಪೈಸೆಗಳು");
+//! # Ok::<(), n2words::Error>(())
+//! ```
 
-use crate::language::{Kind, Language};
+use crate::Result;
+use crate::currency::vocab::KN as CURRENCY_VOCAB;
+use crate::currency::{Currency, assert_minor_unit};
+use crate::language::{Kind, Language, form};
+use crate::max::Max;
+use crate::number::{Number, parse_cardinal, parse_currency, parse_ordinal, split_groups_indian};
+use crate::options::options;
+use num_bigint::BigUint;
+use num_traits::{One, ToPrimitive, Zero};
+
+// ============================================================================
+// Vocabulary
+// ============================================================================
+
+const ZERO: &str = "ಸೊನ್ನೆ";
+const NEGATIVE: &str = "ಋಣಾತ್ಮಕ";
+const DECIMAL_SEP: &str = "ದಶಮಾಂಶ";
+const HUNDRED: &str = "ನೂರು";
+
+// ============================================================================
+// Ordinal vocabulary
+// ============================================================================
+
+/// Ordinal suffix.
+const ORDINAL_SUFFIX: &str = "ನೇ";
+
+/// Special ordinals for the first few numbers.
+const ORDINAL_SPECIAL: [&str; 7] = ["", "ಮೊದಲನೇ", "ಎರಡನೇ", "ಮೂರನೇ", "ನಾಲ್ಕನೇ", "ಐದನೇ", "ಆರನೇ"];
+
+#[rustfmt::skip]
+const BELOW_HUNDRED: [&str; 100] = [
+    "ಸೊನ್ನೆ", "ಒಂದು", "ಎರಡು", "ಮೂರು", "ನಾಲ್ಕು", "ಐದು", "ಆರು", "ಏಳು", "ಎಂಟು", "ಒಂಬತ್ತು",
+    "ಹತ್ತು", "ಹನ್ನೊಂದು", "ಹನ್ನೆರಡು", "ಹದಿಮೂರು", "ಹದಿನಾಲ್ಕು", "ಹದಿನೈದು", "ಹದಿನಾರು", "ಹದಿನೇಳು", "ಹದಿನೆಂಟು", "ಹತ್ತೊಂಬತ್ತು",
+    "ಇಪ್ಪತ್ತು", "ಇಪ್ಪತ್ತೊಂದು", "ಇಪ್ಪತ್ತೆರಡು", "ಇಪ್ಪತ್ತಮೂರು", "ಇಪ್ಪತ್ತನಾಲ್ಕು", "ಇಪ್ಪತ್ತೈದು", "ಇಪ್ಪತ್ತಾರು", "ಇಪ್ಪತ್ತೇಳು", "ಇಪ್ಪತ್ತೆಂಟು", "ಇಪ್ಪತ್ತೊಂಬತ್ತು",
+    "ಮೂವತ್ತು", "ಮೂವತ್ತೊಂದು", "ಮೂವತ್ತೆರಡು", "ಮೂವತ್ತಮೂರು", "ಮೂವತ್ತನಾಲ್ಕು", "ಮೂವತ್ತೈದು", "ಮೂವತ್ತಾರು", "ಮೂವತ್ತೇಳು", "ಮೂವತ್ತೆಂಟು", "ಮೂವತ್ತೊಂಬತ್ತು",
+    "ನಲವತ್ತು", "ನಲವತ್ತೊಂದು", "ನಲವತ್ತೆರಡು", "ನಲವತ್ತಮೂರು", "ನಲವತ್ತನಾಲ್ಕು", "ನಲವತ್ತೈದು", "ನಲವತ್ತಾರು", "ನಲವತ್ತೇಳು", "ನಲವತ್ತೆಂಟು", "ನಲವತ್ತೊಂಬತ್ತು",
+    "ಐವತ್ತು", "ಐವತ್ತೊಂದು", "ಐವತ್ತೆರಡು", "ಐವತ್ತಮೂರು", "ಐವತ್ತನಾಲ್ಕು", "ಐವತ್ತೈದು", "ಐವತ್ತಾರು", "ಐವತ್ತೇಳು", "ಐವತ್ತೆಂಟು", "ಐವತ್ತೊಂಬತ್ತು",
+    "ಅರವತ್ತು", "ಅರವತ್ತೊಂದು", "ಅರವತ್ತೆರಡು", "ಅರವತ್ತಮೂರು", "ಅರವತ್ತನಾಲ್ಕು", "ಅರವತ್ತೈದು", "ಅರವತ್ತಾರು", "ಅರವತ್ತೇಳು", "ಅರವತ್ತೆಂಟು", "ಅರವತ್ತೊಂಬತ್ತು",
+    "ಎಪ್ಪತ್ತು", "ಎಪ್ಪತ್ತೊಂದು", "ಎಪ್ಪತ್ತೆರಡು", "ಎಪ್ಪತ್ತಮೂರು", "ಎಪ್ಪತ್ತನಾಲ್ಕು", "ಎಪ್ಪತ್ತೈದು", "ಎಪ್ಪತ್ತಾರು", "ಎಪ್ಪತ್ತೇಳು", "ಎಪ್ಪತ್ತೆಂಟು", "ಎಪ್ಪತ್ತೊಂಬತ್ತು",
+    "ಎಂಬತ್ತು", "ಎಂಬತ್ತೊಂದು", "ಎಂಬತ್ತೆರಡು", "ಎಂಬತ್ತಮೂರು", "ಎಂಬತ್ತನಾಲ್ಕು", "ಎಂಬತ್ತೈದು", "ಎಂಬತ್ತಾರು", "ಎಂಬತ್ತೇಳು", "ಎಂಬತ್ತೆಂಟು", "ಎಂಬತ್ತೊಂಬತ್ತು",
+    "ತೊಂಬತ್ತು", "ತೊಂಬತ್ತೊಂದು", "ತೊಂಬತ್ತೆರಡು", "ತೊಂಬತ್ತಮೂರು", "ತೊಂಬತ್ತನಾಲ್ಕು", "ತೊಂಬತ್ತೈದು", "ತೊಂಬತ್ತಾರು", "ತೊಂಬತ್ತೇಳು", "ತೊಂಬತ್ತೆಂಟು", "ತೊಂಬತ್ತೊಂಬತ್ತು",
+];
+
+/// Scale words: index 0 = units (empty), 1 = thousand, 2 = lakh, 3 = crore, etc.
+const SCALE_WORDS: &[&str] = &["", "ಸಾವಿರ", "ಲಕ್ಷ", "ಕೋಟಿ", "ಅಬ್ಜ", "ಖರ್ವ", "ನೀಲ", "ಪದ್ಮ", "ಶಂಖ"];
+
+// 3-2-2 Indian grouping: a 3-digit base segment, then 2 digits per scale word
+// (SCALE_WORDS[0] = "" is the units slot). Past the table the scale word is
+// dropped, which collapses the magnitude — so cap there.
+
+/// The cardinal ceiling, derived from the scale table: `10^19`.
+pub const CARDINAL_MAX: Max = Max::indian(SCALE_WORDS.len() as u32);
+/// The ordinal ceiling: `10^19`.
+pub const ORDINAL_MAX: Max = Max::indian(SCALE_WORDS.len() as u32);
+/// The currency ceiling: `10^19`.
+pub const CURRENCY_MAX: Max = Max::indian(SCALE_WORDS.len() as u32);
+
+// ============================================================================
+// Segment building
+// ============================================================================
+
+/// Words for a 0-999 segment.
+fn build_segment(n: u32) -> String {
+    if n == 0 {
+        return String::new();
+    }
+    if n < 100 {
+        return BELOW_HUNDRED[n as usize].to_string();
+    }
+
+    let hundreds = (n / 100) as usize;
+    let remainder = (n % 100) as usize;
+
+    if remainder == 0 {
+        return format!("{} {HUNDRED}", BELOW_HUNDRED[hundreds]);
+    }
+    format!(
+        "{} {HUNDRED} {}",
+        BELOW_HUNDRED[hundreds], BELOW_HUNDRED[remainder]
+    )
+}
+
+// ============================================================================
+// Cardinal
+// ============================================================================
+
+/// Words for a non-negative integer.
+///
+/// South Asian 3-2-2 grouping: first 3 digits, then groups of 2.
+fn integer_to_words(n: &BigUint) -> String {
+    if n.is_zero() {
+        return ZERO.to_string();
+    }
+
+    // Fast path: numbers < 1000 (direct lookup).
+    if let Some(small) = n.to_u64() {
+        if small < 1000 {
+            return build_segment(small as u32);
+        }
+    }
+
+    // First segment: last 3 digits; remaining segments: 2 digits each
+    // (lakh = 100k, crore = 10M, etc.). Least-significant first.
+    let segments = split_groups_indian(n, 1000, 100);
+
+    // Build from the most-significant segment down.
+    let mut result = String::new();
+    for (i, &segment) in segments.iter().enumerate().rev() {
+        if segment == 0 {
+            continue;
+        }
+        if !result.is_empty() {
+            result.push(' ');
+        }
+        if i == 0 {
+            // The units segment can be 0-999.
+            result.push_str(&build_segment(segment));
+        } else {
+            // Other segments are 0-99.
+            result.push_str(BELOW_HUNDRED[segment as usize]);
+        }
+        // Scale word for every segment but the units one.
+        if i > 0 {
+            if let Some(scale) = SCALE_WORDS.get(i).filter(|s| !s.is_empty()) {
+                result.push(' ');
+                result.push_str(scale);
+            }
+        }
+    }
+    result
+}
+
+/// Words for the fractional digits, read one digit at a time.
+fn decimal_part_to_words(decimal: &str) -> String {
+    decimal
+        .bytes()
+        .map(|b| {
+            let d = usize::from(b - b'0');
+            if d == 0 { ZERO } else { BELOW_HUNDRED[d] }
+        })
+        .collect::<Vec<_>>()
+        .join(" ")
+}
+
+/// Spells a number in Kannada words.
+///
+/// ```
+/// # use n2words::kn_in::to_cardinal;
+/// assert_eq!(to_cardinal(1001)?, "ಒಂದು ಸಾವಿರ ಒಂದು");
+/// assert_eq!(to_cardinal("3.14")?, "ಮೂರು ದಶಮಾಂಶ ಒಂದು ನಾಲ್ಕು");
+/// # Ok::<(), n2words::Error>(())
+/// ```
+///
+/// # Errors
+///
+/// [`Error::InvalidNumber`](crate::Error::InvalidNumber) for a malformed
+/// value, [`Error::OutOfRange`](crate::Error::OutOfRange) at or past
+/// [`CARDINAL_MAX`].
+pub fn to_cardinal<'a>(value: impl Into<Number<'a>>) -> Result<String> {
+    let number = parse_cardinal(&value.into())?;
+    // The fraction is spelled digit by digit, so only the integer part has a ceiling.
+    CARDINAL_MAX.check(&number.integer, None)?;
+
+    let mut result = String::new();
+    if number.negative {
+        result.push_str(NEGATIVE);
+        result.push(' ');
+    }
+    result.push_str(&integer_to_words(&number.integer));
+    if let Some(fraction) = &number.fraction {
+        result.push(' ');
+        result.push_str(DECIMAL_SEP);
+        result.push(' ');
+        result.push_str(&decimal_part_to_words(fraction));
+    }
+    Ok(result)
+}
+
+// ============================================================================
+// Ordinal
+// ============================================================================
+
+/// Ordinal words for a positive integer: the first 6 are special, then the
+/// -ನೇ suffix is added to the cardinal.
+fn integer_to_ordinal(n: &BigUint) -> String {
+    if let Some(small) = n.to_u64() {
+        if (1..=6).contains(&small) {
+            return ORDINAL_SPECIAL[small as usize].to_string();
+        }
+    }
+    let mut result = integer_to_words(n);
+    result.push_str(ORDINAL_SUFFIX);
+    result
+}
+
+/// Spells a positive integer as a Kannada ordinal.
+///
+/// ```
+/// # use n2words::kn_in::to_ordinal;
+/// assert_eq!(to_ordinal(1)?, "ಮೊದಲನೇ");
+/// assert_eq!(to_ordinal(1001)?, "ಒಂದು ಸಾವಿರ ಒಂದುನೇ");
+/// # Ok::<(), n2words::Error>(())
+/// ```
+///
+/// # Errors
+///
+/// [`Error::InvalidOrdinal`](crate::Error::InvalidOrdinal) for zero, a
+/// negative or a fraction; [`Error::OutOfRange`](crate::Error::OutOfRange) at
+/// or past [`ORDINAL_MAX`].
+pub fn to_ordinal<'a>(value: impl Into<Number<'a>>) -> Result<String> {
+    let n = parse_ordinal(&value.into())?;
+    // Ordinals build on the cardinal speller, so they share its ceiling.
+    ORDINAL_MAX.check(&n, None)?;
+    Ok(integer_to_ordinal(&n))
+}
+
+// ============================================================================
+// Currency
+// ============================================================================
+
+options! {
+    /// Options for [`to_currency_with`].
+    pub struct CurrencyOptions {
+        /// ISO 4217 currency code to name the amount in
+        currency: Currency = Currency::INR, table = CURRENCY_VOCAB;
+    }
+}
+
+/// Spells an amount in Indian rupees.
+///
+/// ```
+/// # use n2words::kn_in::to_currency;
+/// assert_eq!(to_currency(1)?, "ಒಂದು ರೂಪಾಯಿ");
+/// assert_eq!(to_currency(0.01)?, "ಒಂದು ಪೈಸೆ");
+/// # Ok::<(), n2words::Error>(())
+/// ```
+///
+/// # Errors
+///
+/// [`Error::InvalidNumber`](crate::Error::InvalidNumber) for a malformed
+/// value, [`Error::OutOfRange`](crate::Error::OutOfRange) at or past
+/// [`CURRENCY_MAX`].
+pub fn to_currency<'a>(value: impl Into<Number<'a>>) -> Result<String> {
+    to_currency_with(value, &CurrencyOptions::default())
+}
+
+/// Spells an amount in any currency Kannada has words for.
+///
+/// # Errors
+///
+/// As [`to_currency`], plus
+/// [`Error::UnsupportedCurrency`](crate::Error::UnsupportedCurrency) for a
+/// currency Kannada has no words for and
+/// [`Error::NoMinorUnit`](crate::Error::NoMinorUnit) for a fractional amount
+/// in a currency without one.
+pub fn to_currency_with<'a>(
+    value: impl Into<Number<'a>>,
+    options: &CurrencyOptions,
+) -> Result<String> {
+    let words = CURRENCY_VOCAB.words(options.currency)?;
+    let money = parse_currency(&value.into(), options.currency.minor_unit_digits())?;
+    CURRENCY_MAX.check(&money.major, None)?;
+    assert_minor_unit(money.minor, options.currency)?;
+
+    let mut result = String::new();
+    if money.negative {
+        result.push_str(NEGATIVE);
+        result.push(' ');
+    }
+    // Rupees part: shown if non-zero, or if there are no paise.
+    if !money.major.is_zero() || money.minor == 0 {
+        result.push_str(&integer_to_words(&money.major));
+        result.push(' ');
+        // Singular for 1 rupee, plural otherwise.
+        result.push_str(words.major_at(if money.major.is_one() { 0 } else { 1 }));
+    }
+    // Paise part.
+    if money.minor > 0 {
+        if !money.major.is_zero() {
+            result.push(' ');
+        }
+        result.push_str(&integer_to_words(&BigUint::from(money.minor)));
+        result.push(' ');
+        // Singular for 1 paisa, plural otherwise.
+        result.push_str(words.minor_at(if money.minor == 1 { 0 } else { 1 }));
+    }
+    Ok(result)
+}
 
 /// Registry entry for `kn-IN`.
 pub static LANGUAGE: Language = Language {
     code: "kn-IN",
     name: "Kannada (India)",
     kind: Kind::Full,
-    cardinal: None,
-    ordinal: None,
-    currency: None,
+    cardinal: Some(form!(plain to_cardinal, CARDINAL_MAX)),
+    ordinal: Some(form!(plain to_ordinal, ORDINAL_MAX)),
+    currency: Some(form!(with_options to_currency_with, CurrencyOptions, CURRENCY_MAX)),
 };
