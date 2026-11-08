@@ -155,6 +155,10 @@ for (form, spec) in lang.forms() {
 cargo install n2words
 ```
 
+No Rust toolchain? Every [release](https://github.com/forzagreen/n2words-rs/releases)
+ships prebuilt `n2words` binaries for Linux (x86_64, aarch64), macOS (Intel,
+Apple Silicon) and Windows, each with a SHA-256 checksum.
+
 ```bash
 n2words 42 --lang en                   # forty-two
 n2words 42 -l fr-FR --ordinal          # quarante-deuxième
