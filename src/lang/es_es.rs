@@ -164,9 +164,9 @@ pub const ORDINAL_MAX: Max = Max::bounded(9);
 pub const CURRENCY_MAX: Max = Max::long_scale(SCALES.len() as u32);
 
 const THOUSAND: &str = "mil";
-const ZERO: &str = "cero";
-const NEGATIVE: &str = "menos";
-const DECIMAL_SEP: &str = "punto";
+pub(crate) const ZERO: &str = "cero";
+pub(crate) const NEGATIVE: &str = "menos";
+pub(crate) const DECIMAL_SEP: &str = "punto";
 
 // Ordinal vocabulary, as the RAE writes it (Ortografía 2010, DPD "ordinales").
 // Spanish ordinals agree in gender: primero/primera, segundo/segunda.
@@ -309,7 +309,7 @@ const ORDINAL_THOUSAND_FEM: &str = "milésima";
 const ORDINAL_MILLION_MASC: &str = "millonésimo";
 const ORDINAL_MILLION_FEM: &str = "millonésima";
 
-const CURRENCY_CONNECTOR: &str = "con";
+pub(crate) const CURRENCY_CONNECTOR: &str = "con";
 
 // ============================================================================
 // Segment building
@@ -320,7 +320,7 @@ const CURRENCY_CONNECTOR: &str = "con";
 /// `apocopate` means the segment is immediately followed by a masculine noun
 /// (a scale word, a currency name), so a trailing "uno" shortens to "un" and
 /// "veintiuno" to "veintiún". Ignored when feminine.
-fn build_segment(n: u32, feminine: bool, apocopate: bool) -> String {
+pub(crate) fn build_segment(n: u32, feminine: bool, apocopate: bool) -> String {
     if n == 0 {
         return String::new();
     }
@@ -780,7 +780,7 @@ options! {
 /// Whether `n` is a whole number of millions. Millón and its multiples are
 /// nouns, so a round amount of them takes "de" before what it counts:
 /// "un millón de euros", "mil millones de euros".
-fn is_round_millions(n: &BigUint) -> bool {
+pub(crate) fn is_round_millions(n: &BigUint) -> bool {
     *n >= BigUint::from(1_000_000u32) && (n % 1_000_000u32).is_zero()
 }
 
