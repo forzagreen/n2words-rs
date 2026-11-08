@@ -55,7 +55,7 @@
 //!
 //! # Picking a language at runtime
 //!
-//! [`language`] looks an entry point up by code and gives access to the same
+//! [`language()`] looks an entry point up by code and gives access to the same
 //! conversions through string-keyed options, which is what the `n2words`
 //! command-line tool is built on:
 //!

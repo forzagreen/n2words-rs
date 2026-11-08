@@ -1,7 +1,7 @@
 //! Per-form options: typed structs for the Rust API, plus the declarative
 //! metadata behind the dynamic API, the CLI and the generated docs.
 //!
-//! A form that takes options declares them once with the [`options!`] macro.
+//! A form that takes options declares them once with the `options!` macro.
 //! That declaration yields the public struct (with its `Default`), the
 //! [`OptionSpec`] list describing each option, and the parser that builds the
 //! struct from `(name, value)` string pairs, so a typo in either direction

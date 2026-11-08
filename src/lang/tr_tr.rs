@@ -52,7 +52,7 @@ const DECIMAL_SEP: &str = "virgül";
 const SCALES: &[&str] = &["milyon", "milyar", "trilyon", "katrilyon", "kentilyon"];
 
 /// The cardinal ceiling, derived from the scale table: `10^21`. Segments are
-/// units, thousands, then one per [`SCALES`] entry.
+/// units, thousands, then one per `SCALES` entry.
 pub const CARDINAL_MAX: Max = Max::western(SCALES.len() as u32 + 1);
 /// The ordinal ceiling: `10^21` (the ordinal is the cardinal plus a suffix).
 pub const ORDINAL_MAX: Max = Max::western(SCALES.len() as u32 + 1);
