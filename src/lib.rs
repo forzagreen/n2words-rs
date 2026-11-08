@@ -79,7 +79,7 @@
 //! the repository for the full table, per-language options and ceilings.
 
 #![forbid(unsafe_code)]
-#![doc(html_root_url = "https://docs.rs/n2words/0.1.0")]
+#![doc(html_root_url = "https://docs.rs/n2words/0.1.1")]
 
 pub use num_bigint;
 

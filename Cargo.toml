@@ -1,6 +1,6 @@
 [package]
 name = "n2words"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 rust-version = "1.85"
 description = "Convert numbers to words in 50 languages (72 regional variants): cardinal, ordinal and currency forms, with arbitrary-precision input"
